@@ -126,6 +126,22 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>*  Speed
+*  Simple design
+*  Strong support for non-linear development (thousands of parallel branches)
+*  Fully distributed
+*  Able to handle large projects like the Linux kernel efficiently (speed and data size)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T073500Z" creationid="Prikryl" creationdate="20151027T073500Z">
+        <seg>*  Rychlost,
+*  jednoduchý návrh,
+*  silná podpora nelineárního vývoje (tisíce paralelních větví),
+*  plně distribuovaný,
+*  schopnost efektivně spravovat velké projekty, jako je linuxové jádro (rychlost a objem dat).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>- Bullet points are okay, too</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T215942Z" creationid="Prikryl" creationdate="20151023T215942Z">
@@ -162,6 +178,30 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T182708Z" creationid="Prikryl" creationdate="20151026T182708Z">
         <seg>.Lokální správa verzí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Storing data as changes to a base version of each file.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T081509Z" creationid="Prikryl" creationdate="20151027T081509Z">
+        <seg>.Ukládání dat jako změn vůči základní verzi každého souboru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Storing data as snapshots of the project over time.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T084000Z" creationid="Prikryl" creationdate="20151027T084000Z">
+        <seg>.Ukládání dat v podobě snímků projektu v daném čase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Working directory, staging area, and Git directory.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T115507Z" creationid="Prikryl" creationdate="20151027T115507Z">
+        <seg>.Pracovní adresář, oblast připravených změn a adresář Git.</seg>
       </tuv>
     </tu>
     <tu>
@@ -560,16 +600,16 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>==== Git Generally Only Adds Data</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>==== Git většinou jen přidává data</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T095103Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>==== Git obvykle jen přidává data</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>==== Git Has Integrity</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>==== Git pracuje důsledně</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T093644Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>==== Git dodržuje zásady</seg>
       </tuv>
     </tu>
     <tu>
@@ -1560,8 +1600,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>And if it was changed since it was checked out but has not been staged, it is modified.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>A pokud byla od poslední operace checkout změněna, ale nebyla připravena k zapsání, je považována za změněnou.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T122750Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>A pokud byl soubor od poslední vůči stavu databázi upraven, ale nebyl zatím připraven k zapsání, nachází se ve stavu „změněný“.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1710,6 +1750,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>As in any VCS, you can lose or mess up changes you haven't committed yet; but after you commit a snapshot into Git, it is very difficult to lose, especially if you regularly push your database to another repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T100107Z" creationid="Prikryl" creationdate="20151027T100107Z">
+        <seg>Stejně jako v jiných systémech pro správu verzí můžete ztratit nebo poničit úpravy, které ještě nebyly zapsány. Jakmile však snímek zapíšete do Gitu, je téměř nemožné ho ztratit, zvlášť pokud databázi pravidelně odesíláte (push) do jiného repozitáře.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>As long as each user can get shell access on the machine, any SSH authentication mechanism you can think of should work.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -1720,8 +1768,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>As with many great things in life, Git began with a bit of creative destruction and fiery controversy.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Tak jako mnoho velkých věcí v lidské historii se i systém Git zrodil z kreativní destrukce a vášnivého sporu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T072156Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Git se zrodil, stejně jako mnoho velkých věcí v životě, z kreativní destrukce a vášnivého sporu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1744,8 +1792,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>As you learn Git, try to clear your mind of the things you may know about other VCSs, such as Subversion and Perforce; doing so will help you avoid subtle confusion when using the tool.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Při seznámení se systémem Git se pokuste zapomenout na vše, co už možná víte o jiných systémech VCS, např. Subversion nebo Perforce. Vyhnete se tak nežádoucím vlivům, které by vás mohly při používání systému Git mást.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T123425Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Při seznamování s Gitem se pokuste vyčistit mysl od věcí, které možná znáte z jiných systémů pro správu verzí, jako jsou Subversion a Perforce. Při jeho používání se tím vyhnete určitým zmatkům.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2168,8 +2216,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>Conceptually, most other systems store information as a list of file-based changes.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Většina ostatních systémů ukládá informace jako seznamy změn jednotlivých souborů.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T075800Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Většina ostatních systémů ukládá informace jako seznamy změn souborů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2360,8 +2408,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>Every time you commit, or save the state of your project in Git, it basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Pokaždé, když v systému zapíšete (uložíte) stav projektu, Git v podstatě „vyfotí“, jak vypadají všechny vaše soubory v daném okamžiku, a uloží reference na tento snímek.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T082958Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Pokaždé, když v systému Git zapíšete (uložíte footnote:[Pozn. překl.: Anglické slovo _commit_ má v informačních systémech specifický význam _zapsat_ nebo _potvrdit zápis_, jehož jemný odstín se bez kontextu špatně překládá. V této knize bude překládán jako _zápis_. Pokud by měl být zdůrazněn specifický výraz slova _commit_, bude anglický pojem uveden v závorce. Čeština je krásný jazyk, ale technické texty někdy vyžadují nebásnickou přesnost ;)]) stav projektu, v podstatě „vyfotí“, jak vypadají všechny vaše soubory v daném okamžiku, a uloží odkaz na tento snímek.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2376,8 +2424,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>Everything in Git is check-summed before it is stored and is then referred to by that checksum.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Než je v systému Git cokoli uloženo, je nejprve proveden kontrolní součet, který je potom používán k identifikaci uloženého souboru.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T094112Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Než se v Gitu cokoli uloží, nejdříve se z toho vypočítá kontrolní součet, který pak používá k odkazu uložená data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2502,6 +2550,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For a more in-depth look at how Git stores its data and how you can recover data that seems lost, see &lt;&lt;_undoing&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T114927Z" creationid="Prikryl" creationdate="20151027T114807Z">
+        <seg>Podrobnější informace o tom, jak Git ukládá data a jak lze obnovit zdánlivě ztracenou práci, najdete v podkapitole &lt;&lt;_undoing&gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For a project with hundreds or thousands of commits, this can literally take hours or even days to finish.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -2594,6 +2650,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Například tento příkaz zobrazí seznam všech revizí pořízených za poslední dva týdny (2 weeks):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, to browse the history of the project, Git doesn't need to go out to the server to get the history and display it for you – it simply reads it directly from your local database.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T092836Z" creationid="Prikryl" creationdate="20151027T092836Z">
+        <seg>Pokud chcete například procházet historii projektu, Git kvůli tomu nemusí vyhledávat informace na serveru — načte je jednoduše přímo z vaší lokální databáze.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2998,6 +3062,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Git doesn't think of or store its data this way.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T081630Z" creationid="Prikryl" creationdate="20151027T081630Z">
+        <seg>Git o ukládání dat tímto způsobem neuvažuje.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Git doesn’t have a modify-history tool, but you can use the rebase tool to rebase a series of commits onto the HEAD they were originally based on instead of moving them to another one.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3086,6 +3158,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Git stores and thinks about information much differently than these other systems, even though the user interface is fairly similar, and understanding those differences will help prevent you from becoming confused while using it.(((Subversion)))(((Perforce)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T123515Z" creationid="Prikryl" creationdate="20151027T075404Z">
+        <seg>Ačkoli je uživatelské rozhraní velmi podobné jiným systémům, Git uvažuje o ukládaných informacích velmi odlišně. Pochopení těchto rozdílů vám pomůže předejít nejasnostem, které by mohly při používání Gitu vzniknout.(((Subversion)))(((Perforce)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Git stores content in a manner similar to a UNIX filesystem, but a bit simplified.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3098,6 +3178,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Git vám vyhledá původní revizi, kde jste tyto řádky napsali, dokonce i když jsou v jiném souboru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Git thinks about its data more like a *stream of snapshots*.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T083840Z" creationid="Prikryl" creationdate="20151027T083840Z">
+        <seg>Git o svých datech uvažuje spíše jako o *sérii snímků*.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3510,6 +3598,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If a particular version of a file is in the Git directory, it's considered committed.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T122449Z" creationid="Prikryl" creationdate="20151027T121844Z">
+        <seg>Nachází-li se konkrétní verze souboru v adresáři Gitu, je soubor ve stavu „zapsaný“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If a user SSHs into a server and has write access to the `/opt/git/my_project.git` directory, they will also automatically have push access.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3538,6 +3634,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud ano, vznikla chyba někdy před touto prostřední revizí; pokud ne, pak je problém záležitostí revizí zapsaných až po této prostřední revizi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If it's modified but has been added to the staging area, it is staged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T122510Z" creationid="Prikryl" creationdate="20151027T122415Z">
+        <seg>Pokud byl soubor upraven a byl přidán do oblasti připravených změn, je ve stavu „připraven k zapsání“.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3882,6 +3986,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>Jste-li v letadle nebo ve vlaku a chcete pokračovat v práci, můžete beze všeho zapisovat nové revize. Ty odešlete až po opětovném připojení k síti.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you go home and can't get your VPN client working properly, you can still work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T093205Z" creationid="Prikryl" creationdate="20151027T093205Z">
+        <seg>Jestliže přijedete domů a zjistíte, že VPN klient nefunguje, stále můžete pracovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4566,6 +4678,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you're used to a CVCS where most operations have that network latency overhead, this aspect of Git will make you think that the gods of speed have blessed Git with unworldly powers.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T092732Z" creationid="Prikryl" creationdate="20151027T092732Z">
+        <seg>Pokud jste zvyklí pracovat s centralizovanými systémy správy verzí, kde je většina operací poznamenána latencí sítě, patrně vás při práci s Git napadne, že mu bohové rychlosti dali do vínku nadpřirozené schopnosti.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you’ve been tracking files in your project and you want to move them out into a submodule, you must be careful or Git will get angry at you.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4582,10 +4702,42 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In 2002, the Linux kernel project began using a proprietary DVCS called BitKeeper.(((BitKeeper)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T072917Z" creationid="Prikryl" creationdate="20151027T072917Z">
+        <seg>V roce 2002 začal projekt linuxového jádra využívat komerční distribuovaný systém správy verzí s názvem BitKeeper.(((BitKeeper)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In 2005, the relationship between the community that developed the Linux kernel and the commercial company that developed BitKeeper broke down, and the tool's free-of-charge status was revoked.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T073217Z" creationid="Prikryl" creationdate="20151027T073217Z">
+        <seg>Vztahy mezi komunitou, která vyvíjela jádro Linuxu, a komerční společností, která vyvinula BitKeeper, se v roce 2005 zhoršily a nástroj přestal být poskytován zdarma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In &lt;&lt;_git_basics_chapter&gt;&gt;, you'll learn more about these states and how you can either take advantage of them or skip the staged part entirely.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T123119Z" creationid="Prikryl" creationdate="20151027T123119Z">
+        <seg>V kapitole &lt;&lt;_git_basics_chapter&gt;&gt; se o stavech souborů dozvíte více. Naučíte se, jak jich můžete využívat, nebo jak můžete stav „připraven k zapsání“ úplně přeskočit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In Git, this is called _rebasing_.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>V systému Git se tato metoda nazývá _přeskládání_ (rebasing).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In Perforce, for example, you can't do much when you aren't connected to the server; and in Subversion and CVS, you can edit files, but you can't commit changes to your database (because your database is offline).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T093308Z" creationid="Prikryl" creationdate="20151027T093308Z">
+        <seg>Například v systému Perforce toho lze bez připojení k serveru dělat jen velmi málo. V systémech Subversion a CVS můžete sice upravovat soubory, ale nemůžete zapisovat změny do databáze (neboť ta je offline).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4674,6 +4826,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Z těchto důvodů s ním budete chtít zacházet jako s binárním souborem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In fact, Git stores everything in its database not by file name but by the hash value of its contents.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T095030Z" creationid="Prikryl" creationdate="20151027T095030Z">
+        <seg>Git vlastně ve své databázi nic neukládá podle názvu souboru, ale podle otisku jeho obsahu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4998,6 +5158,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Instead, Git thinks of its data more like a set of snapshots of a miniature filesystem.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T081924Z" creationid="Prikryl" creationdate="20151027T081924Z">
+        <seg>Místo toho Git o datech uvažuje jako o sadě snímků miniaturního systému souborů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Instead, you must run `git diff-tree` with the branch you want to compare to:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5078,6 +5246,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It is hard to get the system to do anything that is not undoable or to make it erase data in any way.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T095336Z" creationid="Prikryl" creationdate="20151027T095336Z">
+        <seg>Přimět systém, aby udělal něco, co nelze vzít zpět, nebo aby smazal jakákoli data, je velice obtížné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It lets you edit the default message before the commit author sees it.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5128,8 +5304,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>It makes Git reconsider almost every aspect of version control that most other systems copied from the previous generation.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Git díky tomu znovu zkoumá skoro každý aspekt správy verzí, které ostatní systémy kopírovaly z předchozí generace.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T084331Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Git díky tomu znovu zkoumá skoro každý aspekt správy verzí, který většina ostatních systémů okopírovala z předchozí generace.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5342,10 +5518,26 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It's incredibly fast, it's very efficient with large projects, and it has an incredible branching system for non-linear development (See &lt;&lt;_git_branching&gt;&gt;).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T073640Z" creationid="Prikryl" creationdate="20151027T073640Z">
+        <seg>Je extrémně rychlý, velmi efektivně pracuje s velkými projekty a nabízí skvělý systém větvení pro nelineární způsob vývoje (viz &lt;&lt;_git_branching&gt;&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It's now time to learn some Git basics.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T174318Z" creationid="Prikryl" creationdate="20151026T174244Z">
         <seg>Nastal čas, abychom se naučili základům práce s Gitem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's sometimes referred to as the ``index'', but it's also common to refer to it as the staging area.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T121425Z" creationid="Prikryl" creationdate="20151027T120826Z">
+        <seg>Soubor se někdy označuje také anglickým výrazem „index“, ale běžně se používá i pojem oblast připravených změn (staging area).</seg>
       </tuv>
     </tu>
     <tu>
@@ -5618,6 +5810,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Ve většině případů neprovede tento příkaz vůbec nic.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Most operations in Git only need local files and resources to operate – generally no information is needed from another computer on your network.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T092523Z" creationid="Prikryl" creationdate="20151027T092523Z">
+        <seg>Většina operací v systému Git vyžaduje ke své činnosti pouze lokální soubory a zdroje. Obecně platí, že informace z jiných počítačů v síti nejsou potřebné.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6656,8 +6856,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>So, what is Git in a nutshell?</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Jak bychom tedy mohli Git charakterizovat?</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T123232Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Co že to vlastně Git v jádru je?</seg>
       </tuv>
     </tu>
     <tu>
@@ -6712,8 +6912,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>Staged means that you have marked a modified file in its current version to go into your next commit snapshot.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Připraveno k zapsání znamená, že jste změněný soubor v jeho aktuální verzi určili k tomu, aby byl zapsán v další revizi (tzv. commit).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T115331Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Připraveno k zapsání znamená, že jste změněný soubor v jeho aktuální verzi určili k tomu, aby byl zapsán do dalšího snímku footnote:[commit snapshot]</seg>
       </tuv>
     </tu>
     <tu>
@@ -7000,8 +7200,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>The Git directory is where Git stores the metadata and object database for your project.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Adresář Git (repozitář) je místo, kde Git uchovává metadata a databázi objektů vašeho projektu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T115612Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Adresář Git je místo, kde Git uchovává metadata a databázi objektů vašeho projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7010,6 +7210,16 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Projekt Git má kromě toho větev `maint`, která byla odštěpena z posledního vydání a představuje záplaty backportované pro případ, že by bylo třeba vydat opravnou verzi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Linux kernel is an open source software project of fairly large scope.(((Linux)))
+For most of the lifetime of the Linux kernel maintenance (1991–2002), changes to the software were passed around as patches and archived files.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T072810Z" creationid="Prikryl" creationdate="20151027T072810Z">
+        <seg>Jádro Linuxu je celkem rozsáhlý softwarový open source projekt.(((Linux)))
+Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny přenášely formou záplat a archivních souborů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7256,8 +7466,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>The basic Git workflow goes something like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Standardní pracovní postup vypadá v systému Git následovně:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T121528Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Základní pracovní postup vypadá v Gitu následovně:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7456,8 +7666,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>The first edition was published over four years ago now.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T170457Z" creationid="Prikryl" creationdate="20151026T131345Z">
-        <seg>První vydání bylo publikováno před více než čtyřmi lety footnote:[Pozn. překl.: Originál i český překlad první edice vyšly v roce 2009. Druhé vydání originálu vyšlo ].</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T083114Z" creationid="Prikryl" creationdate="20151026T131345Z">
+        <seg>První vydání bylo publikováno před více než čtyřmi lety footnote:[Pozn. překl.: Originál i český překlad první edice vyšly v roce 2009. Druhé vydání originálu vyšlo v roce 2014.].</seg>
       </tuv>
     </tu>
     <tu>
@@ -7712,8 +7922,18 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>The major difference between Git and any other VCS (Subversion and friends included) is the way Git thinks about its data.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Hlavním rozdílem mezi systémem Git a všemi ostatními systémy VCS (včetně Subversion a jemu podobných) je způsob, jakým Git zpracovává data.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T075623Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Hlavním rozdílem mezi systémem Git a všemi ostatními systémy pro správu verzí (včetně Subversion a spol) je způsob, jakým Git o datech uvažuje.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The mechanism that Git uses for this checksumming is called a SHA-1 hash.(((SHA-1)))
+This is a 40-character string composed of hexadecimal characters (0–9 and a–f) and calculated based on the contents of a file or directory structure in Git.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T094642Z" creationid="Prikryl" creationdate="20151027T094642Z">
+        <seg>Pro vytváření kontrolních součtů používá Git mechanismus zvaný SHA-1.(((SHA-1)))
+Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný na základě obsahu souboru nebo adresářové struktury systému Git.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8054,6 +8274,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T120641Z" creationid="Prikryl" creationdate="20151027T120641Z">
+        <seg>Oblast připravených změn je soubor, většinou uložený v adresáři Git, který obsahuje informace o tom, co bude obsahovat příští revize footnote:[Pozn. překl.: V angličtině se slovo _commit_ používá i jako podstatné jméno s významem výsledku posledního zápisu do databáze Gitu. Někdy se používá pojem _commit point_ -- doslova _bod zápisu_ -- který bývá v grafických nástrojích zobrazován jako bod (tečka, kulička, hvězdička). Commit point je tedy jiným vyjádřením pro zachycený snímek projektu. Pojem _revize_ má význam spíš abstraktnější, ale též vyjadřující stav projektu (bez důrazu na způsob uložení nebo znázornění). Pojem _revize_ má v souvislosti se systémy správy verzí své historické kořeny -- viz zmíněný systém RCS (Revision Control System). Je to pravděpodobně rozumný jednoslovný český pojem, kterým se dá nahradit jednoslovné vyjádření _commit_.].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The status of the simplegit.rb file is interesting.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -8368,8 +8596,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Tyto soubory jsou staženy ze zkomprimované databáze v adresáři Git a umístěny na disk, kde je můžete používat nebo upravovat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T115741Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Tyto soubory jsou vytaženy ze zkomprimované databáze v adresáři Git a umístěny na disk, kde je můžete používat nebo upravovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8402,6 +8630,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tyto skripty se spouštějí před odesíláním revizí na server i po něm.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>These systems (CVS, Subversion, Perforce, Bazaar, and so on) think of the information they keep as a set of files and the changes made to each file over time.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T080434Z" creationid="Prikryl" creationdate="20151027T080434Z">
+        <seg>Tyto systémy (CVS, Subversion, Perforce, Bazaar atd.) chápou uložené informace jako sadu souborů a změn každého z těchto souborů v čase.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8474,6 +8710,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T194112Z" creationid="Prikryl" creationdate="20151026T194112Z">
         <seg>Díky tomu lze zavést několik typů pracovních postupů, které nejsou v centralizovaných systémech možné -- jako jsou například hierarchické modely.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This also means that there is very little you can't do if you're offline or off VPN.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T093044Z" creationid="Prikryl" creationdate="20151027T093044Z">
+        <seg>To také znamená, že je jen velmi málo operací, které nemůžete provádět offline nebo bez připojení k VPN.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8736,8 +8980,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>This functionality is built into Git at the lowest levels and is integral to its philosophy.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Tato funkce je integrována do systému Git na nejnižších úrovních a je nedílnou součástí jeho filozofie.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T094257Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Tato funkčnost je do Gitu zabudována na nejnižších úrovních a je nedílnou součástí jeho filozofie.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8840,16 +9084,16 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>This is an important distinction between Git and nearly all other VCSs.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Toto je důležitý rozdíl mezi systémem Git a téměř všemi ostatními systémy VCS.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T084056Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Toto je důležitý rozdíl mezi systémem Git a téměř všemi ostatními systémy pro správu verzí.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>This is an important section to absorb, because if you understand what Git is and the fundamentals of how it works, then using Git effectively will probably be much easier for you.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Odpověď na tuto otázku je velmi důležitá, protože pokud pochopíte, co je Git a na jakém principu pracuje, budete ho bezpochyby moci používat mnohem efektivněji.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T074322Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Pochopení této podkapitoly je důležité, protože pokud porozumíte, co Git je a na jakých základech pracuje, bude pro vás i jeho efektivní používání mnohem snadnější.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9032,16 +9276,16 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>This is the main thing to remember about Git if you want the rest of your learning process to go smoothly.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Pokud chcete dále hladce pokračovat ve studiu Git, budou pro vás následující informace stěžejní.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T115007Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Pokud chcete dále hladce pokračovat ve studiu Gitu, budou pro vás následující informace stěžejní.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>This is the most important part of Git, and it is what is copied when you clone a repository from another computer.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Je to nejdůležitější část systému Git a zároveň adresář, který se zkopíruje, když klonujete repozitář z jiného počítače.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T115643Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Je to nejdůležitější část systému Git a zároveň je to adresář, který se zkopíruje, když klonujete repozitář z jiného počítače.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9104,8 +9348,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>This makes Git more like a mini filesystem with some incredibly powerful tools built on top of it, rather than simply a VCS.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Git se podobá malému systému souborů (spíše než obyčejnému VCS) s řadou skutečně výkonných nástrojů, jež jsou na něm postavené.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T091802Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Díky tomu Git vypadá (spíše než jiné systémy pro správu verzí) jako malý souborový systém, nad kterým pracuje sada opravdu výkonných nástrojů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9136,8 +9380,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>This makes using Git a joy because we know we can experiment without the danger of severely screwing things up.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Díky tomu vás bude práce se systémem Git bavit. Budete pracovat s vědomím, že můžete experimentovat, a neriskujete přitom nevratné zničení své práce.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T114732Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Díky tomu je práce s Gitem radostí, víme, že můžeme experimentovat bez nebezpečí závažného poškození hotových věcí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9154,6 +9398,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>Možná to vypadá jako maličkost, ale divili byste se, jak velký je v tom rozdíl.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This means it's impossible to change the contents of any file or directory without Git knowing about it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T094152Z" creationid="Prikryl" creationdate="20151027T094152Z">
+        <seg>To znamená, že není možné změnit obsah jakéhokoli souboru nebo adresáře, aniž by o tom Git nevěděl.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9274,6 +9526,16 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tento proces se napříč operačními systémy téměř neliší.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This prompted the Linux development community (and in particular Linus Torvalds, the creator of Linux) to develop their own tool based on some of the lessons they learned while using BitKeeper.(((Linus Torvalds)))
+Some of the goals of the new system were as follows:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T073359Z" creationid="Prikryl" creationdate="20151027T073359Z">
+        <seg>To přimělo komunitu vývojářů Linuxu (a zejména Linuse Torvaldse, tvůrce Linuxu), aby vyvinula vlastní nástroj, založený na poznatcích, které nasbírala při užívání systému BitKeeper.(((Linus Torvalds)))
+Některé z cílů nového systému byly následující:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9482,6 +9744,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Abyste mohli spolupracovat na projektech v systému Git, je třeba vědět, jak manipulovat se vzdálenými repozitáři (remote repositories).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To be efficient, if files have not changed, Git doesn't store the file again, just a link to the previous identical file it has already stored.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T083633Z" creationid="Prikryl" creationdate="20151027T083633Z">
+        <seg>Pokud se soubor nezměnil, pak ho Git v zájmu efektivnosti znovu neukládá, ale jen se odkáže na předchozí identický soubor, který už byl uložen.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10024,6 +10294,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>We'll explore some of the benefits you gain by thinking of your data this way when we cover Git branching in &lt;&lt;_git_branching&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T092212Z" creationid="Prikryl" creationdate="20151027T092104Z">
+        <seg>Některými výhodami, které získáme při tomto uvažování o datech, se budeme zabývat při výkladu větvení v kapitole &lt;&lt;_git_branching&gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>We've also moved to keeping the translations in separate repositories rather than subdirectories of the English repository.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T125731Z" creationid="Prikryl" creationdate="20151026T125248Z">
@@ -10186,8 +10464,8 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       <tuv lang="EN">
         <seg>When you do actions in Git, nearly all of them only add data to the Git database.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Jednotlivé operace ve většině případů jednoduše přidávají data do Git databáze.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T095305Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Pokud v Gitu provádíte nějaké akce, pak téměř všechny z nich data do databáze pouze přidávají.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11184,6 +11462,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can't lose information in transit or get file corruption without Git being able to detect it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T094351Z" creationid="Prikryl" creationdate="20151027T094351Z">
+        <seg>Nemůže tak dojít ke ztrátě informací při přenosu dat nebo k poškození souboru, aniž by to Git byl schopen zjistit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You created and switched to a branch, did some work on it, and then switched back to your main branch and did other work.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -11202,8 +11488,8 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       <tuv lang="EN">
         <seg>You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Zapíšete revizi. Snímky souborů, uložené v oblasti připravených změn, se trvale uloží do adresáře Git.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T121754Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Provedete zápis (commit), který vezme soubory nacházející se v oblasti připravených změn, a tento snímek trvale uloží do adresáře Gitu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11602,8 +11888,8 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       <tuv lang="EN">
         <seg>You stage the files, adding snapshots of them to your staging area.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Soubory připravíte k uložení tak, že vložíte jejich snímky do oblasti připravených změn.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T121607Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Soubory připravíte k zapsání tak, že vložíte jejich snímky do oblasti připravených změn.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11666,8 +11952,8 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       <tuv lang="EN">
         <seg>You will see these hash values all over the place in Git because it uses them so much.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>S těmito otisky se budete setkávat ve všech úložištích systému Git, protože je používá opravdu často.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T094803Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>S těmito otisky se budete setkávat v Gitu všude, protože je používá opravdu často.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11887,6 +12173,20 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[source]
+----
+24b9da6552252987aa493b52f8696cd6d3b00373
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T094706Z" creationid="Prikryl" creationdate="20151027T094706Z">
+        <seg>[source]
+----
+24b9da6552252987aa493b52f8696cd6d3b00373
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>_This edition is dedicated to my girls.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T164144Z" creationid="Prikryl" creationdate="20151026T151840Z">
@@ -12055,10 +12355,26 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>image::images/areas.png["Working directory, staging area, and Git directory."]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T115539Z" creationid="Prikryl" creationdate="20151027T115539Z">
+        <seg>image::images/areas.png["Pracovní adresář, oblast připravených změn a adresář Git."]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>image::images/centralized.png[Centralized version control diagram]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T184405Z" creationid="Prikryl" creationdate="20151026T184405Z">
         <seg>image::images/centralized.png[Centralizovaná správa verzí.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/deltas.png[Storing data as changes to a base version of each file.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T081546Z" creationid="Prikryl" creationdate="20151027T081546Z">
+        <seg>image::images/deltas.png[Ukládání dat jako změn vůči základní verzi každého souboru.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -12075,6 +12391,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T182734Z" creationid="Prikryl" creationdate="20151026T182734Z">
         <seg>image::images/local.png[Diagram lokální správy verzí.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/snapshots.png[Git stores data as snapshots of the project over time.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151027T084026Z" creationid="Prikryl" creationdate="20151027T084026Z">
+        <seg>image::images/snapshots.png[Git ukládá data jako snímky projektu v daném čase.]</seg>
       </tuv>
     </tu>
     <tu>

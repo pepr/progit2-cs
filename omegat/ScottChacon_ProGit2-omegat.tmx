@@ -46,6 +46,22 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>$ ./configure --prefix=/usr</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T103213Z" creationid="Prikryl" creationdate="20151028T103213Z">
+        <seg>$ ./configure --prefix=/usr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$ cd git-2.0.0</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T103201Z" creationid="Prikryl" creationdate="20151028T103201Z">
+        <seg>$ cd git-2.0.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>$ git clone git://git.kernel.org/pub/scm/git/git.git</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151022T204807Z" creationid="Prikryl" creationdate="20151022T204807Z">
@@ -58,6 +74,22 @@
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151024T090239Z" creationid="Prikryl" creationdate="20151024T090239Z">
         <seg>$ git config --global color.diff.meta "blue black bold"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$ make all doc info</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T103215Z" creationid="Prikryl" creationdate="20151028T103215Z">
+        <seg>$ make all doc info</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$ make configure</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T103211Z" creationid="Prikryl" creationdate="20151028T103211Z">
+        <seg>$ make configure</seg>
       </tuv>
     </tu>
     <tu>
@@ -86,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>$ sudo make install install-doc install-html install-info</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T103216Z" creationid="Prikryl" creationdate="20151028T103216Z">
+        <seg>$ sudo make install install-doc install-html install-info</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>$ sudo yum install asciidoc xmlto docbook2x</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T001902Z" creationid="Prikryl" creationdate="20151028T001902Z">
@@ -106,6 +146,14 @@
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T204532Z" creationid="Prikryl" creationdate="20151027T204532Z">
         <seg>$ sudo yum install git</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>$ tar -zxf git-2.0.0.tar.gz</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T103157Z" creationid="Prikryl" creationdate="20151028T103157Z">
+        <seg>$ tar -zxf git-2.0.0.tar.gz</seg>
       </tuv>
     </tu>
     <tu>
@@ -1444,8 +1492,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>After this is done, you can also get Git via Git itself for updates:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Po dokončení instalace můžete rovněž vyhledat aktualizace systému Git prostřednictvím systému samotného:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T103331Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Po dokončení instalace můžete vyhledat aktualizace Gitu prostřednictvím jeho:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1516,8 +1564,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>Again, you need to do this only once if you pass the `--global` option, because then Git will always use that information for anything you do on that system.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Použijete-li parametr `--global`, pak také toto nastavení stačí provést pouze jednou. Git bude používat tyto údaje pro všechny operace, které v systému uděláte.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T110942Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Použijete-li parametr `--global`, pak také toto nastavení stačí provést pouze jednou. Git bude používat tyto údaje pro všechny operace, které na daném počítači uděláte.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2834,6 +2882,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For example, you can get the manpage help for the config command by running(((git commands, help)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T133809Z" creationid="Prikryl" creationdate="20151028T133809Z">
+        <seg>Například nápovědu pro příkaz `config` vyvoláte zadáním(((git příkazy, nápověda)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For example, you can start a branch named `recover-branch` at that commit (ab1afef):</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3158,6 +3214,16 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Git nabízí také celou řadu skriptů, které vám mohou usnadnit provádění příkazů zadávaných v příkazovém řádku.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Git comes with a tool called `git config` that lets you get and set configuration variables that control all aspects of how Git looks and operates.(((git commands, config)))
+These variables can be stored in three different places:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T104516Z" creationid="Prikryl" creationdate="20151028T104516Z">
+        <seg>Součástí Gitu je nástroj zvaný `git config`, který vám umožní nastavit konfigurační proměnné ovlivňující všechny stránky toho, jak Git vypadá a jak pracuje.(((git příkazy, config)))
+Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3778,6 +3844,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If not configured, Git uses your system's default editor, which is generally Vim.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T131206Z" creationid="Prikryl" creationdate="20151028T131206Z">
+        <seg>Pokud jej nenastavíte, použije Git výchozí editor nastavený v systému, což bývá většinou Vim.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If she e-mails you again later with another branch containing another great feature, you can fetch and check out because you already have the remote setup.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3846,6 +3920,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T185859Z" creationid="Prikryl" creationdate="20151026T185859Z">
         <seg>A dojde-li k poruše pevného disku, na němž je uložena centrální databáze, a disk nebyl správně zálohován, ztratíte úplně vše -- celou historii projektu, s výjimkou souborů aktuálních verzí, jež mají uživatelé v lokálních počítačích.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If the manpages and this book aren't enough and you need in-person help, you can try the `#git` or `#github` channel on the Freenode IRC server (irc.freenode.net).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T134019Z" creationid="Prikryl" creationdate="20151028T134019Z">
+        <seg>Pokud nestačí ani manuálová stránka ani tato kniha a uvítali byste osobní pomoc, můžete zkusit kanál `#git` nebo `#github` na IRC serveru Freenode (irc.freenode.net).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3934,6 +4016,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T143901Z" creationid="Prikryl" creationdate="20151026T143901Z">
         <seg>Pokud se chcete naučit, jak používat Git, pak znalost toho, jak používat GitHub, vám pomůže stát se součástí obrovské komunity, což je cenné nezávisle na tom, jaký hostovaný Git si vyberete pro váš vlastní kód.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you are not familiar with either of these editors or are on a Windows system, you may need to search for instructions for how to set up your favorite editor with Git.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T131800Z" creationid="Prikryl" creationdate="20151028T131800Z">
+        <seg>Pokud žádný z těchto editorů neznáte, nebo pokud pracujete se systémem Windows, měli byste si zjistit, jak si můžete pro Git váš oblíbený editor nastavit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4082,6 +4172,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you don't set an editor like this and you don't know what Vim or Emacs are, you will likely get into a really confusing state when they are launched.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T131938Z" creationid="Prikryl" creationdate="20151028T131938Z">
+        <seg>Pokud tak neučiníte a neznáte Vim nebo Emacs, pak vás pravděpodobně velmi zmate, až se některý z nich spustí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you don’t have the signer’s public key, you get something like this instead:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4116,8 +4214,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>If you ever need help while using Git, there are three ways to get the manual page (manpage) help for any of the Git commands:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Budete-li někdy při používání systému Git potřebovat pomoc, existují tři způsoby, jak vyvolat nápovědu z manuálové stránky (manpage) pro jakýkoli z příkazů systému Git:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T134426Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Budete-li někdy při používání Gitu potřebovat pomoc, existují tři způsoby, jak můžete pro libovolný z příkazů Gitu vyvolat manuálovou stránku s nápovědou:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4316,8 +4414,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>If you pass the option `--system` to `git config`, it reads and writes from this file specifically.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Zadáte-li parametr `--system` do nástroje `git config`, bude Git načítat a zapisovat pouze do tohoto souboru.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T104837Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Zadáte-li příkazu `git config` parametr `--system`, pak Git čte a zapisuje konkrétně do tohoto souboru.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4694,6 +4792,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jestliže vyžadujete podrobnější informace ve stylu systému Git, budete potřebovat mapování z uživatelů Subversion na autory Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you want to override this with a different name or e-mail address for specific projects, you can run the command without the `--global` option when you're in that project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T111023Z" creationid="Prikryl" creationdate="20151028T111023Z">
+        <seg>Pokud chcete pro konkrétní projekt uživatelské jméno nebo e-mailovou adresu změnit (přebít), můžete příkaz spustit bez parametru `--global`. V takovém případě je nutné, abyste se nacházeli v adresáři daného projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5180,8 +5286,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>In this case, Git uses the last value for each unique key it sees.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V takovém případě použije Git poslední hodnotu pro každý unikátní klíč, který vidí.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T132142Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V takovém případě Git použije poslední hodnotu pro každý unikátní klíč, který vidí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5422,6 +5528,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Zároveň vloží na konec výpisu shrnutí těchto informací.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It also still looks for `/etc/gitconfig`, although it's relative to the MSys root, which is wherever you decide to install Git on your Windows system when you run the installer.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T110650Z" creationid="Prikryl" creationdate="20151028T110650Z">
+        <seg>I ve Windows se hledá soubor `/etc/gitconfig`, který je ale umístěn relativně vůči kořenovému adresáři MSys, tedy vůči místu, do kterého jste se po spuštění instalačního programu rozhodli Git nainstalovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5724,6 +5838,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It's generally a little clearer what the latest version is on the GitHub page, but the kernel.org page also has release signatures if you want to verify your download.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T103705Z" creationid="Prikryl" creationdate="20151028T103142Z">
+        <seg>Na stránce GitHub se dá trochu líp poznat, co je poslední verze, ale pokud si chcete stažený archiv zkontrolovat, naleznete na stránce kernel.org navíc k archivu i podpisy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It's incredibly fast, it's very efficient with large projects, and it has an incredible branching system for non-linear development (See &lt;&lt;_git_branching&gt;&gt;).</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T073640Z" creationid="Prikryl" creationdate="20151027T073640Z">
@@ -5944,6 +6066,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Mnoho skupin přechází na systém Git právě kvůli této možnosti paralelní spolupráce několika týmů a následného slučování různých linií práce.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Many of the GUI tools will help you do this when you first run them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T132836Z" creationid="Prikryl" creationdate="20151028T111117Z">
+        <seg>Mnohé nástroje s grafickým uživatelským rozhraním vám s nastavením při prvním spuštění pomohou.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6192,6 +6322,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nyní, když umíte určit jednotlivé revize, podíváme se, jak lze určovat celé intervaly revizí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now that you have Git on your system, you'll want to do a few things to customize your Git environment.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T103932Z" creationid="Prikryl" creationdate="20151028T103932Z">
+        <seg>Nyní, když máte Git nainstalovaný, budete chtít provést některá uživatelská nastavení jeho prostředí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6584,6 +6722,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>V počítačích se systémem Linux je často nainstalován `lighttpd`. Spustit ho lze zadáním příkazu `git instaweb` v adresáři vašeho projektu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>On Windows systems, Git looks for the `.gitconfig` file in the `$HOME` directory (`C:\Users\$USER` for most people).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T110457Z" creationid="Prikryl" creationdate="20151028T110457Z">
+        <seg>Ve Windows Git hledá soubor `.gitconfig` v adresáři `$HOME` footnote:[Pozn. překl.: V proměnných prostředí Windows je to `%USERPROFILE%`. Zápis `$HOME` odkazuje na odpovídající údaj v unixových systémech.] (u většiny uživatelů je to `C:\Users\$USER` footnote:[Pozn. překl.: Ve Windows odpovídá odkazu na unixovskou proměnnou `$USER` odkaz na proměnnou prostředí `%USERNAME%`]).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8018,8 +8164,8 @@ U systému Mavericks (10.9) a vyšších můžeme v okně Terminálu zkusit hned
       <tuv lang="EN">
         <seg>The first thing you should do when you install Git is to set your user name and e-mail address.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>První věcí, kterou byste měli po nainstalování systému Git udělat, je nastavení vašeho uživatelského jména (user name) a e-mailové adresy.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T110717Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>První věcí, kterou byste měli po nainstalování systému Git udělat, je nastavení vašeho uživatelského jména a e-mailové adresy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8852,10 +8998,18 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>These channels are regularly filled with hundreds of people who are all very knowledgeable about Git and are often willing to help.(((IRC)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T134155Z" creationid="Prikryl" creationdate="20151028T134155Z">
+        <seg>Na těchto kanálech se většinou pohybují stovky lidí, kteří mají se systémem Git bohaté zkušenosti a často ochotně pomohou footnote:[Pozn. překl.: Nutno ovšem podotknout, že se na těchto kanálech komunikuje v angličtině.].(((IRC)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>These commands are nice because you can access them anywhere, even offline.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tyto příkazy jsou užitečné, neboť je můžete spustit kdykoli, dokonce i offline.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T133931Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tyto příkazy jsou šikovné, neboť je můžete spustit kdykoli, dokonce i offline.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9432,6 +9586,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Ostatní uživatelé, kteří budou tento projekt klonovat, díky tomu zjistí, kde najdou projekty submodulů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is important because every Git commit uses this information, and it's immutably baked into the commits you start creating:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T132738Z" creationid="Prikryl" creationdate="20151028T110842Z">
+        <seg>Je to důležité, protože tuto informaci Git používá pro každý zápis revize a uvedené údaje se stanou trvalou součástí záznamů, které budete vytvářet:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10736,6 +10898,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>When you have all the necessary dependencies, you can go ahead and grab the latest tagged release tarball from several places.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T102628Z" creationid="Prikryl" creationdate="20151028T102628Z">
+        <seg>Po doinstalování všech potřebných závislostí můžete pokračovat stažením nejnovějšího archivu z několika míst.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>When you have resolved this problem run "git am --resolved".</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T221256Z" creationid="Prikryl" creationdate="20151023T221256Z">
@@ -11036,6 +11206,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Opětovným použitím příkazů můžete nastavení kdykoliv změnit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can also check what Git thinks a specific key's value is by typing `git config &lt;key&gt;`:(((git commands, config)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T133409Z" creationid="Prikryl" creationdate="20151028T132304Z">
+        <seg>Zadáním `git config &lt;klíč&gt;` můžete zkontrolovat, jakou hodnotu bude Git pro konkrétní klíč uvažovat:(((git příkazy, config)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -11372,6 +11550,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Vezmete-li hodnoty `$newrev` a `$oldrev` a zadáte je k nízkoúrovňovému příkazu `git rev-list`, získáte seznam hodnot SHA-1 všech odesílaných revizí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can get it via the Kernel.org site, at https://www.kernel.org/pub/software/scm/git[], or the mirror on the GitHub web site, at https://github.com/git/git/releases[].</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T102835Z" creationid="Prikryl" creationdate="20151028T102835Z">
+        <seg>Najdete jej na serveru Kernel.org na stránce https://www.kernel.org/pub/software/scm/git[] nebo jeho kopii na webovém serveru GitHub na stránce https://github.com/git/git/releases[].</seg>
       </tuv>
     </tu>
     <tu>
@@ -11930,8 +12116,8 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       <tuv lang="EN">
         <seg>You may see keys more than once, because Git reads the same key from different files (`/etc/gitconfig` and `~/.gitconfig`, for example).</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Některé klíče se mohou objevit vícekrát, protože Git načítá stejný klíč z různých souborů (například `/etc/gitconfig` a `~/.gitconfig`).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T132119Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Některé klíče se mohou objevit vícekrát, protože Git načítá stejný klíč z různých souborů (například z `/etc/gitconfig` a z `~/.gitconfig`).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12132,6 +12318,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T174014Z" creationid="Prikryl" creationdate="20151026T174014Z">
         <seg>Nyní byste měli mít základní představu o tom, co je to Git a v čem se liší od centralizovaného systému pro správu verzí, který jste možná dosud používali.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You should have to do these things only once on any given computer; they'll stick around between upgrades.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T104021Z" creationid="Prikryl" creationdate="20151028T104021Z">
+        <seg>Nastavení stačí provést pouze jednou -- zůstanou zachována i po aktualizacích.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12436,6 +12630,18 @@ Tato kniha byla napsána s využitím Gitu verze *2.0.0*.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[WARNING]
+====
+Vim and Emacs are popular text editors often used by developers on Unix based systems like Linux and Mac.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T131347Z" creationid="Prikryl" creationdate="20151028T131347Z">
+        <seg>[WARNING]
+====
+Vim a Emacs jsou oblíbené textové editory používané v systémech odvozených od Unixu, jako je Linux a Mac.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_first_time]]
 === First-Time Git Setup</seg>
       </tuv>
@@ -12451,6 +12657,16 @@ Tato kniha byla napsána s využitím Gitu verze *2.0.0*.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T173137Z" creationid="Prikryl" creationdate="20151026T173137Z">
         <seg>== Úvod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_git_help]]
+=== Getting Help</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T133504Z" creationid="Prikryl" creationdate="20151028T133504Z">
+        <seg>[[_git_help]]
+=== Získání nápovědy</seg>
       </tuv>
     </tu>
     <tu>
@@ -12481,6 +12697,112 @@ Tato kniha byla napsána s využitím Gitu verze *2.0.0*.</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T122050Z" creationid="Prikryl" creationdate="20151026T122050Z">
         <seg>[preface]
 == Předmluva Scotta Chacona</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git config --global core.editor emacs
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T131227Z" creationid="Prikryl" creationdate="20151028T131227Z">
+        <seg>[source,console]
+----
+$ git config --global core.editor emacs
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T110849Z" creationid="Prikryl" creationdate="20151028T110849Z">
+        <seg>[source,console]
+----
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git config --list
+user.name=John Doe
+user.email=johndoe@example.com
+color.status=auto
+color.branch=auto
+color.interactive=auto
+color.diff=auto
+...
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T132016Z" creationid="Prikryl" creationdate="20151028T132016Z">
+        <seg>[source,console]
+----
+$ git config --list
+user.name=John Doe
+user.email=johndoe@example.com
+color.status=auto
+color.branch=auto
+color.interactive=auto
+color.diff=auto
+...
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git config user.name
+John Doe
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T132307Z" creationid="Prikryl" creationdate="20151028T132307Z">
+        <seg>[source,console]
+----
+$ git config user.name
+John Doe
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git help &lt;verb&gt;
+$ git &lt;verb&gt; --help
+$ man git-&lt;verb&gt;
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T133633Z" creationid="Prikryl" creationdate="20151028T133633Z">
+        <seg>[source,console]
+----
+$ git help &lt;příkaz&gt;
+$ git &lt;příkaz&gt; --help
+$ man git-&lt;příkaz&gt;
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git help config
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T133829Z" creationid="Prikryl" creationdate="20151028T133829Z">
+        <seg>[source,console]
+----
+$ git help config
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -12523,6 +12845,22 @@ Tato kniha byla napsána s využitím Gitu verze *2.0.0*.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>`/etc/gitconfig` file: Contains values for every user on the system and all their repositories.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T104643Z" creationid="Prikryl" creationdate="20151028T104643Z">
+        <seg>Soubor `/etc/gitconfig`: Obsahuje údaje pro každého uživatele systému a pro všechny jejich repozitáře.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>`config` file in the Git directory (that is, `.git/config`) of whatever repository you're currently using: Specific to that single repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T105613Z" creationid="Prikryl" creationdate="20151028T105613Z">
+        <seg>Soubor `config` v gitovém adresáři (tj. `.git/config`) repozitáře, který momentálně používáte: Patří konkrétně k tomuto jedinému repozitáři.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>`experiment..master` shows you everything in `master` not reachable from `experiment`:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -12543,6 +12881,14 @@ Tato kniha byla napsána s využitím Gitu verze *2.0.0*.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nástroj `git svn` vám k řešení tohoto problému nabízí dva příkazy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>`~/.gitconfig` or `~/.config/git/config` file: Specific to your user.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151028T105217Z" creationid="Prikryl" creationdate="20151028T105217Z">
+        <seg>Soubor `~/.gitconfig` nebo `~/.config/git/config`: Patří k vašemu uživatelskému účtu.</seg>
       </tuv>
     </tu>
     <tu>

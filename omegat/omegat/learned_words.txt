@@ -17,3 +17,6 @@ Mercurial
 Bazaar
 Darcs
 BitKeeper
+repozitářů
+gitového
+verzovaná

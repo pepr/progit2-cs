@@ -16,3 +16,4 @@ snapshot
 Mercurial
 Bazaar
 Darcs
+BitKeeper

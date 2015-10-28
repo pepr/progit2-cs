@@ -14,6 +14,8 @@
             <mask>**/.gitignore</mask>
             <mask>**/progit.pdf</mask>
             <mask>**/progit.pdfmarks</mask>
+            <mask>**/TRANSLATION_NOTES.asc</mask>
+            <mask>**/README.asc</mask>
         </source_dir_excludes>
         <target_dir>D:/Literatura/Git/ScottChacon_ProGit/progit2-cs/</target_dir>
         <tm_dir>D:/Literatura/Git/ScottChacon_ProGit/progit2-cs/omegat/tm/</tm_dir>

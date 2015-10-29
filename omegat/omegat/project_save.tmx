@@ -38,6 +38,58 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg># but do track lib.a, even though you're ignoring .a files above
+!lib.a</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202741Z" creationid="Prikryl" creationdate="20151029T202741Z">
+        <seg># ale sleduj lib.a i přes to, že se výše uvedeným pravidlem mají .a ignorovat
+!lib.a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># ignore all .txt files in the doc/ directory
+doc/**/*.txt
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T203026Z" creationid="Prikryl" creationdate="20151029T203026Z">
+        <seg># ignoruj všechny .txt soubory v adresáři doc/
+doc/**/*.txt
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># ignore all files in the build/ directory
+build/</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202936Z" creationid="Prikryl" creationdate="20151029T202936Z">
+        <seg># ignoruj všechny soubory v adresáři build/
+build/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T203000Z" creationid="Prikryl" creationdate="20151029T203000Z">
+        <seg># ignoruje doc/notes.txt, ale ne doc/server/arch.txt
+doc/*.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># only ignore the TODO file in the current directory, not subdir/TODO
+/TODO</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202909Z" creationid="Prikryl" creationdate="20151029T202909Z">
+        <seg># soubor TODO ignoruj jen tomto adresáři, ale neignoruj subdir/TODO
+/TODO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>#!</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151024T090717Z" creationid="Prikryl" creationdate="20151024T090717Z">
@@ -250,6 +302,46 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(use "git add &lt;file&gt;..." to include in what will be committed)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110828Z" creationid="Prikryl" creationdate="20151029T110828Z">
+        <seg>(use "git add &lt;file&gt;..." to include in what will be committed)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(use "git add &lt;file&gt;..." to update what will be committed)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120905Z" creationid="Prikryl" creationdate="20151029T120905Z">
+        <seg>(use "git add &lt;file&gt;..." to update what will be committed)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(use "git checkout -- &lt;file&gt;..." to discard changes in working directory)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120907Z" creationid="Prikryl" creationdate="20151029T120907Z">
+        <seg>(use "git checkout -- &lt;file&gt;..." to discard changes in working directory)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(use "git reset HEAD &lt;file&gt;..." to unstage)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120131Z" creationid="Prikryl" creationdate="20151029T120131Z">
+        <seg>(use "git reset HEAD &lt;file&gt;..." to unstage)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*  Blank lines or lines starting with `#` are ignored.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T201622Z" creationid="Prikryl" creationdate="20151029T201622Z">
+        <seg>*  Prázdné řádky nebo řádky začínající znakem `#` budou ignorovány.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>*  Speed
 *  Simple design
 *  Strong support for non-linear development (thousands of parallel branches)
@@ -266,10 +358,50 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>*  Standard glob patterns work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T201732Z" creationid="Prikryl" creationdate="20151029T201732Z">
+        <seg>*  Používají se standardní masky souborů (glob patterns).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*  You can end patterns with a forward slash (`/`) to specify a directory.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202001Z" creationid="Prikryl" creationdate="20151029T202001Z">
+        <seg>*  Masku můžete ukončit lomítkem (`/`) a tím vyjádříte, že jde o adresář.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*  You can negate a pattern by starting it with an exclamation point (`!`).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202108Z" creationid="Prikryl" creationdate="20151029T202108Z">
+        <seg>*  Masku můžete negovat tím, že na začátku použijete vykřičník (`!`).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*  You can start patterns with a forward slash (`/`) to avoid recursivity.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T201858Z" creationid="Prikryl" creationdate="20151029T201858Z">
+        <seg>*  Masku můžete zahájit lomítkem (`/`) a tím potlačíte rekurzivitu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>- Bullet points are okay, too</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T215942Z" creationid="Prikryl" creationdate="20151023T215942Z">
         <seg>- Můžete používat i odrážky.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120136Z" creationid="Prikryl" creationdate="20151029T120136Z">
+        <seg>----</seg>
       </tuv>
     </tu>
     <tu>
@@ -330,6 +462,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.The lifecycle of the status of your files.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T105838Z" creationid="Prikryl" creationdate="20151029T105838Z">
+        <seg>.Cyklus stavů vašich souborů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Working directory, staging area, and Git directory.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T115507Z" creationid="Prikryl" creationdate="20151027T115507Z">
@@ -382,6 +522,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>6.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>&lt;&lt;_git_branching&gt;&gt;  will go over branches and references in detail.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110742Z" creationid="Prikryl" creationdate="20151029T110742Z">
+        <seg>V kapitole &lt;&lt;_git_branching&gt;&gt; se větvemi a referencemi budeme zabývat podrobně.</seg>
       </tuv>
     </tu>
     <tu>
@@ -966,6 +1114,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>==== Zásuvné moduly na straně serveru</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>==== Short Status</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T130354Z" creationid="Prikryl" creationdate="20151029T130354Z">
+        <seg>==== Zkrácený výpis stavu</seg>
       </tuv>
     </tu>
     <tu>
@@ -1770,6 +1926,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>An asterisk (`*`) matches zero or more characters; `[abc]` matches any character inside the brackets (in this case a, b, or c); a question mark (`?`) matches a single character; and brackets enclosing characters separated by a hyphen(`[0-9]`) matches any character between them (in this case 0 through 9).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202346Z" creationid="Prikryl" creationdate="20151029T202346Z">
+        <seg>Hvězdička (`*`) označuje žádný nebo více znaků; `[abc]` označuje jakýkoli znak uvedený v závorkách (v tomto případě `a`, `b` nebo `c`); otazník (`?`) označuje jeden znak; znaky v závorkách oddělené pomlčkou (`[0-9]`) označují jakýkoli znak v daném rozmezí (v našem případě 0 až 9).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>And if it was changed since it was checked out but has not been staged, it is modified.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T122750Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -2098,6 +2262,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>At this point, suppose you remember one little change that you want to make in `CONTRIBUTING.md` before you commit it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T125318Z" creationid="Prikryl" creationdate="20151029T125318Z">
+        <seg>Nyní předpokládejme, že jste si vzpomněli na jednu malou změnu, kterou chcete v souboru `CONTRIBUTING.md` provést ještě před zapsáním revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>At this point, the others can clone it down and push changes back up just as easily:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -2334,6 +2506,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Změňte zprávu k revizi a zavřete textový editor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Changes not staged for commit:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120901Z" creationid="Prikryl" creationdate="20151029T120901Z">
+        <seg>Changes not staged for commit:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2654,6 +2834,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Je-li výstup tohoto zásuvného modulu nenulový, zapisování bude přerušeno. Ale můžete to obejít zadáním příkazu `git commit --no-verify`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Finally, the command tells you which branch you're on and informs you that it has not diverged from the same branch on the server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110420Z" creationid="Prikryl" creationdate="20151029T110420Z">
+        <seg>Příkaz vám dále sděluje, na jaké větvi (branch) se nacházíte, a informuje vás, že se neodchýlila od stejné větve na serveru.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3042,6 +3230,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For now, that branch is always ``master'', which is the default; you won't worry about it here.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110700Z" creationid="Prikryl" creationdate="20151029T110700Z">
+        <seg>Prozatím budeme uvažovat, že jde o větev `master`, což je výchozí název (zatím se s tím nezatěžujte).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For one thing, you should clean up the weird references that `git svn` set up.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3206,6 +3402,22 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Systém Git umožňuje určit jednotlivé revize nebo interval revizí několika způsoby.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Git also doesn't see any untracked files, or they would be listed here.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110211Z" creationid="Prikryl" creationdate="20151029T110211Z">
+        <seg>Git také neví o žádných nesledovaných souborech, jinak by byly ve výčtu uvedeny.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Git also has a short status flag so you can see your changes in a more compact way.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T130647Z" creationid="Prikryl" creationdate="20151029T130647Z">
+        <seg>Git nabízí použití příznaku pro zkrácený výpis stavu, který způsobí zobrazení změn v zhuštěné podobě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3510,8 +3722,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Glob patterns are like simplified regular expressions that shells use.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Masky souborů jsou jako zjednodušené regulární výrazy, které používá shell.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T204616Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Masky souborů jsou zjednodušené regulární výrazy, které používá shell.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3592,6 +3804,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jako příklad uvedeme skript pre-rebase, který bude toto pravidlo kontrolovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Here is another example .gitignore file:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202546Z" creationid="Prikryl" creationdate="20151029T202546Z">
+        <seg>Tady je další příklad souboru `.gitignore`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3760,6 +3980,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>To však nemění nic na tom, že ke spolupráci se skupinou lidí na soukromém projektu _vystačíte_ s jedním SSH serverem a holým repozitářem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>However, let's run `git status` one more time:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T125356Z" creationid="Prikryl" creationdate="20151029T125356Z">
+        <seg>Spusťme však ještě jednou příkaz `git status`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3988,6 +4216,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If the file didn't exist before, and you run `git status`, you see your untracked file like so:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110821Z" creationid="Prikryl" creationdate="20151029T110821Z">
+        <seg>Pokud soubor dříve neexistoval a vy spustíte příkaz `git status`, bude nesledovaný soubor uveden takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If the hard disk the central database is on becomes corrupted, and proper backups haven't been kept, you lose absolutely everything – the entire history of the project except whatever single snapshots people happen to have on their local machines.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T185859Z" creationid="Prikryl" creationdate="20151026T185859Z">
@@ -4124,6 +4360,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you change a previously tracked file called ``CONTRIBUTING.md'' and then run your `git status` command again, you get something that looks like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120850Z" creationid="Prikryl" creationdate="20151029T120850Z">
+        <seg>Pokud změníte už dříve sledovaný soubor s názvem `CONTRIBUTING.md` a poté znovu spustíte příkaz `git status`, zobrazí se něco takového:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you change pick to edit on more lines, you can repeat these steps for each commit you change to edit.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4142,8 +4386,16 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>If you commit at this point, the version of the file at the time you ran `git add` is what will be in the historical snapshot.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud v tomto okamžiku zapíšete revizi, v historickém snímku bude verze souboru z okamžiku, kdy jste spustili příkaz `git add`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120351Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud v tomto okamžiku zapíšete revizi (commit), bude do historického snímku uložena verze souboru z okamžiku, kdy jste spustili příkaz `git add`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you commit now, the version of `CONTRIBUTING.md` as it was when you last ran the `git add` command is how it will go into the commit, not the version of the file as it looks in your working directory when you run `git commit`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T130021Z" creationid="Prikryl" creationdate="20151029T130021Z">
+        <seg>Pokud nyní revizi zapíšete, stane se součástí snímku soubor `CONTRIBUTING.md` s obsahem, jaký měl, když jste naposledy spustili příkaz `git add`, a ne s obsahem, který měl v pracovním adresáři v okamžiku, kdy jste spustili příkaz `git commit`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4446,8 +4698,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>If you modify a file after you run `git add`, you have to run `git add` again to stage the latest version of the file:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud upravíte soubor po provedení příkazu `git add`, je třeba spustit `git add` ještě jednou, aby byla připravena aktuální verze souboru:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T130118Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud upravíte soubor po provedení příkazu `git add`, je třeba spustit `git add` ještě jednou, aby byla k zápisu připravena aktuální verze souboru:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4612,6 +4864,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you run `git status -s` or `git status --short` you get a far more simplified output from the command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T131219Z" creationid="Prikryl" creationdate="20151029T131219Z">
+        <seg>Pokud spustíte `git status -s` nebo `git status --short` bude výstup příkazu mnohem jednodušší.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you run `git status`, you can see your dirty state:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4640,6 +4900,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud spustíte tento příkaz místo nastavení souborů `extMerge` a `extDiff`, Git bude používat KDiff3 k řešení konfliktů při slučování a interní nástroj diff systému Git pro výpisy nástroje diff.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you run your status command again, you can see that your README file is now tracked and staged to be committed:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120122Z" creationid="Prikryl" creationdate="20151029T120122Z">
+        <seg>Když znovu provedete příkaz `git status`, uvidíte, že je nyní soubor `README` sledován a připraven k zapsání:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5300,6 +5568,16 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In order to begin tracking a new file, you use the command `git add`.(((git commands, add)))
+To begin tracking the README file, you can run this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120007Z" creationid="Prikryl" creationdate="20151029T120007Z">
+        <seg>K zahájení sledování nových souborů se používá příkaz `git add`.(((git příkazy, add)))
+Sledování souboru `README` zahájíme takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In order to import a Git directory, you need to review how Git stores its data.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5328,6 +5606,16 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Soubor tak ponecháte na svém pevném disku, ale ukončíte jeho sledování systémem Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In such cases, you can create a file listing patterns to match them named `.gitignore`.(((ignoring files)))
+Here is an example `.gitignore` file:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T175501Z" creationid="Prikryl" creationdate="20151029T175501Z">
+        <seg>V takových případech můžete vytvořit soubor `.gitignore` se seznamem masek pro ignorované soubory.(((ignorované soubory)))
+Zde je příklad souboru `.gitignore`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5670,6 +5958,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It does this so you don't accidentally begin including generated binary files or other files that you did not mean to include.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T111214Z" creationid="Prikryl" creationdate="20151029T111214Z">
+        <seg>Díky tomu se nemůže stát, že budou do revizí nedopatřením zahrnuty vygenerované binární soubory nebo jiné soubory, které si nepřejete zahrnout.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It has paused the process while you resolve the conflict.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5754,6 +6050,16 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Snazší k zapamatování je varianta s výrazem `~3`, neboť se pokoušíte upravit poslední tři revize. Nezapomeňte ale, že tím ve skutečnosti označujete čtvrtou revizi od konce, tedy rodiče poslední revize, kterou chcete upravit:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It may be helpful to think of it more as ``add this content to the next commit'' rather than ``add this file to the project''.(((git commands, add)))
+Let's run `git add` now to stage the ``CONTRIBUTING.md'' file, and then run `git status` again:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T125127Z" creationid="Prikryl" creationdate="20151029T125127Z">
+        <seg>Možná vám pomůže, když o něm budete uvažovat spíše ve smyslu „přidej tento obsah do dalšího snímku“ než ve smyslu „přidej tento soubor do projektu“.(((git příkazy, add)))
+Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili k zapsání, a potom znovu zadejme příkaz `git status`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6102,10 +6408,36 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>LICENSE.txt
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T131230Z" creationid="Prikryl" creationdate="20151029T131230Z">
+        <seg>LICENSE.txt
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Lastly, you have this:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>A na konci stojí následující:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Let's change a file that was already tracked.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120746Z" creationid="Prikryl" creationdate="20151029T120746Z">
+        <seg>Nyní provedeme změny v souboru, který už byl sledován.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Let's say you add a new file to your project, a simple README file.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110803Z" creationid="Prikryl" creationdate="20151029T110803Z">
+        <seg>Řekněme, že nyní přidáte do projektu nový soubor, například soubor `README`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6294,6 +6626,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>New files that aren't tracked have a `??` next to them, new files that have been added to the staging area have an `A`, modified files have an `M` and so on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T133536Z" creationid="Prikryl" creationdate="20151029T133536Z">
+        <seg>Před novými soubory, které nejsou sledované se zobrazuje `??`, před novými soubory, které byly přidány do oblasti připravených k zapsání se zobrazuje `A`, před upravenými soubory se zobrazuje `M` (jako modified) atd.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Next, move the rest of the references under `refs/remotes` to be local branches:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6434,6 +6774,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Všimněte si, že se pořadí obrátilo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now `CONTRIBUTING.md` is listed as both staged _and_ unstaged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T125530Z" creationid="Prikryl" creationdate="20151029T125530Z">
+        <seg>Soubor `CONTRIBUTING.md` je uveden jak v části připraveno k zapsání (Changes to be committed), tak v části nepřipraveno k zapsání (Changes not staged for commit).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6854,6 +7202,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Often, you'll have a class of files that you don't want Git to automatically add or even show you as being untracked.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T175308Z" creationid="Prikryl" creationdate="20151029T175308Z">
+        <seg>Ve vašem adresáři se často vyskytne skupina souborů, u nichž nebudete chtít, aby je Git automaticky přidával nebo aby je vůbec uváděl jako nesledované.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>On Linux machines, `lighttpd` is often installed, so you may be able to get it to run by typing `git instaweb` in your project directory.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7118,6 +7474,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>README</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110830Z" creationid="Prikryl" creationdate="20151029T110830Z">
+        <seg>README</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Rebasing replays changes from one line of work onto another in the order they were introduced, whereas merging takes the endpoints and merges them together.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7238,6 +7602,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Setting up a `.gitignore` file before you get going is generally a good idea so you don't accidentally commit files that you really don't want in your Git repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T204429Z" creationid="Prikryl" creationdate="20151029T201553Z">
+        <seg>Vytvoření a naplnění souboru `.gitignore` ještě dříve, než se pustíte do práce, bývá většinou dobrý nápad. Díky tomu se vám nestane, že byste nedopatřením zapsali také soubory, o které v repozitáři Git nestojíte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>She can do so by specifying the local branch followed by a colon (:) followed by the remote branch to the `git push` command:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7306,6 +7678,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T133311Z" creationid="Prikryl" creationdate="20151026T133311Z">
         <seg>Od té doby jej přijaly téměř všechny komunity, které se věnují open source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>So for example in that output, the `README` file is modified in the working directory but not yet staged, while the `lib/simplegit.rb` file is modified and staged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T175044Z" creationid="Prikryl" creationdate="20151029T175044Z">
+        <seg>Takže například v uvedeným výstupu byl soubor `README` změněn v pracovním adresáři, ale nebyl zatím připraven k zápisu (staged), zatímco soubor `lib/simplegit.rb` byl změněn a připraven k zápisu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7880,10 +8260,26 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The `Rakefile` was modified, staged and then modified again, so there are changes to it that are both staged and unstaged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T175209Z" creationid="Prikryl" creationdate="20151029T175209Z">
+        <seg>Soubor `Rakefile` byl změněn, připraven k zápisu a potom znovu změněn, takže se indikuje změna jak pro oblast připravenosti k zápisu, tak pro pracovní strom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The `SHA^@` syntax resolves to all the parents of that commit.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Syntaxe `SHA^@` se vztahuje na všechny rodiče této revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The ``CONTRIBUTING.md'' file appears under a section named ``Changed but not staged for commit'' – which means that a file that is tracked has been modified in the working directory but not yet staged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T121004Z" creationid="Prikryl" creationdate="20151029T121004Z">
+        <seg>Soubor `CONTRIBUTING.md` je uveden v části „Changes not staged for commit“ (změny, které nejsou připraveny k zapsání). Znamená to, že soubor, který je sledován, byl v pracovním adresáři změněn, avšak ještě nebyl připraven k zapsání (staged).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8266,6 +8662,14 @@ U systému Mavericks (10.9) a vyšších můžeme v okně Terminálu zkusit hned
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The first line tells Git to ignore any files ending in ``.o'' or ``.a'' – object and archive files that may be the product of building your code.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T204141Z" creationid="Prikryl" creationdate="20151029T175714Z">
+        <seg>První řádek Gitu říká, že se mají ignorovat všechny soubory končící na `.o` nebo `.a` -- objekty a archivní soubory, které mohou být výsledkem překladu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The first line was printed out by you, the other two were Git telling you that the update script exited non-zero and that is what is declining your push.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -8470,6 +8874,16 @@ U systému Mavericks (10.9) a vyšších můžeme v okně Terminálu zkusit hned
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Poslední věcí, kterou musíte udělat, je vrátit aktuální označovač, aby mohl být zadán do příští iterace:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The main tool you use to determine which files are in which state is the `git status` command.(((git commands, status)))
+If you run this command directly after a clone, you should see something like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110002Z" creationid="Prikryl" creationdate="20151029T110002Z">
+        <seg>Hlavním nástrojem na zjišťování stavu jednotlivých souborů je příkaz `git status`.(((git commands, status)))
+Spustíte-li tento příkaz bezprostředně po klonování, objeví se zhruba následující:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8830,8 +9244,8 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       <tuv lang="EN">
         <seg>The second line tells Git to ignore all files that end with a tilde (`~`), which is used by many text editors such as Emacs to mark temporary files.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Druhý řádek systému Git říká, aby ignoroval všechny soubory končící vlnovkou (`~`), kterou mnoho textových editorů (např. Emacs) používá k označení dočasných souborů.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T175801Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Druhý řádek Gitu říká, aby ignoroval všechny soubory končící vlnovkou (`~`), kterou mnoho textových editorů (např. Emacs) používá k označení dočasných souborů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9106,6 +9520,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T190651Z" creationid="Prikryl" creationdate="20151027T190651Z">
         <seg>K dispozici jsou původní nástroje pro použití z příkazového řádku a je tu i řada grafických uživatelských rozhraní s různými schopnostmi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>There are two columns to the output - the left hand column indicates that the file is staged and the right hand column indicates that it's modified.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T203937Z" creationid="Prikryl" creationdate="20151029T174843Z">
+        <seg>Značka na výstupu se zobrazuje ve dvou sloupcích. Levý sloupec indikuje stav souboru v oblasti připravených změn (index, stage area), v pravém sloupci se indikuje stav v pracovním stromu footnote:[Pozn. překl.: V době překladu byl originální popis zmatený. Upraveno podle dokumentace.].</seg>
       </tuv>
     </tu>
     <tu>
@@ -10118,6 +10540,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This means you have a clean working directory – in other words, there are no tracked and modified files.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110150Z" creationid="Prikryl" creationdate="20151029T110150Z">
+        <seg>To znamená, že váš pracovní adresář je čistý. Jinými slovy, nejsou v něm žádné sledované soubory, které by byly změněny.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This means you see the project history almost instantly.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
@@ -10826,6 +11256,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>To stage it, you run the `git add` command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T121103Z" creationid="Prikryl" creationdate="20151029T121103Z">
+        <seg>K zapsání ho připravíme provedením příkazu `git add`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>To stage the TODO and index.html files, you can type the numbers:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10910,6 +11348,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Zadáte-li znak `?`, zobrazí se seznam možností, které máte k dispozici.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Untracked basically means that Git sees a file you didn't have in the previous snapshot (commit); Git won't start including it in your commit snapshots until you explicitly tell it to do so.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T111124Z" creationid="Prikryl" creationdate="20151029T111124Z">
+        <seg>Není-li soubor sledován, znamená to, že Git vidí souboru který nebyl v předchozím snímku (commit). Git ho nezařadí ani do dalších snímků, dokud mu k tomu nedáte výslovný příkaz.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11322,6 +11768,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>While the `git status` output is pretty comprehensive, it's also quite wordy.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T130456Z" creationid="Prikryl" creationdate="20151029T130456Z">
+        <seg>Výstup příkazu `git status` je sice poměrně srozumitelný, ale je také dost ukecaný.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Why is it so special?</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -11678,6 +12132,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tuto syntaxi můžete použít také k zobrazení pozice, na níž se větev nacházela před určitou dobou.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can also use two asterisks to match nested directories; `a/**/z` would match `a/z`, `a/b/z`, `a/b/c/z`, and so on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202533Z" creationid="Prikryl" creationdate="20151029T202533Z">
+        <seg>Použitím dvou hvězdiček můžeme popsat zanořené adresáře; `a/**/z` popisuje `a/z`, `a/b/z`, `a/b/c/z` a tak dále.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12122,6 +12584,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can see that your new README file is untracked, because it's under the ``Untracked files'' heading in your status output.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110905Z" creationid="Prikryl" creationdate="20151029T110905Z">
+        <seg>Vidíte, že nový soubor `README` není sledován, protože je ve výpisu stavů uveden v části „Untracked files“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can see the tag data along with the commit that was tagged by using the `git show` command:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -12182,6 +12652,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Které z těchto funkcí si přejete zapnout a které vypnout, to můžete systému Git sdělit zadáním čárkami oddělených hodnot do parametru `core.whitespace`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can tell that it's staged because it's under the ``Changes to be committed'' heading.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120218Z" creationid="Prikryl" creationdate="20151029T120218Z">
+        <seg>Můžeme říci, že je připraven k zapsání, protože je uveden v části „Changes to be committed“, tedy „Změny k zapsání“.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12280,6 +12758,14 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Dosáhnete toho tím, že systému Git sdělíte, jak má konvertovat binární data do textového formátu, který lze zpracovávat běžným algoritmem pro zjišťování rozdílů (diff).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You do want to start including README, so let's start tracking the file.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T111252Z" creationid="Prikryl" creationdate="20151029T111252Z">
+        <seg>Vy si ale přejete soubor README do snímku zahrnout, a proto ho začněme sledovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12388,6 +12874,14 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You may also include a log, tmp, or pid directory; automatically generated documentation; and so on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T175854Z" creationid="Prikryl" creationdate="20151029T175854Z">
+        <seg>Můžete rovněž přidat adresáře `log`, `tmp` nebo `pid`, automaticky vygenerovanou dokumentaci a další.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You may be wondering what the difference is between _author_ and _committer_.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -12408,6 +12902,16 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Možná nebudete mít chuť spouštět příkaz `adduser` (přidat uživatele) a nastavovat pro každého uživatele dočasná hesla.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You may recall that when you ran `git init` earlier, you then ran `git add (files)` – that was to begin tracking files in your directory.(((git commands, init)))(((git commands, add)))
+The `git add` command takes a path name for either a file or a directory; if it's a directory, the command adds all the files in that directory recursively.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120723Z" creationid="Prikryl" creationdate="20151029T120723Z">
+        <seg>Možná si vzpomínáte, že když jste před časem spustili příkaz `git init`, provedli jste potom příkaz `git add (soubory)`.(((git příkazy, init)))(((git příkazy, add)))
+V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud se jedná o adresář, příkaz přidá rekurzivně všechny soubory v tomto adresáři.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12544,6 +13048,14 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nyní máte vytvořen tarball a archiv zip k vydání svého projektu, které můžete nahrát na svou webovou stránku nebo rozeslat e-mailem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You open it again and make that change, and you're ready to commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T125344Z" creationid="Prikryl" creationdate="20151029T125344Z">
+        <seg>Soubor znovu otevřete, provedete změnu a chcete jej zapsat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12936,6 +13448,18 @@ Tato kniha byla napsána s využitím Gitu verze *2.0.0*.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[TIP]
+====
+GitHub maintains a fairly comprehensive list of good `.gitignore` file examples for dozens of projects and languages at https://github.com/github/gitignore[] if you want a starting point for your project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T203537Z" creationid="Prikryl" creationdate="20151029T203305Z">
+        <seg>[TIP]
+====
+Pokud pro váš projekt potřebujete něco pro začátek, najdete na stránce https://github.com/github/gitignore[] serveru GitHub poměrně komplexní seznam dobrých příkladů souboru `.gitignore` pro desítky projektů a jazyků.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[WARNING]
 ====
 Vim and Emacs are popular text editors often used by developers on Unix based systems like Linux and Mac.</seg>
@@ -12944,6 +13468,16 @@ Vim and Emacs are popular text editors often used by developers on Unix based sy
         <seg>[WARNING]
 ====
 Vim a Emacs jsou oblíbené textové editory používané v systémech odvozených od Unixu, jako je Linux a Mac.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_checking_status]]
+==== Checking the Status of Your Files</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T105913Z" creationid="Prikryl" creationdate="20151029T105913Z">
+        <seg>[[_checking_status]]
+==== Kontrola stavu souborů</seg>
       </tuv>
     </tu>
     <tu>
@@ -12997,12 +13531,42 @@ Vim a Emacs jsou oblíbené textové editory používané v systémech odvozený
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_git_diff_staged]]
+==== Viewing Your Staged and Unstaged Changes</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T203600Z" creationid="Prikryl" creationdate="20151029T203600Z">
+        <seg>[[_git_diff_staged]]
+==== Zobrazení připravených a nepřipravených změn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_git_help]]
 === Getting Help</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T133504Z" creationid="Prikryl" creationdate="20151028T133504Z">
         <seg>[[_git_help]]
 === Získání nápovědy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_ignoring]]
+==== Ignoring Files</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T175240Z" creationid="Prikryl" creationdate="20151029T175240Z">
+        <seg>[[_ignoring]]
+==== Ignorované soubory</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_tracking_files]]
+==== Tracking New Files</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T111300Z" creationid="Prikryl" creationdate="20151029T111300Z">
+        <seg>[[_tracking_files]]
+==== Sledování nových souborů</seg>
       </tuv>
     </tu>
     <tu>
@@ -13039,6 +13603,42 @@ Vim a Emacs jsou oblíbené textové editory používané v systémech odvozený
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ cat .gitignore
+*.[oa]
+*~
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T175539Z" creationid="Prikryl" creationdate="20151029T175539Z">
+        <seg>[source,console]
+----
+$ cat .gitignore
+*.[oa]
+*~
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ echo 'My Project' &gt; README
+$ git status
+On branch master
+Untracked files:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110822Z" creationid="Prikryl" creationdate="20151029T110822Z">
+        <seg>[source,console]
+----
+$ echo 'My Project' &gt; README
+$ git status
+On branch master
+Untracked files:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git add *.c
 $ git add LICENSE
 $ git commit -m 'initial project version'
@@ -13050,6 +13650,38 @@ $ git commit -m 'initial project version'
 $ git add *.c
 $ git add LICENSE
 $ git commit -m 'initial project version'
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git add CONTRIBUTING.md
+$ git status
+On branch master
+Changes to be committed:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T125141Z" creationid="Prikryl" creationdate="20151029T125141Z">
+        <seg>[source,console]
+----
+$ git add CONTRIBUTING.md
+$ git status
+On branch master
+Changes to be committed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git add README
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120009Z" creationid="Prikryl" creationdate="20151029T120009Z">
+        <seg>[source,console]
+----
+$ git add README
 ----</seg>
       </tuv>
     </tu>
@@ -13203,6 +13835,84 @@ $ git init
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git status
+On branch master
+Changes to be committed:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120124Z" creationid="Prikryl" creationdate="20151029T120124Z">
+        <seg>[source,console]
+----
+$ git status
+On branch master
+Changes to be committed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git status
+On branch master
+nothing to commit, working directory clean
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110007Z" creationid="Prikryl" creationdate="20151029T110007Z">
+        <seg>[source,console]
+----
+$ git status
+On branch master
+nothing to commit, working directory clean
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git status -s</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T131222Z" creationid="Prikryl" creationdate="20151029T131222Z">
+        <seg>[source,console]
+----
+$ git status -s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ vim CONTRIBUTING.md
+$ git status
+On branch master
+Changes to be committed:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T125357Z" creationid="Prikryl" creationdate="20151029T125357Z">
+        <seg>[source,console]
+----
+$ vim CONTRIBUTING.md
+$ git status
+On branch master
+Changes to be committed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source]
+----
+# no .a files
+*.a</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202634Z" creationid="Prikryl" creationdate="20151029T202634Z">
+        <seg>[source]
+----
+# žádné soubory s příponou .a
+*.a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[source]
 ----
 24b9da6552252987aa493b52f8696cd6d3b00373
@@ -13269,6 +13979,14 @@ $ git init
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nástrojem, který hledáte k opravení celé historie, je `filter-branch`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>`git add` is a multipurpose command – you use it to begin tracking new files, to stage files, and to do other things like marking merge-conflicted files as resolved.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T121313Z" creationid="Prikryl" creationdate="20151029T121313Z">
+        <seg>Příkaz `git add` je víceúčelový -- používá se k zahájení sledování nových souborů, k přípravě souborů k zapsání a k dalším věcem, jako je například označení vyřešených případů kolize souborů při slučování.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13445,6 +14163,14 @@ $ git init
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T215126Z" creationid="Prikryl" creationdate="20151027T215126Z">
         <seg>image::images/git-osx-installer.png[Instalátor Gitu pro OS X.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/lifecycle.png[The lifecycle of the status of your files.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T105854Z" creationid="Prikryl" creationdate="20151029T105854Z">
+        <seg>image::images/lifecycle.png[Cyklus stavů vašich souborů.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -13713,10 +14439,46 @@ $ git init
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>modified:   CONTRIBUTING.md</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120909Z" creationid="Prikryl" creationdate="20151029T120909Z">
+        <seg>modified:   CONTRIBUTING.md</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>modified:   CONTRIBUTING.md
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T130126Z" creationid="Prikryl" creationdate="20151029T130126Z">
+        <seg>modified:   CONTRIBUTING.md
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>my version 1.4</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T101847Z" creationid="Prikryl" creationdate="20151023T101847Z">
         <seg>my version 1.4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>new file:   README</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120133Z" creationid="Prikryl" creationdate="20151029T120133Z">
+        <seg>new file:   README</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>nothing added to commit but untracked files present (use "git add" to track)
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T110832Z" creationid="Prikryl" creationdate="20151029T110832Z">
+        <seg>nothing added to commit but untracked files present (use "git add" to track)
+----</seg>
       </tuv>
     </tu>
     <tu>

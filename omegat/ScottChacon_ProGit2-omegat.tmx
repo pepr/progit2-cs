@@ -380,6 +380,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(Note that if you want to specify both author and grep options, you have to add `--all-match` or the command will match commits with either.)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T215220Z" creationid="Prikryl" creationdate="20151103T201645Z">
+        <seg>(Pokud chcete předepsat současnou platnost voleb `--author` a `--grep`, musíte přidat `--all-match`, jinak příkaz propustí revize vyhovující i jedné z nich.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(See &lt;&lt;_git_internals&gt;&gt; for more information about exactly what files are contained in the `.git` directory you just created.)(((git commands, init)))</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T210826Z" creationid="Prikryl" creationdate="20151028T210826Z">
@@ -518,6 +526,26 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* | 30e367c timeout code and tests
+* | 5a09431 add timeout protection to grit
+* | e1193f8 support for heads with slashes in them
+|/
+* d6016bc require time for xmlschema
+*  11d191e Merge branch 'defunkt' into local
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T213236Z" creationid="Prikryl" creationdate="20151102T213236Z">
+        <seg>* | 30e367c timeout code and tests
+* | 5a09431 add timeout protection to grit
+* | e1193f8 support for heads with slashes in them
+|/
+* d6016bc require time for xmlschema
+*  11d191e Merge branch 'defunkt' into local
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>+# test line
 ----</seg>
       </tuv>
@@ -548,6 +576,28 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T120136Z" creationid="Prikryl" creationdate="20151029T120136Z">
         <seg>----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>--before="2008-11-01" --no-merges -- t/
+5610e3b - Fix testcase failure when extended attributes are in use
+acd3b9e - Enhance hold_lock_file_for_{update,append}() API
+f563754 - demonstrate breakage of detached checkout with symbolic link HEAD
+d1a43f2 - reset --hard/read-tree --reset -u: remove unmerged new paths
+51a94af - Fix "checkout --track -b newbranch" on detached HEAD
+b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unborn branch
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T213947Z" creationid="Prikryl" creationdate="20151104T213947Z">
+        <seg>--before="2008-11-01" --no-merges -- t/
+5610e3b - Fix testcase failure when extended attributes are in use
+acd3b9e - Enhance hold_lock_file_for_{update,append}() API
+f563754 - demonstrate breakage of detached checkout with symbolic link HEAD
+d1a43f2 - reset --hard/read-tree --reset -u: remove unmerged new paths
+51a94af - Fix "checkout --track -b newbranch" on detached HEAD
+b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unborn branch
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -624,6 +674,22 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>1 file changed, 1 insertion(+), 1 deletion(-)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145528Z" creationid="Prikryl" creationdate="20151102T145528Z">
+        <seg>1 file changed, 1 insertion(+), 1 deletion(-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>1 file changed, 5 deletions(-)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145541Z" creationid="Prikryl" creationdate="20151102T145541Z">
+        <seg>1 file changed, 5 deletions(-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>1 file changed, 5 insertions(+), 0 deletions(-)
 ----</seg>
       </tuv>
@@ -654,6 +720,16 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>3 files changed, 54 insertions(+)
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145552Z" creationid="Prikryl" creationdate="20151102T145552Z">
+        <seg>3 files changed, 54 insertions(+)
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -702,6 +778,22 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T214430Z" creationid="Prikryl" creationdate="20151028T214430Z">
         <seg>V kapitole &lt;&lt;_git_on_the_server&gt;&gt; budou uvedeny všechny dostupné možnosti, které mohou být na serveru pro přístup do repozitáře Git nastaveny, včetně jejich předností a nevýhod.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>&lt;&lt;log_options&gt;&gt; lists the options we've covered so far, as well as some other common formatting options that may be useful, along with how they change the output of the log command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T214009Z" creationid="Prikryl" creationdate="20151102T214009Z">
+        <seg>Tabulka &lt;&lt;log_options&gt;&gt; uvádí seznam voleb, které jsme zatím probrali, a také pár dalších možností formátování, které mohou být užitečné -- spolu s popisem toho, jak mění výstup příkazu `log`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>&lt;&lt;pretty_format&gt;&gt; lists some of the more useful options that format takes.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T152719Z" creationid="Prikryl" creationdate="20151102T150335Z">
+        <seg>Tabulka &lt;&lt;pretty_format&gt;&gt; uvádí některé z užitečnějších značek, které předpis `format` akceptuje.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1706,6 +1798,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>A huge number and variety of options to the `git log` command are available to show you exactly what you're looking for.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145047Z" creationid="Prikryl" creationdate="20151102T145047Z">
+        <seg>K příkazu `git log` je k dispozici velké množství nejrůznějších parametrů, díky nimž můžete zobrazit přesně to, co potřebujete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>A local repository is fast only if you have fast access to the data.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -1862,6 +1962,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Až nástroj pro slučování zavřete, Git se vás zeptá, zda sloučení proběhlo úspěšně.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>After you have created several commits, or if you have cloned a repository with an existing commit history, you'll probably want to look back to see what has happened.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144457Z" creationid="Prikryl" creationdate="20151102T144153Z">
+        <seg>Po vytvoření několika revizí footnote:[Pozn. překl.: Znovu připomeňme, že slovem _revize_ je přeložen anglický pojem _commit_ (jako podstatné jméno). Někdy se v angličtině v souvislosti s Gitem používá trošku přesnější pojem _commit point_ (bod zápisu) a v prostředcích pro grafické znázornění má obvykle také podobu bodu (kroužku, kuličky).] nebo pokud jste naklonovali repozitář s existující historií revizí, můžete chtít nahlédnout do historie projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2196,10 +2304,18 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Another really helpful filter is the `-S` option which takes a string and only shows the commits that introduced a change to the code that added or removed that string.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T212322Z" creationid="Prikryl" creationdate="20151104T212322Z">
+        <seg>Dalším opravdu užitečným filtrem je volba `-S`, které zadáme nějaký řetězec. Způsobí, že se zobrazí jen revize se změnami kódu, kdy byl zadaný řetězec přidán nebo odstraněn.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Another really useful option is `--pretty`.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Další opravdu užitečnou možností je parametr `--pretty`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145654Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Další opravdu užitečnou volbou je `--pretty`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2304,6 +2420,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jak vidíte, parametr `--stat` vypíše pod každým záznamem revize seznam změněných souborů, kolik souborů bylo změněno (changed) a kolik řádků bylo v těchto souborech vloženo (insertions) a smazáno (deletions).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>As you can see, this command lists each commit with its SHA-1 checksum, the author's name and e-mail, the date written, and the commit message.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145022Z" creationid="Prikryl" creationdate="20151102T145022Z">
+        <seg>Jak vidíte, tento příkaz vypíše všechny revize s jejich kontrolním součtem SHA-1, jménem a e-mailem autora, datem zápisu a zprávou o revizi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2672,6 +2796,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Standardně Git předává do nástoje diff tyto parametry:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>By default, with no arguments, `git log` lists the commits made in that repository in reverse chronological order – that is, the most recent commits show up first.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T151839Z" creationid="Prikryl" creationdate="20151102T144957Z">
+        <seg>Ve výchozím nastavení a bez dalších parametrů vypíše příkaz `git log` revize daného repozitáře v obráceném chronologickém pořadí -- poslední revize se zobrazí na začátku.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3253,6 +3385,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For example, if you want to see which commits modifying test files in the Git source code history were committed by Junio Hamano and were not merges in the month of October 2008, you can run something like this:(((log filtering)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T213937Z" creationid="Prikryl" creationdate="20151104T213937Z">
+        <seg>Pokud například chcete zjistit, které revize upravující testovací soubory ve zdrojovém kódu Gitu zapsal Junio Hamano v říjnu 2008 (relativně k časové zóně New Yorku) a které přitom nevznilky sloučením (merge), můžete zadat následující příkaz:(((log filtrování)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For example, if you're on a system that has yum (such as Fedora) or apt-get (such as a Debian based system), you can use one of these commands to install the minimal dependencies for compiling and installing the Git binaries:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T001650Z" creationid="Prikryl" creationdate="20151028T001650Z">
@@ -3409,6 +3549,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud chcete například zobrazit objekt poslední revize větve, můžete využít některý z následujících příkazů (za předpokladu, že větev `topic1` ukazuje na `ca82a6d`):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For instance, if you wanted to find the last commit that added or removed a reference to a specific function, you could call:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T212508Z" creationid="Prikryl" creationdate="20151104T212508Z">
+        <seg>Pokud například chcete zjistit poslední revizi, kdy byl přidán nebo odstraněn odkaz na určitou funkci, můžete zavolat:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4079,6 +4227,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Here, we'll show you some of the most popular.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145109Z" creationid="Prikryl" creationdate="20151102T145109Z">
+        <seg>Ukážeme si některé z nejpoužívanějších možností.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Here, you’ll look at a few interactive commands that can help you easily craft your commits to include only certain combinations and parts of files.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4257,8 +4413,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>However, the time-limiting options such as `--since` and `--until` are very useful.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Velmi užitečné jsou naproti tomu časově omezující parametry, jako `--since` a `--until` („od“ a „do“).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151103T200157Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Naopak velmi užitečné jsou volby pro vymezení času, jako `--since` a `--until` („od“ a „do“).</seg>
       </tuv>
     </tu>
     <tu>
@@ -5245,8 +5401,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you specify a directory or file name, you can limit the log output to commits that introduced a change to those files.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jestliže zadáte název adresáře nebo souboru, výstup logu tím omezíte na revize, které provedly změnu v těchto souborech.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T212725Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jestliže zadáte název adresáře nebo souboru, výstup logu omezíte na revize, které provedly změnu v těchto souborech.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5731,6 +5887,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In &lt;&lt;limit_options&gt;&gt; we'll list these and a few other common options for your reference.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T212915Z" creationid="Prikryl" creationdate="20151104T212915Z">
+        <seg>Tabulka &lt;&lt;limit_options&gt;&gt; uvádí přehled již zmíněných a několika dalších voleb.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In Git, this is called _rebasing_.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5771,6 +5935,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In addition to output-formatting options, `git log` takes a number of useful limiting options – that is, options that let you show only a subset of commits.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151103T195439Z" creationid="Prikryl" creationdate="20151103T195439Z">
+        <seg>Kromě voleb pro formátování výstupu akceptuje příkaz `git log` celou řadu užitečných omezujících voleb -- tj. takových, které umožní zobrazit jen podmnožinu revizí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In addition to the client-side hooks, you can use a couple of important server-side hooks as a system administrator to enforce nearly any kind of policy for your project.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5789,8 +5961,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>In addition, the `short`, `full`, and `fuller` options show the output in roughly the same format but with less or more information, respectively:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Dále se nabízejí parametry `short`, `full` a `fuller` (zkrácený, plný, úplný). Zobrazují výstup přibližně ve stejném formátu, avšak s více či méně podrobnými informacemi:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T152201Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Dále se nabízejí hodnoty `short`, `full` a `fuller` (zkrácený, plný, úplný), které zobrazují výstup přibližně ve stejném formátu, avšak s více či méně podrobnými informacemi:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5877,8 +6049,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>In fact, you can do `-&lt;n&gt;`, where `n` is any integer to show the last `n` commits.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Obecně lze tedy říci, že můžete zadat parametr `-&lt;n&gt;`, kde `n` je libovolné celé číslo pro zobrazení posledních `n` revizí.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151103T195837Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Můžete dokonce zadat `-&lt;n&gt;`, kde `n` je libovolné celé číslo. Povede to k zobrazení posledních `n` revizí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5945,6 +6117,14 @@ Sledování souboru `README` zahájíme takto:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T225655Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jinými slovy, soubor možná chcete ponechat na disku, ale už nechcete, aby ho Git sledoval.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In reality, you're unlikely to use that often, because Git by default pipes all output through a pager so you see only one page of log output at a time.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151103T200041Z" creationid="Prikryl" creationdate="20151103T200041Z">
+        <seg>Ve skutečnosti to asi nebudete využívat příliš často, protože Git standardně posílá výstup přes stránkovač, takže se najednou zobrazí jen jedna stránka logu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7609,6 +7789,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Of the nearly 40,000 commits in the Git source code history, this command shows the 6 that match those criteria.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T214103Z" creationid="Prikryl" creationdate="20151104T214103Z">
+        <seg>Z téměř 40 tisíc revizí v historii zdrojového kódu Gitu příkaz 6 záznamů, které odpovídají zadaným kritériím.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Often, the quickest way is to use a tool called `git reflog`.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7737,6 +7925,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>One of the more helpful options is `-p`, which shows the difference introduced in each commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145242Z" creationid="Prikryl" creationdate="20151102T145242Z">
+        <seg>Jedním z užitečnějších je parametr `-p`, který zobrazí rozdíly (diff) provedené v každé revizi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>One of the more popular VCS tools was a system called RCS, which is still distributed with many computers today.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T182855Z" creationid="Prikryl" creationdate="20151026T182855Z">
@@ -7771,8 +7967,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Options include oneline, short, full, fuller, and format (where you specify your own format).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151022T210757Z" creationid="Prikryl" creationdate="20151022T210757Z">
-        <seg>Parametry příkazu jsou oneline, short, full, fuller a format (ve kterém uvedete svůj vlastní formát).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T224130Z" creationid="Prikryl" creationdate="20151022T210757Z">
+        <seg>Parametry příkazu jsou `oneline`, `short`, `full`, `fuller` a `format` (ve kterém uvedete svůj vlastní formát).</seg>
       </tuv>
     </tu>
     <tu>
@@ -7917,6 +8113,30 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T110830Z" creationid="Prikryl" creationdate="20151029T110830Z">
         <seg>README</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>README           |  6 ++++++</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145547Z" creationid="Prikryl" creationdate="20151102T145547Z">
+        <seg>README           |  6 ++++++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Rakefile         | 23 +++++++++++++++++++++++</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145548Z" creationid="Prikryl" creationdate="20151102T145548Z">
+        <seg>Rakefile         | 23 +++++++++++++++++++++++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Rakefile | 2 +-</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145525Z" creationid="Prikryl" creationdate="20151102T145525Z">
+        <seg>Rakefile | 2 +-</seg>
       </tuv>
     </tu>
     <tu>
@@ -8181,6 +8401,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud zjistíte, že některá metoda ve vašem kódu obsahuje chybu, můžete soubor anotovat příkazem `git blame`, který u každého řádku metody zobrazí, kdo a kdy ho naposledy upravil.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>So, if you send in a patch to a project and one of the core members applies the patch, both of you get credit – you as the author, and the core member as the committer.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T212702Z" creationid="Prikryl" creationdate="20151102T212702Z">
+        <seg>Pokud tedy pošlete záplatu k projektu a někdo z užšího týmu footnote:[core member] ji použije, získáte zásluhu oba -- vy, jako autor, i daný člen týmu, jako autor revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8653,8 +8881,8 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
       <tuv lang="EN">
         <seg>The `--author` option allows you to filter on a specific author, and the `--grep` option lets you search for keywords in the commit messages.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Parametr `--author` umožňuje filtrovat výpisy podle konkrétního autora, pomocí parametru `--grep` můžete ve zprávách k revizím vyhledávat klíčová slova.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151103T200932Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Volba `--author` vám umožní filtrovat výpisy podle zadaného autora, volbou `--grep` můžete ve zprávách k revizi hledat klíčová slova.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8803,6 +9031,14 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The `oneline` option prints each commit on a single line, which is useful if you're looking at a lot of commits.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T152153Z" creationid="Prikryl" creationdate="20151102T145802Z">
+        <seg>Hodnota `oneline` vypíše všechny revize na jednom řádku, což oceníte při prohlížení velkého množství revizí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The `post-receive` hook runs after the entire process is completed and can be used to update other services or notify users.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -8863,6 +9099,14 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Řešením této situace je odložení (stashing) příkazem `git stash`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The author is the person who originally wrote the work, whereas the committer is the person who last applied the work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T212315Z" creationid="Prikryl" creationdate="20151102T212156Z">
+        <seg>_Autor_ (author) je osoba, která práci původně napsala, zatímco _autor revize_ (committer) je osoba, která tuto práci naposled použila.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9327,8 +9571,8 @@ U systému Mavericks (10.9) a vyšších můžeme v okně Terminálu zkusit hned
       <tuv lang="EN">
         <seg>The last really useful option to pass to `git log` as a filter is a path.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Posledním opravdu užitečným parametrem, který lze přidat k příkazu `git log` , je zadání cesty.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T212641Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Posledním, opravdu užitečným parametrem, který lze jako filtr přidat k příkazu `git log`, je zadání cesty.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9419,8 +9663,8 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       <tuv lang="EN">
         <seg>The most interesting option is `format`, which allows you to specify your own log output format.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nejzajímavějším parametrem je pak `format`, který umožňuje definovat vlastní formát výstupu logu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T152354Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Nejzajímavější možností je předpis `format`, který umožňuje definovat vlastní formát výstupu logu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9525,6 +9769,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Příjemné na tomto wrapperovém nastavení je, že lze snadno změnit nástroj diff i nástroj pro slučování.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The oneline and format options are particularly useful with another `log` option called `--graph`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T213044Z" creationid="Prikryl" creationdate="20151102T213044Z">
+        <seg>Parametry `oneline` a `format` jsou zvlášť užitečné ve spojení s další volbou příkazu `log` nazvanou `--graph`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10131,6 +10383,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>These examples use a very simple project called ``simplegit''.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144603Z" creationid="Prikryl" creationdate="20151102T144603Z">
+        <seg>Následující příklady ukazují velmi jednoduchý projekt pojmenovaný `simplegit`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>These features help encourage developers to create and use branches often.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10491,6 +10751,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This command works with lots of formats – you can specify a specific date like `"2008-01-15"`, or a relative date such as `"2 years 1 day 3 minutes ago"`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151103T200403Z" creationid="Prikryl" creationdate="20151103T200403Z">
+        <seg>Tento příkaz pracuje s velkým množstvím formátů. Můžete zadat konkrétní datum (`"2008-01-15"`) nebo relativní datum, jako je `"2 years 1 day 3 minutes ago"` (před 2 roky, 1 dnem a 3 minutami).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This commit is fine, and now Git has all the information it needs to determine where the issue was introduced.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10711,6 +10979,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Říká se tomu _refspec_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is especially useful when you're generating output for machine parsing – because you specify the format explicitly, you know it won't change with updates to Git:(((log formatting)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T150152Z" creationid="Prikryl" creationdate="20151102T150152Z">
+        <seg>Tato možnost je užitečná zejména v situaci, kdy vytváříte výpis pro strojové zpracování -- formát předepisujete explicitně, takže máte jistotu, že se s aktualizací systému Git nezmění:(((log formátování)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -11131,6 +11407,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This option adds a nice little ASCII graph showing your branch and merge history:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T213228Z" creationid="Prikryl" creationdate="20151102T213228Z">
+        <seg>Tato volba přidá pěkný malý ASCII graf, znázorňující vaši větev a historii slučování:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This option changes the log output to formats other than the default.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -11141,8 +11425,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>This option displays the same information but with a diff directly following each entry.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tento parametr zobrazí tytéž informace, ale za každým záznamem následuje informace o rozdílech.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145425Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Zmíněný parametr zobrazí stejné informace, ale za každým záznamem následuje informace o rozdílech.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11261,6 +11545,14 @@ Některé z cílů nového systému byly následující:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This type of output will become more interesting as we go through branching and merging in the next chapter.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T213451Z" creationid="Prikryl" creationdate="20151102T213451Z">
+        <seg>Tento typ výstupu nás začne víc zajímat, jakmile se v další kapitole začneme zabývat větvením a slučováním.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This was my introduction to a style of making software that felt more natural than anything I had seen before.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T150714Z" creationid="Prikryl" creationdate="20151026T150714Z">
@@ -11305,6 +11597,14 @@ Některé z cílů nového systému byly následující:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tento příkaz přenese na vzdálený server všechny vaše značky, které tam ještě nejsou.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Those are only some simple output-formatting options to `git log` – there are many more.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T213713Z" creationid="Prikryl" creationdate="20151102T213713Z">
+        <seg>Toto je jen několik jednoduchých možností formátování výstupu příkazu `git log`. Existuje jich mnohem více.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11599,8 +11899,8 @@ Některé z cílů nového systému byly následující:</seg>
       <tuv lang="EN">
         <seg>To get the project, run</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li si projekt naklonovat, zadejte:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144629Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Projekt můžete získat spuštěním</seg>
       </tuv>
     </tu>
     <tu>
@@ -12001,6 +12301,14 @@ Zobrazí se seznam krátkých jmen, která jste si pro vzdálené repozitáře n
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>We'll cover this distinction a bit more in &lt;&lt;_distributed_git&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T212806Z" creationid="Prikryl" creationdate="20151102T212806Z">
+        <seg>Uvedený rozdíl si blíže vysvětlíme v kapitole &lt;&lt;_distributed_git&gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>We'll explore some of the benefits you gain by thinking of your data this way when we cover Git branching in &lt;&lt;_git_branching&gt;&gt;.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T092212Z" creationid="Prikryl" creationdate="20151027T092104Z">
@@ -12239,6 +12547,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Spustíte-li v novém nebo existujícím adresáři příkaz `git init`, Git vytvoří adresář `.git`, tj. místo, kde je umístěno téměř vše, co Git ukládá a s čím manipuluje.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>When you run `git log` in this project, you should get output that looks something like this:(((git commands, log)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144720Z" creationid="Prikryl" creationdate="20151102T144720Z">
+        <seg>Po zadání příkazu `git log` byste pro tento projekt měli dostat výstup, který vypadá zhruba takto:(((git commands, log)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -12541,8 +12857,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>You can also filter the list to commits that match some search criteria.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Z výpisu rovněž můžete filtrovat pouze revize, které odpovídají určitým kritériím.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151103T200640Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Ze seznamu také můžete vyfiltrovat revize, které odpovídají určitým vyhledávacím kritériím.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13463,7 +13779,7 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       <tuv lang="EN">
         <seg>You may be wondering what the difference is between _author_ and _committer_.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T212205Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Možná se ptáte, jaký je rozdíl mezi _autorem_ a _autorem revize_.</seg>
       </tuv>
     </tu>
@@ -13847,6 +14163,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You've seen one such option already – the `-2` option, which show only the last two commits.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151103T195604Z" creationid="Prikryl" creationdate="20151103T195604Z">
+        <seg>S jednou takovou volbou už jsme se setkali -- šlo o volbu `-2`, která zobrazí pouze dvě poslední revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Your Git repository now contains five objects: one blob for the contents of each of your three files, one tree that lists the contents of the directory and specifies which file names are stored as which blobs, and one commit with the pointer to that root tree and all the commit metadata.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -14211,6 +14535,102 @@ Vim a Emacs jsou oblíbené textové editory používané v systémech odvozený
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T111300Z" creationid="Prikryl" creationdate="20151029T111300Z">
         <seg>[[_tracking_files]]
 ==== Sledování nových souborů</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_viewing_history]]
+=== Viewing the Commit History</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T143939Z" creationid="Prikryl" creationdate="20151102T143939Z">
+        <seg>[[_viewing_history]]
+=== Zobrazení historie revizí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[limit_options]]
+.Options to limit the output of `git log`
+[cols="2,4",options="header"]
+|================================
+| Option                | Description
+| `-(n)`                | Show only the last n commits
+| `--since`, `--after`  | Limit the commits to those made after the specified date.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T213145Z" creationid="Prikryl" creationdate="20151104T213145Z">
+        <seg>[[limit_options]]
+.Volby pro omezení výstupu příkazu `git log`
+[cols="2,4",options="header"]
+|================================
+| Volba                 | Popis
+| `-(n)`                | Zobrazí pouze posledních n revizí.
+| `--since`, `--after`  | Omezí výpis na revize zapsané po zadaném datu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[log_options]]
+.Common options to `git log`
+[cols="1,4",options="header"]
+|================================
+| Option            | Description
+| `-p`              | Show the patch introduced with each commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T214528Z" creationid="Prikryl" creationdate="20151102T214208Z">
+        <seg>[[log_options]]
+.Běžné volby příkazu `git log`
+[cols="1,4",options="header"]
+|================================
+| Volba             | Popis
+| `-p`              | Zobrazí záplatu (**p**atch) zahrnutou do každé revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[pretty_format]]
+.Useful options for `git log --pretty=format`
+[cols="1,4",options="header"]
+|================================
+| Option   | Description of Output
+| `%H`     | Commit hash
+| `%h`     | Abbreviated commit hash
+| `%T`     | Tree hash
+| `%t`     | Abbreviated tree hash
+| `%P`     | Parent hashes
+| `%p`     | Abbreviated parent hashes
+| `%an`    | Author name
+| `%ae`    | Author e-mail
+| `%ad`    | Author date (format respects the --date=option)
+| `%ar`    | Author date, relative
+| `%cn`    | Committer name
+| `%ce`    | Committer email
+| `%cd`    | Committer date
+| `%cr`    | Committer date, relative
+| `%s`     | Subject
+|================================</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T211954Z" creationid="Prikryl" creationdate="20151102T151601Z">
+        <seg>[[pretty_format]]
+.Užitečné volby pro `git log --pretty=format`
+[cols="1,4",options="header"]
+|================================
+| Parametr | Popis výstupu
+| %H       | Otisk revize (*H* jako hash)
+| %h       | Zkrácený otisk revize
+| %T       | Otisk stromu (*T* jako tree)
+| %t       | Zkrácený otisk stromu
+| %P       | Otisky rodičovských revizí (*P* jako parent)
+| %p       | Zkrácené otisky rodičovských revizí
+| %an      | Jméno autora (**a**uthor **n**ame)
+| %ae      | E-mail autora (**a**uthor **e**-mail)
+| %ad      | Datum autora (formát respektuje --date=volba)
+| %ar      | Datum autora, relativní
+| %cn      | Jméno autora revize (**c**ommitter **n**ame)
+| %ce      | E-mail autora revize (**c**ommitter **e**-mail)
+| %cd      | Datum autora revize (**c**ommitter **d**ate)
+| %cr      | Datum autora revize, relativní
+| %s       | Předmět (**s**ubject)
+|================================</seg>
       </tuv>
     </tu>
     <tu>
@@ -14703,6 +15123,160 @@ $ git init
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git log
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144723Z" creationid="Prikryl" creationdate="20151102T144723Z">
+        <seg>[source,console]
+----
+$ git log
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log --pretty="%h - %s" --author=gitster --since="2008-10-01" \</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T213941Z" creationid="Prikryl" creationdate="20151104T213941Z">
+        <seg>[source,console]
+----
+$ git log --pretty="%h - %s" --author=gitster --since="2008-10-01" \</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log --pretty=format:"%h %s" --graph
+* 2d3acf9 ignore errors from SIGCHLD on trap
+*  5e3ee11 Merge branch 'master' of git://github.com/dustin/grit
+|\
+| * 420eac9 Added a method for getting the current branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T213230Z" creationid="Prikryl" creationdate="20151102T213230Z">
+        <seg>[source,console]
+----
+$ git log --pretty=format:"%h %s" --graph
+* 2d3acf9 ignore errors from SIGCHLD on trap
+*  5e3ee11 Merge branch 'master' of git://github.com/dustin/grit
+|\
+| * 420eac9 Added a method for getting the current branch.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log --pretty=format:"%h - %an, %ar : %s"
+ca82a6d - Scott Chacon, 6 years ago : changed the version number
+085bb3b - Scott Chacon, 6 years ago : removed unnecessary test
+a11bef0 - Scott Chacon, 6 years ago : first commit
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T150155Z" creationid="Prikryl" creationdate="20151102T150155Z">
+        <seg>[source,console]
+----
+$ git log --pretty=format:"%h - %an, %ar : %s"
+ca82a6d - Scott Chacon, 6 years ago : changed the version number
+085bb3b - Scott Chacon, 6 years ago : removed unnecessary test
+a11bef0 - Scott Chacon, 6 years ago : first commit
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log --pretty=oneline
+ca82a6dff817ec66f44342007202690a93763949 changed the version number
+085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7 removed unnecessary test
+a11bef06a3f659402fe7563abf99ad00de2209e6 first commit
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145952Z" creationid="Prikryl" creationdate="20151102T145952Z">
+        <seg>[source,console]
+----
+$ git log --pretty=oneline
+ca82a6dff817ec66f44342007202690a93763949 changed the version number
+085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7 removed unnecessary test
+a11bef06a3f659402fe7563abf99ad00de2209e6 first commit
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log --since=2.weeks
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151103T200216Z" creationid="Prikryl" creationdate="20151103T200216Z">
+        <seg>[source,console]
+----
+$ git log --since=2.weeks
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log --stat
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145519Z" creationid="Prikryl" creationdate="20151102T145519Z">
+        <seg>[source,console]
+----
+$ git log --stat
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log -Sfunction_name
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T212510Z" creationid="Prikryl" creationdate="20151104T212510Z">
+        <seg>[source,console]
+----
+$ git log -Sfunction_name
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log -p -2
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145248Z" creationid="Prikryl" creationdate="20151102T145248Z">
+        <seg>[source,console]
+----
+$ git log -p -2
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git mv README.md README
 $ git status
 On branch master
@@ -14957,6 +15531,20 @@ Changes to be committed:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[source,console]
+----
+git clone https://github.com/schacon/simplegit-progit
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144631Z" creationid="Prikryl" creationdate="20151102T144631Z">
+        <seg>[source,console]
+----
+git clone https://github.com/schacon/simplegit-progit
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[source]
 ----</seg>
       </tuv>
@@ -15147,6 +15735,30 @@ Changes to be committed:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Sat Mar 15 16:40:33 2008 -0700</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144730Z" creationid="Prikryl" creationdate="20151102T144730Z">
+        <seg>commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Sat Mar 15 16:40:33 2008 -0700</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>commit a11bef06a3f659402fe7563abf99ad00de2209e6
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Sat Mar 15 10:31:28 2008 -0700</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144736Z" creationid="Prikryl" creationdate="20151102T144736Z">
+        <seg>commit a11bef06a3f659402fe7563abf99ad00de2209e6
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Sat Mar 15 10:31:28 2008 -0700</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>create mode 100644 README
 ----</seg>
       </tuv>
@@ -15183,6 +15795,38 @@ Changes to be committed:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>diff --git a/Rakefile b/Rakefile
+index a874b73..8f94139 100644
+--- a/Rakefile
++++ b/Rakefile
+@@ -5,7 +5,7 @@ require 'rake/gempackagetask'</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145254Z" creationid="Prikryl" creationdate="20151102T145254Z">
+        <seg>diff --git a/Rakefile b/Rakefile
+index a874b73..8f94139 100644
+--- a/Rakefile
++++ b/Rakefile
+@@ -5,7 +5,7 @@ require 'rake/gempackagetask'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>diff --git a/lib/simplegit.rb b/lib/simplegit.rb
+index a0a60ae..47c6340 100644
+--- a/lib/simplegit.rb
++++ b/lib/simplegit.rb
+@@ -18,8 +18,3 @@ class SimpleGit</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145312Z" creationid="Prikryl" creationdate="20151102T145312Z">
+        <seg>diff --git a/lib/simplegit.rb b/lib/simplegit.rb
+index a0a60ae..47c6340 100644
+--- a/lib/simplegit.rb
++++ b/lib/simplegit.rb
+@@ -18,8 +18,3 @@ class SimpleGit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>else</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151024T091409Z" creationid="Prikryl" creationdate="20151024T091409Z">
@@ -15191,10 +15835,50 @@ Changes to be committed:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>end</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145314Z" creationid="Prikryl" creationdate="20151102T145314Z">
+        <seg>end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>end
+-
+-if $0 == __FILE__
+-  git = SimpleGit.new
+-  puts git.show
+-end
+\ No newline at end of file
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145317Z" creationid="Prikryl" creationdate="20151102T145317Z">
+        <seg>end
+-
+-if $0 == __FILE__
+-  git = SimpleGit.new
+-  puts git.show
+-end
+\ No newline at end of file
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>first commit</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151022T205808Z" creationid="Prikryl" creationdate="20151022T205808Z">
         <seg>first commit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>first commit
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144738Z" creationid="Prikryl" creationdate="20151102T144738Z">
+        <seg>first commit
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -15545,6 +16229,22 @@ Changes to be committed:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>lib/simplegit.rb | 25 +++++++++++++++++++++++++</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145550Z" creationid="Prikryl" creationdate="20151102T145550Z">
+        <seg>lib/simplegit.rb | 25 +++++++++++++++++++++++++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>lib/simplegit.rb | 5 -----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145538Z" creationid="Prikryl" creationdate="20151102T145538Z">
+        <seg>lib/simplegit.rb | 5 -----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>libz-dev libssl-dev</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T001708Z" creationid="Prikryl" creationdate="20151028T001708Z">
@@ -15687,12 +16387,64 @@ Unpacking objects: 100% (43/43), done.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>removed unnecessary test</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144734Z" creationid="Prikryl" creationdate="20151102T144734Z">
+        <seg>removed unnecessary test</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>renamed:    README.md -&gt; README
 ----</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T231332Z" creationid="Prikryl" creationdate="20151031T231332Z">
         <seg>renamed:    README.md -&gt; README
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>s.author    =   "Scott Chacon"</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145301Z" creationid="Prikryl" creationdate="20151102T145301Z">
+        <seg>s.author    =   "Scott Chacon"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>s.email     =   "schacon@gee-mail.com"</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145303Z" creationid="Prikryl" creationdate="20151102T145303Z">
+        <seg>s.email     =   "schacon@gee-mail.com"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>s.name      =   "simplegit"
+-    s.version   =   "0.1.0"
++    s.version   =   "0.1.1"</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145300Z" creationid="Prikryl" creationdate="20151102T145300Z">
+        <seg>s.name      =   "simplegit"
+-    s.version   =   "0.1.0"
++    s.version   =   "0.1.1"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>s.platform  =   Gem::Platform::RUBY</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145258Z" creationid="Prikryl" creationdate="20151102T145258Z">
+        <seg>s.platform  =   Gem::Platform::RUBY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>s.summary   =   "A simple gem for using Git in Ruby code."</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145306Z" creationid="Prikryl" creationdate="20151102T145306Z">
+        <seg>s.summary   =   "A simple gem for using Git in Ruby code."</seg>
       </tuv>
     </tu>
     <tu>
@@ -15717,6 +16469,14 @@ Unpacking objects: 100% (43/43), done.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T221358Z" creationid="Prikryl" creationdate="20151023T221358Z">
         <seg>seeing if this helps the gem</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>spec = Gem::Specification.new do |s|</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145256Z" creationid="Prikryl" creationdate="20151102T145256Z">
+        <seg>spec = Gem::Specification.new do |s|</seg>
       </tuv>
     </tu>
     <tu>
@@ -15807,6 +16567,114 @@ Unpacking objects: 100% (43/43), done.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T152045Z" creationid="Prikryl" creationdate="20151026T152045Z">
         <seg>{{ toc }}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--abbrev-commit` | Show only the first few characters of the SHA-1 checksum instead of all 40.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T214830Z" creationid="Prikryl" creationdate="20151102T214830Z">
+        <seg>| `--abbrev-commit` | Zobrazí jen několik prvních znaků kontrolního součtu SHA-1 místo všech 40.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--author`            | Only show commits in which the author entry matches the specified string.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T213503Z" creationid="Prikryl" creationdate="20151104T213255Z">
+        <seg>| `--author`            | Zobrazí pouze revize, u kterých autor příspěvku odpovídá zadanému řetězci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--committer`         | Only show commits in which the committer entry matches the specified string.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T213523Z" creationid="Prikryl" creationdate="20151104T213357Z">
+        <seg>| `--committer`         | Zobrací pouze revize, u kterých autor revize odpovídá zadanému řetězci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--graph`         | Display an ASCII graph of the branch and merge history beside the log output.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T224005Z" creationid="Prikryl" creationdate="20151102T224005Z">
+        <seg>| `--graph`         | Zobrazí vedle výstupu logu ASCII graf větve a historii slučování.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--grep`              | Only show commits with a commit message containing the string
+| `-S`                  | Only show commits adding or removing code matching the string
+|================================</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T213633Z" creationid="Prikryl" creationdate="20151104T213633Z">
+        <seg>| `--grep`              | Zobrazí pouze revize, které ve zprávě k revizi obsahují zadaný řetězec.
+| `-S`                  | Zobrazí pouze revize, které přidaly nebo odebraly kód se zadaným řetězcem.
+|================================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--name-only`     | Show the list of files modified after the commit information.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T214715Z" creationid="Prikryl" creationdate="20151102T214715Z">
+        <seg>| `--name-only`     | Za informacemi o revizi zobrazí seznam změněných souborů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--name-status`   | Show the list of files affected with added/modified/deleted information as well.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T214742Z" creationid="Prikryl" creationdate="20151102T214742Z">
+        <seg>| `--name-status`   | Zobrazí seznam dotčených souborů spolu s informací přidáno/změněno/smazáno.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--pretty`        | Show commits in an alternate format.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T224044Z" creationid="Prikryl" creationdate="20151102T224044Z">
+        <seg>| `--pretty`        | Zobrazí revize v alternativním formátu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--relative-date` | Display the date in a relative format (for example, ``2 weeks ago'') instead of using the full date format.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T223907Z" creationid="Prikryl" creationdate="20151102T223907Z">
+        <seg>| `--relative-date` | Zobrazí datum v relativním formátu (např. „2 weeks ago“, tj. před 2 týdny) místo data v úplném tvaru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--shortstat`     | Display only the changed/insertions/deletions line from the --stat command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T214627Z" creationid="Prikryl" creationdate="20151102T214627Z">
+        <seg>| `--shortstat`     | Zobrazí pouze řádek změněno/vloženo/smazáno z příkazu `--stat`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--stat`          | Show statistics for files modified in each commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T214456Z" creationid="Prikryl" creationdate="20151102T214456Z">
+        <seg>| `--stat`          | Zobrazí statistiku pro změněné soubory v každé revizi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>| `--until`, `--before` | Limit the commits to those made before the specified date.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151104T213211Z" creationid="Prikryl" creationdate="20151104T213211Z">
+        <seg>| `--until`, `--before` | Omezí výpis na revize zapsané před zadaným datem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>|================================</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T224132Z" creationid="Prikryl" creationdate="20151102T224132Z">
+        <seg>|================================</seg>
       </tuv>
     </tu>
     <tu>

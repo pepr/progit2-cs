@@ -4861,8 +4861,8 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       <tuv lang="EN">
         <seg>If you and someone else clone at the same time and they push upstream and then you push upstream, your push will rightly be rejected.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud spolu s vámi provádí současně klonování ještě někdo další a ten poté svou práci odešle na referenční server (upstream), vaše později odesílaná práce bude oprávněně odmítnuta.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T102601Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud ve stejnou dobu obsah naklonuje ještě někdo jiný a svou práci odešle na společný server (upstream), vaše později odesílaná práce bude oprávněně odmítnuta.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9389,6 +9389,16 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The command for this is simple: `git push [remote-name] [branch-name]`.(((git commands, push)))
+If you want to push your master branch to your `origin` server (again, cloning generally sets up both of those names for you automatically), then you can run this to push any commits you've done back up to the server:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T100910Z" creationid="Prikryl" creationdate="20151107T100350Z">
+        <seg>Příslušný příkaz je jednoduchý: `git push [jméno-vzdáleného-serveru] [jméno-větve]`.(((git příkazy, push)))
+Pokud chcete na server `origin` odeslat svou větev `master` (znovu připomeňme, že při klonování se vám obě tato jména nastaví automaticky), pak následující příkaz odešle na server všechny vaše revize (commits):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The command goes out to that remote project and pulls down all the data from that remote project that you don't have yet.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151101T170848Z" creationid="Prikryl" creationdate="20151101T170848Z">
@@ -10975,8 +10985,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>This command works only if you cloned from a server to which you have write access and if nobody has pushed in the meantime.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tento příkaz bude funkční, pouze pokud jste klonovali ze serveru, k němuž máte oprávnění pro zápis, a pokud sem od vašeho klonování nikdo neposílal svou práci.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T101037Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tento příkaz bude funkční, pouze pokud jste klonovali ze serveru, k němuž máte oprávnění pro zápis, a pokud tam mezi tím nikdo nic neodeslal.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12783,8 +12793,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>When you have your project at a point that you want to share, you have to push it upstream.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud se váš projekt nachází ve stavu, kdy ho chcete sdílet s ostatními, můžete ho odeslat (push) na referenční server (upstream).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T110717Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud se váš projekt nachází ve stavu, kdy ho chcete sdílet s ostatními, můžete ho odeslat (push) na referenční server (upstream footnote:[Pozn. překl.: Pojem _upstream_ se používá pro vzdálený server umístěný doslova _výše proti proudu_ -- z logického pohledu. Podle konvence se často `upstream` používá i pro pojmenování takového vzdáleného serveru. Typicky jde o server, který slouží ke sdílení výsledků projektu, který se považuje v jistém smyslu za referenční -- z něj to _teče dolů po proudu_ k ostatním. Je možné, že se s tímto pojmem poprvé setkáte v okamžiku, kdy začnete používat GitHub a provedete takzvaný _Fork_ jiného projektu. V nápovědě přímo najdete příkazy, ve který se slovo _upstream_ vyskytuje -- https://help.github.com/articles/fork-a-repo/[GitHub Help: Fork a Repo]. V této souvislosti chápejte pojmy _vzdálený server_ a _vzdálený repozitář_ jako shodné. Repozitář označovaný pojmem _upstream_ je ten, ze kterého jste na GitHub provedli _fork_.]).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14449,6 +14459,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You'll have to pull down their work first and incorporate it into yours before you'll be allowed to push.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T111207Z" creationid="Prikryl" creationdate="20151107T111146Z">
+        <seg>Nejdříve musíte jeho práci stáhnout (pull), zahrnout ji do vaší a teprve potom budete moci vše odeslat (push).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You've seen one such option already – the `-2` option, which show only the last two commits.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151103T195604Z" creationid="Prikryl" creationdate="20151103T195604Z">
@@ -14825,6 +14843,16 @@ Vim a Emacs jsou oblíbené textové editory používané v systémech odvozený
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T175240Z" creationid="Prikryl" creationdate="20151029T175240Z">
         <seg>[[_ignoring]]
 ==== Ignorované soubory</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_pushing_remotes]]
+==== Pushing to Your Remotes</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T100112Z" creationid="Prikryl" creationdate="20151107T100112Z">
+        <seg>[[_pushing_remotes]]
+==== Odesílání do vzdálených repozitářů</seg>
       </tuv>
     </tu>
     <tu>
@@ -15704,6 +15732,20 @@ $ git mv file_from file_to
         <seg>[source,console]
 ----
 $ git mv file_from file_to
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git push origin master
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T100919Z" creationid="Prikryl" creationdate="20151107T100919Z">
+        <seg>[source,console]
+----
+$ git push origin master
 ----</seg>
       </tuv>
     </tu>

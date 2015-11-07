@@ -17,11 +17,11 @@
       "1-git-basics.asc": 100,
       "sections/aliases.asc": 0,
       "sections/getting-a-repository.asc": 100,
-      "sections/recording-changes.asc": 0,
-      "sections/remotes.asc": 0,
+      "sections/recording-changes.asc": 100,
+      "sections/remotes.asc": 50,
       "sections/tagging.asc": 0,
-      "sections/undoing.asc": 0,
-      "sections/viewing-history.asc": 0
+      "sections/undoing.asc": 100,
+      "sections/viewing-history.asc": 100
     },
     "03-git-branching": {
       "1-git-branching.asc": 0,

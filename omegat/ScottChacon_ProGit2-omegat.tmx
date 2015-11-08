@@ -225,6 +225,28 @@ Nějakou formu větvení podporují téměř všechny systémy pro správu verz�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((branches, creating)))
+What happens if you create a new branch?</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T150840Z" creationid="Prikryl" creationdate="20151108T150840Z">
+        <seg>(((větve, vytváření)))
+Co se stane, když vytvoříte novou větev?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((branches, switching)))
+To switch to an existing branch, you run the `git checkout` command.(((git commands, checkout)))
+Let's switch to the new `testing` branch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164020Z" creationid="Prikryl" creationdate="20151108T164020Z">
+        <seg>(((větve, přepínání)))
+Chcete-li přepnout na existující větev, spusťte příkaz `git checkout`.(((git příkazy, checkout)))
+Přepněme se na novou větev `testing`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((files, moving)))
 Unlike many other VCS systems, Git doesn't explicitly track file movement.</seg>
       </tuv>
@@ -590,10 +612,40 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.A branch and its commit history
+image::images/branch-and-history.png[A branch and its commit history.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T150749Z" creationid="Prikryl" creationdate="20151108T150749Z">
+        <seg>.Větev a historie jejích objektů revize
+image::images/branch-and-history.png[Větev a historie jejích objektů revize.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.A commit and its tree
+image::images/commit-and-tree.png[A commit and its tree.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T145602Z" creationid="Prikryl" creationdate="20151108T145602Z">
+        <seg>.Objekt revize a jeho strom
+image::images/commit-and-tree.png[Objekt revize a jeho strom.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Centralized version control.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T184338Z" creationid="Prikryl" creationdate="20151026T184338Z">
         <seg>.Centralizovaná správa verzí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Commits and their parents
+image::images/commits-and-parents.png[Commits and their parents.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T145732Z" creationid="Prikryl" creationdate="20151108T145732Z">
+        <seg>.Objekty revize a jejich rodiče
+image::images/commits-and-parents.png[Objekty revize a jejich rodiče.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -610,6 +662,36 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T215009Z" creationid="Prikryl" creationdate="20151027T215009Z">
         <seg>.Instalátor Gitu pro OS X.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.HEAD moves when you checkout
+image::images/checkout-master.png[HEAD moves when you checkout.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164821Z" creationid="Prikryl" creationdate="20151108T164821Z">
+        <seg>.Při checkout se HEAD přesune
+image::images/checkout-master.png[Při checkout se HEAD přesune.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.HEAD pointing to a branch
+image::images/head-to-master.png[HEAD pointing to a branch.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T163230Z" creationid="Prikryl" creationdate="20151108T163230Z">
+        <seg>.HEAD ukazující na větev
+image::images/head-to-master.png[HEAD ukazující na větev.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.HEAD points to the current branch
+image::images/head-to-testing.png[HEAD points to the current branch.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164229Z" creationid="Prikryl" creationdate="20151108T164229Z">
+        <seg>.HEAD ukazuje na aktuální větev
+image::images/head-to-testing.png[HEAD ukazuje na aktuální větev.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -638,10 +720,30 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.The HEAD branch moves forward when a commit is made
+image::images/advance-testing.png[The HEAD branch moves forward when a commit is made.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164431Z" creationid="Prikryl" creationdate="20151108T164431Z">
+        <seg>.Větev HEAD se při zápisu revize posune vpřed
+image::images/advance-testing.png[Větev HEAD se při zápisu revize posune vpřed.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.The lifecycle of the status of your files.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T105838Z" creationid="Prikryl" creationdate="20151029T105838Z">
         <seg>.Cyklus stavů vašich souborů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Two branches pointing into the same series of commits
+image::images/two-branches.png[Two branches pointing into the same series of commits.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T151212Z" creationid="Prikryl" creationdate="20151108T151212Z">
+        <seg>.Dvě větve ukazují na stejnou sérii objektů revize
+image::images/two-branches.png[Dvě větve ukazují na stejnou sérii objektů revize.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -1732,8 +1834,8 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
       <tuv lang="EN">
         <seg>A branch in Git is simply a lightweight movable pointer to one of these commits.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Větev je v systému Git jen snadno přemístitelným ukazatelem na jednu z těchto revizí.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T145824Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Větev je v Gitu jen snadno přemístitelným ukazatelem na jeden z těchto objektů revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2098,6 +2200,14 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Also, because we're recording the parents when we commit, finding a proper merge base for merging is automatically done for us and is generally very easy to do.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T172958Z" creationid="Prikryl" creationdate="20151108T172958Z">
+        <seg>A protože při zapisování revize zaznamenáváme i její rodiče, probíhá automaticky i vyhledání správných zdrojů pro slučování, které se pak většinou dělá velmi snadno.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Also, if you include instructions in the tag message, running `git show &lt;tag&gt;` will let you give the end user more specific instructions about tag verification.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -2232,6 +2342,14 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pomocí těchto dat lze rovněž specifikovat starší revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>And you did all that with simple `branch`, `checkout`, and `commit` commands.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T170508Z" creationid="Prikryl" creationdate="20151108T170508Z">
+        <seg>To vše jste provedli pomocí jednoduchých příkazů `branch`, `checkout` a `commit`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2468,10 +2586,26 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>As you may remember from &lt;&lt;_getting_started&gt;&gt;, Git doesn't store data as a series of changesets or differences, but instead as a series of snapshots.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T135032Z" creationid="Prikryl" creationdate="20151108T135032Z">
+        <seg>Jak si možná vzpomínáte z kapitoly &lt;&lt;_getting_started&gt;&gt;, Git neukládá data jako sérii změn nebo rozdílů, ale jako sérii snímků.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>As you may remember, Git is fundamentally a linked list of commit objects that point to a snapshot of content.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jak si možná vzpomínáte, říkali jsme, že Git je v podstatě seznam odkazů na objekty revizí, které ukazují na určitý snímek obsahu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>As you start making commits, you're given a `master` branch that points to the last commit you made.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T150203Z" creationid="Prikryl" creationdate="20151108T150203Z">
+        <seg>Když vytváříte objekt revize, máte k dispozici větev `master`, která ukazuje na váš minulý objekt revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2678,8 +2812,8 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
       <tuv lang="EN">
         <seg>Because a branch in Git is in actuality a simple file that contains the 40 character SHA-1 checksum of the commit it points to, branches are cheap to create and destroy.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vzhledem k tomu, že větev v systému Git tvoří jeden jednoduchý soubor, obsahující 40 znaků kontrolního součtu SHA-1 revize, na niž ukazuje, je snadné větve vytvářet i odstraňovat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T171908Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>A protože větev je v Gitu ve skutečnosti obyčejným souborem, který obsahuje 40 znaků kontrolního součtu SHA-1 revize, na kterou větev ukazuje, dají se větve snadno vytvářet i odstraňovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2776,6 +2910,14 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Oba soubory jsou nyní připraveny k zapsání a budou zahrnuty do příští revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Both of those changes are isolated in separate branches: you can switch back and forth between the branches and merge them together when you're ready.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T170432Z" creationid="Prikryl" creationdate="20151108T170432Z">
+        <seg>Oboje tyto změny jsou oddělené na samostatných větvích. Můžete mezi nimi přepínat tam a zpět, a až uznáte za vhodné, můžete je sloučit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3008,8 +3150,8 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
       <tuv lang="EN">
         <seg>Creating a new branch is as quick and simple as writing 41 bytes to a file (40 characters and a newline).</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vytvořit novou větev je právě tak snadné a rychlé jako zapsat 41 bytů do souboru (40 znaků a jeden znak pro nový řádek).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T201846Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Vytvořit novou větev je právě tak snadné a rychlé jako zapsat 41 bytů do souboru (40 znaků plus jeden pro nový řádek).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4137,6 +4279,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Git then creates a commit object that has the metadata and a pointer to the root project tree so it can re-create that snapshot when needed.(((git commands, commit)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T145444Z" creationid="Prikryl" creationdate="20151108T143659Z">
+        <seg>Poté Git vytvoří objekt revize s metadaty a s ukazatelem na kořen stromu projektu, aby mohl v případě potřeby tento snímek obnovit.(((git příkazy, commit)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Git thinks about its data more like a *stream of snapshots*.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T083840Z" creationid="Prikryl" creationdate="20151027T083840Z">
@@ -4393,6 +4543,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>How does Git know what branch you're currently on?</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T151224Z" creationid="Prikryl" creationdate="20151108T151224Z">
+        <seg>Jak Git pozná, na jaké větvi se právě nacházíte?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>How is that possible?</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4605,6 +4763,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T145143Z" creationid="Prikryl" creationdate="20151026T145143Z">
         <seg>Mám radost z toho, že si kniha Pro Git vedla tak dobře a že se jako jedna z mála technických publikací na trhu stala poměrně úspěšnou a plně open source.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If Git cannot do it cleanly, it will not let you switch at all.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T170028Z" creationid="Prikryl" creationdate="20151108T170028Z">
+        <seg>Pokud by se to Gitu nemělo podařit čistě, nedovolí vám přepnout vůbec.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5242,8 +5408,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you make some changes and commit again, the next commit stores a pointer to the commit that came immediately before it.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jestliže v souborech provedete změny a zapíšete je, další revize uloží ukazatel na revizi, jež jí bezprostředně předcházela.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T145705Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jestliže v souborech provedete změny a zapíšete je, další objekt revize uloží ukazatel na bezprostředně přecházející objekt revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5408,6 +5574,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you run `git log --oneline --decorate --graph --all` it will print out the history of your commits, showing where your branch pointers are and how your history has diverged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T171610Z" creationid="Prikryl" creationdate="20151108T171610Z">
+        <seg>Když spustíte `git log --oneline --decorate --graph --all`, zobrazí se historie revizí, která ukazuje polohu ukazatelů na větve a jak se historie rozdělila.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you run `git log`, you can see that all the SHA-1 checksums for the commits have changed, but the `git-p4` strings are no longer in the commit messages:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5532,6 +5706,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jestliže odložíte část své práce, necháte ji určitou dobu v zásobníku a budete pokračovat ve větvi, z níž jste práci odložili, můžete mít problémy s opětovnou aplikací odkladu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you switch to an older branch, your working directory will be reverted to look like it did the last time you committed on that branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T165941Z" creationid="Prikryl" creationdate="20151108T165941Z">
+        <seg>Pokud se přepnete na starší větev, váš pracovní adresář bude změněn do podoby z doby, kdy jste v oné větvi zapsali poslední revizi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6060,6 +6242,14 @@ Pokud použijete tento příkaz v kombinaci s konkrétním zkráceným názvem (
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In Git, this is a pointer to the local branch you're currently on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T151648Z" creationid="Prikryl" creationdate="20151108T151648Z">
+        <seg>V Gitu se jedná o ukazatel na lokální větev, na níž se právě nacházíte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In Git, this is called _rebasing_.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6450,6 +6640,14 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In this case, you're still on `master`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T163037Z" creationid="Prikryl" creationdate="20151108T163037Z">
+        <seg>V tomto případě jsme stále na větvi `master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In this case, your development history has diverged from some older point.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6660,6 +6858,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It essentially rewinds the work you've done in your `testing` branch so you can go in a different direction.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T165420Z" creationid="Prikryl" creationdate="20151108T165420Z">
+        <seg>V podstatě vrátíte změny, které jste provedli ve větvi `testing`, takže se můžete vydat jiným směrem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It has paused the process while you resolve the conflict.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6680,6 +6886,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T095336Z" creationid="Prikryl" creationdate="20151027T095336Z">
         <seg>Přimět systém, aby udělal něco, co nelze vzít zpět, nebo aby smazal jakákoli data, je velice obtížné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It keeps a special pointer called `HEAD`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T151257Z" creationid="Prikryl" creationdate="20151108T151244Z">
+        <seg>Používá speciální ukazatel zvaný `HEAD`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6768,8 +6982,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>It moved the HEAD pointer back to point to the `master` branch, and it reverted the files in your working directory back to the snapshot that `master` points to.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Přemístil ukazatel `HEAD` zpět, takže nyní ukazuje na větev `master`, a vrátil soubory ve vašem pracovním adresáři zpět ke snímku, na nějž větev `master` ukazuje.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164932Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Přemístil ukazatel `HEAD` zpět, takže nyní ukazuje na větev `master`, a vrátil soubory ve vašem pracovním adresáři zpět ke snímku, na který ukazuje větev `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7200,6 +7414,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Let's make a few changes and commit again:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T170042Z" creationid="Prikryl" creationdate="20151108T170042Z">
+        <seg>Proveďme pár změn a zapišme další revizi:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Let's say you add a new file to your project, a simple README file.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T110803Z" creationid="Prikryl" creationdate="20151029T110803Z">
@@ -7208,10 +7430,34 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Let's say you create a new branch called testing.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T150950Z" creationid="Prikryl" creationdate="20151108T150950Z">
+        <seg>Řekněme, že vytvoříte novou větev a nazvete ji testing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Let's say you edit and stage the `README` file again and then edit the `CONTRIBUTING.md` file without staging it.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151030T091441Z" creationid="Prikryl" creationdate="20151030T091441Z">
         <seg>Řekněme, že znovu upravíte a připravíte soubor `README` a poté upravíte soubor `CONTRIBUTING.md`, ale nepřipravíte jej k zápisu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Let's see why you should do so.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T173457Z" creationid="Prikryl" creationdate="20151108T173457Z">
+        <seg>Podívejme se, proč byste to měli dělat také tak.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Let's switch back to the `master` branch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164729Z" creationid="Prikryl" creationdate="20151108T164729Z">
+        <seg>Přepněme zpět na větev `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7554,6 +7800,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Note that this is a lot different than the concept of `HEAD` in other VCSs you may be used to, such as Subversion or CVS.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T151620Z" creationid="Prikryl" creationdate="20151108T151620Z">
+        <seg>Poznamenejme, že tento koncept `HEAD` se velmi liší od těch, na které můžete být zvyklí z jiných systémů pro správu verzí, jako jsou Subversion nebo CVS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Note that this is a project called Git for Windows, which is separate from Git itself; for more information on it, go to https://git-for-windows.github.io/[].</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T115453Z" creationid="Prikryl" creationdate="20151107T115453Z">
@@ -7838,6 +8092,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Vaším nový kořenovým adresářem je nyní obsah podadresáře `trunk`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now your project history has diverged (see &lt;&lt;divergent_history&gt;&gt;).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T170128Z" creationid="Prikryl" creationdate="20151108T170128Z">
+        <seg>Nyní se historie vašeho projektu rozdělila (viz obrázek &lt;&lt;divergent_history&gt;&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8886,6 +9148,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Staging the files checksums each one (the SHA-1 hash we mentioned in &lt;&lt;_getting_started&gt;&gt;), stores that version of the file in the Git repository (Git refers to them as blobs), and adds that checksum to the staging area:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T174604Z" creationid="Prikryl" creationdate="20151108T143203Z">
+        <seg>Při přípravě souborů k zapsání je pro každý z nich vypočítán kontrolní součet (o otisku SHA-1 jsme se zmínili v kapitole &lt;&lt;_getting_started&gt;&gt;), daná verze souborů se uloží v repozitáři Gitu (Git jim říká bloby footnote:[Pozn. překl.: Z anglického Binary Large OBject, čili _velký binární objekt_.]) a přidá jejich kontrolní součet do oblasti připravených změn:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Start with the first tree you wrote:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9040,8 +9310,8 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="EN">
         <seg>That command did two things.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tento příkaz provedl dvě věci.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164832Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Příkaz provedl dvě věci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9376,6 +9646,14 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The `git branch` command only _created_ a new branch – it didn't switch to that branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T163204Z" creationid="Prikryl" creationdate="20151108T163204Z">
+        <seg>Příkaz `git branch` pouze _vytvořil_ novou větev -- nepřepnul do ní.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The `git rm` command does that, and also removes the file from your working directory so you don't see it as an untracked file the next time around.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T224402Z" creationid="Prikryl" creationdate="20151031T224402Z">
@@ -9630,6 +9908,14 @@ Pokud chcete na server `origin` odeslat svou větev `master` (znovu připomeňme
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Přispěvatel odešle změny do své vlastní veřejné kopie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The default branch name in Git is `master`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T145902Z" creationid="Prikryl" creationdate="20151108T145902Z">
+        <seg>Výchozím názvem větve v Gitu je `master` (hlavní větev).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10164,6 +10450,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T231701Z" creationid="Prikryl" creationdate="20151031T231701Z">
         <seg>Jediným skutečným rozdílem je, že `mv` je jediný příkaz, zatímco u druhého způsobu potřebujete příkazy tři -- jde jen o funkci pro zjednodušení práce.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The only reason nearly every repository has one is that the `git init` command creates it by default and most people don't bother to change it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T150658Z" creationid="Prikryl" creationdate="20151108T150658Z">
+        <seg>Jediným důvodem, proč ji najdete skoro v každém repozitáři, je to, že ji standardně vytváří příkaz `git init` a většina lidí se nezatěžuje tím, že by to změnili.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10772,8 +11066,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>These features help encourage developers to create and use branches often.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tyto funkce slouží k tomu, aby se vývojáři nebáli vytvářet a používat nové větve.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T173424Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tyto vlastnosti pomáhají k tomu, aby se vývojáři nebáli větve často vytvářet a používat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10916,8 +11210,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>This also means the changes you make from this point forward will diverge from an older version of the project.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>To také znamená, že změny, které od teď provedete, se odštěpí od starší verze projektu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T165152Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>To také znamená, že změny, které od tohoto okamžiku provedete, vedou k odklonu od starší verze projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10988,8 +11282,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>This can take several seconds or even minutes, depending on the size of the project, whereas in Git the process is always instantaneous.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>To může zabrat – podle velikosti projektu – několik sekund i minut, zatímco v systému Git probíhá tento proces vždy okamžitě.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T201917Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>To může zabrat několik sekund nebo dokonce minut -- v závislosti na velikosti projektu --{empty}, zatímco v Gitu tento proces proběhne vždy okamžitě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11166,6 +11460,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T114258Z" creationid="Prikryl" creationdate="20151107T114258Z">
         <seg>Tento soubor můžete upravovat jen pokud jste správce a to příkazem `git config -f &lt;soubor&gt;`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This creates a new pointer at the same commit you're currently on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T151126Z" creationid="Prikryl" creationdate="20151108T151126Z">
+        <seg>Vytvoří se tím nový ukazatel na stejný objekt revize, na kterém se momentálně nacházíte.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11446,6 +11748,22 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>To je důležité zejména z toho hlediska, že s rostoucím počtem vývojářů se také zvětšují starosti s tím, aby byl kód aplikován čistě a aby ho bylo možné snadno začlenit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is in sharp contrast to the way most older VCS tools branch, which involves copying all of the project's files into a second directory.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T172256Z" creationid="Prikryl" creationdate="20151108T172256Z">
+        <seg>Ostře to kontrastuje se způsobem větvení ve většině starších systémů pro správu verzí, který zahrnoval kopírování všech souborů projektu do druhého adresáře.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is interesting, because now your `testing` branch has moved forward, but your `master` branch still points to the commit you were on when you ran `git checkout` to switch branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164653Z" creationid="Prikryl" creationdate="20151108T164653Z">
+        <seg>Výsledek je zajímavý z toho důvodu, že se větev `testing` posunula vpřed, zatímco větev `master` stále ukazuje na revizi, na níž jste se nacházeli před přepnutím větví příkazem `git checkout`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11794,6 +12112,22 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This moves `HEAD` to point to the `testing` branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164158Z" creationid="Prikryl" creationdate="20151108T164158Z">
+        <seg>Tím se `HEAD` se přesune a ukazuje na větev `testing`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This object also contains the author's name and email, the message that you typed, and pointers to the commit or commits that directly came before this commit (its parent or parents): zero parents for the initial commit, one parent for a normal commit, and multiple parents for a commit that results from a merge of two or more branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T174230Z" creationid="Prikryl" creationdate="20151108T142915Z">
+        <seg>Tento objekt obsahuje také jméno a e-mail autora, zprávu, kterou jste napsali, a odkazy na jednu nebo víc objektů revize, které této revizi přímo předcházely (jeho rodiče): na žádného rodiče pro počáteční revizi, na jednoho rodiče pro běžnou revizi a na více rodičů pro revizi, která je výsledkem sloučení dvou nebo více větví.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This object type is called a blob.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -11830,6 +12164,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T145425Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Zmíněný parametr zobrazí stejné informace, ale za každým záznamem následuje informace o rozdílech.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This option is called `--decorate`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T163522Z" creationid="Prikryl" creationdate="20151108T163522Z">
+        <seg>Potrebná volba se jmenuje `--decorate`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12378,8 +12720,8 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       <tuv lang="EN">
         <seg>To really understand the way Git does branching, we need to take a step back and examine how Git stores its data.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Abychom skutečně pochopili, jak funguje v systému Git větvení, budeme se muset vrátit o krok zpět a podívat se, jak Git ukládá data.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T134946Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Abychom skutečně pochopili, jak v Gitu funguje větvení, musíme poodstoupit a podívat se, jak Git ukládá data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12590,6 +12932,14 @@ Zobrazí se seznam krátkých jmen, která jste si pro vzdálené repozitáře n
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Chcete-li ověřit podepsanou značku, použijte příkaz `git tag -v [název značky]`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To visualize this, let's assume that you have a directory containing three files, and you stage them all and commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T142946Z" creationid="Prikryl" creationdate="20151108T142946Z">
+        <seg>Pro ilustraci předpokládejme, že máte adresář s třemi soubory, které připravíte k zapsání a následně zapíšete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12826,8 +13176,16 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>Well, doing so creates a new pointer for you to move around.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Ano, nová větev znamená vytvoření nového ukazatele, s nímž můžete pohybovat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T150929Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Znamená to vytvoření nového ukazatele, s nímž můžete pohybovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Well, let's do another commit:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164325Z" creationid="Prikryl" creationdate="20151108T164325Z">
+        <seg>Dobře, zapišme další revizi:</seg>
       </tuv>
     </tu>
     <tu>
@@ -12850,8 +13208,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>What is the significance of that?</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>A jaký to má smysl?</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164246Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>A jaký to má význam?</seg>
       </tuv>
     </tu>
     <tu>
@@ -12952,6 +13310,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>When you create the commit by running `git commit`, Git checksums each subdirectory (in this case, just the root project directory) and stores those tree objects in the Git repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T174729Z" creationid="Prikryl" creationdate="20151108T143524Z">
+        <seg>Když vytváříte revizi příkazem `git commit`, vypočítá Git kontrolní součet každého podadresáře (v tomto případě pouze kořenového adresáře projektu) a uloží tyto objekty stromu (tree) do repozitáře Gitu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>When you design these filters, they should be able to fail gracefully and have the project still work properly.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -13004,6 +13370,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T110717Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud se váš projekt nachází ve stavu, kdy ho chcete sdílet s ostatními, můžete ho odeslat (push) na referenční server (upstream footnote:[Pozn. překl.: Pojem _upstream_ se používá pro vzdálený server umístěný doslova _výše proti proudu_ -- z logického pohledu. Podle konvence se často `upstream` používá i pro pojmenování takového vzdáleného serveru. Typicky jde o server, který slouží ke sdílení výsledků projektu, který se považuje v jistém smyslu za referenční -- z něj to _teče dolů po proudu_ k ostatním. Je možné, že se s tímto pojmem poprvé setkáte v okamžiku, kdy začnete používat GitHub a provedete takzvaný _Fork_ jiného projektu. V nápovědě přímo najdete příkazy, ve který se slovo _upstream_ vyskytuje -- https://help.github.com/articles/fork-a-repo/[GitHub Help: Fork a Repo]. V této souvislosti chápejte pojmy _vzdálený server_ a _vzdálený repozitář_ jako shodné. Repozitář označovaný pojmem _upstream_ je ten, ze kterého jste na GitHub provedli _fork_.]).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>When you make a commit, Git stores a commit object that contains a pointer to the snapshot of the content you staged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T135244Z" creationid="Prikryl" creationdate="20151108T135244Z">
+        <seg>Když zapíšete revizi, uloží Git objekt revize (commit object), který obsahuje odkaz na snímek obsahu, který jste připravili k zapsání.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13440,6 +13814,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can also see this easily with the `git log` command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T171421Z" creationid="Prikryl" creationdate="20151108T171421Z">
+        <seg>Můžete si to snadno zviditelnit příkazem `git log`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can also send the patches through an SMTP server.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -13660,6 +14042,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jasně vidíte, že se změnila jak velikost souboru, tak rozměry obrázku.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can easily see this by running a simple `git log` command that shows you where the branch pointers are pointing.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T163436Z" creationid="Prikryl" creationdate="20151108T163436Z">
+        <seg>Snadno to můžeme zviditelnit spuštěním příkazu `git log`, který vám ukáže, kam reference větví ukazují.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14008,6 +14398,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can see the ``master'' and ``testing'' branches that are right there next to the `f30ab` commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T163835Z" creationid="Prikryl" creationdate="20151108T163835Z">
+        <seg>Vedle otisku revize `f30ab` vidíte větve `master` a `testing`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can see the tag data along with the commit that was tagged by using the `git show` command:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T150442Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -14140,8 +14538,8 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       <tuv lang="EN">
         <seg>You created and switched to a branch, did some work on it, and then switched back to your main branch and did other work.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vytvořili jste novou větev, přepnuli jste na ni, provedli jste v ní změny a poté jste přepnuli zpět na hlavní větev, v níž jste rovněž provedli změny.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T170346Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Vytvořili jste novou větev, přepnuli se na ni, provedli změny a poté jste přepnuli zpět na hlavní větev, v níž jste provedli další změny.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14174,6 +14572,14 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Dosáhnete toho tím, že systému Git sdělíte, jak má konvertovat binární data do textového formátu, který lze zpracovávat běžným algoritmem pro zjišťování rozdílů (diff).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You do this with the `git branch` command:(((git commands, branch)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T151015Z" creationid="Prikryl" creationdate="20151108T151015Z">
+        <seg>Učiníte tak příkazem `git branch`:(((git commands, branch)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -14694,8 +15100,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>Your Git repository now contains five objects: one blob for the contents of each of your three files, one tree that lists the contents of the directory and specifies which file names are stored as which blobs, and one commit with the pointer to that root tree and all the commit metadata.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Váš gitovský repozitář nyní obsahuje pět objektů: jeden blob pro obsah každého ze tří vašich souborů, jeden strom, který zaznamenává obsah adresáře a udává, které názvy souborů jsou uloženy jako který blob, a jeden objekt revize s ukazatelem na kořenový strom a se všemi metadaty revize.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T143904Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Váš gitovský repozitář nyní obsahuje pět objektů: jeden blob pro obsah každého z vašich tří souborů, jeden strom, který zaznamenává obsah adresáře a udává, které názvy souborů jsou uloženy jako který blob, a jeden objekt revize s ukazatelem na kořenový objekt stromu a se všemi metadaty revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14887,6 +15293,34 @@ Ve zbytku knihy budeme příkaz `git diff` používat různými způsoby.</seg>
     <tu>
       <tuv lang="EN">
         <seg>[NOTE]
+.Switching branches changes files in your working directory
+====
+It's important to note that when you switch branches in Git, files in your working directory will change.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T165802Z" creationid="Prikryl" creationdate="20151108T165802Z">
+        <seg>[NOTE]
+.Přepnutí větví mění soubory ve vašem pracovním adresáři
+====
+Považuji za důležité poznamenat, že v Gitu se při přepnutí větví změní soubory ve vašem pracovním adresáři.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[NOTE]
+====
+The ``master'' branch in Git is not a special branch.(((master)))
+It is exactly like any other branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T150352Z" creationid="Prikryl" creationdate="20151108T150352Z">
+        <seg>[NOTE]
+====
+Větev „master“ se v Gitu nechápe jako speciální větev.(((master)))
+Je úplně stejná jako všechny ostatní.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[NOTE]
 ====
 This book was written using Git version *2.0.0*.</seg>
       </tuv>
@@ -14976,6 +15410,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_create_new_branch]]
+==== Creating a New Branch</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T150808Z" creationid="Prikryl" creationdate="20151108T150808Z">
+        <seg>[[_create_new_branch]]
+==== Vytvoření nové větve</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_fetching_and_pulling]]
 ==== Fetching and Pulling from Your Remotes</seg>
       </tuv>
@@ -15032,6 +15476,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T202435Z" creationid="Prikryl" creationdate="20151028T202435Z">
         <seg>[[_git_basics_chapter]]
 == Základy práce se systémem Git</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_git_branches_overview]]
+=== Branches in a Nutshell</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T134847Z" creationid="Prikryl" creationdate="20151108T134847Z">
+        <seg>[[_git_branches_overview]]
+=== Větve v kostce</seg>
       </tuv>
     </tu>
     <tu>
@@ -15156,6 +15610,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_switching_branches]]
+==== Switching Branches</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T163852Z" creationid="Prikryl" creationdate="20151108T163852Z">
+        <seg>[[_switching_branches]]
+==== Přepínání větví</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_tracking_files]]
 ==== Tracking New Files</seg>
       </tuv>
@@ -15192,6 +15656,18 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T143939Z" creationid="Prikryl" creationdate="20151102T143939Z">
         <seg>[[_viewing_history]]
 === Zobrazení historie revizí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[divergent_history]]
+.Divergent history
+image::images/advance-master.png[Divergent history.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T170537Z" creationid="Prikryl" creationdate="20151108T170537Z">
+        <seg>[[divergent_history]]
+.Rozbíhající se historie
+image::images/advance-master.png[Rozbíhající se historie.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -15474,6 +15950,36 @@ $ git add README
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git add README test.rb LICENSE
+$ git commit -m 'The initial commit of my project'
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T143210Z" creationid="Prikryl" creationdate="20151108T143210Z">
+        <seg>[source,console]
+----
+$ git add README test.rb LICENSE
+$ git commit -m 'The initial commit of my project'
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git branch testing
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T151016Z" creationid="Prikryl" creationdate="20151108T151016Z">
+        <seg>[source,console]
+----
+$ git branch testing
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git checkout -- CONTRIBUTING.md
 $ git status
 On branch master
@@ -15501,6 +16007,34 @@ Switched to a new branch 'version2'
 ----
 $ git checkout -b version2 v2.0.0
 Switched to a new branch 'version2'
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout master
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164731Z" creationid="Prikryl" creationdate="20151108T164731Z">
+        <seg>[source,console]
+----
+$ git checkout master
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout testing
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164021Z" creationid="Prikryl" creationdate="20151108T164021Z">
+        <seg>[source,console]
+----
+$ git checkout testing
 ----</seg>
       </tuv>
     </tu>
@@ -15974,6 +16508,52 @@ $ git log
 commit ca82a6dff817ec66f44342007202690a93763949
 Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
 Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log --oneline --decorate
+f30ab (HEAD, master, testing) add feature #32 - ability to add new
+34ac2 fixed bug #1328 - stack overflow under certain conditions
+98ca9 initial commit of my project
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T163524Z" creationid="Prikryl" creationdate="20151108T163524Z">
+        <seg>[source,console]
+----
+$ git log --oneline --decorate
+f30ab (HEAD, master, testing) add feature #32 - ability to add new
+34ac2 fixed bug #1328 - stack overflow under certain conditions
+98ca9 initial commit of my project
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log --oneline --decorate --graph --all
+* c2b9e (HEAD, master) made other changes
+| * 87ab2 (testing) made a change
+|/
+* f30ab add feature #32 - ability to add new formats to the
+* 34ac2 fixed bug #1328 - stack overflow under certain conditions
+* 98ca9 initial commit of my project
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T171612Z" creationid="Prikryl" creationdate="20151108T171612Z">
+        <seg>[source,console]
+----
+$ git log --oneline --decorate --graph --all
+* c2b9e (HEAD, master) made other changes
+| * 87ab2 (testing) made a change
+|/
+* f30ab add feature #32 - ability to add new formats to the
+* 34ac2 fixed bug #1328 - stack overflow under certain conditions
+* 98ca9 initial commit of my project
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -16800,6 +17380,38 @@ $ vim CONTRIBUTING.md
 $ git status
 On branch master
 Changes to be committed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ vim test.rb
+$ git commit -a -m 'made a change'
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T164328Z" creationid="Prikryl" creationdate="20151108T164328Z">
+        <seg>[source,console]
+----
+$ vim test.rb
+$ git commit -a -m 'made a change'
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ vim test.rb
+$ git commit -a -m 'made other changes'
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T170044Z" creationid="Prikryl" creationdate="20151108T170044Z">
+        <seg>[source,console]
+----
+$ vim test.rb
+$ git commit -a -m 'made other changes'
+----</seg>
       </tuv>
     </tu>
     <tu>

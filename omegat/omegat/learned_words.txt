@@ -21,3 +21,13 @@ repozitářů
 gitového
 verzovaná
 repozitářem
+gitových
+blob
+gitovský
+testing
+master
+HEAD
+checkout
+git
+console
+source

@@ -7868,6 +7868,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Next, we'll cover what you'll need to run your own Git repository-hosting server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T134403Z" creationid="Prikryl" creationdate="20151108T134403Z">
+        <seg>V další kapitole si řekneme, co budete potřebovat, abyste mohli provozovat svůj vlastní server pro hostování gitových repozitářů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Next, you have a hotfix to make.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10884,8 +10892,8 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       <tuv lang="EN">
         <seg>The way Git branches is incredibly lightweight, making branching operations nearly instantaneous, and switching back and forth between branches generally just as fast.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T133356Z" creationid="Prikryl" creationdate="20151107T133356Z">
-        <seg>Způsob, jakým Git větvení provádí, je neuvěřitelně snadný a operace větvení probíhají téměř okamžitě. A stejně rychlé je většinou i přepínání mezi jednotlivými větvemi.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T133604Z" creationid="Prikryl" creationdate="20151107T133356Z">
+        <seg>Způsob, jakým Git větvení provádí, je neuvěřitelně snadný a operace větvení probíhají téměř okamžitě. A stejně rychlé je většinou i přepínání mezi větvemi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13336,6 +13344,14 @@ To git@github.com:schacon/simplegit.git</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>We've covered basic branching and merging in Git.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T133717Z" creationid="Prikryl" creationdate="20151108T133717Z">
+        <seg>V této kapitole jsme se věnovali základům větvení a slučování.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>We've mentioned and given some demonstrations of adding remote repositories in previous sections, but here is how to do it explicitly.(((git commands, remote)))
 To add a new remote Git repository as a shortname you can reference easily, run `git remote add [shortname] [url]`:</seg>
       </tuv>
@@ -15096,8 +15112,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You should also be able to share your branches by pushing them to a shared server, working with others on shared branches and rebasing your branches before they are shared.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Měli byste také umět odeslat své větve ke sdílení na server, spolupracovat s ostatními na sdílených větvích a před odesláním větve přeskládat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T134150Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Měli byste teď umět odeslat své větve ke sdílení na server, spolupracovat s ostatními na sdílených větvích a přeskládat vaše větve před tím, než je budete sdílet.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15112,8 +15128,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You should feel comfortable creating and switching to new branches, switching between branches and merging local branches together.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Neměli byste teď mít problém s vytvářením větví, přepínáním na nové i existující větve ani se slučováním lokálních větví.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T133915Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Neměli byste teď mít problém s vytvořením a přepnutím na novou větev, přepínáním mezi větvemi, ani se slučováním lokálních větví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18158,10 +18174,26 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>include::sections/basic-branching-and-merging.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T133639Z" creationid="Prikryl" creationdate="20151108T133639Z">
+        <seg>include::sections/basic-branching-and-merging.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>include::sections/basics.asc[]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T173812Z" creationid="Prikryl" creationdate="20151026T173812Z">
         <seg>include::sections/basics.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/branch-management.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T134429Z" creationid="Prikryl" creationdate="20151108T134429Z">
+        <seg>include::sections/branch-management.asc[]</seg>
       </tuv>
     </tu>
     <tu>
@@ -18214,10 +18246,34 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>include::sections/nutshell.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T133637Z" creationid="Prikryl" creationdate="20151108T133637Z">
+        <seg>include::sections/nutshell.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/rebasing.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T133647Z" creationid="Prikryl" creationdate="20151108T133647Z">
+        <seg>include::sections/rebasing.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>include::sections/recording-changes.asc[]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T202851Z" creationid="Prikryl" creationdate="20151028T202851Z">
         <seg>include::sections/recording-changes.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/remote-branches.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T133645Z" creationid="Prikryl" creationdate="20151108T133645Z">
+        <seg>include::sections/remote-branches.asc[]</seg>
       </tuv>
     </tu>
     <tu>
@@ -18250,6 +18306,14 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T202853Z" creationid="Prikryl" creationdate="20151028T202853Z">
         <seg>include::sections/viewing-history.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/workflows.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T133643Z" creationid="Prikryl" creationdate="20151108T133643Z">
+        <seg>include::sections/workflows.asc[]</seg>
       </tuv>
     </tu>
     <tu>

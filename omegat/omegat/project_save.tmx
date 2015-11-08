@@ -78,9 +78,10 @@
 doc/**/*.pdf
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T120712Z" creationid="Prikryl" creationdate="20151107T120712Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T120444Z" creationid="Prikryl" creationdate="20151107T120712Z">
         <seg># ignoruj všechny .pdf soubory v adresáři doc/
-doc/**/*.pdf</seg>
+doc/**/*.pdf
+----</seg>
       </tuv>
     </tu>
     <tu>

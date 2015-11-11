@@ -1,0 +1,2 @@
+commit amending	úprava revize
+stashing	odložení

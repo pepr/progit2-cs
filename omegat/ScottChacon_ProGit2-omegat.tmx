@@ -225,6 +225,16 @@ Nějakou formu větvení podporují téměř všechny systémy pro správu verz�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((branches, basic workflow)))
+First, let's say you're working on your project and have a couple of commits already.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T153338Z" creationid="Prikryl" creationdate="20151111T153338Z">
+        <seg>(((větve, základní postup)))
+Řekněme, že pracujete na projektu a už jste vytvořili několik revizí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((branches, creating)))
 What happens if you create a new branch?</seg>
       </tuv>
@@ -604,6 +614,14 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T152619Z" creationid="Prikryl" creationdate="20151111T152619Z">
+        <seg>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>...</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151024T090939Z" creationid="Prikryl" creationdate="20151024T090939Z">
@@ -632,6 +650,16 @@ image::images/commit-and-tree.png[Objekt revize a jeho strom.]</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.A simple commit history
+image::images/basic-branching-1.png[A simple commit history.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T153426Z" creationid="Prikryl" creationdate="20151111T153426Z">
+        <seg>.Jednoduchá historie revizí
+image::images/basic-branching-1.png[Jednoduchá historie revizí.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Centralized version control.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T184338Z" creationid="Prikryl" creationdate="20151026T184338Z">
@@ -646,6 +674,16 @@ image::images/commits-and-parents.png[Commits and their parents.]</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T145732Z" creationid="Prikryl" creationdate="20151108T145732Z">
         <seg>.Objekty revize a jejich rodiče
 image::images/commits-and-parents.png[Objekty revize a jejich rodiče.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Creating a new branch pointer
+image::images/basic-branching-2.png[Creating a new branch pointer.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T153810Z" creationid="Prikryl" creationdate="20151111T153810Z">
+        <seg>.Vytvoření nového ukazatele větve
+image::images/basic-branching-2.png[Vytvoření nového ukazatele větve.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -696,6 +734,16 @@ image::images/head-to-testing.png[HEAD ukazuje na aktuální větev.]</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Hotfix branch based on `master`
+image::images/basic-branching-4.png[Hotfix branch based on `master`.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T214045Z" creationid="Prikryl" creationdate="20151111T214045Z">
+        <seg>.Větev pro opravu je odvozená od `master`
+image::images/basic-branching-4.png[Větev pro opravu je odvozená od `master`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Local version control.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T182708Z" creationid="Prikryl" creationdate="20151026T182708Z">
@@ -730,6 +778,16 @@ image::images/advance-testing.png[Větev HEAD se při zápisu revize posune vpř
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.The iss53 branch has moved forward with your work
+image::images/basic-branching-3.png[The iss53 branch has moved forward with your work.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T154135Z" creationid="Prikryl" creationdate="20151111T154135Z">
+        <seg>.Větev iss53 se při práci posunula vpřed
+image::images/basic-branching-3.png[Větev iss53 se při práci posunula vpřed.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.The lifecycle of the status of your files.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T105838Z" creationid="Prikryl" creationdate="20151029T105838Z">
@@ -760,6 +818,16 @@ image::images/two-branches.png[Dvě větve ukazují na stejnou sérii objektů r
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T145528Z" creationid="Prikryl" creationdate="20151102T145528Z">
         <seg>1 file changed, 1 insertion(+), 1 deletion(-)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>1 file changed, 2 insertions(+)
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T214000Z" creationid="Prikryl" creationdate="20151111T214000Z">
+        <seg>1 file changed, 2 insertions(+)
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -2008,6 +2076,14 @@ image::images/two-branches.png[Dvě větve ukazují na stejnou sérii objektů r
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>After it's tested, merge the hotfix branch, and push to production.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T153050Z" creationid="Prikryl" creationdate="20151111T153050Z">
+        <seg>Po otestování začleníte větev s opravou a odešlete ji do produkce.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>After that come the line number and the content of the file.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -2156,6 +2232,14 @@ image::images/two-branches.png[Dvě větve ukazují na stejnou sérii objektů r
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jediné, co pro to musíte udělat, je přepnout na větev, do níž chcete tuto větev začlenit, a spustit příkaz `git merge`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>All you have to do is switch back to your `master` branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T211520Z" creationid="Prikryl" creationdate="20151111T211520Z">
+        <seg>Vše, co musíte udělat, je přepnout se zpět na větev `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2788,8 +2872,16 @@ image::images/two-branches.png[Dvě větve ukazují na stejnou sérii objektů r
       <tuv lang="EN">
         <seg>At this point, your project working directory is exactly the way it was before you started working on issue #53, and you can concentrate on your hotfix.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V tomto okamžiku vypadá váš pracovní adresář přesně tak, jak vypadal, než jste začali pracovat na chybě č. 53, a vy se nyní můžete soustředit na rychlou opravu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T213127Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V tomto okamžiku vypadá váš pracovní adresář přesně tak, jak vypadal, než jste začali pracovat na problému #53, a vy se nyní můžete soustředit na požadovanou opravu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>At this stage, you'll receive a call that another issue is critical and you need a hotfix.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T152814Z" creationid="Prikryl" creationdate="20151111T152814Z">
+        <seg>V tomto okamžiku vám zavolají, že se vyskytla jiná kritická chyba, která vyžaduje rychlou opravu (hotfix).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3132,10 +3224,18 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Create a branch for a new story you're working on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T152726Z" creationid="Prikryl" creationdate="20151111T152726Z">
+        <seg>Vytvoříte větev pro nový případ, na kterém pracujete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Create a branch to add the hotfix.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vytvoříte větev pro přidání hotfixu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T153100Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Vytvoříte větev pro přidání opravy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3174,8 +3274,8 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
       <tuv lang="EN">
         <seg>Do some work in that branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vytvoříte práci v této větvi.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T152745Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V této větvi něco uděláte.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3225,6 +3325,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Po zadání příkazu se otevře vámi zvolený editor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Doing so moves the `iss53` branch forward, because you have it checked out (that is, your `HEAD` is pointing to it):</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T154026Z" creationid="Prikryl" creationdate="20151111T154026Z">
+        <seg>S každou novou revizí se větev `iss53` posune vpřed, protože jste na ni přepnutí (provedli jste `checkout` a `HEAD` na ni ukazuje):</seg>
       </tuv>
     </tu>
     <tu>
@@ -3825,6 +3933,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151106T214745Z" creationid="Prikryl" creationdate="20151106T214745Z">
         <seg>Prozatím je tato magická formule vše, co o příkazu `git reset` potřebujete vědět.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For now, let's assume you've committed all your changes, so you can switch back to your `master` branch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T213020Z" creationid="Prikryl" creationdate="20151111T213020Z">
+        <seg>Teď předpokládejme, že jste všechny změny zapsali, takže se můžete přepnout zpět do větve `master`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4595,6 +4711,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Protože však seznam v tomto případě neobsahuje žádné alternativní repozitáře, váš objekt musí být v balíčkovém souboru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>However, before you do that, note that if your working directory or staging area has uncommitted changes that conflict with the branch you're checking out, Git won't let you switch branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T212211Z" creationid="Prikryl" creationdate="20151111T212211Z">
+        <seg>Ale než tak učiníte, všimněte si, že pokud máte v pracovním adresáři nebo v oblasti připravených změn nezapsané změny, které kolidují s větví, do které se přepínáte, Git vám přepnutí větví nedovolí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6794,8 +6918,8 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
       <tuv lang="EN">
         <seg>It adds, removes, and modifies files automatically to make sure your working copy is what the branch looked like on your last commit to it.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Automaticky budou přidány, odstraněny a upraveny soubory tak, aby byla vaše pracovní kopie totožná se stavem větve v okamžiku, kdy jste na ni zapsali poslední revizi.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T213754Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Automaticky přidá, odstraní a upraví soubory tak, aby zajistil, že vaše pracovní kopie bude vypadat stejně, jako poslední revize v dané větvi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7196,6 +7320,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It's best to have a clean working state when you switch branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T212300Z" creationid="Prikryl" creationdate="20151111T212300Z">
+        <seg>Nejlepší je, když máte při přepínání větví čistý pracovní stav.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It's generally a little clearer what the latest version is on the GitHub page, but the kernel.org page also has release signatures if you want to verify your download.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T103705Z" creationid="Prikryl" creationdate="20151028T103142Z">
@@ -7406,10 +7538,26 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Let's create a hotfix branch on which to work until it's completed:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T213955Z" creationid="Prikryl" creationdate="20151111T213955Z">
+        <seg>Vytvořme si pro ni větev, na níž budeme pracovat, dokud nebude oprava hotová:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Let's do what it says:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151106T215815Z" creationid="Prikryl" creationdate="20151106T215815Z">
         <seg>Uděláme, co nám radí:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Let's go through a simple example of branching and merging with a workflow that you might use in the real world.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T152607Z" creationid="Prikryl" creationdate="20151111T152430Z">
+        <seg>Proberme si jednoduchý příklad větvení a slučování s pracovním postupem, který můžete využít i v reálném životě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7746,8 +7894,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Next, you have a hotfix to make.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nyní přichází na řadu hotfix.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T213835Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V dalším kroku musíte provést opravu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9270,8 +9418,16 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="EN">
         <seg>Switch back to your original story and continue working.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Přepnete zpět na svou původní část a pokračujete v práci.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T153236Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Přepnete zpět na svůj původní případ a pokračujete v práci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Switch to your production branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T152920Z" creationid="Prikryl" creationdate="20151111T152920Z">
+        <seg>Přepnete se na produkční větev.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10976,6 +11132,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>There are ways to get around this (namely, stashing and commit amending) that we'll cover later on, in &lt;&lt;_git_stashing&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T212908Z" creationid="Prikryl" creationdate="20151111T212814Z">
+        <seg>Existují způsoby, jak to obejít (konkrétně odložení (stashing) a úprava revize (commit amending)), těm se však budeme věnovat až později, v části &lt;&lt;_git_stashing&gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>There is another way to look at these diffs if you prefer a graphical or external diff viewing program instead.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151030T094416Z" creationid="Prikryl" creationdate="20151030T094416Z">
@@ -11648,6 +11812,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This is an important point to remember: when you switch branches, Git resets your working directory to look like it did the last time you committed on that branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T213404Z" creationid="Prikryl" creationdate="20151111T213404Z">
+        <seg>Zapamatujte si následující důležitý bod: když přepínáte větve, Git nastavuje obsah pracovního adresáře tak, aby vypadal stejně jako v době, kdy jste v dané větvi prováděli poslední zápis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This is an important section to absorb, because if you understand what Git is and the fundamentals of how it works, then using Git effectively will probably be much easier for you.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T074322Z" creationid="progitSync" creationdate="20151011T193101Z">
@@ -11858,8 +12030,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>This is shorthand for:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tímto způsobem jste spojili dva příkazy:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T153715Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jde o zkratku pro příkazy:</seg>
       </tuv>
     </tu>
     <tu>
@@ -13542,6 +13714,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>With Git, you don't have to deploy your fix along with the `iss53` changes you've made, and you don't have to put a lot of effort into reverting those changes before you can work on applying your fix to what is in production.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T211432Z" creationid="Prikryl" creationdate="20151111T180030Z">
+        <seg>Při používání Gitu nemusíte nasadit opravu společně se změnami, které jste provedli při řešení problému `iss53`. Nemusíte ani vynakládat velké úsilí, abyste se vrátili před tyto změny, když máte provést opravu produkční verze.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>With the interactive rebase tool, you can then stop after each commit you want to modify and change the message, add files, or do whatever you wish.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -14326,6 +14506,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can run your tests, make sure the hotfix is what you want, and merge it back into your `master` branch to deploy to production.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T214614Z" creationid="Prikryl" creationdate="20151111T214300Z">
+        <seg>Můžete spustit testy, abyste se ujistili, že oprava splňuje všechny požadavky, a pak můžete větev začlenit (merge) zpět do větve `master`, aby mohla být nasazena k používání.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can save a stash on one branch, switch to another branch later, and try to reapply the changes.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -14580,6 +14768,14 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T151015Z" creationid="Prikryl" creationdate="20151108T151015Z">
         <seg>Učiníte tak příkazem `git branch`:(((git commands, branch)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You do this with the `git merge` command:(((git commands, merge)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T214709Z" creationid="Prikryl" creationdate="20151111T214709Z">
+        <seg>Učiníte tak příkazem `git merge`:(((git příkazy, merge))))</seg>
       </tuv>
     </tu>
     <tu>
@@ -15082,10 +15278,42 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You'll do the following:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T152847Z" creationid="Prikryl" creationdate="20151111T152847Z">
+        <seg>Provedete následující:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You'll follow these steps:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T152536Z" creationid="Prikryl" creationdate="20151111T152536Z">
+        <seg>Postupujete podle těchto kroků:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You'll have to pull down their work first and incorporate it into yours before you'll be allowed to push.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T111207Z" creationid="Prikryl" creationdate="20151107T111146Z">
         <seg>Nejdříve musíte jeho práci stáhnout (pull), zahrnout ji do vaší a teprve potom budete moci vše odeslat (push).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You'll notice the phrase ``fast-forward'' in that merge.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T214818Z" creationid="Prikryl" creationdate="20151111T214818Z">
+        <seg>Při tomto sloučení vidíte uvedenu frázi „fast-forward“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You've decided that you're going to work on issue #53 in whatever issue-tracking system your company uses.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T180038Z" creationid="Prikryl" creationdate="20151111T153605Z">
+        <seg>Rozhodli jste se, že budete pracovat na problému #53 (issue), zachycené v jakémkoliv systému pro sledování chyb, který vaše společnost používá.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15386,6 +15614,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T150013Z" creationid="Prikryl" creationdate="20151107T150013Z">
         <seg>[[_annotated_tags]]
 ==== Anotované značky</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_basic_branching]]
+==== Basic Branching</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T153303Z" creationid="Prikryl" creationdate="20151111T153303Z">
+        <seg>[[_basic_branching]]
+==== Základní větvení</seg>
       </tuv>
     </tu>
     <tu>
@@ -15966,6 +16204,22 @@ $ git commit -m 'The initial commit of my project'
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git branch iss53
+$ git checkout iss53
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T153716Z" creationid="Prikryl" creationdate="20151111T153716Z">
+        <seg>[source,console]
+----
+$ git branch iss53
+$ git checkout iss53
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git branch testing
 ----</seg>
       </tuv>
@@ -15998,6 +16252,42 @@ Changes to be committed:</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git checkout -b hotfix
+Switched to a new branch 'hotfix'
+$ vim index.html
+$ git commit -a -m 'fixed the broken email address'
+[hotfix 1fb7853] fixed the broken email address</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T213957Z" creationid="Prikryl" creationdate="20151111T213957Z">
+        <seg>[source,console]
+----
+$ git checkout -b hotfix
+Switched to a new branch 'hotfix'
+$ vim index.html
+$ git commit -a -m 'fixed the broken email address'
+[hotfix 1fb7853] fixed the broken email address</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout -b iss53
+Switched to a new branch "iss53"
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T153647Z" creationid="Prikryl" creationdate="20151111T153647Z">
+        <seg>[source,console]
+----
+$ git checkout -b iss53
+Switched to a new branch "iss53"
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git checkout -b version2 v2.0.0
 Switched to a new branch 'version2'
 ----</seg>
@@ -16015,12 +16305,46 @@ Switched to a new branch 'version2'
         <seg>[source,console]
 ----
 $ git checkout master
+$ git merge hotfix
+Updating f42c576..3a0874c
+Fast-forward</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T214711Z" creationid="Prikryl" creationdate="20151111T214711Z">
+        <seg>[source,console]
+----
+$ git checkout master
+$ git merge hotfix
+Updating f42c576..3a0874c
+Fast-forward</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout master
 ----</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T164731Z" creationid="Prikryl" creationdate="20151108T164731Z">
         <seg>[source,console]
 ----
 $ git checkout master
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout master
+Switched to branch 'master'
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T213022Z" creationid="Prikryl" creationdate="20151111T213022Z">
+        <seg>[source,console]
+----
+$ git checkout master
+Switched to branch 'master'
 ----</seg>
       </tuv>
     </tu>
@@ -17386,6 +17710,22 @@ Changes to be committed:</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ vim index.html
+$ git commit -a -m 'added a new footer [issue 53]'
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T154028Z" creationid="Prikryl" creationdate="20151111T154028Z">
+        <seg>[source,console]
+----
+$ vim index.html
+$ git commit -a -m 'added a new footer [issue 53]'
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ vim test.rb
 $ git commit -a -m 'made a change'
 ----</seg>
@@ -18218,6 +18558,14 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T133643Z" creationid="Prikryl" creationdate="20151108T133643Z">
         <seg>include::sections/workflows.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>index.html | 2 ++</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151111T214714Z" creationid="Prikryl" creationdate="20151111T214714Z">
+        <seg>index.html | 2 ++</seg>
       </tuv>
     </tu>
     <tu>

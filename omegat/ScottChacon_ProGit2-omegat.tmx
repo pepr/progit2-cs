@@ -186,9 +186,9 @@ For many years, this has been the standard for version control.</seg>
     <tu>
       <tuv lang="EN">
         <seg>(((Linux, installing)))
-If you want to install Git on Linux via a binary installer, you can generally do so through the basic package-management tool that comes with your distribution.</seg>
+If you want to install the basic Git tools on Linux via a binary installer, you can generally do so through the basic package-management tool that comes with your distribution.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T204458Z" creationid="Prikryl" creationdate="20151027T204458Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T134315Z" creationid="Prikryl" creationdate="20151115T134315Z">
         <seg>(((Linux, instalace)))
 Chcete-li nainstalovat Git v Linuxu pomocí binárního instalátoru, většinou tak můžete učinit pomocí základního nástroje pro správu balíčků, který je součástí vaší distribuce.</seg>
       </tuv>
@@ -241,6 +241,16 @@ What happens if you create a new branch?</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T150840Z" creationid="Prikryl" creationdate="20151108T150840Z">
         <seg>(((větve, vytváření)))
 Co se stane, když vytvoříte novou větev?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((branches, merging)))(((merging)))
+Suppose you've decided that your issue #53 work is complete and ready to be merged into your `master` branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T153132Z" creationid="Prikryl" creationdate="20151115T153021Z">
+        <seg>(((větve, slučování)))(((slučování)))
+Předpokládejme, že jste se rozhodli, že práce na problému #53 je hotová a lze ji připojit k větvi `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -650,6 +660,16 @@ image::images/commit-and-tree.png[Objekt revize a jeho strom.]</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.A merge commit
+image::images/basic-merging-2.png[A merge commit.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T154736Z" creationid="Prikryl" creationdate="20151115T154736Z">
+        <seg>.Bod sloučení
+image::images/basic-merging-2.png[Bod sloučení.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.A simple commit history
 image::images/basic-branching-1.png[A simple commit history.]</seg>
       </tuv>
@@ -796,6 +816,16 @@ image::images/basic-branching-3.png[Větev iss53 se při práci posunula vpřed.
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Three snapshots used in a typical merge
+image::images/basic-merging-1.png[Three snapshots used in a typical merge.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T154223Z" creationid="Prikryl" creationdate="20151115T154223Z">
+        <seg>.Při typickém slučování se používají tři snímky
+image::images/basic-merging-1.png[Při typickém slučování se používají tři snímky.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Two branches pointing into the same series of commits
 image::images/two-branches.png[Two branches pointing into the same series of commits.]</seg>
       </tuv>
@@ -806,10 +836,30 @@ image::images/two-branches.png[Dvě větve ukazují na stejnou sérii objektů r
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Work continues on `iss53`
+image::images/basic-branching-6.png[Work continues on `iss53`.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T152456Z" creationid="Prikryl" creationdate="20151115T152456Z">
+        <seg>.Pokračuje práce na větvi `iss53`
+image::images/basic-branching-6.png[Pokračuje práce na větvi `iss53`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Working directory, staging area, and Git directory.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T115507Z" creationid="Prikryl" creationdate="20151027T115507Z">
         <seg>.Pracovní adresář, oblast připravených změn a adresář Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.`master` is fast-forwarded to `hotfix`
+image::images/basic-branching-5.png[`master` is fast-forwarded to `hotfix`.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T151932Z" creationid="Prikryl" creationdate="20151115T151932Z">
+        <seg>.Větev `master` se přesunula „rychle vpřed“ na `hotfix`
+image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpřed“ na `hotfix`.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -2156,6 +2206,14 @@ image::images/two-branches.png[Dvě větve ukazují na stejnou sérii objektů r
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>After your super-important fix is deployed, you're ready to switch back to the work you were doing before you were interrupted.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T152042Z" creationid="Prikryl" creationdate="20151115T152042Z">
+        <seg>Poté, co jste dokončili práci na bezodkladné opravě, můžete přepnout zpět na práci, jíž jste se věnovali před jejím přerušením.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Again, the public keys look something like this:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -2230,8 +2288,8 @@ image::images/two-branches.png[Dvě větve ukazují na stejnou sérii objektů r
       <tuv lang="EN">
         <seg>All you have to do is check out the branch you wish to merge into and then run the `git merge` command:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jediné, co pro to musíte udělat, je přepnout na větev, do níž chcete tuto větev začlenit, a spustit příkaz `git merge`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T153341Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jediné, co pro to musíte udělat, je přepnout na větev, do které chcete tuto větev začlenit, a potom spustit příkaz `git merge`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2906,6 +2964,14 @@ image::images/two-branches.png[Dvě větve ukazují na stejnou sérii objektů r
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T171908Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>A protože větev je v Gitu ve skutečnosti obyčejným souborem, který obsahuje 40 znaků kontrolního součtu SHA-1 revize, na kterou větev ukazuje, dají se větve snadno vytvářet i odstraňovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Because the commit on the branch you're on isn't a direct ancestor of the branch you're merging in, Git has to do some work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T153956Z" creationid="Prikryl" creationdate="20151115T153956Z">
+        <seg>Protože bod revize, na kterém se ve větvi nacházíte, není přímým předkem větve, kterou připojujete, musí s tím Git něco udělat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4723,6 +4789,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>However, first you'll delete the `hotfix` branch, because you no longer need it – the `master` branch points at the same place.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T152141Z" creationid="Prikryl" creationdate="20151115T152141Z">
+        <seg>Nejprve však smažete větev `hotfix`, protože už ji nebudete potřebovat -- větev `master` ukazuje na totéž místo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>However, if someone at any point in the history of your project added a single huge file, every clone for all time will be forced to download that large file, even if it was removed from the project in the very next commit.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5564,8 +5638,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you need to pull it in, you can merge your `master` branch into your `iss53` branch by running `git merge master`, or you can wait to integrate those changes until you decide to pull the `iss53` branch back into `master` later.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud potřebujete tyto změny do větve vtáhnout, můžete začlenit větev `master` do větve `iss53` provedením příkazu `git merge master`. Druhou možností je s integrací změn vyčkat a provést ji až ve chvíli, kdy budete chtít větev `iss53` vtáhnout zpět do větve `master`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T152743Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud potřebujete tyto změny do větve vtáhnout, můžete začlenit větev `master` do větve `iss53` provedením příkazu `git merge master`, nebo můžete s integrací změn vyčkat a provést ji až ve chvíli, kdy budete chtít větev `iss53` vtáhnout zpět do větve `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6560,6 +6634,14 @@ Sledování souboru `README` zahájíme takto:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In order to do that, you'll merge your `iss53` branch into `master`, much like you merged your `hotfix` branch earlier.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T153258Z" creationid="Prikryl" creationdate="20151115T153258Z">
+        <seg>Abychom tak učinili, začleníme větev `iss53` do větve `master` podobně, jako jsme to učinili dříve s větví `hotfix`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In order to import a Git directory, you need to review how Git stores its data.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6676,8 +6758,8 @@ Zde je příklad souboru `.gitignore`:</seg>
       <tuv lang="EN">
         <seg>In this case, Git does a simple three-way merge, using the two snapshots pointed to by the branch tips and the common ancestor of the two.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Git v tomto případě provádí jednoduché třícestné sloučení: vychází ze dvou snímků, na které ukazují větve, a jejich společného předka.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T154152Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Git v tomto případě provádí jednoduché třícestné sloučení, při kterém používá dva snímky, na které ukazují vrcholy větví, a jejich společného předka.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6856,6 +6938,14 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Revize už nebudou mít tuto podobu:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Instead of just moving the branch pointer forward, Git creates a new snapshot that results from this three-way merge and automatically creates a new commit that points to it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T154508Z" creationid="Prikryl" creationdate="20151115T154508Z">
+        <seg>Git místo pouhého přesunutí ukazatele větve vpřed, tentokrát vytvoří nový snímek, který je výsledkem třícestného slučování, a automaticky vytvoří nový bod revize, který jej zachycuje.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7388,6 +7478,22 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T131956Z" creationid="Prikryl" creationdate="20151107T131956Z">
         <seg>Za zmínku stojí, že tím změníte také názvy vzdálených větví.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's worth noting here that the work you did in your `hotfix` branch is not contained in the files in your `iss53` branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T152522Z" creationid="Prikryl" creationdate="20151115T152522Z">
+        <seg>Za zmínku stojí, že práce, kterou jste udělali ve větvi `hotfix`, není obsažena v souborech ve větvi `iss53`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's worth pointing out that Git determines the best common ancestor to use for its merge base; this is different than older tools like CVS or Subversion (before version 1.5), where the developer doing the merge had to figure out the best merge base for themselves.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T155234Z" creationid="Prikryl" creationdate="20151115T155234Z">
+        <seg>Za zmínku stojí, že Git určí nejlepšího společného předka, jako základ pro slučování. Tím se liší od starších nástrojů jako CVS nebo Subversion (před verzí 1.5), kde si musel nejlepší základ pro slučování určit sám vývojář, který sloučení prováděl.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8142,8 +8248,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Now that your work is merged in, you have no further need for the `iss53` branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nyní, když jste svou práci sloučili, větev `iss53` už nebudete potřebovat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T155503Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Nyní, když jste svou práci začlenili, nebudete už větev `iss53` potřebovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8184,6 +8290,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nyní můžete nastavit konfigurační soubor k používání vlastních nástrojů diff a nástrojů k řešení slučování.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now you can switch back to your work-in-progress branch on issue #53 and continue working on it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T152337Z" creationid="Prikryl" creationdate="20151115T152337Z">
+        <seg>Teď se můžete přepnout zpět na větev s rozdělanou prací a pokračovat na problému #53.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12012,6 +12126,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This is referred to as a merge commit, and is special in that it has more than one parent.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T154656Z" creationid="Prikryl" creationdate="20151115T154656Z">
+        <seg>Říká se mu bod sloučení (merge commit) a je zvláštní v tom, že má víc než jednoho rodiče.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This is roughly equivalent to something like</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -12118,8 +12240,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>This looks a bit different than the `hotfix` merge you did earlier.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Toto už se trochu liší od začlenění větve `hotfix`, které jste prováděli před chvílí.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T153455Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tady už se to od dřívějšího slučování s větví `hotfix` trochu liší.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12142,8 +12264,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>This makes merging a heck of a lot easier in Git than in these other systems.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Slučování větví je proto v systému Git o poznání jednodušší než v ostatních systémech.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T155408Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tím se slučování větví v Gitu stává o dost jednodušší, než je tomu v ostatních systémech.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14146,6 +14268,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can close the ticket in your ticket-tracking system, and delete the branch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T155603Z" creationid="Prikryl" creationdate="20151115T155603Z">
+        <seg>V systému sledování tiketů můžete tento tiket uzavřít a větev můžete smazat:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can create a new directory and then run `git init` in it for a starting point, and then run your script:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -14164,8 +14294,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>You can delete it with the `-d` option to `git branch`:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Větev smažete přidáním parametru `-d` k příkazu `git branch`:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T152205Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Větev smažete přidáním volby `-d` k příkazu `git branch`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -15304,8 +15434,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You'll notice the phrase ``fast-forward'' in that merge.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151111T214818Z" creationid="Prikryl" creationdate="20151111T214818Z">
-        <seg>Při tomto sloučení vidíte uvedenu frázi „fast-forward“.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T151815Z" creationid="Prikryl" creationdate="20151111T214818Z">
+        <seg>Ve výstupu příkazu `merge` si všimněte fráze „fast-forward“ („rychle vpřed“).</seg>
       </tuv>
     </tu>
     <tu>
@@ -15354,6 +15484,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Vaše větev bude obsahovat pouze práci od této revize níže:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Your change is now in the snapshot of the commit pointed to by the `master` branch, and you can deploy the fix.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T135025Z" creationid="Prikryl" creationdate="20151115T135025Z">
+        <seg>Vaše změna je nyní obsažena ve snímku revize, na kterou ukazuje větev `master`, a vy můžete zveřejnit opravu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15624,6 +15762,26 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151111T153303Z" creationid="Prikryl" creationdate="20151111T153303Z">
         <seg>[[_basic_branching]]
 ==== Základní větvení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_basic_merge_conflicts]]
+==== Basic Merge Conflicts</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T155618Z" creationid="Prikryl" creationdate="20151115T155618Z">
+        <seg>[[_basic_merge_conflicts]]
+==== Základní konflikty při slučování</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_basic_merging]]
+==== Basic Merging</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T152800Z" creationid="Prikryl" creationdate="20151115T152800Z">
+        <seg>[[_basic_merging]]
+==== Základní slučování</seg>
       </tuv>
     </tu>
     <tu>
@@ -16204,6 +16362,34 @@ $ git commit -m 'The initial commit of my project'
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git branch -d hotfix
+Deleted branch hotfix (3a0874c).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T152216Z" creationid="Prikryl" creationdate="20151115T152216Z">
+        <seg>[source,console]
+----
+$ git branch -d hotfix
+Deleted branch hotfix (3a0874c).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git branch -d iss53
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T155606Z" creationid="Prikryl" creationdate="20151115T155606Z">
+        <seg>[source,console]
+----
+$ git branch -d iss53
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git branch iss53
 $ git checkout iss53
 ----</seg>
@@ -16304,6 +16490,30 @@ Switched to a new branch 'version2'
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git checkout iss53
+Switched to branch "iss53"
+$ vim index.html
+$ git commit -a -m 'finished the new footer [issue 53]'
+[iss53 ad82d7a] finished the new footer [issue 53]
+1 file changed, 1 insertion(+)
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T152339Z" creationid="Prikryl" creationdate="20151115T152339Z">
+        <seg>[source,console]
+----
+$ git checkout iss53
+Switched to branch "iss53"
+$ vim index.html
+$ git commit -a -m 'finished the new footer [issue 53]'
+[iss53 ad82d7a] finished the new footer [issue 53]
+1 file changed, 1 insertion(+)
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git checkout master
 $ git merge hotfix
 Updating f42c576..3a0874c
@@ -16330,6 +16540,24 @@ $ git checkout master
 ----
 $ git checkout master
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout master
+Switched to branch 'master'
+$ git merge iss53
+Merge made by the 'recursive' strategy.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T153345Z" creationid="Prikryl" creationdate="20151115T153345Z">
+        <seg>[source,console]
+----
+$ git checkout master
+Switched to branch 'master'
+$ git merge iss53
+Merge made by the 'recursive' strategy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17598,13 +17826,13 @@ Your branch is up-to-date with 'origin/master'.</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
-$ sudo apt-get install git
+$ sudo apt-get install git-all
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T115400Z" creationid="Prikryl" creationdate="20151107T115400Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T134437Z" creationid="Prikryl" creationdate="20151115T134437Z">
         <seg>[source,console]
 ----
-$ sudo apt-get install git
+$ sudo apt-get install git-all
 ----</seg>
       </tuv>
     </tu>
@@ -17654,13 +17882,13 @@ $ sudo yum install curl-devel expat-devel gettext-devel \</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
-$ sudo yum install git
+$ sudo yum install git-all
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T115352Z" creationid="Prikryl" creationdate="20151107T115352Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T134408Z" creationid="Prikryl" creationdate="20151115T134408Z">
         <seg>[source,console]
 ----
-$ sudo yum install git
+$ sudo yum install git-all
 ----</seg>
       </tuv>
     </tu>
@@ -18558,6 +18786,18 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T133643Z" creationid="Prikryl" creationdate="20151108T133643Z">
         <seg>include::sections/workflows.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>index.html |    1 +
+1 file changed, 1 insertion(+)
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151115T153348Z" creationid="Prikryl" creationdate="20151115T153348Z">
+        <seg>index.html |    1 +
+1 file changed, 1 insertion(+)
+----</seg>
       </tuv>
     </tu>
     <tu>

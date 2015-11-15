@@ -31,3 +31,5 @@ checkout
 git
 console
 source
+třícestné
+třícestného

@@ -1,2 +1,4 @@
 commit amending	úprava revize
 stashing	odložení
+merge commit	bod sloučení
+rebasing	přeskládání

@@ -6,6 +6,44 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN">
+        <seg>#
+# Changes to be committed:
+#	modified:   index.html
+#
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T081201Z" creationid="Prikryl" creationdate="20151120T081201Z">
+        <seg>#
+# Changes to be committed:
+#	modified:   index.html
+#
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T081141Z" creationid="Prikryl" creationdate="20151120T081141Z">
+        <seg># If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg># On branch master
+# All conflicts fixed but you are still merging.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T081155Z" creationid="Prikryl" creationdate="20151120T081155Z">
+        <seg># On branch master
+# All conflicts fixed but you are still merging.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg># On branch master
 # Changes to be committed:
 #	new file:   README
@@ -312,6 +350,20 @@ Changes to be committed:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>'git mergetool' will now attempt to use one of the following tools:
+opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse diffmerge ecmerge p4merge araxis bc3 codecompare vimdiff emerge
+Merging:
+index.html</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T075222Z" creationid="Prikryl" creationdate="20151120T075222Z">
+        <seg>'git mergetool' will now attempt to use one of the following tools:
+opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse diffmerge ecmerge p4merge araxis bc3 codecompare vimdiff emerge
+Merging:
+index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((CVS)))(((Subversion)))(((Perforce)))
 For many years, this has been the standard for version control.</seg>
       </tuv>
@@ -429,6 +481,16 @@ To remove a file from Git, you have to remove it from your tracked files (more a
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T224238Z" creationid="Prikryl" creationdate="20151031T224238Z">
         <seg>(((soubory, odstranění)))
 Chcete-li odstranit soubor ze systému Git, musíte ho odstranit ze sledovaných souborů (přesněji řečeno odstranit z oblasti připravených změn) a poté zapsat revizi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((merging, conflicts)))
+Occasionally, this process doesn't go smoothly.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T072503Z" creationid="Prikryl" creationdate="20151120T072503Z">
+        <seg>(((slučování, konflikty)))
+Občas se stane, že tento proces neproběhne hladce.</seg>
       </tuv>
     </tu>
     <tu>
@@ -552,10 +614,26 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(fix conflicts and run "git commit")</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T073012Z" creationid="Prikryl" creationdate="20151120T073012Z">
+        <seg>(fix conflicts and run "git commit")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(use "git add &lt;file&gt;..." to include in what will be committed)</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T110828Z" creationid="Prikryl" creationdate="20151029T110828Z">
         <seg>(use "git add &lt;file&gt;..." to include in what will be committed)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(use "git add &lt;file&gt;..." to mark resolution)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T073016Z" creationid="Prikryl" creationdate="20151120T073016Z">
+        <seg>(use "git add &lt;file&gt;..." to mark resolution)</seg>
       </tuv>
     </tu>
     <tu>
@@ -580,6 +658,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T120907Z" creationid="Prikryl" creationdate="20151029T120907Z">
         <seg>(use "git checkout -- &lt;file&gt;..." to discard changes in working directory)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(use "git commit" to conclude merge)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T080731Z" creationid="Prikryl" creationdate="20151120T080731Z">
+        <seg>(use "git commit" to conclude merge)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2370,8 +2456,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>After you exit the merge tool, Git asks you if the merge was successful.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Až nástroj pro slučování zavřete, Git se vás zeptá, zda sloučení proběhlo úspěšně.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T080642Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Po zavření nástroje pro slučování se vás Git zeptá, zda sloučení proběhlo úspěšně.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2388,6 +2474,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Po úspěšném spuštění příkazu `git checkout` se spustí zásuvný modul `post-checkout`. Ten slouží k nastavení pracovního adresáře podle potřeb prostředí vašeho projektu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>After you've resolved each of these sections in each conflicted file, run `git add` on each file to mark it as resolved.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T074939Z" creationid="Prikryl" creationdate="20151120T074939Z">
+        <seg>Po vyřešení všech označených částí ve všech souborech s konfliktem, spusťte pro každý soubor příkaz `git add`, kterým ho označíte jako vyřešený.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2800,6 +2894,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151106T220331Z" creationid="Prikryl" creationdate="20151106T220331Z">
         <seg>Veškeré změny, které jste v souboru provedli, jsou ztraceny -- soubor jste právě překopírovali jiným souborem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Anything that has merge conflicts and hasn't been resolved is listed as unmerged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T073207Z" creationid="Prikryl" creationdate="20151120T073207Z">
+        <seg>Vše, u čeho při slučování vznikl konflikt, který nebyl vyřešen, je označeno jako „unmerged“ (nesloučeno).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3390,6 +3492,14 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Changes to be committed:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T080733Z" creationid="Prikryl" creationdate="20151120T080733Z">
+        <seg>Changes to be committed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Changes you submit may be rendered obsolete or severely broken by work that is merged in while you were working or while your changes were waiting to be approved or applied.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3482,6 +3592,14 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T075800Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>Většina ostatních systémů ukládá informace jako seznamy změn souborů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Conflicts:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T081111Z" creationid="Prikryl" creationdate="20151120T081111Z">
+        <seg>Conflicts:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4417,8 +4535,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Git adds standard conflict-resolution markers to the files that have conflicts, so you can open them manually and resolve those conflicts.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Git přidává ke kolidujícím souborům standardní značky pro označení konfliktů (conflict-resolution markers), takže soubor můžete ručně otevřít a konflikty vyřešit.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T082917Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Git přidává do souborů způsobujících konflikt standardní značky pro označení konfliktů (conflict-resolution markers), takže soubory můžete ručně otevřít a konflikty vyřešit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4661,6 +4779,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>Git používá pro spravované soubory tři základní stavy: zapsáno (committed), změněno (modified) a připraveno k zapsání (staged).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Git hasn't automatically created a new merge commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T072934Z" creationid="Prikryl" creationdate="20151120T072934Z">
+        <seg>Git automaticky nevytvořil nový bod sloučení.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5560,6 +5686,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Změníte-li výraz pick na edit na více řádcích, můžete tyto kroky opakovat pro každou revizi, u níž jste změnu provedli.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you changed the same part of the same file differently in the two branches you're merging together, Git won't be able to merge them cleanly.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T072617Z" creationid="Prikryl" creationdate="20151120T072617Z">
+        <seg>Pokud jste tutéž část stejného souboru změnili odlišně ve dvou větvích, které chcete sloučit, Git je nebude umět sloučit čistě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6620,6 +6754,23 @@ Pokud použijete tento příkaz v kombinaci s konkrétním zkráceným názvem (
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you want to use a graphical tool to resolve these issues, you can run `git mergetool`, which fires up an appropriate visual merge tool and walks you through the conflicts:(((git commands, mergetool)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T083423Z" creationid="Prikryl" creationdate="20151120T075157Z">
+        <seg>Chcete-li k vyřešení problémů použít grafický nástroj, můžete použít příkaz `git mergetool`, který spustí příslušný vizuální nástroj pro slučování, a ten vás všemi konflikty provede:(((git příkazy, mergetool)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you want to use a merge tool other than the default (Git chose `opendiff` in this case because the command was run on a Mac), you can see all the supported tools listed at the top after ``one of the following tools.''
+Just type the name of the tool you'd rather use.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T083624Z" creationid="Prikryl" creationdate="20151120T080313Z">
+        <seg>Chcete-li pro slučování použít jiný než výchozí nástroj (Git v tomto případě vybral `opendiff`, protože byl příkaz spuštěn v systému Mac), naleznete všechny podporované nástroje na začátku výstupu v části „one of the following tools:“ („jeden z možných nástrojů“). Jednoduše napište jméno nástroje, který byste použili raději.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you want to version-control Word documents, you can stick them in a Git repository and commit every once in a while; but what good does that do?</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6672,6 +6823,14 @@ Pokud použijete tento příkaz v kombinaci s konkrétním zkráceným názvem (
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T211259Z" creationid="Prikryl" creationdate="20151028T211259Z">
         <seg>Pokud jste zvyklí pracovat s jinými systémy pro správu verzí, jako je například Subversion, jistě jste si všimli, že příkaz zní `clone`, a nikoli `checkout`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you're happy with that, and you verify that everything that had conflicts has been staged, you can type `git commit` to finalize the merge commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T083931Z" creationid="Prikryl" creationdate="20151120T081035Z">
+        <seg>Pokud jste s výsledkem spokojeni a ujistili jste se, že všechny soubory s konfliktem jsou připraveny k zapsání, můžete zadat příkaz `git commit` a dokončit vytvoření bodu sloučení (merge commit).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6736,6 +6895,14 @@ Pokud použijete tento příkaz v kombinaci s konkrétním zkráceným názvem (
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151106T213432Z" creationid="Prikryl" creationdate="20151106T213432Z">
         <seg>Pokud jste od poslední revize neprovedli žádné změny (například spustíte tento příkaz bezprostředně po předchozím zápisu), bude snímek vypadat úplně stejně a jediné, co změníte, je zpráva k revizi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If your fix for issue #53 modified the same part of a file as the `hotfix`, you'll get a merge conflict that looks something like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T072717Z" creationid="Prikryl" creationdate="20151120T072717Z">
+        <seg>Pokud se oprava problému #53 týkala stejné části souboru jako větev `hotfix`, dojde ke konfliktu při slučování (merge conflict), který vypadá nějak takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7016,8 +7183,8 @@ Sledování souboru `README` zahájíme takto:</seg>
       <tuv lang="EN">
         <seg>In order to resolve the conflict, you have to either choose one side or the other or merge the contents yourself.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li vzniklý konflikt vyřešit, musíte buď vybrat jednu z obou stran, nebo konflikt sloučit sami.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T074052Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Chcete-li vzniklý konflikt vyřešit, musíte buď vybrat jednu z obou možností, nebo je ručně spojit dohromady.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8406,6 +8573,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>V takovém případě nebyla zapsána žádná revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Normal merge conflict for 'index.html':</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T075225Z" creationid="Prikryl" creationdate="20151120T075225Z">
+        <seg>Normal merge conflict for 'index.html':</seg>
       </tuv>
     </tu>
     <tu>
@@ -9832,8 +10007,8 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="EN">
         <seg>Staging the file marks it as resolved in Git.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Připravení souboru k zápisu ho v systému Git označí jako vyřešený.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T083316Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Připravením k zápisu se v Gitu soubor označí jako vyřešený.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10604,8 +10779,8 @@ Pokud chcete na server `origin` odeslat svou větev `master` (znovu připomeňme
       <tuv lang="EN">
         <seg>The commit message by default looks something like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Zpráva revize má v takovém případě přednastavenu tuto podobu:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T081104Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Zpráva k revizi má v takovém případě přednastavenu tuto podobu:</seg>
       </tuv>
     </tu>
     <tu>
@@ -12866,6 +13041,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This means the version in `HEAD` (your `master` branch, because that was what you had checked out when you ran your merge command) is the top part of that block (everything above the `=======`), while the version in your `iss53` branch looks like everything in the bottom part.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T073928Z" creationid="Prikryl" creationdate="20151120T073928Z">
+        <seg>To znamená, že verze v `HEAD` (což je vaše větev `master`, protože jste na ni byli přepnutí, když jste spouštěli příkaz `merge`) je uvedena v horní části tohoto bloku (všechno nad oddělovačem `=======`), zatímco verze z větve `iss53` je uvedena v dolní části.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This means we can pull contributions from any of these users pretty easily.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151101T165426Z" creationid="Prikryl" creationdate="20151101T165426Z">
@@ -13016,6 +13199,14 @@ Některé z cílů nového systému byly následující:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tímto natáhnete stejnou změnu, která byla provedena revizí `e43a6`, avšak hodnota SHA-1 obou revizí se bude lišit, neboť bude rozdílné datum aplikace.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This resolution has a little of each section, and the `&lt;&lt;&lt;&lt;&lt;&lt;&lt;`, `=======`, and `&gt;&gt;&gt;&gt;&gt;&gt;&gt;` lines have been completely removed.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T083120Z" creationid="Prikryl" creationdate="20151120T074804Z">
+        <seg>Toto řešení obsahuje trochu z každé části a řádky `&lt;&lt;&lt;&lt;&lt;&lt;&lt;`, `=======` a `&gt;&gt;&gt;&gt;&gt;&gt;&gt;` byly úplně odstraněny.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13858,6 +14049,14 @@ To git@github.com:schacon/simplegit.git</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T133528Z" creationid="Prikryl" creationdate="20151107T133528Z">
         <seg>Na rozdíl od ostatních systémů pro správu verzí vybízí Git ke způsobu práce, kdy se větvení a slučování provádí často, dokonce i několikrát za den.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Unmerged paths:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T073014Z" creationid="Prikryl" creationdate="20151120T073014Z">
+        <seg>Unmerged paths:</seg>
       </tuv>
     </tu>
     <tu>
@@ -15056,6 +15255,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can modify that message with details about how you resolved the merge if you think it would be helpful to others looking at this merge in the future – why you did what you did, if it's not obvious.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T081801Z" creationid="Prikryl" creationdate="20151120T081801Z">
+        <seg>Není-li zcela zřejmé co a proč jste udělali, můžete zprávu doplnit o detaily, jak jste konflikt vyřešili -- pokud si myslíte, že by to v budoucnu mohlo při zkoumání obsahu této revize vzniklé sloučením nějak pomoci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can modify these limits with the `gc.auto` and `gc.autopacklimit` config settings, respectively.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -16126,8 +16333,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>Your file contains a section that looks something like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jedna část vašeho souboru bude vypadat zhruba takto:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T073443Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Soubor obsahuje část, která vypadá nějak takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16286,6 +16493,18 @@ Považuji za důležité poznamenat, že v Gitu se při přepnutí větví změn
       <tuv lang="EN">
         <seg>[NOTE]
 ====
+If you need more advanced tools for resolving tricky merge conflicts, we cover more on merging in &lt;&lt;_advanced_merging&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T083753Z" creationid="Prikryl" creationdate="20151120T080555Z">
+        <seg>[NOTE]
+====
+Pokud pro řešení zapeklitých konfliktů potřebujete pokročilejší nástroje, podívejte se na podkapitolu &lt;&lt;_advanced_merging&gt;&gt;, která se slučováním zabývá podrobněji.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[NOTE]
+====
 The ``master'' branch in Git is not a special branch.(((master)))
 It is exactly like any other branch.</seg>
       </tuv>
@@ -16406,6 +16625,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151115T152800Z" creationid="Prikryl" creationdate="20151115T152800Z">
         <seg>[[_basic_merging]]
 ==== Základní slučování</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_branch_management]]
+=== Branch Management</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T084158Z" creationid="Prikryl" creationdate="20151120T084158Z">
+        <seg>[[_branch_management]]
+=== Správa větví</seg>
       </tuv>
     </tu>
     <tu>
@@ -17986,6 +18215,36 @@ Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git merge iss53
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T072719Z" creationid="Prikryl" creationdate="20151120T072719Z">
+        <seg>[source,console]
+----
+$ git merge iss53
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git mergetool</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T075159Z" creationid="Prikryl" creationdate="20151120T075159Z">
+        <seg>[source,console]
+----
+$ git mergetool</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git mv README.md README
 $ git status
 On branch master
@@ -18280,6 +18539,22 @@ Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
 ----
 $ git status
 On branch master
+All conflicts fixed but you are still merging.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T080726Z" creationid="Prikryl" creationdate="20151120T080726Z">
+        <seg>[source,console]
+----
+$ git status
+On branch master
+All conflicts fixed but you are still merging.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git status
+On branch master
 Changes not staged for commit:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T223937Z" creationid="Prikryl" creationdate="20151031T223937Z">
@@ -18304,6 +18579,22 @@ Changes to be committed:</seg>
 $ git status
 On branch master
 Changes to be committed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git status
+On branch master
+You have unmerged paths.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T073009Z" creationid="Prikryl" creationdate="20151120T073009Z">
+        <seg>[source,console]
+----
+$ git status
+On branch master
+You have unmerged paths.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18730,6 +19021,18 @@ Changes not staged for commit:</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+Merge branch 'iss53'</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T081108Z" creationid="Prikryl" creationdate="20151120T081108Z">
+        <seg>[source,console]
+----
+Merge branch 'iss53'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 git clone https://github.com/schacon/simplegit-progit
 ----</seg>
       </tuv>
@@ -18737,6 +19040,42 @@ git clone https://github.com/schacon/simplegit-progit
         <seg>[source,console]
 ----
 git clone https://github.com/schacon/simplegit-progit
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,html]
+----
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:index.html
+&lt;div id="footer"&gt;contact : email.support@github.com&lt;/div&gt;
+=======
+&lt;div id="footer"&gt;</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T073445Z" creationid="Prikryl" creationdate="20151120T073445Z">
+        <seg>[source,html]
+----
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:index.html
+&lt;div id="footer"&gt;contact : email.support@github.com&lt;/div&gt;
+=======
+&lt;div id="footer"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,html]
+----
+&lt;div id="footer"&gt;
+please contact us at email.support@github.com
+&lt;/div&gt;
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T074111Z" creationid="Prikryl" creationdate="20151120T074111Z">
+        <seg>[source,html]
+----
+&lt;div id="footer"&gt;
+please contact us at email.support@github.com
+&lt;/div&gt;
 ----</seg>
       </tuv>
     </tu>
@@ -18920,6 +19259,14 @@ git clone https://github.com/schacon/simplegit-progit
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151024T091349Z" creationid="Prikryl" creationdate="20151024T091349Z">
         <seg>autogen change</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>both modified:      index.html</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T073018Z" creationid="Prikryl" creationdate="20151120T073018Z">
+        <seg>both modified:      index.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -19536,6 +19883,18 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>index.html
+#
+# It looks like you may be committing a merge.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T081135Z" creationid="Prikryl" creationdate="20151120T081135Z">
+        <seg>index.html
+#
+# It looks like you may be committing a merge.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>index.html |    1 +
 1 file changed, 1 insertion(+)
 ----</seg>
@@ -19708,6 +20067,16 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>modified:   index.html
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T080736Z" creationid="Prikryl" creationdate="20151120T080736Z">
+        <seg>modified:   index.html
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>my version 1.4</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T101847Z" creationid="Prikryl" creationdate="20151023T101847Z">
@@ -19778,6 +20147,20 @@ $ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nebo do druhé verze:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>please contact us at support@github.com
+&lt;/div&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; iss53:index.html
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T073448Z" creationid="Prikryl" creationdate="20151120T073448Z">
+        <seg>please contact us at support@github.com
+&lt;/div&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; iss53:index.html
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -20040,6 +20423,28 @@ Date:   Sun Apr 27 20:43:35 2008 -0700</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>vložte tento skript:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{local}: modified file</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T075227Z" creationid="Prikryl" creationdate="20151120T075227Z">
+        <seg>{local}: modified file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>{remote}: modified file
+Hit return to start merge resolution tool (opendiff):
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151120T075850Z" creationid="Prikryl" creationdate="20151120T075235Z">
+        <seg>{remote}: modified file
+Hit return to start merge resolution tool (opendiff):
+----
+
+Česky: Tato zpráva se zobrazila, protože hodnota `'merge.tool'` (nástroj pro slučování) není nakonfigurována... a následuje návod ke spuštění nápovědy. Dále... `'git mergetool'` se nyní pokusí spustit jeden z následujících nástrojů: ... Následuje informace o souboru s konfliktem a končí to... Stiskněte klávesu Return (Enter) pro spuštění opendiff.</seg>
       </tuv>
     </tu>
     <tu>

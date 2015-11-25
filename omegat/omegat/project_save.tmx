@@ -443,6 +443,15 @@ Co se stane, když vytvoříte novou větev?</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((branches, managing)))
+Now that you've created, merged, and deleted some branches, let's look at some branch-management tools that will come in handy when you begin using branches all the time.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T205716Z" creationid="Prikryl" creationdate="20151124T205716Z">
+        <seg>Když už jste vytvořili, sloučili a odstranili nějaké větve, podívejme se na pár nástrojů pro správu větví, které se vám při soustavném používání větví budou hodit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((branches, merging)))(((merging)))
 Suppose you've decided that your issue #53 work is complete and ready to be merged into your `master` branch.</seg>
       </tuv>
@@ -3290,6 +3299,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Because it contains work that isn't merged in yet, trying to delete it with `git branch -d` will fail:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T211613Z" creationid="Prikryl" creationdate="20151124T211613Z">
+        <seg>Jelikož obsahuje práci, která ještě nebyla začleněna, bude pokus o její smazání příkazem `git branch -d` neúspěšný:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Because the commit on the branch you're on isn't a direct ancestor of the branch you're merging in, Git has to do some work.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151115T153956Z" creationid="Prikryl" creationdate="20151115T153956Z">
@@ -3324,8 +3341,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>Because you already merged in `iss53` earlier, you see it in your list.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jelikož už jste větev `iss53` začlenili, nyní se zobrazí ve výpisu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T211036Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jelikož už jste větev `iss53` začlenili, zobrazila se v seznamu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3406,6 +3423,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T170432Z" creationid="Prikryl" creationdate="20151108T170432Z">
         <seg>Oboje tyto změny jsou oddělené na samostatných větvích. Můžete mezi nimi přepínat tam a zpět, a až uznáte za vhodné, můžete je sloučit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Branches on this list without the `*` in front of them are generally fine to delete with `git branch -d`; you've already incorporated their work into another branch, so you're not going to lose anything.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T211327Z" creationid="Prikryl" creationdate="20151124T211327Z">
+        <seg>Větve, před kterými v seznamu není `*`, můžeme většinou bez problémů smazat příkazem `git branch -d`. Práci v nich vytvořenou už jste zahrnuli do jiné větve, takže o nic nepřijdete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6136,8 +6161,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you really do want to delete the branch and lose that work, you can force it with `-D`, as the helpful message points out.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud chcete větev skutečně odstranit a zahodit práci, kterou obsahuje, můžete si to vynutit parametrem `-D` (jak napovídá užitečná zpráva pod řádkem s chybovým hlášením).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T211840Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud opravdu chcete větev odstranit a zahodit práci, kterou obsahuje, můžete to vynutit parametrem `-D`  -- jak napovídá užitečná zpráva pod chybovým hlášením.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8689,6 +8714,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Notice the `*` character that prefixes the `master` branch: it indicates the branch that you currently have checked out (i.e., the branch that `HEAD` points to).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T210115Z" creationid="Prikryl" creationdate="20151124T210115Z">
+        <seg>Všimněte si znaku `*`, který je uveden před větví `master`. Označuje větev, na kterou jste přepnuti (check out; tj. větev, na kterou ukazuje `HEAD`).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Notice the last line of the file, which begins with a `^`.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10543,6 +10576,16 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The `git branch` command does more than just create and delete branches.(((git commands, branch)))
+If you run it with no arguments, you get a simple listing of your current branches:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T205851Z" creationid="Prikryl" creationdate="20151124T205851Z">
+        <seg>Příkaz `git branch` umí víc, než jen vytvářet a mazat větve.(((git příkazy, branch)))
+Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech aktuálních větví:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The `git branch` command only _created_ a new branch – it didn't switch to that branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T163204Z" creationid="Prikryl" creationdate="20151108T163204Z">
@@ -11635,6 +11678,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Zajímavý je stav souboru simplegit.rb.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The useful `--merged` and `--no-merged` options can filter this list to branches that you have or have not yet merged into the branch you're currently on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T210843Z" creationid="Prikryl" creationdate="20151124T210843Z">
+        <seg>Užitečné volby `--merged` a `--no-merged` vám z tohoto seznamu umožní vyfiltrovat větve, které jste do aktuální větve buď začlenili, nebo dosud nezačlenili.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13011,8 +13062,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>This means that if you commit at this point, the `master` branch will be moved forward with your new work.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud tedy nyní zapíšete revizi, vaše nová práce posune vpřed větev `master`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T210345Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>To znamená, že pokud teď zapíšete revizi, posune se na nový bod větev `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13269,8 +13320,8 @@ Některé z cílů nového systému byly následující:</seg>
       <tuv lang="EN">
         <seg>This shows your other branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nyní se zobrazila jiná větev.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T211546Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tím se zobrazí jiná větev.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13799,6 +13850,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>To see all the branches that contain work you haven't yet merged in, you can run `git branch --no-merged`:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T211458Z" creationid="Prikryl" creationdate="20151124T211458Z">
+        <seg>Pro zobrazení všech větví, které obsahují dosud nezačleněnou práci, spusťte příkaz `git branch --no-merged`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>To see reflog information formatted like the `git log` output, you can run `git log -g`:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -13859,6 +13918,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151030T091749Z" creationid="Prikryl" creationdate="20151030T091749Z">
         <seg>Pokud chcete vidět, co jste změnili, ale zatím nepřipravili k zapsání, napište `git diff` bez dalších parametrů:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To see which branches are already merged into the branch you're on, you can run `git branch --merged`:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T210944Z" creationid="Prikryl" creationdate="20151124T210944Z">
+        <seg>Chcete-li zjistit, které větve už byly začleněny do větve, na níž se nacházíte, spusťte příkaz `git branch --merged`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -17295,6 +17362,42 @@ $ git commit -m 'The initial commit of my project'
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git branch</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T205854Z" creationid="Prikryl" creationdate="20151124T205854Z">
+        <seg>[source,console]
+----
+$ git branch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git branch --merged</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T210946Z" creationid="Prikryl" creationdate="20151124T210946Z">
+        <seg>[source,console]
+----
+$ git branch --merged</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git branch --no-merged</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T211500Z" creationid="Prikryl" creationdate="20151124T211500Z">
+        <seg>[source,console]
+----
+$ git branch --no-merged</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git branch -d hotfix
 Deleted branch hotfix (3a0874c).</seg>
       </tuv>
@@ -17317,6 +17420,32 @@ $ git branch -d iss53
 ----
 $ git branch -d iss53
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git branch -d testing
+error: The branch 'testing' is not fully merged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T211614Z" creationid="Prikryl" creationdate="20151124T211614Z">
+        <seg>[source,console]
+----
+$ git branch -d testing
+error: The branch 'testing' is not fully merged.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git branch -v</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T210431Z" creationid="Prikryl" creationdate="20151124T210431Z">
+        <seg>[source,console]
+----
+$ git branch -v</seg>
       </tuv>
     </tu>
     <tu>
@@ -19915,6 +20044,38 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>iss53
+* master</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T205859Z" creationid="Prikryl" creationdate="20151124T205859Z">
+        <seg>iss53
+* master</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>iss53
+* master
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T210949Z" creationid="Prikryl" creationdate="20151124T210949Z">
+        <seg>iss53
+* master
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>iss53   93b412c fix javascript issue
+* master  7a98805 Merge branch 'iss53'</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T210434Z" creationid="Prikryl" creationdate="20151124T210434Z">
+        <seg>iss53   93b412c fix javascript issue
+* master  7a98805 Merge branch 'iss53'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>issue-43                         new (next fetch will store in remotes/origin)</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T131329Z" creationid="Prikryl" creationdate="20151107T131329Z">
@@ -20323,6 +20484,26 @@ Unpacking objects: 100% (43/43), done.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T102444Z" creationid="Prikryl" creationdate="20151023T102444Z">
         <seg>test for current head</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>testing
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T205901Z" creationid="Prikryl" creationdate="20151124T205901Z">
+        <seg>testing
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>testing 782fd34 add scott to the author list in the readmes
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151124T210437Z" creationid="Prikryl" creationdate="20151124T210437Z">
+        <seg>testing 782fd34 add scott to the author list in the readmes
+----</seg>
       </tuv>
     </tu>
     <tu>

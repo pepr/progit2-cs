@@ -1,7 +1,7 @@
 {
-  "code": "en",
-  "language": "English",
-  "maintainers": ["schacon"],
+  "code": "cs",
+  "language": "Czech",
+  "maintainers": ["pepr"],
   "files": {
     "01-introduction": {
       "1-introduction.asc": 100,
@@ -30,7 +30,7 @@
       "sections/nutshell.asc": 100,
       "sections/rebasing.asc": 0,
       "sections/remote-branches.asc": 0,
-      "sections/workflows.asc": 0
+      "sections/workflows.asc": 100
     },
     "04-git-server": {
       "1-git-server.asc": 0,

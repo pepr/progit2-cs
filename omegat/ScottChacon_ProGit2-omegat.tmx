@@ -879,6 +879,16 @@ image::images/head-to-testing.png[HEAD ukazuje na aktuální větev.]</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.History after merging `dumbidea` and `iss91v2`
+image::images/topic-branches-2.png[History after merging `dumbidea` and `iss91v2`.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T185621Z" creationid="Prikryl" creationdate="20151209T185621Z">
+        <seg>.Historie po začlenění `dumbidea` a `iss91v2`
+image::images/topic-branches-2.png[Historie po začlenění `dumbidea` a `iss91v2`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Hotfix branch based on `master`
 image::images/basic-branching-4.png[Hotfix branch based on `master`.]</seg>
       </tuv>
@@ -7730,6 +7740,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It's important to remember when you're doing all this that these branches are completely local.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T190413Z" creationid="Prikryl" creationdate="20151209T190413Z">
+        <seg>Při tom všem, co nyní děláte, je důležité mít na paměti, že všechny tyto větve jsou zcela lokální.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It's incredibly fast, it's very efficient with large projects, and it has an incredible branching system for non-linear development (See &lt;&lt;_git_branching&gt;&gt;).</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T073640Z" creationid="Prikryl" creationdate="20151027T073640Z">
@@ -8738,6 +8756,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Budete-li nyní chtít začlenit větev `opera` do větve `trunk` (vaše větev `master`), můžete tak učinit běžným příkazem `git merge`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now, let's say you decide you like the second solution to your issue best (`iss91v2`); and you showed the `dumbidea` branch to your coworkers, and it turns out to be genius.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T185343Z" creationid="Prikryl" creationdate="20151209T185343Z">
+        <seg>Řekněme, že se nyní rozhodnete, že se vám druhé řešení problému líbí víc (`iss91v2`). Svůj nápad ve větvi `dumbidea` jste ukázali kolegům a ti ho považují za geniální.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13804,6 +13830,14 @@ To git@github.com:schacon/simplegit.git</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>We will go into more detail about the various possible workflows for your Git project in &lt;&lt;_distributed_git&gt;&gt;, so before you decide which branching scheme your next project will use, be sure to read that chapter.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T190310Z" creationid="Prikryl" creationdate="20151209T190310Z">
+        <seg>Další detaily různých možných pracovních postupů, které můžete pro váš projekt v Gitu využít, rozebereme v kapitole &lt;&lt;_distributed_git&gt;&gt;. Takže než se rozhodnete, jaké schéma větvení bude váš příští projekt využívat, přečtěte si ji.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>We won't refer to them or assume you've used them later in the book, but you should probably know how to use them.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T142912Z" creationid="Prikryl" creationdate="20151107T142733Z">
@@ -14170,6 +14204,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Po uložení zprávy budete mít jedinou revizi, která bude obsahovat všechny změny předchozích tří revizí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>When you're branching and merging, everything is being done only in your Git repository – no server communication is happening.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T190514Z" creationid="Prikryl" creationdate="20151209T190514Z">
+        <seg>Veškeré větvení a slučování se odehrává pouze ve vašem gitovém repozitáři -- neprobíhá žádná komunikace se serverem.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15230,6 +15272,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can throw away the original `iss91` branch (losing commits `C5` and `C6`) and merge in the other two.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T185507Z" creationid="Prikryl" creationdate="20151209T185507Z">
+        <seg>Původní větev `iss91` můžete zahodit (s ní i revize `C5` a `C6`) a začlenit zbylé dvě větve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can turn on this functionality with the `core.autocrlf` setting.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -15958,6 +16008,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Vaše historie už neobsahuje referenci na problémový soubor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Your history then looks like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T185532Z" creationid="Prikryl" creationdate="20151209T185532Z">
+        <seg>Vaše historie pak vypadá následovně:</seg>
       </tuv>
     </tu>
     <tu>
@@ -18287,62 +18345,6 @@ $ git tag -a v1.2 9fceb02
         <seg>[source,console]
 ----
 $ git tag -a v1.2 9fceb02
-----</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN">
-        <seg>[source,console]
-----
-$ git tag -a v1.4 -m 'my version 1.4'
-$ git tag
-v0.1
-v1.3
-v1.4
-----</seg>
-      </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T150222Z" creationid="Prikryl" creationdate="20151107T150222Z">
-        <seg>[source,console]
-----
-$ git tag -a v1.4 -m 'my version 1.4'
-$ git tag
-v0.1
-v1.3
-v1.4
-----</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN">
-        <seg>[source,console]
-----
-$ git tag -l 'v1.8.5*'
-v1.8.5
-v1.8.5-rc0
-v1.8.5-rc1
-v1.8.5-rc2
-v1.8.5-rc3
-v1.8.5.1
-v1.8.5.2
-v1.8.5.3
-v1.8.5.4
-v1.8.5.5
-----</seg>
-      </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T145554Z" creationid="Prikryl" creationdate="20151107T145554Z">
-        <seg>[source,console]
-----
-$ git tag -l 'v1.8.5*'
-v1.8.5
-v1.8.5-rc0
-v1.8.5-rc1
-v1.8.5-rc2
-v1.8.5-rc3
-v1.8.5.1
-v1.8.5.2
-v1.8.5.3
-v1.8.5.4
-v1.8.5.5
 ----</seg>
       </tuv>
     </tu>

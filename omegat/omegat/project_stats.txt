@@ -1,11 +1,11 @@
-9.12.15 16:32
+9.12.15 20:23
 Statistika projektu
 
                              	Segmenty	 Slova	Znaky (bez mezer)	Znaky (včetně mezer)	#Files	
 Celkem:                      	    8815	137153	           725798	              851842	   102	
-Zbývající:                   	    6196	 98076	           533328	              623022	    80	
+Zbývající:                   	    6189	 97934	           532581	              622145	    79	
 Jedinečné segmenty:          	    8283	134876	           712292	              836354	   102	
-Zbývající jedinečné segmenty:	    5975	 97002	           526824	              615555	    80	
+Zbývající jedinečné segmenty:	    5968	 96860	           526077	              614678	    79	
 
 
 Statistika jednotlivých souborů:
@@ -33,7 +33,7 @@ book/03-git-branching/sections/branch-management.asc          	             27	 
 book/03-git-branching/sections/nutshell.asc                   	             79	                 0	                77	                           0	        1347	              0	           1347	                        0	                    6922	                          0	                       6914	                                    0	                       8137	                             0	                          8129	                                       0	
 book/03-git-branching/sections/rebasing.asc                   	            108	                93	               108	                          93	        2221	           1954	           2221	                     1954	                   11083	                       9812	                      11083	                                 9812	                      13092	                         11567	                         13092	                                   11567	
 book/03-git-branching/sections/remote-branches.asc            	            118	               101	               113	                          99	        2224	           1966	           2205	                     1954	                   11529	                      10301	                      11415	                                10229	                      13560	                         12097	                         13430	                                   12015	
-book/03-git-branching/sections/workflows.asc                  	             37	                 7	                37	                           7	         795	            142	            795	                      142	                    4100	                        747	                       4100	                                  747	                       4837	                           877	                          4837	                                     877	
+book/03-git-branching/sections/workflows.asc                  	             37	                 0	                37	                           0	         795	              0	            795	                        0	                    4100	                          0	                       4100	                                    0	                       4837	                             0	                          4837	                                       0	
 book/04-git-server/1-git-server.asc                           	             29	                19	                28	                          19	         482	            263	            481	                      263	                    2486	                       1459	                       2476	                                 1459	                       2924	                          1686	                          2913	                                    1686	
 book/04-git-server/sections/generating-ssh-key.asc            	             22	                18	                22	                          18	         408	            357	            408	                      357	                    2345	                       2117	                       2345	                                 2117	                       2683	                          2408	                          2683	                                    2408	
 book/04-git-server/sections/git-daemon.asc                    	             32	                25	                32	                          25	         462	            366	            462	                      366	                    2409	                       1949	                       2409	                                 1949	                       2821	                          2271	                          2821	                                    2271	

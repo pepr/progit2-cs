@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5.2_1" segtype="sentence" srclang="EN"/>
+  <header creationtool="O aplikaci OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5.3_0_r7969:7974" segtype="sentence" srclang="EN"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -297,6 +297,16 @@ Co se stane, když vytvoříte novou větev?</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((branches, long-running)))
+Because Git uses a simple three-way merge, merging from one branch into another multiple times over a long period is generally easy to do.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T090228Z" creationid="Prikryl" creationdate="20151209T085931Z">
+        <seg>(((větve, dlouhotrvající)))
+Protože Git používá jednoduché třícestné slučování, je i opakované začleňování jedné větve do druhé -- v průběhu delšího času -- velmi snadné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((branches, managing)))
 Now that you've created, merged, and deleted some branches, let's look at some branch-management tools that will come in handy when you begin using branches all the time.</seg>
       </tuv>
@@ -324,6 +334,16 @@ Let's switch to the new `testing` branch:</seg>
         <seg>(((větve, přepínání)))
 Chcete-li přepnout na existující větev, spusťte příkaz `git checkout`.(((git příkazy, checkout)))
 Přepněme se na novou větev `testing`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((branches, topic)))
+Topic branches, however, are useful in projects of any size.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T141910Z" creationid="Prikryl" creationdate="20151209T141910Z">
+        <seg>(((větve, tématické)))
+Naproti tomu tématické větve se hodí v projektech jakékoli velikosti.</seg>
       </tuv>
     </tu>
     <tu>
@@ -755,6 +775,16 @@ image::images/commit-and-tree.png[Objekt revize a jeho strom.]</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.A linear view of progressive-stability branching
+image::images/lr-branches-1.png[A linear view of progressive-stability branching.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T135737Z" creationid="Prikryl" creationdate="20151209T135737Z">
+        <seg>.Lineární pohled na větvení podle stupně stability
+image::images/lr-branches-1.png[Lineární pohled na větvení podle stupně stability.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.A merge commit
 image::images/basic-merging-2.png[A merge commit.]</seg>
       </tuv>
@@ -863,6 +893,16 @@ image::images/basic-branching-4.png[Větev pro opravu je odvozená od `master`.]
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T182708Z" creationid="Prikryl" creationdate="20151026T182708Z">
         <seg>.Lokální správa verzí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Multiple topic branches
+image::images/topic-branches-1.png[Multiple topic branches.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T145343Z" creationid="Prikryl" creationdate="20151209T145343Z">
+        <seg>.Více tématických větví
+image::images/topic-branches-1.png[Více tématických větví.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -1143,8 +1183,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>=== Branching Workflows</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>=== Možnosti při práci s větvemi</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151205T121347Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>=== Postupy při práci s větvemi</seg>
       </tuv>
     </tu>
     <tu>
@@ -1567,8 +1607,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>==== Long-Running Branches</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>==== Dlouhé větve</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T090000Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>==== Větve s dlouhou životností</seg>
       </tuv>
     </tu>
     <tu>
@@ -1855,8 +1895,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>==== Working in Topic Branches</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>==== Práce v tematických větvích</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>==== Práce v tématických větvích</seg>
       </tuv>
     </tu>
     <tu>
@@ -2175,8 +2215,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>A topic branch is a short-lived branch that you create and use for a single particular feature or related work.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tematická větev (topic branch) je krátkodobá větev, kterou vytvoříte a používáte pro jediný konkrétní účel nebo práci.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142036Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tématická větev (topic branch) je krátkodobá větev, kterou vytvoříte a používáte pro jediný konkrétní účel nebo práci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2313,6 +2353,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151115T152042Z" creationid="Prikryl" creationdate="20151115T152042Z">
         <seg>Poté, co jste dokončili práci na bezodkladné opravě, můžete přepnout zpět na práci, jíž jste se věnovali před jejím přerušením.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Again, having multiple long-running branches isn't necessary, but it's often helpful, especially when you're dealing with very large or complex projects.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T141732Z" creationid="Prikryl" creationdate="20151209T141732Z">
+        <seg>Zopakujme, že není nutné používat několik dlouhotrvajících větví, ale často to může být užitečné, zejména pokud se jedná o velmi velké nebo složité projekty.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3223,6 +3271,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>But in Git it's common to create, work on, merge, and delete branches several times a day.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T143036Z" creationid="Prikryl" creationdate="20151209T143036Z">
+        <seg>Ale v Gitu je běžné, že se větev vytvoří, pracuje se v ní, sloučí se a odstraní -- to vše i několikrát za den.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>By default, Git passes the following arguments to the diff program:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3413,6 +3469,14 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T105143Z" creationid="Prikryl" creationdate="20151023T105143Z">
         <seg>Connection to gitserver closed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Consider an example of doing some work (on `master`), branching off for an issue (`iss91`), working on it for a bit, branching off the second branch to try another way of handling the same thing (`iss91v2`), going back to your `master` branch and working there for a while, and then branching off there to do some work that you're not sure is a good idea (`dumbidea` branch).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T145244Z" creationid="Prikryl" creationdate="20151209T145244Z">
+        <seg>Uvažujme příklad, kdy něco vytvoříte (v `master`), odvětvíte se kvůli řešení problému (`iss91`), chvíli na něm pracujete, vytvoříte druhou větev, abyste zkusili jiné řešení stejného problému (`iss91v2`). Vrátíte se zpět do větve `master`, kde chvíli pokračujete v práci a vytvoříte další větev, ve které chcete vyzkoušet něco, co by nemusel být dobrý nápad (větev `dumbidea`).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4718,8 +4782,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Having work themes isolated into topic branches also makes it easier for you to rebase your work if the tip of the main repository has moved in the meantime and your commits no longer apply cleanly.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jednotlivé úkoly izolované v tematických větvích mají také tu výhodu, že snáze přeskládáte svou práci, jestliže se průběžně posouvá konec hlavního repozitáře a vaše revize už nelze aplikovat čistě.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142103Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jednotlivé úkoly izolované v tématických větvích mají také tu výhodu, že snáze přeskládáte svou práci, jestliže se průběžně posouvá konec hlavního repozitáře a vaše revize už nelze aplikovat čistě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6866,6 +6930,14 @@ Sledování souboru `README` zahájíme takto:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In reality, we're talking about pointers moving up the line of commits you're making.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T134919Z" creationid="Prikryl" creationdate="20151209T134919Z">
+        <seg>Ve skutečnosti hovoříme o ukazatelích pohybujících se vzhůru po linii revizí, které zapisujete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In reality, you're unlikely to use that often, because Git by default pipes all output through a pager so you see only one page of log output at a time.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151103T200041Z" creationid="Prikryl" creationdate="20151103T200041Z">
@@ -6942,8 +7014,8 @@ Zde je příklad souboru `.gitignore`:</seg>
       <tuv lang="EN">
         <seg>In the meantime, Jessica has been working on a topic branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jessica mezitím pracovala na tematické větvi.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142045Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jessica mezitím pracovala na tématické větvi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7082,6 +7154,14 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>V tomto scénáři máte dvě dlouhodobé větve, hlavní větev `master` a větev `develop`. Určíte, že větev `master` bude aktualizována, pouze když je k dispozici velmi stabilní verze a do větve `develop` je integrován veškerý nový kód.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In this section, we'll cover some common workflows that this lightweight branching makes possible, so you can decide if you would like to incorporate it into your own development cycle.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151205T122643Z" creationid="Prikryl" creationdate="20151205T122643Z">
+        <seg>V této části se podíváme na některé běžné pracovní postupy, které vám snadné větvení umožňuje, takže se budete moci rozhodnout, zda je nezařadíte do vývojového cyklu svých projektů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7618,6 +7698,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It's generally easier to think about them as work silos, where sets of commits graduate to a more stable silo when they're fully tested.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T140351Z" creationid="Prikryl" creationdate="20151209T140351Z">
+        <seg>Většinou je jednodušší uvažovat o větvích jako o pracovních zásobnících, kdy sada revizí postupuje do stabilnějšího zásobníku až po úplném otestování.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It's generally recommended that you create annotated tags so you can have all this information; but if you want a temporary tag or for some reason don't want to keep the other information, lightweight tags are available too.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T150001Z" creationid="Prikryl" creationdate="20151107T150001Z">
@@ -7662,6 +7750,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T121425Z" creationid="Prikryl" creationdate="20151027T120826Z">
         <seg>Soubor se někdy označuje také anglickým výrazem „index“, ale běžně se používá i pojem oblast připravených změn (staging area).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's used to pull in topic branches (short-lived branches, like your earlier `iss53` branch) when they're ready, to make sure they pass all the tests and don't introduce bugs.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T092004Z" creationid="Prikryl" creationdate="20151209T092004Z">
+        <seg>Do ní se vtahují tématické větve (ty dočasné, jako byla dřívější větev `iss53`) jakmile jsou připravené -- abychom zajistili, že projdou všemi testy a nezavlečou chyby.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8034,6 +8130,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151101T163755Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Při správě vzdálených repozitářů musíte vědět, jak lze přidat vzdálený repozitář, jak odstranit vzdálený repozitář, který už není platný, jak spravovat různé vzdálené větve, jak je určit jako sledované či nesledované a další věci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Many Git developers have a workflow that embraces this approach, such as having only code that is entirely stable in their `master` branch – possibly only code that has been or will be released.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T091230Z" creationid="Prikryl" creationdate="20151209T091230Z">
+        <seg>Řada vývojářů, kteří Git používají, si tento přístup osvojila, takže například ve větvi `master` uchovávají kód, který je zcela stabilní -- kód, který byl nebo bude součástí zveřejněné verze.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8416,8 +8520,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Now that you have the basics of branching and merging down, what can or should you do with them?</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Teď, když jste absolvovali základní seznámení s větvemi a jejich slučováním, nabízí se otázka, k čemu je to vlastně dobré.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151205T121847Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Když už máte základy větvení a slučování za sebou, jak s nimi můžete -- nebo byste měli -- pracovat?</seg>
       </tuv>
     </tu>
     <tu>
@@ -9564,8 +9668,8 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="EN">
         <seg>Some larger projects also have a `proposed` or `pu` (proposed updates) branch that has integrated branches that may not be ready to go into the `next` or `master` branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Některé větší projekty mají také větev `proposed` nebo `pu` (proposed updates, návrh aktualizací) s integrovanými větvemi, které nemusí být nutně způsobilé k začlenění do větve `next` nebo `master`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T141329Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Některé větší projekty mají také větev `proposed` nebo `pu` (proposed updates, návrh úprav), která přebírá věci z větví, které nejsou způsobilé k začlenění do větví `next` nebo `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10682,6 +10786,14 @@ U systému Mavericks (10.9) a vyšších můžeme v okně Terminálu zkusit hned
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The idea is that your branches are at various levels of stability; when they reach a more stable level, they're merged into the branch above them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T141428Z" creationid="Prikryl" creationdate="20151209T141428Z">
+        <seg>Hlavní myšlenka je taková, že se větve nacházejí na různé úrovni stability. Jakmile dosáhnou stability o stupeň vyšší, jsou začleněny do větve nad nimi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The idea of the subtree merge is that you have two projects, and one of the projects maps to a subdirectory of the other one and vice versa.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -11170,6 +11282,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jednoduchým případem je příklad, který jste právě viděli: spuštění příkazu `git checkout -b [větev] [vzdálený server]/[větev]`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The stable branches are farther down the line in your commit history, and the bleeding-edge branches are farther up the history.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T135307Z" creationid="Prikryl" creationdate="20151209T135307Z">
+        <seg>Stabilní větve leží v linii historie revizí níže a větve s nejčerstvějšími novinkami se nacházejí nad nimi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11664,6 +11784,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>They have another parallel branch named `develop` or `next` that they work from or use to test stability – it isn't necessarily always stable, but whenever it gets to a stable state, it can be merged into `master`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T091442Z" creationid="Prikryl" creationdate="20151209T091442Z">
+        <seg>Kromě toho mají další, paralelní větev `develop` nebo `next`, ve které pracují nebo ji používají pro testování stability. Tato větev nemusí být nutně stabilní, ale jakmile se dostane do stabilního stavu, může být začleněna do větve `master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>They take the form `(remote)/(branch)`.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -11906,8 +12034,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>This command shows you only the work your current topic branch has introduced since its common ancestor with master.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tento příkaz zobrazí pouze práci, která byla ve vaší aktuální tematické větvi provedena od chvíle, kdy se oddělila od hlavní větve.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tento příkaz zobrazí pouze práci, která byla ve vaší aktuální tématické větvi provedena od chvíle, kdy se oddělila od hlavní větve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12384,6 +12512,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This is something you've likely never done with a VCS before because it's generally too expensive to create and merge branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142758Z" creationid="Prikryl" creationdate="20151209T142758Z">
+        <seg>Je to něco, co byste v dřívějších systémech pro správu verzí nikdy nedělali, protože v nich je vytváření a slučování větví většinou náročné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This is the basic information that the commit object stores for you.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -12602,8 +12738,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>This means you can have several branches that are always open and that you use for different stages of your development cycle; you can merge regularly from some of them into others.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Můžete tak mít několik větví, které jsou stále otevřené a které používáte pro různé fáze vývojového cyklu. Pravidelně můžete začleňovat práci z jedné větve do ostatních.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T090643Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>To znamená, že můžete mít neustále otevřeno několik větví a můžete je používat pro různé fáze vývojového cyklu. Některé z nich můžete pravidelně slučovat s jinými.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12806,6 +12942,14 @@ Některé z cílů nového systému byly následující:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151124T211546Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tím se zobrazí jiná větev.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This technique allows you to context-switch quickly and completely – because your work is separated into silos where all the changes in that branch have to do with that topic, it's easier to see what has happened during code review and such.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T144023Z" creationid="Prikryl" creationdate="20151209T144023Z">
+        <seg>Tato technika umožňuje rychlé a snadné přepínání kontextu. A protože je vaše práce rozdělena do zásobníků, kde všechny změny v jedné větvi souvisejí s jedním tématem, je při kontrole kódu snazší dohledat, čeho se změny týkaly a podobné věci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13304,8 +13448,8 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       <tuv lang="EN">
         <seg>To see a full diff of what would happen if you were to merge this topic branch with another branch, you may have to use a weird trick to get the correct results.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li vidět plný výpis diff, jak by vypadaly rozdíly, kdybyste tuto tematickou větev začlenili do jiné větve, můžete použít speciální trik, který vám zobrazí požadované informace.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Chcete-li vidět plný výpis diff, jak by vypadaly rozdíly, kdybyste tuto tématickou větev začlenili do jiné větve, můžete použít speciální trik, který vám zobrazí požadované informace.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13832,8 +13976,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>When all the patches for your topic are applied and committed into your branch, you can choose whether and how to integrate them into a longer-running branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Až budete mít všechny záplaty aplikovány a zapsány do tematické větve, můžete se rozhodnout, zda a jak je chcete integrovat do některé z trvalejších větví.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Až budete mít všechny záplaty aplikovány a zapsány do tématické větve, můžete se rozhodnout, zda a jak je chcete integrovat do některé z trvalejších větví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13920,8 +14064,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>When you have work in a topic branch and have determined that you want to integrate it, you move to that branch and run the rebase command to rebuild the changes on top of your current master (or `develop`, and so on) branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Máte-li určitou práci v tematické větvi a rozhodli jste se, že ji integrujete, přejdete na tuto větev a spustíte příkaz rebase, jímž znovu sestavíte příslušné změny na vrcholu svojí aktuální hlavní větve (příp. větve `develop` apod.).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Máte-li určitou práci v tématické větvi a rozhodli jste se, že ji integrujete, přejdete na tuto větev a spustíte příkaz rebase, jímž znovu sestavíte příslušné změny na vrcholu svojí aktuální hlavní větve (příp. větve `develop` apod.).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14240,8 +14384,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>You branched a topic branch (`server`) to add some server-side functionality to your project, and made a commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vytvořili jste novou tematickou větev (`server`), pomocí níž chcete do svého projektu přidat funkci na straně serveru, a zapsali jste revizi.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142004Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Vytvořili jste novou tématickou větev (`server`), pomocí níž chcete do svého projektu přidat funkci na straně serveru, a zapsali jste revizi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14712,8 +14856,16 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>You can keep doing this for several levels of stability.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tento postup lze použít hned pro několik úrovní stability.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T140814Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Takto můžete pokračovat pro několik úrovní stability.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can keep the changes there for minutes, days, or months, and merge them in when they're ready, regardless of the order in which they were created or worked on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T144330Z" creationid="Prikryl" creationdate="20151209T144330Z">
+        <seg>Změny v nich můžete uchovávat několik minut, dní i měsíců a začlenit je až ve vhodnou chvíli -- nezávisle na pořadí, v jakém vznikly nebo byly vyvíjeny.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15138,8 +15290,8 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       <tuv lang="EN">
         <seg>You did a few commits on them and deleted them directly after merging them into your main branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Provedli jste v nich pár revizí a smazali jste je hned po začlenění změn do hlavní větve.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T143217Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Zapsali jste do nich pár revizí a smazali jste je hned po začlenění změn do hlavní větve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15154,8 +15306,8 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       <tuv lang="EN">
         <seg>You do that by having Git compare the last commit on your topic branch with the first common ancestor it has with the master branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tohoto srovnání dosáhnete tak, že necháte Git porovnat poslední revizi ve vaší tematické větvi s prvním předkem, kterého má společného s hlavní větví.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tohoto srovnání dosáhnete tak, že necháte Git porovnat poslední revizi ve vaší tématické větvi s prvním předkem, kterého má společného s hlavní větví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15770,6 +15922,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Your commit history will look something like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T145318Z" creationid="Prikryl" creationdate="20151209T145318Z">
+        <seg>Historie revizí bude vypadat nějak takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Your database contains the two new versions of the file as well as the first content you stored there:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -16312,6 +16472,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_topic_branch]]
+==== Topic Branches</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T141758Z" creationid="Prikryl" creationdate="20151209T141758Z">
+        <seg>[[_topic_branch]]
+==== Tématické větve</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_tracking_files]]
 ==== Tracking New Files</seg>
       </tuv>
@@ -16398,6 +16568,18 @@ image::images/advance-master.png[Rozbíhající se historie.]</seg>
 |================================
 | Volba             | Popis
 | `-p`              | Zobrazí záplatu (**p**atch) zahrnutou do každé revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[lrbranch_b]]
+.A ``silo'' view of progressive-stability branching
+image::images/lr-branches-2.png[A ``silo'' view of progressive-stability branching.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T140453Z" creationid="Prikryl" creationdate="20151209T140453Z">
+        <seg>[[lrbranch_b]]
+.„Zásobníkový“ pohled na větvení podle stupně stability
+image::images/lr-branches-2.png[„Zásobníkový“ pohled na větvení podle stupně stability.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -18105,6 +18287,62 @@ $ git tag -a v1.2 9fceb02
         <seg>[source,console]
 ----
 $ git tag -a v1.2 9fceb02
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git tag -a v1.4 -m 'my version 1.4'
+$ git tag
+v0.1
+v1.3
+v1.4
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T150222Z" creationid="Prikryl" creationdate="20151107T150222Z">
+        <seg>[source,console]
+----
+$ git tag -a v1.4 -m 'my version 1.4'
+$ git tag
+v0.1
+v1.3
+v1.4
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git tag -l 'v1.8.5*'
+v1.8.5
+v1.8.5-rc0
+v1.8.5-rc1
+v1.8.5-rc2
+v1.8.5-rc3
+v1.8.5.1
+v1.8.5.2
+v1.8.5.3
+v1.8.5.4
+v1.8.5.5
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T145554Z" creationid="Prikryl" creationdate="20151107T145554Z">
+        <seg>[source,console]
+----
+$ git tag -l 'v1.8.5*'
+v1.8.5
+v1.8.5-rc0
+v1.8.5-rc1
+v1.8.5-rc2
+v1.8.5-rc3
+v1.8.5.1
+v1.8.5.2
+v1.8.5.3
+v1.8.5.4
+v1.8.5.5
 ----</seg>
       </tuv>
     </tu>

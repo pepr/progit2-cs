@@ -2331,7 +2331,7 @@
         <seg>==== Topic Branches</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>==== Tematické větve</seg>
+        <seg>==== Tématické větve</seg>
       </tuv>
     </tu>
     <tu>
@@ -2411,7 +2411,7 @@
         <seg>==== Working in Topic Branches</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>==== Práce v tematických větvích</seg>
+        <seg>==== Práce v tématických větvích</seg>
       </tuv>
     </tu>
     <tu>
@@ -11057,7 +11057,7 @@ nor is the commit message.</seg>
         <seg>A history with a topic branch off another topic branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Historie s tematickou větví obsahující další tematickou větev.</seg>
+        <seg>Historie s tématickou větví obsahující další tématickou větev.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11233,7 +11233,7 @@ nor is the commit message.</seg>
         <seg>A topic branch is a short-lived branch that you create and use for a single particular feature or related work.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tematická větev (topic branch) je krátkodobá větev, kterou vytvoříte a používáte pro jediný konkrétní účel nebo práci.</seg>
+        <seg>Tématická větev (topic branch) je krátkodobá větev, kterou vytvoříte a používáte pro jediný konkrétní účel nebo práci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11335,7 +11335,7 @@ nor is the commit message.</seg>
         <seg>After a topic branch merge.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Po začlenění tematické větve</seg>
+        <seg>Po začlenění tématické větve</seg>
       </tuv>
     </tu>
     <tu>
@@ -11343,7 +11343,7 @@ nor is the commit message.</seg>
         <seg>After a topic branch release.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Po vydání tematické větve</seg>
+        <seg>Po vydání tématické větve</seg>
       </tuv>
     </tu>
     <tu>
@@ -12631,7 +12631,7 @@ nor is the commit message.</seg>
         <seg>At this point, the topics are evaluated to determine whether they’re safe and ready for consumption or whether they need more work.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nyní budou tematické větve vyhodnoceny, zda jsou bezpečné a mohou být aplikovány, nebo zda potřebují další úpravy.</seg>
+        <seg>Nyní budou tématické větve vyhodnoceny, zda jsou bezpečné a mohou být aplikovány, nebo zda potřebují další úpravy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13137,7 +13137,7 @@ nor is the commit message.</seg>
         <seg>Before a topic branch merge.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Před začleněním tematické větve</seg>
+        <seg>Před začleněním tématické větve</seg>
       </tuv>
     </tu>
     <tu>
@@ -14127,7 +14127,7 @@ nor is the commit message.</seg>
         <seg>Each time you have a new topic branch to merge in (Figure 5-21), you merge it into `develop` (Figure 5-22); then, when you tag a release, you fast-forward `master` to wherever the now-stable `develop` branch is (Figure 5-23).</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokaždé, když máte novou tematickou větev k začlenění (obrázek 5-21), začleníte ji do větve `develop` (obrázek 5-22). Když poté označujete vydání, posunete větev `master` rychle vpřed do místa, kde je nyní větev `develop` stabilní (obrázek 5-23).</seg>
+        <seg>Pokaždé, když máte novou tématickou větev k začlenění (obrázek 5-21), začleníte ji do větve `develop` (obrázek 5-22). Když poté označujete vydání, posunete větev `master` rychle vpřed do místa, kde je nyní větev `develop` stabilní (obrázek 5-23).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14779,7 +14779,7 @@ nor is the commit message.</seg>
         <seg>First, you’ll probably want to clone the main repository, create a topic branch for the patch or patch series you’re planning to contribute, and do your work there.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nejprve patrně bude nutné, abyste naklonovali hlavní repozitář, vytvořili tematickou větev pro záplatu nebo sérii záplat, které hodláte vytvořit, a udělali v nich zamýšlenou práci.</seg>
+        <seg>Nejprve patrně bude nutné, abyste naklonovali hlavní repozitář, vytvořili tématickou větev pro záplatu nebo sérii záplat, které hodláte vytvořit, a udělali v nich zamýšlenou práci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14909,7 +14909,7 @@ nor is the commit message.</seg>
         <seg>For example, if you want to submit a second topic of work to the project, don’t continue working on the topic branch you just pushed up — start over from the main repository’s `master` branch:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud například chcete do projektu přispět druhým tématem, nerozvíjejte svou práci v tematické větvi, kterou jste právě odeslali. Začněte znovu od začátku z větve `master` hlavního repozitáře:</seg>
+        <seg>Pokud například chcete do projektu přispět druhým tématem, nerozvíjejte svou práci v tématické větvi, kterou jste právě odeslali. Začněte znovu od začátku z větve `master` hlavního repozitáře:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14933,7 +14933,7 @@ nor is the commit message.</seg>
         <seg>For example, if you’ve added a line in a file on the `master` branch, a direct comparison of the snapshots will look like the topic branch is going to remove that line.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud jste například do souboru ve větvi `master` přidali jeden řádek, přímé srovnání snímků bude vypadat, jako by měla tematická větev tento řádek odstranit.</seg>
+        <seg>Pokud jste například do souboru ve větvi `master` přidali jeden řádek, přímé srovnání snímků bude vypadat, jako by měla tématická větev tento řádek odstranit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15165,7 +15165,7 @@ nor is the commit message.</seg>
         <seg>For instance, if Jessica wants to send John a pull request, and she’s done two commits on the topic branch she just pushed up, she can run this:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud chce například Jessica poslat Johnovi žádost o natažení a vytvořila předtím dvě revize v tematické větvi, kterou právě odeslala, může zadat tento příkaz:</seg>
+        <seg>Pokud chce například Jessica poslat Johnovi žádost o natažení a vytvořila předtím dvě revize v tématické větvi, kterou právě odeslala, může zadat tento příkaz:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16457,7 +16457,7 @@ nor is the commit message.</seg>
         <seg>Having work themes isolated into topic branches also makes it easier for you to rebase your work if the tip of the main repository has moved in the meantime and your commits no longer apply cleanly.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jednotlivé úkoly izolované v tematických větvích mají také tu výhodu, že snáze přeskládáte svou práci, jestliže se průběžně posouvá konec hlavního repozitáře a vaše revize už nelze aplikovat čistě.</seg>
+        <seg>Jednotlivé úkoly izolované v tématických větvích mají také tu výhodu, že snáze přeskládáte svou práci, jestliže se průběžně posouvá konec hlavního repozitáře a vaše revize už nelze aplikovat čistě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16745,7 +16745,7 @@ nor is the commit message.</seg>
         <seg>History after cherry-picking a commit on a topic branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Historie po částečném převzetí revize z tematické větve</seg>
+        <seg>Historie po částečném převzetí revize z tématické větve</seg>
       </tuv>
     </tu>
     <tu>
@@ -16753,7 +16753,7 @@ nor is the commit message.</seg>
         <seg>History with several topic branches.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Historie s několika tematickými větvemi</seg>
+        <seg>Historie s několika tématickými větvemi</seg>
       </tuv>
     </tu>
     <tu>
@@ -17249,7 +17249,7 @@ nor is the commit message.</seg>
         <seg>If `master` is a direct ancestor of your topic branch, this isn’t a problem; but if the two histories have diverged, the diff will look like you’re adding all the new stuff in your topic branch and removing everything unique to the `master` branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud je větev `master` přímým předkem vaší tematické větve, nebude s příkazem žádný problém. Pokud se však obě historie v nějakém bodě rozdělily, bude výpis diff vypadat, jako byste chtěli přidat všechna nová data v tematické větvi a odstranit vše, co je pouze ve větvi `master`.</seg>
+        <seg>Pokud je větev `master` přímým předkem vaší tématické větve, nebude s příkazem žádný problém. Pokud se však obě historie v nějakém bodě rozdělily, bude výpis diff vypadat, jako byste chtěli přidat všechna nová data v tématické větvi a odstranit vše, co je pouze ve větvi `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17561,7 +17561,7 @@ nor is the commit message.</seg>
         <seg>If the topics still need work, they’re merged into `pu` instead.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud ale tematické větve vyžadují další úpravy, budou začleněny do větve `pu`.</seg>
+        <seg>Pokud ale tématické větve vyžadují další úpravy, budou začleněny do větve `pu`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17617,7 +17617,7 @@ nor is the commit message.</seg>
         <seg>If they’re safe, they’re merged into `next`, and that branch is pushed up so everyone can try the topics integrated together.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jsou-li vyhodnoceny jako bezpečné, budou začleněny do větve `next` a ta bude následně odeslána do repozitáře, aby mohli všichni vyzkoušet, jak fungují tematické větve po sloučení.</seg>
+        <seg>Jsou-li vyhodnoceny jako bezpečné, budou začleněny do větve `next` a ta bude následně odeslána do repozitáře, aby mohli všichni vyzkoušet, jak fungují tématické větve po sloučení.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18609,7 +18609,7 @@ nor is the commit message.</seg>
         <seg>If you receive a patch over e-mail that you need to integrate into your project, you need to apply the patch in your topic branch to evaluate it.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jestliže obdržíte e-mailem záplatu, kterou potřebujete integrovat do svého projektu, aplikujete ho nejprve do tematické větve, v níž ho vyhodnotíte.</seg>
+        <seg>Jestliže obdržíte e-mailem záplatu, kterou potřebujete integrovat do svého projektu, aplikujete ho nejprve do tématické větve, v níž ho vyhodnotíte.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19553,7 +19553,7 @@ nor is the commit message.</seg>
         <seg>If your `master` branch has moved forward since you created the topic branch from it, then you’ll get seemingly strange results.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jestliže se vaše větev `master` posunula vpřed od chvíle, kdy jste z ní vytvořili tematickou větev, budou výstupem příkazu zdánlivě nesmyslné výsledky.</seg>
+        <seg>Jestliže se vaše větev `master` posunula vpřed od chvíle, kdy jste z ní vytvořili tématickou větev, budou výstupem příkazu zdánlivě nesmyslné výsledky.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20603,7 +20603,7 @@ nor is the commit message.</seg>
         <seg>In the meantime, Jessica has been working on a topic branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jessica mezitím pracovala na tematické větvi.</seg>
+        <seg>Jessica mezitím pracovala na tématické větvi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23256,7 +23256,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Jessica thinks her topic branch is ready, but she wants to know what she has to merge her work into so that she can push.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jessica považuje svou tematickou větev za dokončenou, ale chce vědět, do čeho má svou práci začlenit, aby mohla změny odeslat.</seg>
+        <seg>Jessica považuje svou tématickou větev za dokončenou, ale chce vědět, do čeho má svou práci začlenit, aby mohla změny odeslat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23320,7 +23320,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Jessica’s history after merging both her topic branches.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Historie Jessicy po začlenění obou jejích tematických větví</seg>
+        <seg>Historie Jessicy po začlenění obou jejích tématických větví</seg>
       </tuv>
     </tu>
     <tu>
@@ -23768,7 +23768,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Lieutenants merge the developers’ topic branches into their master branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Poručíci začleňují tematické větve vývojářů do svých hlavních větví.</seg>
+        <seg>Poručíci začleňují tématické větve vývojářů do svých hlavních větví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23912,7 +23912,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Managing a complex series of parallel contributed topic branches.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Správa komplexní série současně zpracovávaných příspěvků v tematických větvích</seg>
+        <seg>Správa komplexní série současně zpracovávaných příspěvků v tématických větvích</seg>
       </tuv>
     </tu>
     <tu>
@@ -24016,7 +24016,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Merging contributed topic branches into long-term integration branches.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Začlenění tematických větví s příspěvky do dlouhodobých integračních větví</seg>
+        <seg>Začlenění tématických větví s příspěvky do dlouhodobých integračních větví</seg>
       </tuv>
     </tu>
     <tu>
@@ -24870,7 +24870,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Now you can remove your topic branch and drop the commits you didn’t want to pull in.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nyní můžete tematickou větev odstranit a zahodit revize, které nehodláte natáhnout do jiné větve.</seg>
+        <seg>Nyní můžete tématickou větev odstranit a zahodit revize, které nehodláte natáhnout do jiné větve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24982,7 +24982,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Now you have a topic branch that contains contributed work.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nyní máte tematickou větev s prací, kterou jste obdrželi od jiného vývojáře.</seg>
+        <seg>Nyní máte tématickou větev s prací, kterou jste obdrželi od jiného vývojáře.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25110,7 +25110,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Now you’re ready to add your contributed work into this topic branch and determine if you want to merge it into your longer-term branches.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nyní tedy můžete vložit svůj příspěvek do této tematické větve a rozhodnout se, zda ho chcete začlenit do svých trvalejších větví.</seg>
+        <seg>Nyní tedy můžete vložit svůj příspěvek do této tématické větve a rozhodnout se, zda ho chcete začlenit do svých trvalejších větví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25166,7 +25166,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Now, Jessica can merge her topic work into her `master` branch, merge John’s work (`origin/master`) into her `master` branch, and then push back to the server again.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jessica nyní může začlenit tematickou větev do své větve `master`, začlenit (merge) i Johnovu práci (`origin/master`) do své větve `master` a vše odeslat zpět na server.</seg>
+        <seg>Jessica nyní může začlenit tématickou větev do své větve `master`, začlenit (merge) i Johnovu práci (`origin/master`) do své větve `master` a vše odeslat zpět na server.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25558,7 +25558,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>On a project for which you’re not the maintainer, it’s generally easier to have a branch like `master` always track `origin/master` and to do your work in topic branches that you can easily discard if they’re rejected.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>U projektů, u nichž nejste v roli správce, je většinou jednodušší, aby vaše větev `master` stále sledovala větev `origin/master` a abyste práci prováděli v tematických větvích, jichž se můžete beze všeho vzdát v případě, že budou odmítnuty.</seg>
+        <seg>U projektů, u nichž nejste v roli správce, je většinou jednodušší, aby vaše větev `master` stále sledovala větev `origin/master` a abyste práci prováděli v tématických větvích, jichž se můžete beze všeho vzdát v případě, že budou odmítnuty.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26340,7 +26340,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Rebasing a topic branch off another topic branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Přeskládání tematické větve, která byla součástí jiné tematické větve 72.</seg>
+        <seg>Přeskládání tématické větve, která byla součástí jiné tématické větve 72.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26388,7 +26388,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Regular developers work on their topic branch and rebase their work on top of master.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Stálí vývojáři pracují na svých tematických větvích a přeskládávají svou práci na vrchol hlavní větve.</seg>
+        <seg>Stálí vývojáři pracují na svých tématických větvích a přeskládávají svou práci na vrchol hlavní větve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26824,7 +26824,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>She’s created a topic branch called `issue54` and done three commits on that branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vytvořila tematickou větev s názvem `issue54` a zapsala do ní tři revize.</seg>
+        <seg>Vytvořila tématickou větev s názvem `issue54` a zapsala do ní tři revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27834,7 +27834,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>That way, you can use private branches for work you don’t want to share, and push up only the topic branches you want to collaborate on.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tímto způsobem si můžete zachovat soukromé větve pro práci, kterou nehodláte sdílet, a odesílat pouze tematické větve, na nichž chcete spolupracovat.</seg>
+        <seg>Tímto způsobem si můžete zachovat soukromé větve pro práci, kterou nehodláte sdílet, a odesílat pouze tématické větve, na nichž chcete spolupracovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -28578,7 +28578,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>The `request-pull` command takes the base branch into which you want your topic branch pulled and the Git repository URL you want them to pull from, and outputs a summary of all the changes you’re asking to be pulled in.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Příkaz `request-pull` vezme základní větev (základnu), do níž chcete natáhnout svou tematickou větev, a adresu URL repozitáře Git, z nějž chcete práci natáhnout, a vytvoří shrnutí všech změn, které by měl správce podle vaší žádosti natáhnout.</seg>
+        <seg>Příkaz `request-pull` vezme základní větev (základnu), do níž chcete natáhnout svou tématickou větev, a adresu URL repozitáře Git, z nějž chcete práci natáhnout, a vytvoří shrnutí všech změn, které by měl správce podle vaší žádosti natáhnout.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30598,7 +30598,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>The workflow is similar to the previous use case — you create topic branches for each patch series you work on.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pracovní postup je podobný jako v předchozím případě. Pro každou sérii záplat, na níž pracujete, vytvoříte samostatnou tematickou větev.</seg>
+        <seg>Pracovní postup je podobný jako v předchozím případě. Pro každou sérii záplat, na níž pracujete, vytvoříte samostatnou tématickou větev.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31702,7 +31702,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>This command shows you only the work your current topic branch has introduced since its common ancestor with master.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tento příkaz zobrazí pouze práci, která byla ve vaší aktuální tematické větvi provedena od chvíle, kdy se oddělila od hlavní větve.</seg>
+        <seg>Tento příkaz zobrazí pouze práci, která byla ve vaší aktuální tématické větvi provedena od chvíle, kdy se oddělila od hlavní větve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31902,7 +31902,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>This happens because Git directly compares the snapshots of the last commit of the topic branch you’re on and the snapshot of the last commit on the `master` branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Je to z toho důvodu, že Git přímo srovnává snímky poslední revize v tematické větvi, na níž se nacházíte, se snímky poslední revize ve větvi `master`.</seg>
+        <seg>Je to z toho důvodu, že Git přímo srovnává snímky poslední revize v tématické větvi, na níž se nacházíte, se snímky poslední revize ve větvi `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32510,7 +32510,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>This is useful if you have a number of commits on a topic branch and you want to integrate only one of them, or if you only have one commit on a topic branch and you’d prefer to cherry-pick it rather than run rebase.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>To využijete například v situaci, kdy máte několik revizí v tematické větvi, ale chcete integrovat pouze jednu z nich. Částečné převzetí však můžete použít i místo přeskládání, pokud máte v tematické větvi pouze jednu revizi.</seg>
+        <seg>To využijete například v situaci, kdy máte několik revizí v tématické větvi, ale chcete integrovat pouze jednu z nich. Částečné převzetí však můžete použít i místo přeskládání, pokud máte v tématické větvi pouze jednu revizi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34040,7 +34040,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>To see a full diff of what would happen if you were to merge this topic branch with another branch, you may have to use a weird trick to get the correct results.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li vidět plný výpis diff, jak by vypadaly rozdíly, kdybyste tuto tematickou větev začlenili do jiné větve, můžete použít speciální trik, který vám zobrazí požadované informace.</seg>
+        <seg>Chcete-li vidět plný výpis diff, jak by vypadaly rozdíly, kdybyste tuto tématickou větev začlenili do jiné větve, můžete použít speciální trik, který vám zobrazí požadované informace.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34288,7 +34288,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Topic branches, however, are useful in projects of any size.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Naproti tomu tematické větve se vám budou hodit v projektech jakékoli velikosti.</seg>
+        <seg>Naproti tomu tématické větve se vám budou hodit v projektech jakékoli velikosti.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34952,7 +34952,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>What you really want to see are the changes added to the topic branch — the work you’ll introduce if you merge this branch with master.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>To, co chcete vidět ve skutečnosti, jsou změny přidané do tematické větve, práci, kterou provedete začleněním této větve do větve hlavní.</seg>
+        <seg>To, co chcete vidět ve skutečnosti, jsou změny přidané do tématické větve, práci, kterou provedete začleněním této větve do větve hlavní.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34976,7 +34976,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>When a topic branch has finally been merged into `master`, it’s removed from the repository.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Byla-li tematická větev konečně začleněna do větve `master`, může být odstraněna z repozitáře.</seg>
+        <seg>Byla-li tématická větev konečně začleněna do větve `master`, může být odstraněna z repozitáře.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34984,7 +34984,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>When all the patches for your topic are applied and committed into your branch, you can choose whether and how to integrate them into a longer-running branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Až budete mít všechny záplaty aplikovány a zapsány do tematické větve, můžete se rozhodnout, zda a jak je chcete integrovat do některé z trvalejších větví.</seg>
+        <seg>Až budete mít všechny záplaty aplikovány a zapsány do tématické větve, můžete se rozhodnout, zda a jak je chcete integrovat do některé z trvalejších větví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34992,7 +34992,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>When all the work in your topic branch is ready to be integrated into a more mainline branch, the question is how to do it.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Když už je práce v tematické větvi připravena a může být integrována do některé z významnějších větví, vyvstává otázka, jak to provést.</seg>
+        <seg>Když už je práce v tématické větvi připravena a může být integrována do některé z významnějších větví, vyvstává otázka, jak to provést.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35000,7 +35000,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>When it’s determined that they’re totally stable, the topics are re-merged into `master` and are then rebuilt from the topics that were in `next` but didn’t yet graduate to `master`.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud se ukáže, že jsou tyto tematické větve naprosto stabilní, budou začleněny do větve `master` a poté budou znovu sestaveny z tematických větví, které byly ve větvi `next`, ale ještě se nedostaly do větve `master`.</seg>
+        <seg>Pokud se ukáže, že jsou tyto tématické větve naprosto stabilní, budou začleněny do větve `master` a poté budou znovu sestaveny z tématických větví, které byly ve větvi `next`, ale ještě se nedostaly do větve `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35008,7 +35008,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>When new work is introduced by contributors, it’s collected into topic branches in the maintainer’s repository in a manner similar to what I’ve described (see Figure 5-24).</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud přispěvatelé vytvoří novou práci, je shromažďována v tematických větvích v repozitáři správce podobným způsobem, jaký už jsem popisoval (viz obrázek 5-24).</seg>
+        <seg>Pokud přispěvatelé vytvoří novou práci, je shromažďována v tématických větvích v repozitáři správce podobným způsobem, jaký už jsem popisoval (viz obrázek 5-24).</seg>
       </tuv>
     </tu>
     <tu>
@@ -35208,7 +35208,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>When you have work in a topic branch and have determined that you want to integrate it, you move to that branch and run the rebase command to rebuild the changes on top of your current master (or `develop`, and so on) branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Máte-li určitou práci v tematické větvi a rozhodli jste se, že ji integrujete, přejdete na tuto větev a spustíte příkaz rebase, jímž znovu sestavíte příslušné změny na vrcholu svojí aktuální hlavní větve (příp. větve `develop` apod.).</seg>
+        <seg>Máte-li určitou práci v tématické větvi a rozhodli jste se, že ji integrujete, přejdete na tuto větev a spustíte příkaz rebase, jímž znovu sestavíte příslušné změny na vrcholu svojí aktuální hlavní větve (příp. větve `develop` apod.).</seg>
       </tuv>
     </tu>
     <tu>
@@ -35216,7 +35216,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>When you have work in a topic branch that you’ve done or that someone has contributed and you’ve verified, you merge it into your master branch, delete the topic branch, and then continue the process.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Máte-li v tematické větvi práci, kterou jste vytvořili nebo kterou vám někdo doručil a vy jste ji schválili, začleníte ji do své hlavní větve, smažete tematickou větev a proces může pokračovat.</seg>
+        <seg>Máte-li v tématické větvi práci, kterou jste vytvořili nebo kterou vám někdo doručil a vy jste ji schválili, začleníte ji do své hlavní větve, smažete tématickou větev a proces může pokračovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35472,7 +35472,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>When you’re thinking of integrating new work, it’s generally a good idea to try it out in a topic branch — a temporary branch specifically made to try out that new work.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud uvažujete o integraci nové práce do projektu, je většinou dobré zkusit si to v tematické větvi, tj. dočasné větvi, kterou vytvoříte konkrétně pro tento účel.</seg>
+        <seg>Pokud uvažujete o integraci nové práce do projektu, je většinou dobré zkusit si to v tématické větvi, tj. dočasné větvi, kterou vytvoříte konkrétně pro tento účel.</seg>
       </tuv>
     </tu>
     <tu>
@@ -35488,7 +35488,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>When you’ve become comfortable with a Git workflow, you’ll likely create topic branches, do work on them, and then merge them in.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jakmile pracovní postupy v systému Git zvládnete, začnete pravděpodobně vytvářet tematické větve, budete v nich pracovat a potom je budete začleňovat (merge).</seg>
+        <seg>Jakmile pracovní postupy v systému Git zvládnete, začnete pravděpodobně vytvářet tématické větve, budete v nich pracovat a potom je budete začleňovat (merge).</seg>
       </tuv>
     </tu>
     <tu>
@@ -35826,7 +35826,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>You branched a topic branch (`server`) to add some server-side functionality to your project, and made a commit.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vytvořili jste novou tematickou větev (`server`), pomocí níž chcete do svého projektu přidat funkci na straně serveru, a zapsali jste revizi.</seg>
+        <seg>Vytvořili jste novou tématickou větev (`server`), pomocí níž chcete do svého projektu přidat funkci na straně serveru, a zapsali jste revizi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36762,7 +36762,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>You can rebase the server branch onto the master branch without having to check it out first by running `git rebase [basebranch] [topicbranch]` — which checks out the topic branch (in this case, `server`) for you and replays it onto the base branch (`master`):</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Větev server můžete přeskládat na hlavní větev příkazem `git rebase [základna] [tematická větev]`. Příkaz provede checkout tematické větve (v tomto případě větve `server`) a přeskládá její změny na základnu (angl. base branch, v tomto případě `master`):</seg>
+        <seg>Větev server můžete přeskládat na hlavní větev příkazem `git rebase [základna] [tématická větev]`. Příkaz provede checkout tématické větve (v tomto případě větve `server`) a přeskládá její změny na základnu (angl. base branch, v tomto případě `master`):</seg>
       </tuv>
     </tu>
     <tu>
@@ -37434,7 +37434,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>You do that by having Git compare the last commit on your topic branch with the first common ancestor it has with the master branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tohoto srovnání dosáhnete tak, že necháte Git porovnat poslední revizi ve vaší tematické větvi s prvním předkem, kterého má společného s hlavní větví.</seg>
+        <seg>Tohoto srovnání dosáhnete tak, že necháte Git porovnat poslední revizi ve vaší tématické větvi s prvním předkem, kterého má společného s hlavní větví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38402,7 +38402,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>You work for a while, generally in a topic branch, and merge into your `master` branch when it’s ready to be integrated.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Po určitou dobu pracujete, obvykle na nějaké tematické větvi, a když je připravena k integraci, začleníte ji do své větve `master`.</seg>
+        <seg>Po určitou dobu pracujete, obvykle na nějaké tématické větvi, a když je připravena k integraci, začleníte ji do své větve `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38482,7 +38482,7 @@ Here is a template originally written by Tim Pope at tpope.net:</seg>
         <seg>Your commit history with multiple topic branches.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Historie revizí s několika tematickými větvemi</seg>
+        <seg>Historie revizí s několika tématickými větvemi</seg>
       </tuv>
     </tu>
     <tu>

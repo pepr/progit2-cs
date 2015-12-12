@@ -326,6 +326,16 @@ Předpokládejme, že jste se rozhodli, že práce na problému #53 je hotová a
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((branches, remote)))(((references, remote)))
+Remote references are references (pointers) in your remote repositories, including branches, tags, and so on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T081137Z" creationid="Prikryl" creationdate="20151210T081137Z">
+        <seg>(((větve, vzdálené)))(((reference, vzdálené)))
+Vzdálené reference jsou odkazy (ukazatelé) ve vašich vzdálených repozitářích a zahrnují větve, značky (tag) a další.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((branches, switching)))
 To switch to an existing branch, you run the `git checkout` command.(((git commands, checkout)))
 Let's switch to the new `testing` branch:</seg>
@@ -374,6 +384,16 @@ Occasionally, this process doesn't go smoothly.</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T072503Z" creationid="Prikryl" creationdate="20151120T072503Z">
         <seg>(((slučování, konflikty)))
 Občas se stane, že tento proces neproběhne hladce.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((pushing)))
+When you want to share a branch with the world, you need to push it up to a remote that you have write access to.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T123514Z" creationid="Prikryl" creationdate="20151210T123514Z">
+        <seg>(((odesílání)))
+Chcete-li svou větev sdílet s okolním světem, musíte ji odeslat (push) na vzdálený server, k němuž máte oprávnění pro zápis.</seg>
       </tuv>
     </tu>
     <tu>
@@ -625,6 +645,26 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* [new branch]      serverfix    -&gt; origin/serverfix
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T144123Z" creationid="Prikryl" creationdate="20151210T144123Z">
+        <seg>* [new branch]      serverfix    -&gt; origin/serverfix
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* [new branch]      serverfix -&gt; serverfix
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T124224Z" creationid="Prikryl" creationdate="20151210T124224Z">
+        <seg>* [new branch]      serverfix -&gt; serverfix
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [new branch]      ticgit     -&gt; pb/ticgit
 ----</seg>
       </tuv>
@@ -805,6 +845,16 @@ image::images/basic-branching-1.png[Jednoduchá historie revizí.]</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Adding another server as a remote
+image::images/remote-branches-4.png[Adding another server as a remote.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T122815Z" creationid="Prikryl" creationdate="20151210T122815Z">
+        <seg>.Přidání dalšího serveru v roli vzdáleného repozitáře
+image::images/remote-branches-4.png[Přidání dalšího serveru v roli vzdáleného repozitáře.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Centralized version control.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T184338Z" creationid="Prikryl" creationdate="20151026T184338Z">
@@ -899,6 +949,16 @@ image::images/basic-branching-4.png[Větev pro opravu je odvozená od `master`.]
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Local and remote work can diverge
+image::images/remote-branches-2.png[Local and remote work can diverge.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T111942Z" creationid="Prikryl" creationdate="20151210T111942Z">
+        <seg>.Lokální a vzdálená historie práce se může rozcházet
+image::images/remote-branches-2.png[Lokální a vzdálená historie práce se může rozcházet.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Local version control.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T182708Z" creationid="Prikryl" creationdate="20151026T182708Z">
@@ -913,6 +973,26 @@ image::images/topic-branches-1.png[Multiple topic branches.]</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T145343Z" creationid="Prikryl" creationdate="20151209T145343Z">
         <seg>.Více tématických větví
 image::images/topic-branches-1.png[Více tématických větví.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Remote tracking branch for `teamone/master`
+image::images/remote-branches-5.png[Remote tracking branch for `teamone/master`.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T123400Z" creationid="Prikryl" creationdate="20151210T123400Z">
+        <seg>.Sledovací větev pro `teamone/master`
+image::images/remote-branches-5.png[RSledovací větev pro `teamone/master`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Server and local repositories after cloning
+image::images/remote-branches-1.png[Server and local repositories after cloning.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T115112Z" creationid="Prikryl" creationdate="20151210T110258Z">
+        <seg>.Repozitář na serveru a lokální repozitář po klonování
+image::images/remote-branches-1.png[Repozitář na serveru a lokální repozitář po klonování.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -995,6 +1075,16 @@ image::images/basic-branching-6.png[Pokračuje práce na větvi `iss53`.]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T115507Z" creationid="Prikryl" creationdate="20151027T115507Z">
         <seg>.Pracovní adresář, oblast připravených změn a adresář Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.`git fetch` updates your remote references
+image::images/remote-branches-3.png[`git fetch` updates your remote references.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T112345Z" creationid="Prikryl" creationdate="20151210T112345Z">
+        <seg>.`git fetch` aktualizuje reference do vzdáleného repozitáře
+image::images/remote-branches-3.png[`git fetch` aktualizuje reference do vzdáleného repozitáře.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -2503,6 +2593,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Also, as long as you stay out of contact with your origin server, your `origin/master` pointer doesn't move.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T111750Z" creationid="Prikryl" creationdate="20151210T111750Z">
+        <seg>A dokud nenavážete se serverem `origin` kontakt, nebude se váš ukazatel `origin/master` posunovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Also, because we're recording the parents when we commit, finding a proper merge base for merging is automatically done for us and is generally very easy to do.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T172958Z" creationid="Prikryl" creationdate="20151108T172958Z">
@@ -3145,6 +3243,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Because that server has a subset of the data your `origin` server has right now, Git fetches no data but sets a remote-tracking branch called `teamone/master` to point to the commit that `teamone` has as its `master` branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T123314Z" creationid="Prikryl" creationdate="20151210T123314Z">
+        <seg>Protože je tento server podmnožinou dat, která jsou právě na serveru `origin`, Git nevyzvedne žádná data, ale nastaví sledovací větev nazvanou `teamone/master` tak, aby ukazovala na stejný bod zápisu, na který ukazuje větev `master` na serveru `teamone`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Because the commit on the branch you're on isn't a direct ancestor of the branch you're merging in, Git has to do some work.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151115T153956Z" creationid="Prikryl" creationdate="20151115T153956Z">
@@ -3285,6 +3391,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T143036Z" creationid="Prikryl" creationdate="20151209T143036Z">
         <seg>Ale v Gitu je běžné, že se větev vytvoří, pracuje se v ní, sloučí se a odstraní -- to vše i několikrát za den.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>By default it will prompt you on the terminal for this information so the server can tell if you're allowed to push.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T125455Z" creationid="Prikryl" creationdate="20151210T125455Z">
+        <seg>Aby byl schopen zjistit, zda máte právo k odesílání (push), vypíše výzvu k zadání této informace na terminálu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3431,6 +3545,14 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T104620Z" creationid="Prikryl" creationdate="20151023T104620Z">
         <seg>Compressing objects: 100% (14/14), done.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Compressing objects: 100% (15/15), done.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T124217Z" creationid="Prikryl" creationdate="20151210T124217Z">
+        <seg>Compressing objects: 100% (15/15), done.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4166,8 +4288,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>For instance, if you wanted to see what the `master` branch on your `origin` remote looked like as of the last time you communicated with it, you would check the `origin/master` branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud například chcete zjistit, jak vypadala větev `master` na vašem vzdáleném serveru `origin`, když jste s ní naposledy komunikovali, budete hledat větev `origin/master`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T104612Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud například chcete zjistit, jak vypadala větev `master` ve vašem vzdáleném repozitáři `origin`, když jste s ní naposledy komunikovali, budete hledat větev `origin/master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4200,6 +4322,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tento konflikt můžete vyřešit například nahrazením celého bloku tímto textem:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For more information on the various credential caching options available, see &lt;&lt;_credential_caching&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T130349Z" creationid="Prikryl" creationdate="20151210T130349Z">
+        <seg>Více informací o různých volbách pro uchovávání pověřovacích dat naleznete v podkapitole &lt;&lt;_credential_caching&gt;&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4272,6 +4402,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151101T170413Z" creationid="Prikryl" creationdate="20151101T170413Z">
         <seg>From https://github.com/paulboone/ticgit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>From https://github.com/schacon/simplegit</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T144120Z" creationid="Prikryl" creationdate="20151210T144120Z">
+        <seg>From https://github.com/schacon/simplegit</seg>
       </tuv>
     </tu>
     <tu>
@@ -4412,6 +4550,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Git also gives you your own local `master` branch starting at the same place as origin's `master` branch, so you have something to work from.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T105329Z" creationid="Prikryl" creationdate="20151210T105329Z">
+        <seg>Git rovněž vytvoří vaši vlastní lokální větev `master`, která bude začínat ve stejném místě jako větev `master` serveru `origin`. Takže máte výchozí bod pro svou práci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Git also has a short status flag so you can see your changes in a more compact way.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T130647Z" creationid="Prikryl" creationdate="20151029T130647Z">
@@ -4448,6 +4594,15 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Atributy Git nabízejí dvě možnosti, jak to provést.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Git automatically expands the `serverfix` branchname out to `refs/heads/serverfix:refs/heads/serverfix`, which means, ``Take my serverfix local branch and push it to update the remote's serverfix branch.''
+We'll go over the `refs/heads/` part in detail in &lt;&lt;_git_internals&gt;&gt;, but you can generally leave it off.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T124614Z" creationid="Prikryl" creationdate="20151210T124614Z">
+        <seg>Git automaticky rozšíří název větve `serverfix` na `refs/heads/serverfix:refs/heads/serverfix`, což znamená: „Vezmi mou lokální větev `serverfix` a odešli ji na vzdálený server, kde aktualizuje tamní větev `serverfix`.“ Části `refs/heads/` se budeme podrobněji věnovat v kapitole &lt;&lt;_git_internals&gt;&gt;, ale nemusí být pro vás zajímavá.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5521,6 +5676,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you clone from this, Git's `clone` command automatically names it `origin` for you, pulls down all its data, creates a pointer to where its `master` branch is, and names it `origin/master` locally.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T105036Z" creationid="Prikryl" creationdate="20151210T105036Z">
+        <seg>Pokud z něj naklonujete, příkaz Gitu `clone` ho automaticky pojmenuje `origin`, stáhne z něj všechna data, vytvoří ukazatel, který bude označovat jeho větev `master` a lokálně ji pojmenuje `origin/master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you commit at this point, the version of the file at the time you ran `git add` is what will be in the historical snapshot.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T120351Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5593,6 +5756,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you didn't want it to be called `serverfix` on the remote, you could instead run `git push origin serverfix:awesomebranch` to push your local `serverfix` branch to the `awesomebranch` branch on the remote project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T124956Z" creationid="Prikryl" creationdate="20151210T124956Z">
+        <seg>Pokud jste nechtěli, aby se větev na vzdáleném serveru jmenovala `serverfix`, mohli jste místo toho spustit `git push origin serverfix:awesomebranch`. Pak by lokální větev `serverfix` byla odeslána do větve `awesomebranch` ve vzdáleném projektu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you do happen to commit an object that hashes to the same SHA-1 value as a previous object in your repository, Git will see the previous object already in your Git database and assume it was already written.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5605,6 +5776,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud své značky podepisujete, můžete mít problémy s distribucí veřejného klíče PGP použitého k podepsání značky.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you do some work on your local `master` branch, and, in the meantime, someone else pushes to `git.ourcompany.com` and updates its `master` branch, then your histories move forward differently.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T110953Z" creationid="Prikryl" creationdate="20151210T110953Z">
+        <seg>Pokud budete pracovat ve vaší lokální větvi `master` a mezi tím někdo jiný něco odešle na `git.ourcompany.com` -- čímž aktualizuje větev `master` tohoto serveru --{empty}, budou se vaše historie vyvíjet odlišně.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5637,6 +5816,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T150255Z" creationid="Prikryl" creationdate="20151107T150255Z">
         <seg>Pokud u anotované značky nezadáte žádnou zprávu, Git spustí textový editor, v němž zprávu zadáte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you don't want to type it every single time you push, you can set up a ``credential cache''.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T125909Z" creationid="Prikryl" creationdate="20151210T125909Z">
+        <seg>Pokud se vám to nechce zadávat při každém odesílání, můžete si nastavit „credential cache“, čili „mezipaměť pro pověřovací informace“.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5969,6 +6156,16 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Spustíte-li příkaz `git checkout test`, Git aktualizuje soubor do následující podoby:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you run `git clone -o booyah` instead, then you will have `booyah/master` as your default remote branch.(((origin)))
+====</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T110222Z" creationid="Prikryl" creationdate="20151210T110222Z">
+        <seg>Pokud místo toho spustíte `git clone -o booyah`, dostanete jako výchozí vzdálenou větev `booyah/master`.(((origin)))
+====</seg>
       </tuv>
     </tu>
     <tu>
@@ -6546,6 +6743,14 @@ Just type the name of the tool you'd rather use.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you want your own `serverfix` branch that you can work on, you can base it off your remote-tracking branch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T144959Z" creationid="Prikryl" creationdate="20151210T144959Z">
+        <seg>Pokud chcete mít svou vlastní větev `serverfix`, na které byste mohli pracovat, můžete ji odvodit ze sledovací větve:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you were deleting a reference, you would see the opposite: all '0's on the right side.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6556,8 +6761,8 @@ Just type the name of the tool you'd rather use.</seg>
       <tuv lang="EN">
         <seg>If you were working on an issue with a partner and they pushed up an `iss53` branch, you might have your own local `iss53` branch; but the branch on the server would point to the commit at `origin/iss53`.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud pracujete s kolegou na stejném problému a on odešle na server větev s názvem `iss53`, může se stát, že i vy máte jednu z lokálních větví pojmenovanou jako `iss53`. Větev na serveru však ukazuje na revizi označenou jako `origin/iss53`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T114446Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud pracujete s kolegou na nějakém problému a on odešle (push) větev s názvem `iss53`, může se stát, že i vy máte jednu z lokálních větví pojmenovanou jako `iss53`. Větev na serveru však ukazuje na bod zápisu označený jako `origin/iss53`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6920,6 +7125,14 @@ Sledování souboru `README` zahájíme takto:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T074052Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Chcete-li vzniklý konflikt vyřešit, musíte buď vybrat jednu z obou možností, nebo je ručně spojit dohromady.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In other words, in this case, you don't have a new `serverfix` branch – you only have an `origin/serverfix` pointer that you can't modify.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T144539Z" creationid="Prikryl" creationdate="20151210T144539Z">
+        <seg>Jinými slovy, v tomto případě nevznikne nová větev `serverfix`. Získáte jen ukazatel `origin/serverfix`, který nemůžete měnit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7740,6 +7953,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It's important to note that when you do a fetch that brings down new remote-tracking branches, you don't automatically have local, editable copies of them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T144346Z" creationid="Prikryl" creationdate="20151210T144346Z">
+        <seg>Tady je důležité upozornit, že pokud provedete vyzvednutí (fetch), které získá i nové sledovací větve, nezískáváte automaticky i jejich lokální, editovatelné kopie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It's important to remember when you're doing all this that these branches are completely local.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T190413Z" creationid="Prikryl" creationdate="20151209T190413Z">
@@ -8006,6 +8227,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Let's say you have a Git server on your network at `git.ourcompany.com`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T104837Z" creationid="Prikryl" creationdate="20151210T104837Z">
+        <seg>Řekněme, že máte v síti gitový server označený `git.ourcompany.com`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Let's see why you should do so.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T173457Z" creationid="Prikryl" creationdate="20151108T173457Z">
@@ -8260,6 +8489,22 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tak jako příkaz `git svn log` simuluje příkaz `svn log` (bez nutnosti připojení), ekvivalentem příkazu `svn annotate` je provedení `git svn blame [SOUBOR]`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Name this remote `teamone`, which will be your shortname for that whole URL.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T122711Z" creationid="Prikryl" creationdate="20151210T122711Z">
+        <seg>Pojmenujte tento vzdálený server jako `teamone`, což bude zkrácený název pro celou URL adresu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Nevertheless, a more common way is to take advantage of remote-tracking branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T093430Z" creationid="Prikryl" creationdate="20151210T093430Z">
+        <seg>Nicméně, běžnější bývá využití sledujících větví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8848,6 +9093,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Now, you can run `git fetch teamone` to fetch everything the remote `teamone` server has that you don't have yet.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T122838Z" creationid="Prikryl" creationdate="20151210T122838Z">
+        <seg>Nyní můžete spustit příkaz `git fetch teamone`, který ze vzdáleného serveru `teamone` vyzvedne vše, co ještě nemáte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Now, you can run `git log` to see your new history:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9362,6 +9615,22 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Remote-tracking branches act as bookmarks to remind you where the branches in your remote repositories were the last time you connected to them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T104353Z" creationid="Prikryl" creationdate="20151210T104353Z">
+        <seg>Sledující větve fungují jako záložky, které vám připomínají, kde byly větve ve vzdálených repozitářích v době, kdy jste se k nim naposledy připojili.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Remote-tracking branches are references to the state of remote branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T103638Z" creationid="Prikryl" creationdate="20151210T094136Z">
+        <seg>Sledující větve (remote-tracking branches{empty}footnote:[Pozn. překl.: „Remote-tracking branches“ lze obtížně přeložit přesným a stručným pojmem. Význam vyplývá z dalšího popisu. Doslova by to bylo „větve sledující z povzdálí“ s významem „lokální větve, které sledují stav vzdálených větví“.]) jsou reference na stav vzdálených větví.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Resolving deltas: 100% (1952/1952), done.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T223112Z" creationid="Prikryl" creationdate="20151023T223112Z">
@@ -9390,6 +9659,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151030T094612Z" creationid="Prikryl" creationdate="20151030T094612Z">
         <seg>Pokud chcete vědět, co je pro váš systém k dispozici, spusťte `git difftool --tool-help`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Run `git push (remote) (branch)`:(((git commands, push)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T124206Z" creationid="Prikryl" creationdate="20151210T124206Z">
+        <seg>Spusťte `git push (remote) (branch)`:(((git příkazy, push)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -9884,6 +10161,16 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Switched to a new branch 'serverfix'
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T145019Z" creationid="Prikryl" creationdate="20151210T145019Z">
+        <seg>Switched to a new branch 'serverfix'
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Technically, you can do that by explicitly figuring out the common ancestor and then running your diff on it:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10048,6 +10335,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Všechny problémy tak budou moci opravit, dokud to ještě není příliš složité a dokud je nezapsali do revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>That way, you can use private branches for work you don't want to share, and push up only the topic branches you want to collaborate on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T123820Z" creationid="Prikryl" creationdate="20151210T123820Z">
+        <seg>Tímto způsobem si můžete zachovat soukromé větve pro práci, kterou nehodláte sdílet, a odesílat pouze tématické větve, na nichž chcete spolupracovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11024,6 +11319,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The next time one of your collaborators fetches from the server, they will get a reference to where the server's version of `serverfix` is under the remote branch `origin/serverfix`:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T144111Z" creationid="Prikryl" creationdate="20151210T130747Z">
+        <seg>Až bude příště některý z vašich spolupracovníků vyzvedávat data ze serveru, obdrží referenci na místo, kde se nachází serverová verze větve `serverfix` pod jménem vzdálené větve `origin/serverfix`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The next time you commit, the file will be gone and no longer tracked.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T224903Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -11308,6 +11611,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jednoduchým případem je příklad, který jste právě viděli: spuštění příkazu `git checkout -b [větev] [vzdálený server]/[větev]`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The simplest is just to keep it in memory for a few minutes, which you can easily set up by running `git config --global credential.helper cache`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T130125Z" creationid="Prikryl" creationdate="20151210T130125Z">
+        <seg>Nejjednodušší je podržet tyto informace pár minut v paměti, čehož snadno dosáhnete spuštěním `git config --global credential.helper cache`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11820,8 +12131,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>They take the form `(remote)/(branch)`.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vzdálené větve mají podobu `(vzdálený repozitář)/(větev)`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T104408Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Mají podobu `(vzdálený repozitář)/(větev)`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11838,6 +12149,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T145918Z" creationid="Prikryl" creationdate="20151107T145918Z">
         <seg>U anotovaných značek se provádí kontrolní součet. Obsahují jméno autora značky (tagger), e-mail a datum, nesou vlastní zprávu značky (tagging message) a mohou být podepsány (signed) a ověřeny (verified) v programu GNU Privacy Guard (GPG).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>They're local references that you can't move; they're moved automatically for you whenever you do any network communication.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T104035Z" creationid="Prikryl" creationdate="20151210T104035Z">
+        <seg>Jsou to lokální reference, které nemůžete posunovat. Posunují se automaticky v době, kdy probíhá komunikace po síti.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12006,6 +12325,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T145232Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tento příkaz vypíše značky v abecedním pořadí. Pořadí zobrazení značek nenese žádnou důležitou informaci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This command looks up which server ``origin'' is (in this case, it's `git.ourcompany.com`), fetches any data from it that you don't yet have, and updates your local database, moving your `origin/master` pointer to its new, more up-to-date position.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T112125Z" creationid="Prikryl" creationdate="20151210T112125Z">
+        <seg>Tento příkaz zjistí, který server je `origin` (v tomto případě je to `git.ourcompany.com`), vyzvedne z něj všechna data, která ještě nemáte, a aktualizuje vaši lokální databázi. Při tom přemístí ukazatel `origin/master` na novou, aktuálnější pozici.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12682,6 +13009,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This may be a bit confusing, so let's look at an example.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T104802Z" creationid="Prikryl" creationdate="20151210T104802Z">
+        <seg>Mohlo by to být trochu matoucí, takže si uveďme příklad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This may not seem like a huge deal, but you may be surprised what a big difference it can make.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
@@ -13262,6 +13597,14 @@ Příkaz ukáže jen informaci o revizi:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>To demonstrate having multiple remote servers and what remote branches for those remote projects look like, let's assume you have another internal Git server that is used only for development by one of your sprint teams.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T114244Z" creationid="Prikryl" creationdate="20151210T114244Z">
+        <seg>Abychom si mohli ukázat, jak se pracuje s několika vzdálenými servery a jak vypadají vzdálené větve takových vzdálených projektů, předpokládejme, že máte ještě další interní server Git, který při vývoji používá pouze jeden z vašich sprint teamů{empty}footnote:[Pozn. překl.: Pojem „sprint tým“ pochází z agilní vývojové metodologie https://cs.wikipedia.org/wiki/Scrum[Scrum].].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>To demonstrate this functionality, you need a typical SVN repository that you have write access to.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -13384,8 +13727,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>To merge this work into your current working branch, you can run `git merge origin/serverfix`.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li začlenit tato data do své aktuální pracovní větve, spusťte příkaz `git merge origin/serverfix`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T144618Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Chcete-li začlenit tato data do své aktuální pracovní větve, můžete provést příkaz `git merge origin/serverfix`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13682,6 +14025,16 @@ To git@github.com:schacon/simplegit.git</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T224908Z" creationid="Prikryl" creationdate="20151107T224908Z">
         <seg>Total 14 (delta 3), reused 0 (delta 0)
 To git@github.com:schacon/simplegit.git</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Total 24 (delta 2), reused 0 (delta 0)
+To https://github.com/schacon/simplegit</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T124221Z" creationid="Prikryl" creationdate="20151210T124221Z">
+        <seg>Total 24 (delta 2), reused 0 (delta 0)
+To https://github.com/schacon/simplegit</seg>
       </tuv>
     </tu>
     <tu>
@@ -14248,6 +14601,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>While ``master'' is the default name for a starting branch when you run `git init` which is the only reason it's widely used, ``origin'' is the default name for a remote when you run `git clone`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T114835Z" creationid="Prikryl" creationdate="20151210T105937Z">
+        <seg>Zatímco „master“ je výchozí jméno pro počáteční větev po provedení `git init` -- což je jediný důvod, proč se tak často používá --{empty}, „origin“ je výchozí jméno pro vzdálený repozitář po provedení příkazu `git clone`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>While most of the core commands and concepts are still valid today as the Git core team is pretty fantastic at keeping things backward compatible, there have been some significant additions and changes in the community surrounding Git.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T132114Z" creationid="Prikryl" creationdate="20151026T132114Z">
@@ -14368,6 +14729,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Writing objects: 100% (24/24), 1.91 KiB | 0 bytes/s, done.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T124219Z" creationid="Prikryl" creationdate="20151210T124219Z">
+        <seg>Writing objects: 100% (24/24), 1.91 KiB | 0 bytes/s, done.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Writing objects: 100% (3/3), 323 bytes, done.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151024T090856Z" creationid="Prikryl" creationdate="20151024T090856Z">
@@ -14456,6 +14825,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can add it as a new remote reference to the project you're currently working on by running the `git remote add` command as we covered in &lt;&lt;_git_basics_chapter&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T122554Z" creationid="Prikryl" creationdate="20151210T122554Z">
+        <seg>Můžete ho přidat jako novou vzdálenou referenci k projektu, na němž právě pracujete, spuštěním příkazu `git remote add` -- jak jsme si ukázali v kapitole &lt;&lt;_git_basics_chapter&gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can add the following line to your Git attributes file:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -14492,6 +14869,15 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Stejným způsobem můžete vytvořit také archiv zip. K příkazu `git archive` stačí přidat parametr `--format=zip`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can also do `git push origin serverfix:serverfix`, which does the same thing – it says, ``Take my serverfix and make it the remote's serverfix.''
+You can use this format to push a local branch into a remote branch that is named differently.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T124801Z" creationid="Prikryl" creationdate="20151210T124801Z">
+        <seg>Můžete zadat také příkaz `git push origin serverfix:serverfix`, který provede totéž. Vyjadřuje: „Vezmi mou větev `serverfix` a udělej z ní `serverfix` na vzdáleném serveru.“ Tento formát můžete použít k odeslání lokální větve do vzdálené větve, která se jmenuje jinak.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14852,6 +15238,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Projekt v systému Git lze získat dvěma základními způsoby.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can get a full list of remote references explicitly with `git ls-remote (remote)`, or `git remote show (remote)` for remote branches as well as more information.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T082100Z" creationid="Prikryl" creationdate="20151210T081817Z">
+        <seg>Seznam vzdálených referencí pro vzdálené větve a také další informace můžete získat explicitním příkazem `git ls-remote (vzdálený repozitář)` nebo `git remote show (vzdálený repozitář)`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16028,6 +16422,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Your local branches aren't automatically synchronized to the remotes you write to – you have to explicitly push the branches you want to share.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T123603Z" creationid="Prikryl" creationdate="20151210T123603Z">
+        <seg>Vaše lokální větve nejsou automaticky synchronizovány se vzdálenými servery, na které zapisujete –- ty, které chcete sdílet, musíte explicitně odeslat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Your method looks like this:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -16137,6 +16539,20 @@ Je důležité, abyste porozuměli tomu, že příkaz `git checkout -- [soubor]`
     <tu>
       <tuv lang="EN">
         <seg>[NOTE]
+.Don't type your password every time
+====
+If you're using an HTTPS URL to push over, the Git server will ask you for your username and password for authentication.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T125238Z" creationid="Prikryl" creationdate="20151210T125238Z">
+        <seg>[NOTE]
+.Nepište pokaždé své heslo
+====
+Pokud práci odesíláte přes HTTPS URL, vyptává se vás gitový server na jméno a heslo kvůli autentizaci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[NOTE]
 .Git Diff in an External Tool
 ====
 We will continue to use the `git diff` command in various ways throughout the rest of the book.</seg>
@@ -16160,6 +16576,20 @@ It's important to note that when you switch branches in Git, files in your worki
 .Přepnutí větví mění soubory ve vašem pracovním adresáři
 ====
 Považuji za důležité poznamenat, že v Gitu se při přepnutí větví změní soubory ve vašem pracovním adresáři.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[NOTE]
+.``origin'' is not special
+====
+Just like the branch name ``master'' does not have any special meaning in Git, neither does ``origin''.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T105644Z" creationid="Prikryl" creationdate="20151210T105644Z">
+        <seg>[NOTE]
+.Název „origin“ není nijak speciální
+====
+Stejně jako jméno větve „master“ nemá pro Git žádný speciální význam, ani název „origin“ není nijak zvláštní.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16480,12 +16910,32 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_pushing_branches]]
+==== Pushing</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T123429Z" creationid="Prikryl" creationdate="20151210T123429Z">
+        <seg>[[_pushing_branches]]
+==== Odesílání</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_pushing_remotes]]
 ==== Pushing to Your Remotes</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T100112Z" creationid="Prikryl" creationdate="20151107T100112Z">
         <seg>[[_pushing_remotes]]
 ==== Odesílání do vzdálených repozitářů</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_remote_branches]]
+=== Remote Branches</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T080902Z" creationid="Prikryl" creationdate="20151210T075933Z">
+        <seg>[[_remote_branches]]
+=== Vzdálené větve</seg>
       </tuv>
     </tu>
     <tu>
@@ -17072,6 +17522,20 @@ Switched to a new branch "iss53"
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git checkout -b serverfix origin/serverfix
+Branch serverfix set up to track remote branch serverfix from origin.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T145015Z" creationid="Prikryl" creationdate="20151210T145015Z">
+        <seg>[source,console]
+----
+$ git checkout -b serverfix origin/serverfix
+Branch serverfix set up to track remote branch serverfix from origin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git checkout -b version2 v2.0.0
 Switched to a new branch 'version2'
 ----</seg>
@@ -17568,6 +18032,20 @@ $ git fetch [jméno vzdáleného repozitáře]
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git fetch origin
+remote: Counting objects: 7, done.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T144114Z" creationid="Prikryl" creationdate="20151210T144114Z">
+        <seg>[source,console]
+----
+$ git fetch origin
+remote: Counting objects: 7, done.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git fetch pb
 remote: Counting objects: 43, done.</seg>
       </tuv>
@@ -17970,6 +18448,20 @@ $ git push origin master
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git push origin serverfix
+Counting objects: 24, done.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T124209Z" creationid="Prikryl" creationdate="20151210T124209Z">
+        <seg>[source,console]
+----
+$ git push origin serverfix
+Counting objects: 24, done.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git push origin v1.5
 Counting objects: 14, done.</seg>
       </tuv>
@@ -18345,6 +18837,62 @@ $ git tag -a v1.2 9fceb02
         <seg>[source,console]
 ----
 $ git tag -a v1.2 9fceb02
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git tag -a v1.4 -m 'my version 1.4'
+$ git tag
+v0.1
+v1.3
+v1.4
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T150222Z" creationid="Prikryl" creationdate="20151107T150222Z">
+        <seg>[source,console]
+----
+$ git tag -a v1.4 -m 'my version 1.4'
+$ git tag
+v0.1
+v1.3
+v1.4
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git tag -l 'v1.8.5*'
+v1.8.5
+v1.8.5-rc0
+v1.8.5-rc1
+v1.8.5-rc2
+v1.8.5-rc3
+v1.8.5.1
+v1.8.5.2
+v1.8.5.3
+v1.8.5.4
+v1.8.5.5
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T145554Z" creationid="Prikryl" creationdate="20151107T145554Z">
+        <seg>[source,console]
+----
+$ git tag -l 'v1.8.5*'
+v1.8.5
+v1.8.5-rc0
+v1.8.5-rc1
+v1.8.5-rc2
+v1.8.5-rc3
+v1.8.5.1
+v1.8.5.2
+v1.8.5.3
+v1.8.5.4
+v1.8.5.5
 ----</seg>
       </tuv>
     </tu>
@@ -19764,6 +20312,14 @@ $ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>remote: Compressing objects: 100% (2/2), done.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T144116Z" creationid="Prikryl" creationdate="20151210T144116Z">
+        <seg>remote: Compressing objects: 100% (2/2), done.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>remote: Compressing objects: 100% (3/3), done.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T223057Z" creationid="Prikryl" creationdate="20151023T223057Z">
@@ -19786,6 +20342,16 @@ Receiving objects: 100% (1857/1857), 374.35 KiB | 268.00 KiB/s, done.</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151101T164524Z" creationid="Prikryl" creationdate="20151101T164524Z">
         <seg>remote: Total 1857 (delta 0), reused 0 (delta 0)
 Receiving objects: 100% (1857/1857), 374.35 KiB | 268.00 KiB/s, done.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>remote: Total 3 (delta 0), reused 3 (delta 0)
+Unpacking objects: 100% (3/3), done.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151210T144118Z" creationid="Prikryl" creationdate="20151210T144118Z">
+        <seg>remote: Total 3 (delta 0), reused 3 (delta 0)
+Unpacking objects: 100% (3/3), done.</seg>
       </tuv>
     </tu>
     <tu>

@@ -2,3 +2,9 @@ commit amending	úprava revize
 stashing	odložení
 merge commit	bod sloučení
 rebasing	přeskládání
+tracking branch	sledující větev
+remote-tracking branch	vzdáleně sledovaná větev
+fetch	vyzvednout
+merge	sloučit
+merge	začlenit
+remote branch	vzdálená větev

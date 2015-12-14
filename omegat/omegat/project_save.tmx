@@ -443,6 +443,16 @@ Co se stane, když vytvoříte novou větev?</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((branches, deleting remote)))
+Suppose you're done with a remote branch – say you and your collaborators are finished with a feature and have merged it into your remote's `master` branch (or whatever branch your stable codeline is in).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T074743Z" creationid="Prikryl" creationdate="20151214T074743Z">
+        <seg>(((větve, mazání vzdálených)))
+Dejme tomu, že máte vzdálenou větev hotovou -- řekněme, že jste se spolupracovníky dokončili nějakou funkčnost a začlenili ji do větve `master` vašeho vzdáleného repozitáře (nebo do jiné větve, do které umísťujete stabilní kód).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((branches, long-running)))
 Because Git uses a simple three-way merge, merging from one branch into another multiple times over a long period is generally easy to do.</seg>
       </tuv>
@@ -540,6 +550,16 @@ Occasionally, this process doesn't go smoothly.</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T072503Z" creationid="Prikryl" creationdate="20151120T072503Z">
         <seg>(((slučování, konflikty)))
 Občas se stane, že tento proces neproběhne hladce.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((pulling)))
+While the `git fetch` command will fetch down all the changes on the server that you don't have yet, it will not modify your working directory at all.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T071810Z" creationid="Prikryl" creationdate="20151214T071810Z">
+        <seg>(((pulling)))
+Příkaz `git fetch` sice vyzvedne všechny změny ze serveru, které ještě nemáte, ale nijak nezmění obsah vašeho pracovního adresáře.</seg>
       </tuv>
     </tu>
     <tu>
@@ -901,6 +921,16 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T215942Z" creationid="Prikryl" creationdate="20151023T215942Z">
         <seg>- Můžete používat i odrážky.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>- [deleted]         serverfix
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T075101Z" creationid="Prikryl" creationdate="20151214T075101Z">
+        <seg>- [deleted]         serverfix
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -1921,6 +1951,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>==== Soukromý řízený tým</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>==== Pulling</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T071604Z" creationid="Prikryl" creationdate="20151214T071604Z">
+        <seg>==== Stahování</seg>
       </tuv>
     </tu>
     <tu>
@@ -3441,6 +3479,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Basically all this does is remove the pointer from the server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T080240Z" creationid="Prikryl" creationdate="20151214T080240Z">
+        <seg>V podstatě vše, co to udělá, je jen odstranění odkazu ze serveru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Be careful, because you can't always undo some of these undos.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151105T214626Z" creationid="Prikryl" creationdate="20151105T214626Z">
@@ -4732,6 +4778,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Generally it's better to simply use the `fetch` and `merge` commands explicitly as the magic of `git pull` can often be confusing.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T073649Z" creationid="Prikryl" creationdate="20151214T073649Z">
+        <seg>Obecně bývá lepší přímo použít příkazy `fetch` a `merge`, protože magie skrytá za `git pull` může být často matoucí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Generally, eight to ten characters are more than enough to be unique within a project.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5535,6 +5589,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>However, there is a command called `git pull` which is essentially a `git fetch` immediately followed by a `git merge` in most cases.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T072025Z" creationid="Prikryl" creationdate="20151214T072025Z">
+        <seg>Ale máme tu příkaz zvaný `git pull`, což je ve většině případů v podstatě `git fetch` bezprostředně následovaný příkazem `git merge`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>However, this is equivalent to running something like this:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6310,6 +6372,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you have a tracking branch set up as demonstrated in the last section, either by explicitly setting it or by having it created for you by the `clone` or `checkout` commands, `git pull` will look up what server and branch your current branch is tracking, fetch from that server and then try to merge in that remote branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T073426Z" creationid="Prikryl" creationdate="20151214T072127Z">
+        <seg>Pokud máte sledující větev nastavenou podle ukázky z minulé části -- buď explicitním příkazem nebo tím, že byla vytvořena příkazy `clone` nebo `checkout` --, podívá se příkaz `git pull` jaký server a jakou větev vaše současná větev sleduje, vyzvedne změny ze serveru a pokusí se vzdálenou větev začlenit (merge).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you have it read the message from the file passed as the first argument and compare that to the pattern, you can force Git to abort the commit if there is no match:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6874,8 +6944,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you want to delete your `serverfix` branch from the server, you run the following:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li ze serveru odstranit větev `serverfix`, můžete to provést takto:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T075017Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Chcete-li ze serveru odstranit větev `serverfix`, můžete provést následující:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8323,6 +8393,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Git se těmito hodnotami řídí také při aplikaci záplat příkazem `git apply`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It will simply get the data for you and let you merge it yourself.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T071842Z" creationid="Prikryl" creationdate="20151214T071842Z">
+        <seg>Prostě pro vás jen vyzvedne data a sloučení nechá na vás.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10937,6 +11015,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Projekt Git má kromě toho větev `maint`, která byla odštěpena z posledního vydání a představuje záplaty backportované pro případ, že by bylo třeba vydat opravnou verzi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Git server will generally keep the data there for a while until a garbage collection runs, so if it was accidentally deleted, it's often easy to recover.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T080611Z" creationid="Prikryl" creationdate="20151214T080611Z">
+        <seg>Gitový server data obecně po nějakou dobu uchovává -- až do doby, kdy se spustí úklid (garbage collection). Takže pokud jste něco nechtěně smazali, dá se to obvykle snadno obnovit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15852,6 +15938,14 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can delete a remote branch using the `--delete` option to `git push`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T074942Z" creationid="Prikryl" creationdate="20151214T074942Z">
+        <seg>Vzdálenou větev můžete smazat příkazem `git push` s volbou `--delete`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can delete it with the `-d` option to `git branch`:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151115T152205Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -17560,6 +17654,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T150808Z" creationid="Prikryl" creationdate="20151108T150808Z">
         <seg>[[_create_new_branch]]
 ==== Vytvoření nové větve</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_delete_branches]]
+==== Deleting Remote Branches</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T073658Z" creationid="Prikryl" creationdate="20151214T073658Z">
+        <seg>[[_delete_branches]]
+==== Mazání vzdálených větví</seg>
       </tuv>
     </tu>
     <tu>
@@ -19376,6 +19480,20 @@ $ git mv file_from file_to
 ----
 $ git mv file_from file_to
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git push origin --delete serverfix
+To https://github.com/schacon/simplegit</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T075057Z" creationid="Prikryl" creationdate="20151214T075057Z">
+        <seg>[source,console]
+----
+$ git push origin --delete serverfix
+To https://github.com/schacon/simplegit</seg>
       </tuv>
     </tu>
     <tu>

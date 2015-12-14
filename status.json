@@ -4,33 +4,33 @@
   "maintainers": ["pepr"],
   "files": {
     "01-introduction": {
-      "1-introduction.asc": 100,
-      "sections/about-version-control.asc": 100,
-      "sections/basics.asc": 100,
-      "sections/command-line.asc": 100,
-      "sections/first-time-setup.asc": 100,
-      "sections/help.asc": 100,
-      "sections/history.asc": 100,
-      "sections/installing.asc": 100
+      "1-introduction.asc": 99,
+      "sections/about-version-control.asc": 99,
+      "sections/basics.asc": 99,
+      "sections/command-line.asc": 99,
+      "sections/first-time-setup.asc": 99,
+      "sections/help.asc": 99,
+      "sections/history.asc": 99,
+      "sections/installing.asc": 99
     },
     "02-git-basics": {
-      "1-git-basics.asc": 100,
-      "sections/aliases.asc": 100,
-      "sections/getting-a-repository.asc": 100,
-      "sections/recording-changes.asc": 100,
-      "sections/remotes.asc": 100,
-      "sections/tagging.asc": 100,
-      "sections/undoing.asc": 100,
-      "sections/viewing-history.asc": 100
+      "1-git-basics.asc": 99,
+      "sections/aliases.asc": 99,
+      "sections/getting-a-repository.asc": 99,
+      "sections/recording-changes.asc": 99,
+      "sections/remotes.asc": 99,
+      "sections/tagging.asc": 99,
+      "sections/undoing.asc": 99,
+      "sections/viewing-history.asc": 99
     },
     "03-git-branching": {
-      "1-git-branching.asc": 100,
-      "sections/basic-branching-and-merging.asc": 100,
-      "sections/branch-management.asc": 100,
-      "sections/nutshell.asc": 100,
-      "sections/rebasing.asc": 0,
-      "sections/remote-branches.asc": 100,
-      "sections/workflows.asc": 100
+      "1-git-branching.asc": 99,
+      "sections/basic-branching-and-merging.asc": 99,
+      "sections/branch-management.asc": 99,
+      "sections/nutshell.asc": 99,
+      "sections/rebasing.asc": 99,
+      "sections/remote-branches.asc": 99,
+      "sections/workflows.asc": 99
     },
     "04-git-server": {
       "1-git-server.asc": 0,

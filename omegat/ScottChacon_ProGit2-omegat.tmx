@@ -448,6 +448,16 @@ Ale slastné přeskládání má i stinné stránky, které se dají shrnout do 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((rebasing, vs. merging)))(((merging, vs. rebasing)))
+Now that you've seen rebasing and merging in action, you may be wondering which one is better.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T204906Z" creationid="Prikryl" creationdate="20151214T204906Z">
+        <seg>(((přeskládání, vs. slučování)))(((slučování, vs. přeskládání)))
+Když jste teď přeskládání a slučování viděli v akci, možná by vás zajímalo, které z nich je lepší.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((staging area, skipping)))
 Although it can be amazingly useful for crafting commits exactly how you want them, the staging area is sometimes a bit more complex than you need in your workflow.</seg>
       </tuv>
@@ -1909,6 +1919,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T071604Z" creationid="Prikryl" creationdate="20151214T071604Z">
         <seg>==== Stahování</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>==== Rebase vs. Merge</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T204715Z" creationid="Prikryl" creationdate="20151214T204715Z">
+        <seg>==== Přeskládání vs. slučování</seg>
       </tuv>
     </tu>
     <tu>
@@ -3509,6 +3527,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Before we can answer this, let's step back a bit and talk about what history means.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T205107Z" creationid="Prikryl" creationdate="20151214T205107Z">
+        <seg>Než na to budeme moci odpovědět, podívejme se na to s odstupem a proberme si, co rozumíme historií.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Before you start using Git, you have to make it available on your computer.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T200257Z" creationid="Prikryl" creationdate="20151027T200257Z">
@@ -4632,6 +4658,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>From this angle, changing the commit history is almost blasphemous; you're _lying_ about what actually transpired.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T205815Z" creationid="Prikryl" creationdate="20151214T205815Z">
+        <seg>Z tohoto pohledu jsou úpravy historie zápisů revizí téměř rouhačstvím; _lžete_ o tom, co se skutečně stalo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Further paragraphs come after blank lines.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T215924Z" creationid="Prikryl" creationdate="20151023T215924Z">
@@ -5015,6 +5049,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Git je obsahově adresovatelný systém souborů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Git is a powerful tool, and allows you to do many things to and with your history, but every team and every project is different.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T211315Z" creationid="Prikryl" creationdate="20151214T211315Z">
+        <seg>Git je mocný nástroja a dovoluje vám s historií provádět mnoho věcí. Ale každý tým a každý projekt se liší.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5669,8 +5711,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>If someone on your team force pushes changes that overwrite work that you've based work on, your challenge is to figure out what is yours and what they've rewritten.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T152830Z" creationid="Prikryl" creationdate="20151214T143316Z">
-        <seg>Když někdo ve vašem týmu vynutí odeslání změn, které přepíší práci z které vycházíte, pak potřebujete zjistit, co zůstalo vaše a co bylo přepsáno.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T184052Z" creationid="Prikryl" creationdate="20151214T143316Z">
+        <seg>Pokud někdo ve vašem týmu vynutí odeslání změn, které přepíší práci z které vycházíte, pak potřebujete zjistit, co zůstalo vaše a co bylo přepsáno.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6394,6 +6436,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you or a partner does find it necessary at some point, make sure everyone knows to run `git pull --rebase` to try to make the pain after it happens a little bit simpler.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T204642Z" creationid="Prikryl" creationdate="20151214T204642Z">
+        <seg>Pokud to vy nebo váš partner v určité chvíli považujete za nezbytnost, ujistěte se, že všichni umí spustit `git pull --rebase`, aby poté své utrpení učinili o něco snesitelnějším.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you pass `--abbrev-commit` to the `git log` command, the output will use shorter values but keep them unique; it defaults to using seven characters but makes them longer if necessary to keep the SHA-1 unambiguous:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6454,6 +6504,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151124T211840Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud opravdu chcete větev odstranit a zahodit práci, kterou obsahuje, můžete to vynutit parametrem `-D`  -- jak napovídá užitečná zpráva pod chybovým hlášením.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you rebase commits that have already been pushed publicly, and people may have based work on those commits, then you may be in for some frustrating trouble, and the scorn of your teammates.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T204431Z" creationid="Prikryl" creationdate="20151214T204431Z">
+        <seg>Pokud přeskládáte revize, které již byly odeslány do veřejného prostoru a ostatní na těchto revizích (commit) mohli založit další práce, pak můžete být v nepříjemných potížích a předmětem opovržení týmových kolegů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6696,6 +6754,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Zjistíte-li ve svém zdrojovém kódu chybu a chcete vědět, kdy a jak vznikla, je často nejlepším nástrojem anotace souboru (file annotation).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you treat rebasing as a way to clean up and work with commits before you push them, and if you only rebase commits that have never been available publicly, then you'll be fine.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T203939Z" creationid="Prikryl" creationdate="20151214T203939Z">
+        <seg>Pokud přeskládání chápete jako způsob úklidu a práce s revizemi před tím, než je odešlete, a pokud přeskládáváte jen revize, které nikdy nebyly veřejně dostupné, pak budete v pohodě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7437,6 +7503,14 @@ Just type the name of the tool you'd rather use.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151103T195837Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Můžete dokonce zadat `-&lt;n&gt;`, kde `n` je libovolné celé číslo. Povede to k zobrazení posledních `n` revizí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In general the way to get the best of both worlds is to rebase local changes you've made but haven't shared yet before you push them in order to clean up your story, but never rebase anything you've pushed somewhere.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T212237Z" creationid="Prikryl" creationdate="20151214T212237Z">
+        <seg>Obecně můžete nejlepší z obou světů získat tím, že použijete přeskládání vašich lokálních změn, které jste dosud nezveřejnili, abyste příběh vyčistili, než jej zveřejníte. Ale nikdy neprovádějte přeskládání toho, co už bylo někam odesláno.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8221,8 +8295,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>It turns out that in addition to the commit SHA-1 checksum, Git also calculates a checksum that is based just on the patch introduced with the commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T143637Z" creationid="Prikryl" creationdate="20151214T143637Z">
-        <seg>Zjistíte, že Git kromě kontrolního součtu (SHA-1) pro bod revize počítá také kontrolní součet, který vychází pouze ze záplat, které s revizí vznikají.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T184127Z" creationid="Prikryl" creationdate="20151214T143637Z">
+        <seg>Věc se má tak, že Git kromě kontrolního součtu (SHA-1) pro bod revize počítá také kontrolní součet, který vychází pouze ze záplat, které s revizí vznikají.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9271,6 +9345,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Now that you know how both of these things work, it's up to you to decide which one is best for your particular situation.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T211724Z" creationid="Prikryl" creationdate="20151214T211724Z">
+        <seg>Když teď víte, jak oba přístupy fungují, je jen na vás, který z nich ve vaší konkrétní situaci zvolíte jako nejlepší.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Now that your filter is ready, you can test it by setting up a file with your `$Date$` keyword and then setting up a Git attribute for that file that engages the new filter:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9563,6 +9645,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T112715Z" creationid="Prikryl" creationdate="20151214T112715Z">
         <seg>Snímek, na který odkazuje `C4'`, je v tomto okamžiku přesně stejný, jako ten, na který u příkladu využívajícího slučování odkazoval `C5`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now, to the question of whether merging or rebasing is better: hopefully you'll see that it's not that simple.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T211059Z" creationid="Prikryl" creationdate="20151214T211059Z">
+        <seg>A teď zpět k otázce, zda je lepší slučování nebo přeskládání. Vidíte, doufám, že to není tak jednoduché.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9873,6 +9963,16 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>One point of view on this is that your repository's commit history is a *record of what actually happened.*
+It's a historical document, valuable in its own right, and shouldn't be tampered with.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T205609Z" creationid="Prikryl" creationdate="20151214T205609Z">
+        <seg>Jeden pohled na věc považuje historii zápisů do repozitáře za *záznam toho, co se skutečně stalo*.
+Je to historický dokument, který je cenný sám o sobě, a neměli bychom s ním manipulovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>One way is to use the `git fsck` utility, which checks your database for integrity.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9931,8 +10031,8 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="EN">
         <seg>Otherwise the rebase won't be able to tell that it's a duplicate and will add another C4-like patch (which will probably fail to apply cleanly, since the changes would already be at least somewhat there).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T153748Z" creationid="Prikryl" creationdate="20151214T153748Z">
-        <seg>V opačném případě nebude příkaz `rebase` schopen říct, že se jedná o duplikát, a přidá další záplatu, která se podobá té z C4 (kterou se ale pravděpodobně nepodaří čistě aplikovat, protože tam budou alespoň nějaké změny).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T203213Z" creationid="Prikryl" creationdate="20151214T153748Z">
+        <seg>V opačném případě nebude příkaz `rebase` schopen zjistit, že se jedná o duplikát, a přidá další záplatu, která se podobá té z C4 (kterou se ale pravděpodobně nepodaří čistě aplikovat, protože tam budou alespoň nějaké změny).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10417,6 +10517,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T193911Z" creationid="Prikryl" creationdate="20151027T193911Z">
         <seg>Takže od vás budeme očekávat, že na počítači Mac umíte otevřít Terminál, nebo že ve Windows umíte spustit Příkazový řádek či PowerShell.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>So what if there was a messy series of merge commits?</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T210139Z" creationid="Prikryl" creationdate="20151214T210139Z">
+        <seg>Jenže co když se vyskytly nějaké zamuchlané posloupnosti bodů sloučení?</seg>
       </tuv>
     </tu>
     <tu>
@@ -10933,6 +11041,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151210T123820Z" creationid="Prikryl" creationdate="20151210T123820Z">
         <seg>Tímto způsobem si můžete zachovat soukromé větve pro práci, kterou nehodláte sdílet, a odesílat pouze tématické větve, na nichž chcete spolupracovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>That's how it happened, and the repository should preserve that for posterity.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T210227Z" creationid="Prikryl" creationdate="20151214T210227Z">
+        <seg>Takhle se to stalo a repozitář by to měl zachovat pro další generace.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11997,6 +12113,16 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The opposing point of view is that the commit history is the *story of how your project was made.*
+You wouldn't publish the first draft of a book, and the manual for how to maintain your software deserves careful editing.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T210627Z" creationid="Prikryl" creationdate="20151214T210627Z">
+        <seg>Z protikladného ohledu je historie zápisu revizí *příběhem o tom, jak váš projek vznikal*.
+U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udržovat udržovat váš vlastní software vyžaduje pečlivé úpravy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The other advantage of this approach is that you get the history of the commits as well.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -12834,8 +12960,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
         <seg>This basically says, ``Check out the client branch, figure out the patches from the common ancestor of the `client` and `server` branches, and then replay them onto `master`.''
 It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T125245Z" creationid="Prikryl" creationdate="20151214T125245Z">
-        <seg>V podstatě tím říkáte: „Proveď přepni se (checkout) na větev `client`, zjisti záplaty od společného předka větví `client` a `server` a znovu je aplikuj na větev `master`.“ Je to možná trochu složitější, ale výsledek stojí za to.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T212447Z" creationid="Prikryl" creationdate="20151214T125245Z">
+        <seg>V podstatě tím říkáte: „Přepni se (checkout) na větev `client`, zjisti záplaty od společného předka větví `client` a `server` a znovu je aplikuj na větev `master`.“ Je to možná trochu složitější, ale výsledek stojí za to.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13524,6 +13650,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Toto je začátek výstupu příkazu format-patch, s nímž jsme se setkali v předchozí části.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is the camp that uses tools like rebase and filter-branch to tell the story in the way that's best for future readers.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T210918Z" creationid="Prikryl" creationdate="20151214T210918Z">
+        <seg>Zastánci tohoto tábora používají nástroje jako přeskládání a filtrování větví k tomu, aby příběh sdělili způsobem, který je nejlepší z hlediska budoucích čtenárů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17747,6 +17881,16 @@ image::images/perils-of-rebasing-3.png["Někdo odešle přeskládané body zápi
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_rebase_rebase]]
+==== Rebase When You Rebase</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T184035Z" creationid="Prikryl" creationdate="20151214T184035Z">
+        <seg>[[_rebase_rebase]]
+==== Přeskládejte po přeskládání</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_rebase_rebase_work]]
 .Rebase on top of force-pushed rebase work.</seg>
       </tuv>
@@ -19929,17 +20073,17 @@ $ git tag -a v1.2 9fceb02
       <tuv lang="EN">
         <seg>[source,console]
 ----
-$ git tag -a v1.4 -m 'my version 1.4'
+$ git tag -a v1.4 -m "my version 1.4"
 $ git tag
 v0.1
 v1.3
 v1.4
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T150222Z" creationid="Prikryl" creationdate="20151107T150222Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T190937Z" creationid="Prikryl" creationdate="20151209T190937Z">
         <seg>[source,console]
 ----
-$ git tag -a v1.4 -m 'my version 1.4'
+$ git tag -a v1.4 -m "my version 1.4"
 $ git tag
 v0.1
 v1.3
@@ -19951,7 +20095,7 @@ v1.4
       <tuv lang="EN">
         <seg>[source,console]
 ----
-$ git tag -l 'v1.8.5*'
+$ git tag -l "v1.8.5*"
 v1.8.5
 v1.8.5-rc0
 v1.8.5-rc1
@@ -19964,10 +20108,10 @@ v1.8.5.4
 v1.8.5.5
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T145554Z" creationid="Prikryl" creationdate="20151107T145554Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T190923Z" creationid="Prikryl" creationdate="20151209T190923Z">
         <seg>[source,console]
 ----
-$ git tag -l 'v1.8.5*'
+$ git tag -l "v1.8.5*"
 v1.8.5
 v1.8.5-rc0
 v1.8.5-rc1

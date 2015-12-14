@@ -8,3 +8,7 @@ fetch	vyzvednout
 merge	sloučit
 merge	začlenit
 remote branch	vzdálená větev
+commit	zápis
+commit	revize
+commit point	bod revize
+commit point	bod zápisu

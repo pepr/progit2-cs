@@ -428,6 +428,26 @@ Chcete-li svou větev sdílet s okolním světem, musíte ji odeslat (push) do v
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((rebasing)))
+In Git, there are two main ways to integrate changes from one branch into another: the `merge` and the `rebase`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T082232Z" creationid="Prikryl" creationdate="20151214T081953Z">
+        <seg>(((přeskládání)))
+V Gitu existují dva základní způsoby, jak integrovat změny z jedné větve do druhé: `merge` (sloučení, začlenění) a `rebase` (přeskládání).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((rebasing, perils of)))
+Ahh, but the bliss of rebasing isn't without its drawbacks, which can be summed up in a single line:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T133936Z" creationid="Prikryl" creationdate="20151214T133708Z">
+        <seg>(((přeskládání, rizika)))
+Ale slastné přeskládání má i stinné stránky, které se dají shrnout do jednoho řádku:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((staging area, skipping)))
 Although it can be amazingly useful for crafting commits exactly how you want them, the staging area is sometimes a bit more complex than you need in your workflow.</seg>
       </tuv>
@@ -667,6 +687,20 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Determine what work is unique to our branch (C2, C3, C4, C6, C7)
+* Determine which are not merge commits (C2, C3, C4)
+* Determine which have not been rewritten into the target branch (just C2 and C3, since C4 is the same patch as C4')
+* Apply those commits to the top of `teamone/master`</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T151342Z" creationid="Prikryl" creationdate="20151214T151342Z">
+        <seg>* Určí, jaká práce je pro naši větev jedinečná (C2, C3, C4, C6, C7).
+* Určí, co z toho nejsou body sloučení (C2, C3, C4).
+* Určí, které z nich nebyly do cílové větve zapsány znovu (jsou to jen C2 a C3, protože C4 představuje stejnou záplatu jako C4').
+* Na `teamone/master` aplikuje jen určené revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* [new branch]      master     -&gt; pb/master</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151101T170414Z" creationid="Prikryl" creationdate="20151101T170414Z">
@@ -749,6 +783,14 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
 * d6016bc require time for xmlschema
 *  11d191e Merge branch 'defunkt' into local
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*Do not rebase commits that exist outside your repository.*</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T134057Z" creationid="Prikryl" creationdate="20151214T134057Z">
+        <seg>*Neprovádějte přeskládání pro revize, které existují mimo váš repozitář.*</seg>
       </tuv>
     </tu>
     <tu>
@@ -903,6 +945,16 @@ image::images/remote-branches-4.png[Přidání dalšího serveru v roli vzdálen
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Clone a repository, and base some work on it
+image::images/perils-of-rebasing-1.png["Clone a repository, and base some work on it."]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T135244Z" creationid="Prikryl" creationdate="20151214T135244Z">
+        <seg>.Naklonování repozitáře a provedení změn
+image::images/perils-of-rebasing-1.png[Naklonování repozitáře a provedení změn.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Commits and their parents
 image::images/commits-and-parents.png[Commits and their parents.]</seg>
       </tuv>
@@ -927,6 +979,26 @@ image::images/basic-branching-2.png[Vytvoření nového ukazatele větve.]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T193359Z" creationid="Prikryl" creationdate="20151026T193359Z">
         <seg>.Distribuovaný systém pro správu verzí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Fast-forwarding the master branch
+image::images/basic-rebase-4.png[Fast-forwarding the master branch.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T112345Z" creationid="Prikryl" creationdate="20151214T112345Z">
+        <seg>.Posunutí větve `master` rychle vpřed
+image::images/basic-rebase-4.png[Posunutí větve `master` rychle vpřed.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Fetch more commits, and merge them into your work
+image::images/perils-of-rebasing-2.png["Fetch more commits, and merge them into your work."]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T135518Z" creationid="Prikryl" creationdate="20151214T135518Z">
+        <seg>.Vyzvednutí (fetch) bodů zápisu a jejich začlenění (merge) do vaší práce
+image::images/perils-of-rebasing-2.png[Vyzvednutí (fetch) bodů zápisu a jejich začlenění (merge) do vaší práce.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -1007,12 +1079,42 @@ image::images/remote-branches-2.png[Lokální a vzdálená historie práce se m�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Merging to integrate diverged work history
+image::images/basic-rebase-2.png[Merging to integrate diverged work history.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T091112Z" creationid="Prikryl" creationdate="20151214T091112Z">
+        <seg>.Spojení rozvětvené historie sloučením
+image::images/basic-rebase-2.png[Spojení rozvětvené historie sloučením.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Multiple topic branches
 image::images/topic-branches-1.png[Multiple topic branches.]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T145343Z" creationid="Prikryl" creationdate="20151209T145343Z">
         <seg>.Více tématických větví
 image::images/topic-branches-1.png[Více tématických větví.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Rebasing a topic branch off another topic branch
+image::images/interesting-rebase-2.png[Rebasing a topic branch off another topic branch.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T130201Z" creationid="Prikryl" creationdate="20151214T130201Z">
+        <seg>.Přeskládání z tématické větve vzniklé odvětvením z jiné tématické větve
+image::images/interesting-rebase-2.png[Přeskládání z tématické větve vzniklé odvětvením z jiné tématické větve.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Rebasing the change introduced in `C4` onto `C3`
+image::images/basic-rebase-3.png[Rebasing the change introduced in `C4` onto `C3`.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T094356Z" creationid="Prikryl" creationdate="20151214T094356Z">
+        <seg>.Přeskládání změn vzniklých v `C4` na `C3`
+image::images/basic-rebase-3.png[Přeskládání změn vzniklých v `C4` na `C3`.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -1033,6 +1135,16 @@ image::images/remote-branches-1.png[Server and local repositories after cloning.
       <tuv lang="CS" changeid="Prikryl" changedate="20151210T115112Z" creationid="Prikryl" creationdate="20151210T110258Z">
         <seg>.Repozitář na serveru a lokální repozitář po klonování
 image::images/remote-branches-1.png[Repozitář na serveru a lokální repozitář po klonování.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Simple divergent history
+image::images/basic-rebase-1.png[Simple divergent history.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T082938Z" creationid="Prikryl" creationdate="20151214T082938Z">
+        <seg>.Jednoduché rozvětvení historie
+image::images/basic-rebase-1.png[Jednoduché rozvětvení historie.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -2915,6 +3027,16 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Applying: added staged command
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T091450Z" creationid="Prikryl" creationdate="20151214T091450Z">
+        <seg>Applying: added staged command
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Are all the patches peer-reviewed and approved?</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3207,6 +3329,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>V tomto okamžiku můžete ukončit skript interaktivního přidávání a spustit příkaz `git commit`, jímž zapíšete částečně připravené soubory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>At this point, you can go back to the `master` branch and do a fast-forward merge.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T112309Z" creationid="Prikryl" creationdate="20151214T112309Z">
+        <seg>V tomto okamžiku můžete přejít zpět na větev `master` a provést sloučení typu „rychle vpřed“.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3984,8 +4114,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Finally, you went back to your server branch and did a few more commits.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nakonec jste se vrátili na větev `server` a zapsali tu další revize.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T124356Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Nakonec jste se vrátili na větev `server` a zapsali dalších pár bodů revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4358,6 +4488,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For instance, in the previous scenario, if instead of doing a merge when we're at &lt;&lt;_pre_merge_rebase_work&gt;&gt; we run `git rebase teamone/master`, Git will:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T153339Z" creationid="Prikryl" creationdate="20151214T150446Z">
+        <seg>Tak například, pokud se při předchozím scénáři nacházíme v situaci na obrázku &lt;&lt;_pre_merge_rebase_work&gt;&gt; a místo provedení sloučení (merge) spustíme `git rebase teamone/master`, provede Git následující:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For instance, the Linux kernel recently jumped from 8 to 10 characters to ensure SHA-1 object uniqueness, so older `git describe` output names were invalidated.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4498,6 +4636,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T215924Z" creationid="Prikryl" creationdate="20151023T215924Z">
         <seg>Další odstavce se oddělují prázdným řádkem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Furthermore, if you push this history back up to the server, you'll reintroduce all those rebased commits to the central server, which can further confuse people.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T141725Z" creationid="Prikryl" creationdate="20151214T141725Z">
+        <seg>Když navíc odešlete takovou historii zpět na server, znovu na centrálním serveru vzniknou všechny body revizí, které vznikly přeskládáním, což vede k dalšímu zmatení lidí okolo.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5345,6 +5491,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>However, there is another way: you can take the patch of the change that was introduced in `C4` and reapply it on top of `C3`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T091245Z" creationid="Prikryl" creationdate="20151214T091245Z">
+        <seg>Existuje však ještě jiný způsob. Můžete vzít záplatu se změnou, která vznikla v revizi `C4`, a aplikovat ji na revizi `C3`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>However, this is equivalent to running something like this:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5513,6 +5667,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If someone on your team force pushes changes that overwrite work that you've based work on, your challenge is to figure out what is yours and what they've rewritten.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T152830Z" creationid="Prikryl" creationdate="20151214T143316Z">
+        <seg>Když někdo ve vašem týmu vynutí odeslání změn, které přepíší práci z které vycházíte, pak potřebujete zjistit, co zůstalo vaše a co bylo přepsáno.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If someone opens that tarball, they get the latest snapshot of your project under a project directory.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5635,6 +5797,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you *do* find yourself in a situation like this, Git has some further magic that might help you out.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T143057Z" creationid="Prikryl" creationdate="20151214T143057Z">
+        <seg>Když už se do takové situace dostanete, má Git v zásobě trochu magie, která vám z toho může pomoci ven.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you add a remote and push to it, Git stores the value you last pushed to that remote for each branch in the `refs/remotes` directory.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5720,6 +5890,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T114142Z" creationid="Prikryl" creationdate="20151107T114142Z">
         <seg>Pokud používáte _Git for Windows_ verze 2.x nebo novější, existuje i konfigurační soubor na úrovni systému `C:\Documents and Settings\All Users\Application Data\Git\config` pro Windows XP a `C:\ProgramData\Git\config` pro Windows Vista a novější.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you are using `git pull` and want to make `--rebase` the default, you can set the `pull.rebase` config value with something like `git config --global pull.rebase true`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T154224Z" creationid="Prikryl" creationdate="20151214T154224Z">
+        <seg>Pokud používáte `git pull` a chcete, aby se z `--rebase` stala výchozí volba, můžete nastavit konfigurační hodnotu `pull.rebase` příkazem jako je `git config --global pull.rebase true`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5868,6 +6046,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you do a `git pull`, you'll create a merge commit which includes both lines of history, and your repository will look like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T141143Z" creationid="Prikryl" creationdate="20151214T141143Z">
+        <seg>Pokud provedete `git pull`, vytvoříte bod sloučení (merge commit), který zahrnuje obě historické linie. Váš repozitář bude vypadat takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you do happen to commit an object that hashes to the same SHA-1 value as a previous object in your repository, Git will see the previous object already in your Git database and assume it was already written.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5942,6 +6128,14 @@ Tady je pár příkladů, které možná budete chtít nastavit:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you don't, people will hate you, and you'll be scorned by friends and family.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T134308Z" creationid="Prikryl" creationdate="20151214T134308Z">
+        <seg>Pokud ne, lidi vás budou nenávidět, přátelé a rodina vámi budou opovrhovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you don’t have the signer’s public key, you get something like this instead:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5984,8 +6178,16 @@ Tady je pár příkladů, které možná budete chtít nastavit:</seg>
       <tuv lang="EN">
         <seg>If you examine the log of a rebased branch, it looks like a linear history: it appears that all the work happened in series, even when it originally happened in parallel.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud si prohlížíte log přeskládané větve, vypadá jako lineární historie – zdá se, jako by veškerá práce probíhala v jedné linii, ačkoli původně byla paralelní.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T121354Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud si prohlížíte log přeskládané větve, vypadá jako lineární historie. Zdá se, jako kdyby veškeré práce probíhaly postupně, i když původně proběhly paralelně.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you follow that guideline, you'll be fine.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T134139Z" creationid="Prikryl" creationdate="20151214T134139Z">
+        <seg>Pokud se budete touto zásadou řídit, budete v pohodě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6002,6 +6204,14 @@ Tady je pár příkladů, které možná budete chtít nastavit:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>Jste-li v letadle nebo ve vlaku a chcete pokračovat v práci, můžete beze všeho zapisovat nové revize. Ty odešlete až po opětovném připojení k síti.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you go back to an earlier example from &lt;&lt;_basic_merging&gt;&gt;, you can see that you diverged your work and made commits on two different branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T082859Z" creationid="Prikryl" creationdate="20151214T082859Z">
+        <seg>Pokud se vrátíte k dřívějšímu příkladu v &lt;&lt;_basic_merging&gt;&gt;, vidíte, že jste se při práci odchýlili a vznikly body zápisu ve dvou různých větvích.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6224,10 +6434,18 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you pull down work that was rewritten and rebase it on top of the new commits from your partner, Git can often successfully figure out what is uniquely yours and apply them back on top of the new branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T153232Z" creationid="Prikryl" creationdate="20151214T153232Z">
+        <seg>Pokud si stáhnete práci, která byla přepsána a nad těmito novými body zápisu od spolupracovníka provedete přeskládání, umí často Git úspěšně zjistit, co pochází určitě od vás a aplikovat to na vrchol nové větve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you push commits somewhere and others pull them down and base work on them, and then you rewrite those commits with `git rebase` and push them up again, your collaborators will have to re-merge their work and things will get messy when you try to pull their work back into yours.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud odešlete svou práci, ostatní si ji stáhnou a založí na nich svou práci. A vy potom tyto revize přepíšete příkazem `git rebase` a znovu je odešlete, vaši spolupracovníci do ní budou muset znovu začlenit svou práci a ve všem nastane chaos, až se pokusíte natáhnout jejich práci zpět do své.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T134921Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud body zápisu odešlete (push) a ostatní si je stáhnou (pull) a založí na nich svou práci a vy potom tyto revize přepíšete příkazem `git rebase` a znovu je odešlete, vaši spolupracovníci budou muset znovu znovu začleňovat svou práci (merge) a ve věcech zavládne chaos v okamžiku, kdy se pokusíte vtáhnout jejich práci zpět do své.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6358,6 +6576,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Spustíte-li příkaz `git status`, uvidíte neuspořádaný stav svého projektu:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you run a `git log` when your history looks like this, you'll see two commits that have the same author, date, and message, which will be confusing.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T141452Z" creationid="Prikryl" creationdate="20151214T141452Z">
+        <seg>Pokud s takovouto historií spustíte příkaz `git log`, nastane zmatečná situace, kdy se zobrazí dvě revize se stejným autorem, datem a zprávou k revizi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7057,8 +7283,8 @@ Just type the name of the tool you'd rather use.</seg>
       <tuv lang="EN">
         <seg>In Git, this is called _rebasing_.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V systému Git se tato metoda nazývá _přeskládání_ (rebasing).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T091312Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V Gitu se to nazývá _přeskládáním_ (rebasing).</seg>
       </tuv>
     </tu>
     <tu>
@@ -7477,6 +7703,14 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In this case, you'd do your work in a branch and then rebase your work onto `origin/master` when you were ready to submit your patches to the main project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T121727Z" creationid="Prikryl" creationdate="20151214T121727Z">
+        <seg>V takovém případě budete pracovat ve své větvi, a až budete mít připraveny záplaty k odeslání do hlavního projektu, přeskládáte svou práci na větev `origin/master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In this case, you're still on `master`.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T163037Z" creationid="Prikryl" creationdate="20151108T163037Z">
@@ -7501,6 +7735,14 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In this example, you'd run the following:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T091443Z" creationid="Prikryl" creationdate="20151214T091443Z">
+        <seg>U tohoto příkladu byste provedli následující:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In this scenario, all work is done in team-based branches and pulled together by the integrators later.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7521,6 +7763,14 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>V tomto scénáři máte dvě dlouhodobé větve, hlavní větev `master` a větev `develop`. Určíte, že větev `master` bude aktualizována, pouze když je k dispozici velmi stabilní verze a do větve `develop` je integrován veškerý nový kód.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In this section you'll learn what rebasing is, how to do it, why it's a pretty amazing tool, and in what cases you won't want to use it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T082514Z" creationid="Prikryl" creationdate="20151214T082514Z">
+        <seg>V této podkapitole se dozvíte, co to přeskládání je, jak se provádí, proč je to docela úžasný nástroj a v jakých případech ho raději nepoužívat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7849,6 +8099,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It performs a three-way merge between the two latest branch snapshots (`C3` and `C4`) and the most recent common ancestor of the two (`C2`), creating a new snapshot (and commit).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T083315Z" creationid="Prikryl" creationdate="20151214T083315Z">
+        <seg>Ten provede třícestné sloučení mezi dvěma posledními snímky (C3 a C4) a jejich nejmladším společným předkem (C2), přičemž vytvoří nový snímek (a novou revizi).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It records the snapshots and then tries to figure out what was renamed implicitly, after the fact.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7961,6 +8219,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It turns out that in addition to the commit SHA-1 checksum, Git also calculates a checksum that is based just on the patch introduced with the commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T143637Z" creationid="Prikryl" creationdate="20151214T143637Z">
+        <seg>Zjistíte, že Git kromě kontrolního součtu (SHA-1) pro bod revize počítá také kontrolní součet, který vychází pouze ze záplat, které s revizí vznikají.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It turns out that it can.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -8029,6 +8295,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Začne na revizi, kterou jste označili na příkazovém řádku (`HEAD~3`), a přehraje změny provedené v každé z těchto revizí od shora dolů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It works by going to the common ancestor of the two branches (the one you're on and the one you're rebasing onto), getting the diff introduced by each commit of the branch you're on, saving those diffs to temporary files, resetting the current branch to the same commit as the branch you are rebasing onto, and finally applying each change in turn.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T094251Z" creationid="Prikryl" creationdate="20151214T094251Z">
+        <seg>Funguje to tak, že se přejde na společného předka obou větví (větve, na níž se nacházíte, a větve, na kterou přeskládáváte), zjistí se rozdíly pro každý bod zápisu ve větvi, na které se nacházíte, zjištěné rozdíly se uloží do dočasných souborů, aktuální větev se nastaví na stejný bod jako větev, na kterou přeskládáváte, a nakonec postupně aplikují všechny změny.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8141,6 +8415,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T174318Z" creationid="Prikryl" creationdate="20151026T174244Z">
         <seg>Nastal čas, abychom se naučili základům práce s Gitem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's pretty safe to assume that the other developer doesn't want `C4` and `C6` to be in the history; that's why they rebased in the first place.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T142848Z" creationid="Prikryl" creationdate="20151214T142848Z">
+        <seg>Dá se předpokládat, že druhý vývojář nechtěl, aby byly `C4` a `C6` součástí historie. To je důvodem, proč přeskládání vůbec prováděl.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8355,6 +8637,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Let's look at an example of how rebasing work that you've made public can cause problems.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T135019Z" creationid="Prikryl" creationdate="20151214T135019Z">
+        <seg>Podívejme se na příklad toho, jaké problémy může přeskládání již zveřejněných dat způsobit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Let's make a few changes and commit again:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T170042Z" creationid="Prikryl" creationdate="20151108T170042Z">
@@ -8375,6 +8665,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T150950Z" creationid="Prikryl" creationdate="20151108T150950Z">
         <seg>Řekněme, že vytvoříte novou větev a nazvete ji testing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Let's say you decide to pull in your server branch as well.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T130526Z" creationid="Prikryl" creationdate="20151214T130526Z">
+        <seg>Řekněme, že se později rozhodnete vtáhnout i větev `server`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8695,8 +8993,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Next, the person who pushed the merged work decides to go back and rebase their work instead; they do a `git push --force` to overwrite the history on the server.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jenže osoba, která odeslala a začlenila své změny, se rozhodne vrátit a svou práci raději přeskládat. Provede příkaz `git push --force` a přepíše historii na serveru.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T135645Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jenže osoba, která odeslala výsledek sloučení, se rozhodne vrátit zpět a svou práci raději přeskládat. Provede příkaz `git push --force` a přepíše historii na serveru.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8785,6 +9083,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nezapomeňte, že pokaždé, když chcete vytvořit projekt, musí se k počítači někdo přihlásit a vytvořit holý repozitář.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Note that the snapshot pointed to by the final commit you end up with, whether it's the last of the rebased commits for a rebase or the final merge commit after a merge, is the same snapshot – it's only the history that is different.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T122348Z" creationid="Prikryl" creationdate="20151214T122348Z">
+        <seg>Všimněte si, že snímek, na který ukazuje konečný bod zápisu -- ať už se jedná o poslední bod zápisu vzniklý přeskládáním, nebo závěrečný bod sloučení po provedení `merge` --, je shodný. Liší se pouze historie.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8997,6 +9303,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Now you can fast-forward your `master` branch (see &lt;&lt;rbdiag_g&gt;&gt;):</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T130244Z" creationid="Prikryl" creationdate="20151214T130244Z">
+        <seg>Teď můžete větev `master` posunout „rychle vpřed“ (viz &lt;&lt;rbdiag_g&gt;&gt;):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Now you can look at your new commit object with `cat-file`:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9081,6 +9395,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nyní chcete přepnout na jinou větev, ale nechcete zapsat změny, na nichž jste dosud pracovali – proto změny odložíte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now you're both in a pickle.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T140011Z" creationid="Prikryl" creationdate="20151214T140011Z">
+        <seg>Teď jste oba v loji.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9215,8 +9537,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Now, someone else does more work that includes a merge, and pushes that work to the central server.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Někdo jiný teď provede jiné úpravy, jejichž součástí bude i začlenění, a odešle svou práci na centrální server.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T142338Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Někdo jiný teď provede další úpravy, jejichž součástí bude i sloučení (merge), a odešle svou práci na centrální server.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9233,6 +9555,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T224152Z" creationid="Prikryl" creationdate="20151107T224152Z">
         <seg>Nyní předpokládejme, že jste zapomněli označkovat projekt verze 1.2, který je zachycen revizí se zprávou „updated rakefile“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now, the snapshot pointed to by `C4'` is exactly the same as the one that was pointed to by `C5` in the merge example.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T112715Z" creationid="Prikryl" creationdate="20151214T112715Z">
+        <seg>Snímek, na který odkazuje `C4'`, je v tomto okamžiku přesně stejný, jako ten, na který u příkladu využívajícího slučování odkazoval `C5`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9369,6 +9699,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Až budete pracovat na některé části svého projektu, často vám může připadat, že je vaše práce poněkud neuspořádaná a vy budete třeba chtít přepnout větve a pracovat na chvíli na něčem jiném.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Often, you'll do this to make sure your commits apply cleanly on a remote branch – perhaps in a project to which you're trying to contribute but that you don't maintain.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T121652Z" creationid="Prikryl" creationdate="20151214T121652Z">
+        <seg>Tuto metodu budete často používat v situaci, kdy chcete mít jistotu, že byly na vzdálenou větev vaše změny aplikovány čistě -- například u projektu, do kterého chcete přispět, ale který nespravujete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9567,6 +9905,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Or you could do it manually with a `git fetch` followed by a `git rebase teamone/master` in this case.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T154005Z" creationid="Prikryl" creationdate="20151214T154005Z">
+        <seg>Nebo to v tomto případě můžete provést ručně příkazem `git fetch`, následovaným příkazem `git rebase teamone/master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Or, to compare what is in your `rack` subdirectory with what the `master` branch on the server was the last time you fetched, you can run</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9579,6 +9925,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Provést můžete také tento příkaz:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Otherwise the rebase won't be able to tell that it's a duplicate and will add another C4-like patch (which will probably fail to apply cleanly, since the changes would already be at least somewhat there).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T153748Z" creationid="Prikryl" creationdate="20151214T153748Z">
+        <seg>V opačném případě nebude příkaz `rebase` schopen říct, že se jedná o duplikát, a přidá další záplatu, která se podobá té z C4 (kterou se ale pravděpodobně nepodaří čistě aplikovat, protože tam budou alespoň nějaké změny).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9737,8 +10091,8 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="EN">
         <seg>Rebasing replays changes from one line of work onto another in the order they were introduced, whereas merging takes the endpoints and merges them together.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Přeskládání provede změny učiněné v jedné linii práce ještě jednou v jiné linii, a to v pořadí, v jakém byly provedeny. Sloučení naproti tomu vezme koncové body větví a sloučí je dohromady.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T122904Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Přeskládání provede změny z jedné řady prací na jinou, a to v pořadí, v jakém byly provedeny. Naproti tomu sloučení vezme koncové body větví a sloučí je dohromady.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10051,6 +10405,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>So instead of the result we see in &lt;&lt;_merge_rebase_work&gt;&gt;, we would end up with something more like &lt;&lt;_rebase_rebase_work&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T151450Z" creationid="Prikryl" creationdate="20151214T151450Z">
+        <seg>Takže místo výsledku z obrázku &lt;&lt;_merge_rebase_work&gt;&gt;, skončíme s něčím, co odpovídá spíše obrázku &lt;&lt;_rebase_rebase_work&gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>So we will expect you to know how to open Terminal in Mac or Command Prompt or Powershell in Windows.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T193911Z" creationid="Prikryl" creationdate="20151027T193911Z">
@@ -10277,8 +10639,16 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="EN">
         <seg>Suppose you clone from a central server and then do some work off that.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Představme si situaci, kdy jste naklonovali repozitář z centrálního serveru a provedli jste v něm několik změn.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T135115Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Předpokládejme, že jste naklonovali z centrálního serveru a provedli jste několik změn.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Suppose you decide that you want to merge your client-side changes into your mainline for a release, but you want to hold off on the server-side changes until it's tested further.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T124713Z" creationid="Prikryl" creationdate="20151214T124713Z">
+        <seg>Předpokládejme, že nyní chcete změny straně klienta začlenit do své hlavní linie k vydání, ale prozatím chcete počkat se změnami na straně serveru, dokud nebudou víc otestovány.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10371,6 +10741,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="CS" changeid="Prikryl" changedate="20151213T114030Z" creationid="Prikryl" creationdate="20151213T114030Z">
         <seg>Switched to a new branch 'sf'
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Take a history like &lt;&lt;rbdiag_e&gt;&gt;, for example.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T123420Z" creationid="Prikryl" creationdate="20151214T123420Z">
+        <seg>Vezměme si například historii případu &lt;&lt;rbdiag_e&gt;&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10531,6 +10909,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tím spustíte HTTPD server na portu 1234 a automaticky se spustí webový prohlížeč, který otevře tuto stránku.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>That way, the maintainer doesn't have to do any integration work – just a fast-forward or a clean apply.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T121822Z" creationid="Prikryl" creationdate="20151214T121822Z">
+        <seg>Správce v tomto případě nemusí provádět žádnou integraci, provede pouze posun „rychle vpřed“ nebo čistou aplikaci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11099,6 +11485,14 @@ U systému Mavericks (10.9) a vyšších můžeme v okně Terminálu zkusit hned
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T150217Z" creationid="Prikryl" creationdate="20151107T150217Z">
         <seg>Nejjednodušším způsobem je zadat k příkazu `tag` parametr `-a`:(((git příkazy, tag)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The easiest way to integrate the branches, as we've already covered, is the `merge` command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T083059Z" creationid="Prikryl" creationdate="20151214T083059Z">
+        <seg>Jak jsme si již ukázali, nejjednodušší způsob spojení větví spočívá v použití příkazu `merge`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11981,8 +12375,8 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       <tuv lang="EN">
         <seg>Then, you branched off that to make the client-side changes (`client`) and committed a few times.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Poté jste tuto větev opustili a začali pracovat na změnách na straně klienta (`client`). I tady jste zapsali několik revizí.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T124143Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Poté jste se odvětvili, abyste učinili změny na straně klienta (`client`), a provedli jste několik zápisů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11997,8 +12391,8 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       <tuv lang="EN">
         <seg>Then, you can fast-forward the base branch (`master`):</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Poté se můžete přesunout „rychle vpřed“ po základně (větev `master`):</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T142149Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Poté můžete bázovou větev (`master`) přesunout „rychle vpřed“:</seg>
       </tuv>
     </tu>
     <tu>
@@ -12159,8 +12553,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>There is no difference in the end product of the integration, but rebasing makes for a cleaner history.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V koncových produktech integrace není žádný rozdíl, výsledkem přeskládání je však čistší historie.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T112806Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Ve výsledcích integrace není žádný rozdíl, výsledkem přeskládání je však čistší historie.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12433,6 +12827,15 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pomocí ní systému Git v podstatě říkáte, aby uvažoval celý interval revizí, které jsou dostupné z jedné revize, ale nejsou dostupné z jiné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This basically says, ``Check out the client branch, figure out the patches from the common ancestor of the `client` and `server` branches, and then replay them onto `master`.''
+It's a bit complex, but the result is pretty cool.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T125245Z" creationid="Prikryl" creationdate="20151214T125245Z">
+        <seg>V podstatě tím říkáte: „Proveď přepni se (checkout) na větev `client`, zjisti záplaty od společného předka větví `client` a `server` a znovu je aplikuj na větev `master`.“ Je to možná trochu složitější, ale výsledek stojí za to.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12905,6 +13308,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Říká se tomu _refspec_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is called a ``patch-id''.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T143742Z" creationid="Prikryl" creationdate="20151214T143742Z">
+        <seg>Jmenuje se to „patch-id“ (doslova „identifikace záplaty“).</seg>
       </tuv>
     </tu>
     <tu>
@@ -13397,6 +13808,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This only works if C4 and C4' that your partner made are almost exactly the same patch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T153500Z" creationid="Prikryl" creationdate="20151214T153500Z">
+        <seg>Funguje to jen tehdy, když C4 a C4', které vytvořil váš partner, představují téměř shodné záplaty.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This option adds a nice little ASCII graph showing your branch and merge history:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T213228Z" creationid="Prikryl" creationdate="20151102T213228Z">
@@ -13459,6 +13878,14 @@ Některé z cílů nového systému byly následující:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tímto natáhnete stejnou změnu, která byla provedena revizí `e43a6`, avšak hodnota SHA-1 obou revizí se bude lišit, neboť bude rozdílné datum aplikace.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This replays your `server` work on top of your `master` work, as shown in &lt;&lt;rbdiag_h&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T131332Z" creationid="Prikryl" creationdate="20151214T131332Z">
+        <seg>Příkaz přehraje práci z větve `server` k práci ve větvi `master` -- viz &lt;&lt;rbdiag_h&gt;&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14725,6 +15152,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>When you rebase stuff, you're abandoning existing commits and creating new ones that are similar but different.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T134513Z" creationid="Prikryl" creationdate="20151214T134513Z">
+        <seg>Pokud provedete přeskládání, zahazujete existující body zápisu (commit) a vytváříte nové, které jsou podobné, ale přesto jiné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>When you restart your machine, your Git daemon will start automatically and respawn if it goes down.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -14901,6 +15336,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>With the `rebase` command, you can take all the changes that were committed on one branch and replay them on another one.(((git commands, rebase)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T091407Z" creationid="Prikryl" creationdate="20151214T091407Z">
+        <seg>Příkazem `rebase` vezmete všechny změny, které byly zapsány na jedné větvi, a necháte je znovu provést na jiné větvi.(((git příkazy, rebase)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>With the interactive rebase tool, you can then stop after each commit you want to modify and change the message, add files, or do whatever you wish.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -15039,8 +15482,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>You branched a topic branch (`server`) to add some server-side functionality to your project, and made a commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142004Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vytvořili jste novou tématickou větev (`server`), pomocí níž chcete do svého projektu přidat funkci na straně serveru, a zapsali jste revizi.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T123535Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Vytvořili jste novou tématickou větev (`server`), abyste v ní do projektu přidali novou funkčnost na straně serveru, a zapsali jste revizi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15150,6 +15593,14 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can also have your rebase replay on something other than the rebase target branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T123310Z" creationid="Prikryl" creationdate="20151214T123310Z">
+        <seg>Posloupnost změn můžete aplikovat i na něco jiného než na cílovou větev pro přeskládání.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can also install it as part of the GitHub for Mac install.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T234729Z" creationid="Prikryl" creationdate="20151027T234729Z">
@@ -15226,6 +15677,14 @@ You can use this format to push a local branch into a remote branch that is name
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Hodnotu pro soubor HEAD můžete také nastavit:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can also simplify this by running a `git pull --rebase` instead of a normal `git pull`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T153852Z" creationid="Prikryl" creationdate="20151214T153852Z">
+        <seg>Můžete si to trochu zjednodušit spuštěním `git pull --rebase` místo běžného `git pull`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15694,6 +16153,22 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can rebase the server branch onto the `master` branch without having to check it out first by running `git rebase [basebranch] [topicbranch]` – which checks out the topic branch (in this case, `server`) for you and replays it onto the base branch (`master`):</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T131100Z" creationid="Prikryl" creationdate="20151214T131100Z">
+        <seg>Větev `server` můžete přeskládat na větev `master` -- aniž byste se na ni nejdříve museli nejdříve přepnout -- tak, že provedete `git rebase [základna] [tématická větev]` -- provede se tím přepnutí na tématickou větev (checkout, v tomto případě na větev `server`) a přeskládá její změny na základnu (angl. base branch, v tomto případě `master`):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can remove the `client` and `server` branches because all the work is integrated and you don't need them anymore, leaving your history for this entire process looking like &lt;&lt;rbdiag_i&gt;&gt;:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T133446Z" creationid="Prikryl" creationdate="20151214T133446Z">
+        <seg>Větve `client` a `server` můžete smazat, protože všechna práce z nich je integrována a tyto větve už nebudete potřebovat. Historie celého procesu bude vypadat jako na obrázku &lt;&lt;rbdiag_i&gt;&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can remove these comments and type your commit message, or you can leave them there to help you remember what you're committing.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T222309Z" creationid="Prikryl" creationdate="20151031T222309Z">
@@ -15866,6 +16341,14 @@ You can use this format to push a local branch into a remote branch that is name
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Interaktivní režim Ruby spustíte příkazem `irb`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can take the changes on client that aren't on server (`C8` and `C9`) and replay them on your `master` branch by using the `--onto` option of `git rebase`:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T124934Z" creationid="Prikryl" creationdate="20151214T124934Z">
+        <seg>Můžete vzít změny na větvi `client`, které nejsou na větvi `server` (`C8` a `C9`) a aplikovat je na větev `master` příkazem `git rebase` s volbou `--onto`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16052,6 +16535,14 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151106T213658Z" creationid="Prikryl" creationdate="20151106T213658Z">
         <seg>Výsledkem je jediná revize -- druhý příkaz `commit` nahradí výsledky prvního.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You fetch it and merge the new remote branch into your work, making your history look something like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T135400Z" creationid="Prikryl" creationdate="20151214T135400Z">
+        <seg>Vy tyto změny vyzvednete a začleníte novou vzdálenou větev do své práce -- vaše historie teď vypadá nějak takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16492,8 +16983,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You then fetch from that server, bringing down the new commits.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vy poté znovu vyzvednete data ze serveru a stáhnete nové revize.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T135840Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Vy poté znovu vyzvednete data ze serveru (fetch), čímž získáte nové body revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16622,6 +17113,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151115T135025Z" creationid="Prikryl" creationdate="20151115T135025Z">
         <seg>Vaše změna je nyní obsažena ve snímku revize, na kterou ukazuje větev `master`, a vy můžete zveřejnit opravu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Your commit history looks like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T135129Z" creationid="Prikryl" creationdate="20151214T135129Z">
+        <seg>Historie revizí bude vypadat nějak takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -17194,6 +17693,30 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_merge_rebase_work]]
+.You merge in the same work again into a new merge commit
+image::images/perils-of-rebasing-4.png[You merge in the same work again into a new merge commit.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T152504Z" creationid="Prikryl" creationdate="20151214T141250Z">
+        <seg>[[_merge_rebase_work]]
+.Opakované začlenění stejné práce do nového bodu sloučení
+image::images/perils-of-rebasing-4.png[Opakované začlenění stejné práce do nového bodu sloučení.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_pre_merge_rebase_work]]
+.Someone pushes rebased commits, abandoning commits you've based your work on
+image::images/perils-of-rebasing-3.png["Someone pushes rebased commits, abandoning commits you've based your work on."]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T135947Z" creationid="Prikryl" creationdate="20151214T135947Z">
+        <seg>[[_pre_merge_rebase_work]]
+.Někdo odešle přeskládané body zápisu a zahodí ty, z kterých jste při své práci vycházeli
+image::images/perils-of-rebasing-3.png["Někdo odešle přeskládané body zápisu a zahodí ty, z kterých jste při své práci vycházeli."]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_pushing_branches]]
 ==== Pushing</seg>
       </tuv>
@@ -17210,6 +17733,36 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T100112Z" creationid="Prikryl" creationdate="20151107T100112Z">
         <seg>[[_pushing_remotes]]
 ==== Odesílání do vzdálených repozitářů</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_rebase_peril]]
+==== The Perils of Rebasing</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T133636Z" creationid="Prikryl" creationdate="20151214T133636Z">
+        <seg>[[_rebase_peril]]
+==== Rizika spojená s přeskládáním</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_rebase_rebase_work]]
+.Rebase on top of force-pushed rebase work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T152022Z" creationid="Prikryl" creationdate="20151214T152022Z">
+        <seg>[[_rebase_rebase_work]]
+.Přeskládání nad vynuceně odeslaným výsledkem přeskládání</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_rebasing]]
+=== Rebasing</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T081945Z" creationid="Prikryl" creationdate="20151214T081945Z">
+        <seg>[[_rebasing]]
+=== Přeskládání</seg>
       </tuv>
     </tu>
     <tu>
@@ -17430,6 +17983,54 @@ image::images/lr-branches-2.png[„Zásobníkový“ pohled na větvení podle s
 | %cr      | Datum autora revize, relativní
 | %s       | Předmět (**s**ubject)
 |================================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[rbdiag_e]]
+.A history with a topic branch off another topic branch
+image::images/interesting-rebase-1.png[A history with a topic branch off another topic branch.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T124521Z" creationid="Prikryl" creationdate="20151214T124521Z">
+        <seg>[[rbdiag_e]]
+.Historie s tématickou větví vytvořené z jiné tématické větve
+image::images/interesting-rebase-1.png[Historie s tématickou větví vytvořené z jiné tématické větve.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[rbdiag_g]]
+.Fast-forwarding your master branch to include the client branch changes
+image::images/interesting-rebase-3.png[Fast-forwarding your master branch to include the client branch changes.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T130446Z" creationid="Prikryl" creationdate="20151214T130446Z">
+        <seg>[[rbdiag_g]]
+.Přidání změn z větve `client` posunutím větve `master` „rychle vpřed“
+image::images/interesting-rebase-3.png[Přidání změn z větve `client` posunutím větve `master` „rychle vpřed“.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[rbdiag_h]]
+.Rebasing your server branch on top of your master branch
+image::images/interesting-rebase-4.png[Rebasing your server branch on top of your master branch.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T131434Z" creationid="Prikryl" creationdate="20151214T131434Z">
+        <seg>[[rbdiag_h]]
+.Přeskládání větve `server` na vrchol větve `master`
+image::images/interesting-rebase-4.png[Přeskládání větve `server` na vrchol větve `master`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[rbdiag_i]]
+.Final commit history
+image::images/interesting-rebase-5.png[Final commit history.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T133558Z" creationid="Prikryl" creationdate="20151214T133558Z">
+        <seg>[[rbdiag_i]]
+.Historie poslední revize
+image::images/interesting-rebase-5.png[Historie poslední revize.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -17678,6 +18279,22 @@ $ git branch --no-merged</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git branch -d client
+$ git branch -d server
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T133449Z" creationid="Prikryl" creationdate="20151214T133449Z">
+        <seg>[source,console]
+----
+$ git branch -d client
+$ git branch -d server
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git branch -d hotfix
 Deleted branch hotfix (3a0874c).</seg>
       </tuv>
@@ -17900,6 +18517,22 @@ Switched to a new branch 'version2'
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git checkout experiment
+$ git rebase master
+First, rewinding head to replay your work on top of it...</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T091447Z" creationid="Prikryl" creationdate="20151214T091447Z">
+        <seg>[source,console]
+----
+$ git checkout experiment
+$ git rebase master
+First, rewinding head to replay your work on top of it...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git checkout iss53
 Switched to branch "iss53"
 $ vim index.html
@@ -17925,6 +18558,38 @@ $ git commit -a -m 'finished the new footer [issue 53]'
         <seg>[source,console]
 ----
 $ git checkout master
+$ git merge client
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T130246Z" creationid="Prikryl" creationdate="20151214T130246Z">
+        <seg>[source,console]
+----
+$ git checkout master
+$ git merge client
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout master
+$ git merge experiment
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T112311Z" creationid="Prikryl" creationdate="20151214T112311Z">
+        <seg>[source,console]
+----
+$ git checkout master
+$ git merge experiment
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout master
 $ git merge hotfix
 Updating f42c576..3a0874c
 Fast-forward</seg>
@@ -17936,6 +18601,22 @@ $ git checkout master
 $ git merge hotfix
 Updating f42c576..3a0874c
 Fast-forward</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout master
+$ git merge server
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T131521Z" creationid="Prikryl" creationdate="20151214T131521Z">
+        <seg>[source,console]
+----
+$ git checkout master
+$ git merge server
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -18846,6 +19527,34 @@ Counting objects: 14, done.</seg>
 ----
 $ git push origin v1.5
 Counting objects: 14, done.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git rebase --onto master server client
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T124953Z" creationid="Prikryl" creationdate="20151214T124953Z">
+        <seg>[source,console]
+----
+$ git rebase --onto master server client
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git rebase master server
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T131109Z" creationid="Prikryl" creationdate="20151214T131109Z">
+        <seg>[source,console]
+----
+$ git rebase master server
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -20072,6 +20781,14 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T182734Z" creationid="Prikryl" creationdate="20151026T182734Z">
         <seg>image::images/local.png[Diagram lokální správy verzí.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/perils-of-rebasing-5.png[Rebase on top of force-pushed rebase work.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151214T152045Z" creationid="Prikryl" creationdate="20151214T152045Z">
+        <seg>image::images/perils-of-rebasing-5.png[Přeskládání nad vynuceně odeslaným výsledkem přeskládání.]</seg>
       </tuv>
     </tu>
     <tu>

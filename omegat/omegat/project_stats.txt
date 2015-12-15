@@ -1,4 +1,4 @@
-15.12.15 14:44
+15.12.15 16:25
 Statistika projektu
 
                              	Segmenty	 Slova	Znaky (bez mezer)	Znaky (včetně mezer)	#Files	

@@ -310,9 +310,9 @@ Dejme tomu, že máte vzdálenou větev hotovou -- řekněme, že jste se spolup
         <seg>(((branches, long-running)))
 Because Git uses a simple three-way merge, merging from one branch into another multiple times over a long period is generally easy to do.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151209T090228Z" creationid="Prikryl" creationdate="20151209T085931Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151215T144954Z" creationid="Prikryl" creationdate="20151209T085931Z">
         <seg>(((větve, dlouhotrvající)))
-Protože Git používá jednoduché třícestné slučování, je i opakované začleňování jedné větve do druhé -- v průběhu delšího času -- velmi snadné.</seg>
+Protože Git používá jednoduché třícestné slučování, je opakované začleňování jedné větve do druhé velmi snadné i v průběhu delšího času.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6122,8 +6122,8 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       <tuv lang="EN">
         <seg>If you do some work on your local `master` branch, and, in the meantime, someone else pushes to `git.ourcompany.com` and updates its `master` branch, then your histories move forward differently.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151210T110953Z" creationid="Prikryl" creationdate="20151210T110953Z">
-        <seg>Pokud budete pracovat ve vaší lokální větvi `master` a mezi tím někdo jiný něco odešle na `git.ourcompany.com` -- čímž aktualizuje větev `master` tohoto serveru --{empty}, budou se vaše historie vyvíjet odlišně.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151215T150223Z" creationid="Prikryl" creationdate="20151210T110953Z">
+        <seg>Pokud budete pracovat v lokální větvi `master` a mezi tím někdo jiný něco odešle na `git.ourcompany.com` -- čímž aktualizuje větev `master` tohoto serveru --{empty}, budou se vaše historie vyvíjet odlišně.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14404,8 +14404,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>To demonstrate having multiple remote servers and what remote branches for those remote projects look like, let's assume you have another internal Git server that is used only for development by one of your sprint teams.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151210T114244Z" creationid="Prikryl" creationdate="20151210T114244Z">
-        <seg>Abychom si mohli ukázat, jak se pracuje s několika vzdálenými servery a jak vypadají vzdálené větve takových vzdálených projektů, předpokládejme, že máte ještě další interní server Git, který při vývoji používá pouze jeden z vašich sprint teamů{empty}footnote:[Pozn. překl.: Pojem „sprint tým“ pochází z agilní vývojové metodologie https://cs.wikipedia.org/wiki/Scrum[Scrum].].</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151215T150529Z" creationid="Prikryl" creationdate="20151210T114244Z">
+        <seg>Abychom si mohli ukázat, jak se pracuje s několika vzdálenými servery a jak vypadají vzdálené větve takových vzdálených projektů, předpokládejme, že máte ještě další interní server Git, který při vývoji používá pouze jeden z vašich sprint týmů{empty}footnote:[Pozn. překl.: Pojem „sprint tým“ pochází z agilní vývojové metodologie https://cs.wikipedia.org/wiki/Scrum[Scrum].].</seg>
       </tuv>
     </tu>
     <tu>

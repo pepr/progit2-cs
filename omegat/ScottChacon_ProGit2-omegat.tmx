@@ -1373,8 +1373,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>&lt;&lt;_git_on_the_server&gt;&gt; will introduce all of the available options the server can set up to access your Git repository and the pros and cons of each.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T214430Z" creationid="Prikryl" creationdate="20151028T214430Z">
-        <seg>V kapitole &lt;&lt;_git_on_the_server&gt;&gt; budou uvedeny všechny dostupné možnosti, které mohou být na serveru pro přístup do repozitáře Git nastaveny, včetně jejich předností a nevýhod.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T140407Z" creationid="Prikryl" creationdate="20151028T214430Z">
+        <seg>V kapitole &lt;&lt;_git_on_the_server&gt;&gt; budou uvedeny všechny dostupné možnosti, které mohou být na serveru pro přístup do gitového repozitáře nastaveny, včetně jejich předností a nevýhod.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5954,8 +5954,8 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       <tuv lang="EN">
         <seg>If you can read only one chapter to get going with Git, this is it.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T202517Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud byste si o Gitu měli přečíst jen jednu kapitolu, být právě tahle.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T134538Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud byste si o Gitu měli přečíst jen jednu kapitolu, měla by to být právě tahle.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7261,8 +7261,8 @@ Just type the name of the tool you'd rather use.</seg>
       <tuv lang="EN">
         <seg>If you're starting to track an existing project in Git, you need to go to the project's directory and type:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T120417Z" creationid="Prikryl" creationdate="20151107T120417Z">
-        <seg>Chcete-li zahájit sledování existujícího projektu v systému Git, přejděte do adresáře projektu a napište:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T135642Z" creationid="Prikryl" creationdate="20151107T120417Z">
+        <seg>Chcete-li v Gitu zahájit sledování existujícího projektu, přejděte do adresáře projektu a napište:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10927,8 +10927,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>That creates a directory named ``libgit2'', initializes a `.git` directory inside it, pulls down all the data for that repository, and checks out a working copy of the latest version.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T212257Z" creationid="Prikryl" creationdate="20151028T212257Z">
-        <seg>Tímto příkazem se vytvoří adresář s názvem `libgit`, inicializuje se v něm adresář `.git`, stáhnou se všechna data pro tento repozitář a vytvoří se pracovní kopie nejnovější verze.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T140144Z" creationid="Prikryl" creationdate="20151028T212257Z">
+        <seg>Tímto příkazem se vytvoří adresář s názvem `libgit2`, inicializuje se v něm podadresář `.git`, stáhnou se všechna data pro tento repozitář a vytvoří se pracovní kopie nejnovější verze.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12309,8 +12309,8 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       <tuv lang="EN">
         <seg>The second clones an existing Git repository from another server.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Druhý způsob spočívá v naklonování již existujícího repozitáře Git z jiného serveru.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T135522Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Druhý způsob spočívá v naklonování již existujícího gitového repozitáře z jiného serveru.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13016,8 +13016,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This chapter covers every basic command you need to do the vast majority of the things you'll eventually spend your time doing with Git.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T202606Z" creationid="Prikryl" creationdate="20151028T202606Z">
-        <seg>Tato kapitola popíše všechny základní příkazy, jejichž prováděním strávíte při práci se systémem Git drtivou většinu času.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T135139Z" creationid="Prikryl" creationdate="20151028T202606Z">
+        <seg>Tato kapitola popisuje všechny základní příkazy, které potřebujete pro drtivou většinu věcí, jejichž prováděním budete v Gitu trávit svůj čas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16097,8 +16097,8 @@ You can use this format to push a local branch into a remote branch that is name
       <tuv lang="EN">
         <seg>You can get a Git project using two main approaches.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Projekt v systému Git lze získat dvěma základními způsoby.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T135410Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Projekt lze v Gitu získat dvěma základními způsoby.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16731,8 +16731,8 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       <tuv lang="EN">
         <seg>You have a bona fide Git repository and a checkout or working copy of the files for that project.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T214551Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nyní máte vytvořen opravdový gitový repozitář a pracovní kopii souborů projektu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T140749Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Nyní máte k dispozici opravdový gitový repozitář a pracovní kopii souborů projektu.</seg>
       </tuv>
     </tu>
     <tu>

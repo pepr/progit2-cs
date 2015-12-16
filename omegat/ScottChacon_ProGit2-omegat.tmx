@@ -1112,9 +1112,9 @@ image::images/topic-branches-1.png[Více tématických větví.]</seg>
         <seg>.Rebasing a topic branch off another topic branch
 image::images/interesting-rebase-2.png[Rebasing a topic branch off another topic branch.]</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T130201Z" creationid="Prikryl" creationdate="20151214T130201Z">
-        <seg>.Přeskládání z tématické větve vzniklé odvětvením z jiné tématické větve
-image::images/interesting-rebase-2.png[Přeskládání z tématické větve vzniklé odvětvením z jiné tématické větve.]</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T081444Z" creationid="Prikryl" creationdate="20151214T130201Z">
+        <seg>.Přeskládání tématické větve vzniklé odvětvením z jiné tématické větve
+image::images/interesting-rebase-2.png[Přeskládání tématické větve vzniklé odvětvením z jiné tématické větve.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -4148,8 +4148,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Finally, you went back to your server branch and did a few more commits.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T124356Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nakonec jste se vrátili na větev `server` a zapsali dalších pár bodů revize.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T081006Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Nakonec jste se vrátili na větev `server` a zapsali dalších pár objektů revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4684,8 +4684,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Furthermore, if you push this history back up to the server, you'll reintroduce all those rebased commits to the central server, which can further confuse people.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T141725Z" creationid="Prikryl" creationdate="20151214T141725Z">
-        <seg>Když navíc odešlete takovou historii zpět na server, znovu na centrálním serveru vzniknou všechny body revizí, které vznikly přeskládáním, což vede k dalšímu zmatení lidí okolo.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T082811Z" creationid="Prikryl" creationdate="20151214T141725Z">
+        <seg>Když navíc odešlete takovou historii zpět na server, znovu na centrálním serveru vzniknou všechny objekty revizí, které vznikly přeskládáním, což vede k dalšímu zmatení lidí okolo.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5063,8 +5063,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Git is a powerful tool, and allows you to do many things to and with your history, but every team and every project is different.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T211315Z" creationid="Prikryl" creationdate="20151214T211315Z">
-        <seg>Git je mocný nástroja a dovoluje vám s historií provádět mnoho věcí. Ale každý tým a každý projekt se liší.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T083757Z" creationid="Prikryl" creationdate="20151214T211315Z">
+        <seg>Git je mocný nástroj a dovoluje vám s historií provádět mnoho věcí. Ale každý tým a každý projekt se liší.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6518,8 +6518,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you rebase commits that have already been pushed publicly, and people may have based work on those commits, then you may be in for some frustrating trouble, and the scorn of your teammates.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T204431Z" creationid="Prikryl" creationdate="20151214T204431Z">
-        <seg>Pokud přeskládáte revize, které již byly odeslány do veřejného prostoru a ostatní na těchto revizích (commit) mohli založit další práce, pak můžete být v nepříjemných potížích a předmětem opovržení týmových kolegů.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T083333Z" creationid="Prikryl" creationdate="20151214T204431Z">
+        <seg>Pokud přeskládáte revize, které již byly odeslány do veřejného prostoru a ostatní na těchto revizích (commit) mohli založit další práce, pak se můžete dostat do nepříjemných potíží a stát se předmětem opovržení týmových kolegů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9395,8 +9395,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Now you can fast-forward your `master` branch (see &lt;&lt;rbdiag_g&gt;&gt;):</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T130244Z" creationid="Prikryl" creationdate="20151214T130244Z">
-        <seg>Teď můžete větev `master` posunout „rychle vpřed“ (viz &lt;&lt;rbdiag_g&gt;&gt;):</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T081653Z" creationid="Prikryl" creationdate="20151214T130244Z">
+        <seg>Teď můžete větev `master` posunout „rychle vpřed“ (viz &lt;&lt;rbdiag_g, obrázek&gt;&gt;):</seg>
       </tuv>
     </tu>
     <tu>
@@ -10863,8 +10863,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>Take a history like &lt;&lt;rbdiag_e&gt;&gt;, for example.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T123420Z" creationid="Prikryl" creationdate="20151214T123420Z">
-        <seg>Vezměme si například historii případu &lt;&lt;rbdiag_e&gt;&gt;.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T080626Z" creationid="Prikryl" creationdate="20151214T123420Z">
+        <seg>Vezměme si například historii na obrázku &lt;&lt;rbdiag_e&gt;&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12124,8 +12124,8 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
         <seg>The opposing point of view is that the commit history is the *story of how your project was made.*
 You wouldn't publish the first draft of a book, and the manual for how to maintain your software deserves careful editing.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T210627Z" creationid="Prikryl" creationdate="20151214T210627Z">
-        <seg>Z protikladného ohledu je historie zápisu revizí *příběhem o tom, jak váš projek vznikal*.
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T083536Z" creationid="Prikryl" creationdate="20151214T210627Z">
+        <seg>Z opačného pohledu je historie zápisu revizí *příběhem o tom, jak váš projek vznikal*.
 U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udržovat udržovat váš vlastní software vyžaduje pečlivé úpravy.</seg>
       </tuv>
     </tu>
@@ -13664,8 +13664,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is the camp that uses tools like rebase and filter-branch to tell the story in the way that's best for future readers.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T210918Z" creationid="Prikryl" creationdate="20151214T210918Z">
-        <seg>Zastánci tohoto tábora používají nástroje jako přeskládání a filtrování větví k tomu, aby příběh sdělili způsobem, který je nejlepší z hlediska budoucích čtenárů.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T083752Z" creationid="Prikryl" creationdate="20151214T210918Z">
+        <seg>Zastánci tohoto tábora používají nástroje jako přeskládání a filtrování větví k tomu, aby příběh sdělili způsobem, který je nejlepší z hlediska budoucích čtenářů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14026,8 +14026,8 @@ Některé z cílů nového systému byly následující:</seg>
       <tuv lang="EN">
         <seg>This replays your `server` work on top of your `master` work, as shown in &lt;&lt;rbdiag_h&gt;&gt;.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T131332Z" creationid="Prikryl" creationdate="20151214T131332Z">
-        <seg>Příkaz přehraje práci z větve `server` k práci ve větvi `master` -- viz &lt;&lt;rbdiag_h&gt;&gt;.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T081832Z" creationid="Prikryl" creationdate="20151214T131332Z">
+        <seg>Příkaz přehraje práci z větve `server` k práci ve větvi `master` -- viz &lt;&lt;rbdiag_h, obrázek&gt;&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15488,8 +15488,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>With the `rebase` command, you can take all the changes that were committed on one branch and replay them on another one.(((git commands, rebase)))</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T091407Z" creationid="Prikryl" creationdate="20151214T091407Z">
-        <seg>Příkazem `rebase` vezmete všechny změny, které byly zapsány na jedné větvi, a necháte je znovu provést na jiné větvi.(((git příkazy, rebase)))</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T075955Z" creationid="Prikryl" creationdate="20151214T091407Z">
+        <seg>Příkazem `rebase` vezmete všechny změny, které byly zapsány na jedné větvi, a necháte je přehrát na jinou větev.(((git příkazy, rebase)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -17029,8 +17029,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You should feel comfortable creating and switching to new branches, switching between branches and merging local branches together.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151108T133915Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Neměli byste teď mít problém s vytvořením a přepnutím na novou větev, přepínáním mezi větvemi, ani se slučováním lokálních větví.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T090946Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Neměli byste teď mít problém s vytvořením nové větve a s přepnutím na ni, s přepínáním mezi větvemi, ani se slučováním lokálních větví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18151,10 +18151,10 @@ image::images/lr-branches-2.png[„Zásobníkový“ pohled na větvení podle s
 .A history with a topic branch off another topic branch
 image::images/interesting-rebase-1.png[A history with a topic branch off another topic branch.]</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151214T124521Z" creationid="Prikryl" creationdate="20151214T124521Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T080759Z" creationid="Prikryl" creationdate="20151214T124521Z">
         <seg>[[rbdiag_e]]
-.Historie s tématickou větví vytvořené z jiné tématické větve
-image::images/interesting-rebase-1.png[Historie s tématickou větví vytvořené z jiné tématické větve.]</seg>
+.Historie s tématickou větví vytvořenou z jiné tématické větve
+image::images/interesting-rebase-1.png[Historie s tématickou větví vytvořenou z jiné tématické větve.]</seg>
       </tuv>
     </tu>
     <tu>

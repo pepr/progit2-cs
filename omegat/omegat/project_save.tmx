@@ -1919,8 +1919,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>==== Git Has Integrity</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T093644Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>==== Git dodržuje zásady</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T114127Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>==== Git udržuje integritu</seg>
       </tuv>
     </tu>
     <tu>
@@ -2759,8 +2759,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>After this is done, you can also get Git via Git itself for updates:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T103331Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Po dokončení instalace můžete vyhledat aktualizace Gitu prostřednictvím jeho:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T123741Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Po dokončení instalace můžete vyhledat aktualizace Gitu prostřednictvím jeho samého:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3067,8 +3067,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>An OSX Git installer is maintained and available for download at the Git website, at http://git-scm.com/download/mac[].</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T214951Z" creationid="Prikryl" creationdate="20151027T214927Z">
-        <seg>Instalátor Gitu pro OSX se udržuje a můžete si jej stáhnout z webového serveru Gitu přes stránku http://git-scm.com/download/mac[].</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T122704Z" creationid="Prikryl" creationdate="20151027T214927Z">
+        <seg>Instalátor Gitu pro OSX se udržuje na webové stránce Gitu http://git-scm.com/download/mac[] a můžete si jej odtud stáhnout.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3099,8 +3099,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>And if it was changed since it was checked out but has not been staged, it is modified.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T122750Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>A pokud byl soubor od poslední vůči stavu databázi upraven, ale nebyl zatím připraven k zapsání, nachází se ve stavu „změněný“.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T121545Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>A pokud byl vůči stavu v databázi upraven, ale nebyl připraven k zapsání, je ve stavu „změněný“.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3493,8 +3493,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>At the end of this chapter you should understand why Git is around, why you should use it and you should be all set up to do so.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T173754Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Na konci kapitoly byste měli rozumět tomu, proč tady Git je, proč byste jej měli používat a měla by vás připravit na jeho používání.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T110736Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Na konci kapitoly byste měli rozumět tomu, proč tady Git je, proč byste jej měli používat a měli byste být na jeho používání připraveni.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4288,8 +4288,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Every time you commit, or save the state of your project in Git, it basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T082958Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Pokaždé, když v systému Git zapíšete (uložíte footnote:[Pozn. překl.: Anglické slovo _commit_ má v informačních systémech specifický význam _zapsat_ nebo _potvrdit zápis_, jehož jemný odstín se bez kontextu špatně překládá. V této knize bude překládán jako _zápis_. Pokud by měl být zdůrazněn specifický výraz slova _commit_, bude anglický pojem uveden v závorce. Čeština je krásný jazyk, ale technické texty někdy vyžadují nebásnickou přesnost ;)]) stav projektu, v podstatě „vyfotí“, jak vypadají všechny vaše soubory v daném okamžiku, a uloží odkaz na tento snímek.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T113059Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Pokaždé, když v systému Git zapíšete (commit{empty}footnote:[Pozn. překl.: Anglické slovo _commit_ má v informačních systémech specifický význam _zapsat_ nebo _potvrdit zápis_, jehož jemný odstín se bez kontextu špatně překládá. V této knize bude překládán jako _zápis_. Pokud by měl být zdůrazněn specifický výraz slova _commit_, bude anglický pojem uveden v závorce. Čeština je krásný jazyk, ale technické texty někdy vyžadují nebásnickou přesnost ;)]) stav projektu, v podstatě „vyfotí“, jak vypadají všechny vaše soubory v daném okamžiku, a uloží odkaz na tento snímek.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4320,8 +4320,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Everything in Git is check-summed before it is stored and is then referred to by that checksum.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T094112Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Než se v Gitu cokoli uloží, nejdříve se z toho vypočítá kontrolní součet, který pak používá k odkazu uložená data.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T114714Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Než se v Gitu cokoli uloží, nejdříve se z toho vypočítá kontrolní součet, který se pak používá k odkazu na uložená data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4640,8 +4640,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>For example, to browse the history of the project, Git doesn't need to go out to the server to get the history and display it for you – it simply reads it directly from your local database.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T092836Z" creationid="Prikryl" creationdate="20151027T092836Z">
-        <seg>Pokud chcete například procházet historii projektu, Git kvůli tomu nemusí vyhledávat informace na serveru — načte je jednoduše přímo z vaší lokální databáze.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T113847Z" creationid="Prikryl" creationdate="20151027T092836Z">
+        <seg>Pokud například chcete procházet historii projektu, Git kvůli tomu nemusí vyhledávat informace na serveru -- načte je jednoduše přímo z vaší lokální databáze.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4816,8 +4816,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>For more options, there are instructions for installing on several different Unix flavors on the Git website, at http://git-scm.com/download/linux[].</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T214933Z" creationid="Prikryl" creationdate="20151027T205157Z">
-        <seg>Další možnosti naleznete v instrukcích pro instalaci na několika různých odrůdách Unixu -- na webovém serveru Gitu, na stránce http://git-scm.com/download/linux[].</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T122148Z" creationid="Prikryl" creationdate="20151027T205157Z">
+        <seg>Další možnosti naleznete v instrukcích pro instalaci na několika různých odrůdách Unixu. Nacházejí se na webovém serveru Gitu, na stránce http://git-scm.com/download/linux[].</seg>
       </tuv>
     </tu>
     <tu>
@@ -5283,8 +5283,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Git has made incredible progress on Windows, in the explosion of graphical user interfaces to it for all platforms, in IDE support and in business use.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T134231Z" creationid="Prikryl" creationdate="20151026T134231Z">
-        <seg>Git učinil neuvěřitelný pokrok pod Windows, ve vzniku grafických uživatelských rozhraní pro všechny platformy, v podpoře integrovaných vývojových prostředí (IDE) a v použitelnosti pro podnikání.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T104711Z" creationid="Prikryl" creationdate="20151026T134231Z">
+        <seg>Git učinil neuvěřitelný pokrok ve spojení s Windows, ve vzniku grafických uživatelských rozhraní pro všechny platformy, v podpoře integrovaných vývojových prostředí (IDE) a v použitelnosti pro podnikání.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5859,8 +5859,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>I hope it helps you as much as it did me.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T151659Z" creationid="Prikryl" creationdate="20151026T151659Z">
-        <seg>Doufám, že vám pomůže stejně, jako pomohla mě.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T105241Z" creationid="Prikryl" creationdate="20151026T151659Z">
+        <seg>Doufám, že vám pomůže stejně, jako pomohla mně.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5883,8 +5883,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>I'm happy that Pro Git has done so well and has also been able to be one of the few technical books on the market that is both quite successful and fully open source.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T145143Z" creationid="Prikryl" creationdate="20151026T145143Z">
-        <seg>Mám radost z toho, že si kniha Pro Git vedla tak dobře a že se jako jedna z mála technických publikací na trhu stala poměrně úspěšnou a plně open source.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T105043Z" creationid="Prikryl" creationdate="20151026T145143Z">
+        <seg>Mám radost z toho, že si kniha Pro Git vedla tak dobře a že se jako jedna z mála technických publikací na trhu stala poměrně úspěšnou a plně Open Source.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7897,8 +7897,8 @@ Just type the name of the tool you'd rather use.</seg>
       <tuv lang="EN">
         <seg>In order to be able to add the documentation in various formats (doc, html, info), these additional dependencies are required (Note: users of RHEL and RHEL-derivatives like CentOS and Scientific Linux will have to https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F[enable the EPEL repository] to download the `docbook2X` package):</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T115836Z" creationid="Prikryl" creationdate="20151107T115836Z">
-        <seg>Pokud chcete pracovat s dokumentací v rozličných formátech (doc, html, info), vyžadují se následující závislosti (Poznámka:uživatelé distribuce RHEL a z něj odvozených, jako je CentOS a Scientific Linux, budou muset https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F[povolit repozitář EPEL], aby mohli stáhnout balíček `docbook2X`):</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T123558Z" creationid="Prikryl" creationdate="20151107T115836Z">
+        <seg>Pokud chcete pracovat s dokumentací v rozličných formátech (doc, html, info), vyžadují se následující závislosti (Poznámka: uživatelé distribuce RHEL a odvozených, jako je CentOS a Scientific Linux, budou muset https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F[povolit repozitář EPEL], aby mohli stáhnout balíček `docbook2X`):</seg>
       </tuv>
     </tu>
     <tu>
@@ -8408,8 +8408,8 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
         <seg>It also works well with Powershell, and sets up solid credential caching and sane CRLF settings.(((Powershell)))(((CRLF)))(((credential caching)))
 We'll learn more about those things a little later, but suffice it to say they're things you want.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T000617Z" creationid="Prikryl" creationdate="20151028T000617Z">
-        <seg>Dobře to funguje is PowerShell. Instalátor nastaví i důvěryhodně uložené identifikační údaje a použije rozumné nastavení CRLF.(((Powershell)))(((CRLF)))(((uložení identifikačních údajů)))
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T123243Z" creationid="Prikryl" creationdate="20151028T000617Z">
+        <seg>Dobře funguje i s PowerShell. Instalátor řádně nastaví mezipaměť pro identifikační údaje a použije rozumné nastavení CRLF.(((Powershell)))(((CRLF)))(((uložení identifikačních údajů)))
 Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou věci, které chcete.</seg>
       </tuv>
     </tu>
@@ -8787,8 +8787,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>It's been amazing to watch Git grow over the past few years from a relatively obscure version control system to basically dominating commercial and open source version control.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T144725Z" creationid="Prikryl" creationdate="20151026T144613Z">
-        <seg>Bylo úžasné pozorovat, jak během několika minulých let Git vyrostl z poměrně obskurního systému v systém pro správu verzí, který v podstatě dominuje vývoji v oblasti komerční i v oblasti open source.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T105027Z" creationid="Prikryl" creationdate="20151026T144613Z">
+        <seg>Bylo úžasné pozorovat, jak během několika minulých let Git vyrostl z poměrně obskurního systému v systém pro správu verzí, který v podstatě dominuje vývoji v oblasti komerční i v oblasti Open Source.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8867,8 +8867,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>It's incredibly fast, it's very efficient with large projects, and it has an incredible branching system for non-linear development (See &lt;&lt;_git_branching&gt;&gt;).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T073640Z" creationid="Prikryl" creationdate="20151027T073640Z">
-        <seg>Je extrémně rychlý, velmi efektivně pracuje s velkými projekty a nabízí skvělý systém větvení pro nelineární způsob vývoje (viz &lt;&lt;_git_branching&gt;&gt;).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T112251Z" creationid="Prikryl" creationdate="20151027T073640Z">
+        <seg>Je extrémně rychlý, velmi efektivně pracuje s velkými projekty a nabízí skvělý systém větvení pro nelineární způsob vývoje (viz kapitola &lt;&lt;_git_branching&gt;&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8891,8 +8891,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>It's sometimes referred to as the ``index'', but it's also common to refer to it as the staging area.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T121425Z" creationid="Prikryl" creationdate="20151027T120826Z">
-        <seg>Soubor se někdy označuje také anglickým výrazem „index“, ale běžně se používá i pojem oblast připravených změn (staging area).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T121018Z" creationid="Prikryl" creationdate="20151027T120826Z">
+        <seg>Někdy se setkáme s označením „index“, ale běžně se používá i pojem oblast připravených změn (staging area).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10231,8 +10231,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>On Windows systems, Git looks for the `.gitconfig` file in the `$HOME` directory (`C:\Users\$USER` for most people).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T110457Z" creationid="Prikryl" creationdate="20151028T110457Z">
-        <seg>Ve Windows Git hledá soubor `.gitconfig` v adresáři `$HOME` footnote:[Pozn. překl.: V proměnných prostředí Windows je to `%USERPROFILE%`. Zápis `$HOME` odkazuje na odpovídající údaj v unixových systémech.] (u většiny uživatelů je to `C:\Users\$USER` footnote:[Pozn. překl.: Ve Windows odpovídá odkazu na unixovskou proměnnou `$USER` odkaz na proměnnou prostředí `%USERNAME%`]).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T124350Z" creationid="Prikryl" creationdate="20151028T110457Z">
+        <seg>Ve Windows se soubor `.gitconfig` hledá v adresáři `$HOME`{empty}footnote:[Pozn. překl.: V proměnných prostředí Windows je to `%USERPROFILE%`. Zápis `$HOME` odkazuje na odpovídající údaj v unixových systémech.] (u většiny uživatelů je to `C:\Users\$USER`{empty}footnote:[Pozn. překl.: Ve Windows odpovídá odkazu na unixovskou proměnnou `$USER` odkaz na proměnnou prostředí `%USERNAME%`]).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10248,13 +10248,13 @@ On a x64 system
 $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession" 
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T114608Z" creationid="Prikryl" creationdate="20151107T114608Z">
-        <seg>On a x86 system
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T125252Z" creationid="Prikryl" creationdate="20151107T114608Z">
+        <seg>Na 32bitovém systému
 [source,console]
 ----
 $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession" 
 ----
-On a x64 system
+Na 64bitovém systému
 [source,console]
 ----
 $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession" 
@@ -10901,16 +10901,16 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>Since then a lot has changed and yet many important things have not.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T131547Z" creationid="Prikryl" creationdate="20151026T131547Z">
-        <seg>Od té doby se objevila řada změn, ale mnoho důležitých věcí zůstalo beze změny.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T104052Z" creationid="Prikryl" creationdate="20151026T131547Z">
+        <seg>Od té doby se objevila řada změn, ale mnoho důležitých věcí zůstalo zachováno.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>Since then, nearly every open source community has adopted it.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T133311Z" creationid="Prikryl" creationdate="20151026T133311Z">
-        <seg>Od té doby jej přijaly téměř všechny komunity, které se věnují open source.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T104519Z" creationid="Prikryl" creationdate="20151026T133311Z">
+        <seg>Od té doby jej přijaly téměř všechny Open Source komunity.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11111,8 +11111,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>Staged means that you have marked a modified file in its current version to go into your next commit snapshot.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T115331Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Připraveno k zapsání znamená, že jste změněný soubor v jeho aktuální verzi určili k tomu, aby byl zapsán do dalšího snímku footnote:[commit snapshot]</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T120534Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Připraveno k zapsání znamená, že jste změněný soubor v jeho aktuální verzi určili k tomu, aby byl zapsán do dalšího snímku (commit snapshot).</seg>
       </tuv>
     </tu>
     <tu>
@@ -11557,7 +11557,7 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
       <tuv lang="EN">
         <seg>The Open Source community using Git has also exploded.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T140427Z" creationid="Prikryl" creationdate="20151026T140427Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T104452Z" creationid="Prikryl" creationdate="20151026T140427Z">
         <seg>Prudký nárůst zaznamenala samotná komunita kolem Open Source, která Git využívá.</seg>
       </tuv>
     </tu>
@@ -12058,9 +12058,9 @@ Pokud chcete na server `origin` odeslat svou větev `master` (znovu připomeňme
         <seg>The easiest is probably to install the Xcode Command Line Tools.(((Xcode)))
 On Mavericks (10.9) or above you can do this simply by trying to run 'git' from the Terminal the very first time.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T211130Z" creationid="Prikryl" creationdate="20151027T211130Z">
-        <seg>Nejjednodušší možností je pravděpodobně instalace nástrojů příkazového řádku Xcode.(((Xcode)))
-U systému Mavericks (10.9) a vyšších můžeme v okně Terminálu zkusit hned od začátku napsat `git`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T122432Z" creationid="Prikryl" creationdate="20151027T211130Z">
+        <seg>Nejjednodušší pravděpodobně bude, když nainstalujete nástroje příkazového řádku Xcode.(((Xcode)))
+U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned od začátku napsat `git`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13243,8 +13243,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>These channels are regularly filled with hundreds of people who are all very knowledgeable about Git and are often willing to help.(((IRC)))</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T134155Z" creationid="Prikryl" creationdate="20151028T134155Z">
-        <seg>Na těchto kanálech se většinou pohybují stovky lidí, kteří mají se systémem Git bohaté zkušenosti a často ochotně pomohou footnote:[Pozn. překl.: Nutno ovšem podotknout, že se na těchto kanálech komunikuje v angličtině.].(((IRC)))</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T130350Z" creationid="Prikryl" creationdate="20151028T134155Z">
+        <seg>Na těchto kanálech se většinou pohybují stovky lidí, kteří mají se systémem Git bohaté zkušenosti a často ochotně pomohou{empty}footnote:[Pozn. překl.: Nutno ovšem podotknout, že se na těchto kanálech komunikuje v angličtině.].(((IRC)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -13532,8 +13532,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This chapter will be about getting started with Git.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Tato kapitola vám ve stručnosti představí systém Git.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T105810Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Tato kapitola pojednává o tom, jak se systémem Git začít.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13780,8 +13780,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This functionality is built into Git at the lowest levels and is integral to its philosophy.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T094257Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Tato funkčnost je do Gitu zabudována na nejnižších úrovních a je nedílnou součástí jeho filozofie.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T115935Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Tato funkčnost je do Gitu zabudována na nejnižších úrovních a je nedílnou součástí jeho filosofie.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13900,8 +13900,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is an important distinction between Git and nearly all other VCSs.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T084056Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Toto je důležitý rozdíl mezi systémem Git a téměř všemi ostatními systémy pro správu verzí.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T113340Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Jde o důležitý rozdíl mezi systémem Git a téměř všemi ostatními systémy pro správu verzí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14012,8 +14012,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is important because every Git commit uses this information, and it's immutably baked into the commits you start creating:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T132738Z" creationid="Prikryl" creationdate="20151028T110842Z">
-        <seg>Je to důležité, protože tuto informaci Git používá pro každý zápis revize a uvedené údaje se stanou trvalou součástí záznamů, které budete vytvářet:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T124803Z" creationid="Prikryl" creationdate="20151028T110842Z">
+        <seg>Je to důležité, protože tuto informaci Git používá pro každý zápis revize (commit) a uvedené údaje se stanou trvalou součástí objektů revize, které budete vytvářet:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14260,8 +14260,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This makes Git more like a mini filesystem with some incredibly powerful tools built on top of it, rather than simply a VCS.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T091802Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Díky tomu Git vypadá (spíše než jiné systémy pro správu verzí) jako malý souborový systém, nad kterým pracuje sada opravdu výkonných nástrojů.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T113534Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Díky tomu Git vypadá (spíše než jiné systémy pro správu verzí) jako malý souborový systém, nad kterým pracuje sada neuvěřitelně výkonných nástrojů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14292,8 +14292,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This makes using Git a joy because we know we can experiment without the danger of severely screwing things up.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151027T114732Z" creationid="progitSync" creationdate="20151011T193101Z">
-        <seg>Díky tomu je práce s Gitem radostí, víme, že můžeme experimentovat bez nebezpečí závažného poškození hotových věcí.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T120233Z" creationid="progitSync" creationdate="20151011T193101Z">
+        <seg>Díky tomu je práce s Gitem radostí, protože víme, že můžeme experimentovat bez nebezpečí závažného poškození hotových věcí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14904,8 +14904,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>To deal with this issue, programmers long ago developed local VCSs that had a simple database that kept all the changes to files under revision control.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T182654Z" creationid="Prikryl" creationdate="20151026T182654Z">
-        <seg>Aby k těmto potížím nedocházelo, vyvinuli programátoři už dávno lokální systémy pro správu verzí. Ty byly založeny na jednoduché databázi, která uchovávala všechny změny souborů zařazených do správy revizí.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T111117Z" creationid="Prikryl" creationdate="20151026T182654Z">
+        <seg>Aby k těmto potížím nedocházelo, vyvinuli programátoři už dávno lokální systémy pro správu verzí. Byly založeny na jednoduché databázi, která uchovávala všechny změny souborů zařazených do správy revizí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15724,8 +15724,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>When I originally sat down to write the book nearly five years ago (it took me a while to get the first version out), I had just started working at a very little known company developing a Git hosting website called GitHub.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151026T145912Z" creationid="Prikryl" creationdate="20151026T140938Z">
-        <seg>Když jsem před téměř pěti lety usedal k psaní této knihy (chvíli mi trvalo, než první verze spatřila světlo světa), začal jsem zrovna pracovat v téměř neznámé společnosti, která začala vyvíjet webový server pro hostování Git, zvaný GitHub.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T091722Z" creationid="Prikryl" creationdate="20151026T140938Z">
+        <seg>Když jsem před téměř pěti lety usedal k psaní této knihy (chvíli mi trvalo, než první verze spatřila světlo světa), začal jsem zrovna pracovat v téměř neznámé společnosti, která začala vyvíjet webový server pro hostování Gitu, zvaný GitHub.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17441,8 +17441,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You may see keys more than once, because Git reads the same key from different files (`/etc/gitconfig` and `~/.gitconfig`, for example).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T132119Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Některé klíče se mohou objevit vícekrát, protože Git načítá stejný klíč z různých souborů (například z `/etc/gitconfig` a z `~/.gitconfig`).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T130118Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Některé klíče se mohou objevit víckrát, protože Git načítá stejný klíč z různých souborů (například z `/etc/gitconfig` a z `~/.gitconfig`).</seg>
       </tuv>
     </tu>
     <tu>

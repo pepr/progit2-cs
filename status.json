@@ -4,14 +4,14 @@
   "maintainers": ["pepr"],
   "files": {
     "01-introduction": {
-      "1-introduction.asc": 99,
-      "sections/about-version-control.asc": 99,
-      "sections/basics.asc": 99,
-      "sections/command-line.asc": 99,
-      "sections/first-time-setup.asc": 99,
-      "sections/help.asc": 99,
-      "sections/history.asc": 99,
-      "sections/installing.asc": 99
+      "1-introduction.asc": 100,
+      "sections/about-version-control.asc": 100,
+      "sections/basics.asc": 100,
+      "sections/command-line.asc": 100,
+      "sections/first-time-setup.asc": 100,
+      "sections/help.asc": 100,
+      "sections/history.asc": 100,
+      "sections/installing.asc": 100
     },
     "02-git-basics": {
       "1-git-basics.asc": 99,

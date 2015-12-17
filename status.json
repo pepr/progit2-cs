@@ -14,14 +14,14 @@
       "sections/installing.asc": 100
     },
     "02-git-basics": {
-      "1-git-basics.asc": 99,
-      "sections/aliases.asc": 99,
-      "sections/getting-a-repository.asc": 99,
-      "sections/recording-changes.asc": 99,
-      "sections/remotes.asc": 99,
-      "sections/tagging.asc": 99,
-      "sections/undoing.asc": 99,
-      "sections/viewing-history.asc": 99
+      "1-git-basics.asc": 100,
+      "sections/aliases.asc": 100,
+      "sections/getting-a-repository.asc": 100,
+      "sections/recording-changes.asc": 100,
+      "sections/remotes.asc": 100,
+      "sections/tagging.asc": 100,
+      "sections/undoing.asc": 100,
+      "sections/viewing-history.asc": 100
     },
     "03-git-branching": {
       "1-git-branching.asc": 100,

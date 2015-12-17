@@ -537,9 +537,9 @@ Na rozdíl od ostatních systémů pro správu verzí, Git nesleduje přesouván
         <seg>(((files, removing)))
 To remove a file from Git, you have to remove it from your tracked files (more accurately, remove it from your staging area) and then commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T224238Z" creationid="Prikryl" creationdate="20151031T224238Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T102939Z" creationid="Prikryl" creationdate="20151031T224238Z">
         <seg>(((soubory, odstranění)))
-Chcete-li odstranit soubor ze systému Git, musíte ho odstranit ze sledovaných souborů (přesněji řečeno odstranit z oblasti připravených změn) a poté zapsat revizi.</seg>
+Chcete-li soubor z Gitu odstranit, musíte ho odstranit ze sledovaných souborů (přesněji řečeno, musíte ho odstranit z oblasti připravených změn) a poté zapsat revizi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -607,9 +607,9 @@ Když jste teď přeskládání a slučování viděli v akci, možná by vás z
         <seg>(((staging area, skipping)))
 Although it can be amazingly useful for crafting commits exactly how you want them, the staging area is sometimes a bit more complex than you need in your workflow.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T223825Z" creationid="Prikryl" creationdate="20151031T223825Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T094650Z" creationid="Prikryl" creationdate="20151031T223825Z">
         <seg>(((oblast připravených změn, přeskočení)))
-Přestože může být oblast připravených změn úžasně užitečným nástrojem pro vytváření chtěné posloupnosti revizí, někdy je při daném pracovním postupu zbytečným mezikrokem.</seg>
+Oblast připravených změn může být úžasně užitečným nástrojem pro vytváření chtěné posloupnosti revizí, ale při určitém způsobu práce někdy představuje zbytečnou komplikaci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -717,8 +717,8 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
       <tuv lang="EN">
         <seg>(We'll go over what branches are and how to use them in much more detail in &lt;&lt;_git_branching&gt;&gt;.)</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151101T170616Z" creationid="Prikryl" creationdate="20151101T170616Z">
-        <seg>(Podrobněji se budeme větvím a jejich použití věnovat v kapitole 3 &lt;&lt;_git_branching&gt;&gt;.)</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T141238Z" creationid="Prikryl" creationdate="20151101T170616Z">
+        <seg>(Podrobněji se budeme větvím a jejich použití věnovat v kapitole &lt;&lt;_git_branching&gt;&gt;.)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1527,8 +1527,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>&lt;&lt;log_options&gt;&gt; lists the options we've covered so far, as well as some other common formatting options that may be useful, along with how they change the output of the log command.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151102T214009Z" creationid="Prikryl" creationdate="20151102T214009Z">
-        <seg>Tabulka &lt;&lt;log_options&gt;&gt; uvádí seznam voleb, které jsme zatím probrali, a také pár dalších možností formátování, které mohou být užitečné -- spolu s popisem toho, jak mění výstup příkazu `log`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T114631Z" creationid="Prikryl" creationdate="20151102T214009Z">
+        <seg>Tabulka &lt;&lt;log_options&gt;&gt; uvádí seznam voleb, které jsme zatím probrali, a také pár dalších voleb pro formátování, které se mohou hodit -- spolu s popisem toho, jak mění výstup příkazu `log`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2599,8 +2599,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>A huge number and variety of options to the `git log` command are available to show you exactly what you're looking for.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145047Z" creationid="Prikryl" creationdate="20151102T145047Z">
-        <seg>K příkazu `git log` je k dispozici velké množství nejrůznějších parametrů, díky nimž můžete zobrazit přesně to, co potřebujete.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T110632Z" creationid="Prikryl" creationdate="20151102T145047Z">
+        <seg>Příkaz `git log` disponuje velkým množstvím nejrůznějších voleb, díky nimž můžete zobrazit přesně to, co potřebujete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2775,8 +2775,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>After you do this, you should have references to all the branches from that remote, which you can merge in or inspect at any time.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Poté byste měli mít k dispozici odkazy na všechny větve tohoto vzdáleného projektu. Od toho okamžiku je můžete kdykoli slučovat nebo prohlížet.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T141457Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Poté byste měli mít k dispozici odkazy na všechny větve tohoto vzdáleného projektu. Od toho okamžiku je můžete kdykoli slučovat (merge) nebo prohlížet.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2791,8 +2791,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>After you have created several commits, or if you have cloned a repository with an existing commit history, you'll probably want to look back to see what has happened.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151215T132002Z" creationid="Prikryl" creationdate="20151102T144153Z">
-        <seg>Po vytvoření několika revizí footnote:[Pozn. překl.: Znovu připomeňme, že slovem _revize_ je přeložen anglický pojem _commit_ (jako podstatné jméno). Při snaze o vytvoření přesnější představy používám dvouslovný pojem _objekt revize_, který má stejný význam. Uvažujte o něm jako o reprezentantovi výsledku příkazu `git commit`.] nebo pokud jste naklonovali repozitář s existující historií revizí, můžete chtít nahlédnout do historie projektu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T110133Z" creationid="Prikryl" creationdate="20151102T144153Z">
+        <seg>Po vytvoření několika revizí{empty}footnote:[Pozn. překl.: Znovu připomeňme, že slovem _revize_ je přeložen anglický pojem _commit_ (jako podstatné jméno). Při snaze o vytvoření přesnější představy používám dvouslovný pojem _objekt revize_, který má stejný význam. Uvažujte o něm jako o reprezentantovi výsledku příkazu `git commit`.], nebo pokud jste naklonovali repozitář s existující historií revizí, můžete chtít nahlédnout do historie projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3035,8 +3035,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>Although `git status` answers those questions very generally by listing the file names, `git diff` shows you the exact lines added and removed – the patch, as it were.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151030T091139Z" creationid="Prikryl" creationdate="20151030T091139Z">
-        <seg>Ačkoliv příkaz `git status` vám tyto otázky velmi obecně odpoví, příkaz `git diff` přesně zobrazí přidané a odstraněné řádky -- jakoby podobu záplaty.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T092738Z" creationid="Prikryl" creationdate="20151030T091139Z">
+        <seg>Ačkoliv příkaz `git status` vám tyto otázky velmi obecně odpoví, příkaz `git diff` přesně zobrazí přidané a odstraněné řádky -- jakoby v podobě záplaty.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3091,8 +3091,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>An asterisk (`*`) matches zero or more characters; `[abc]` matches any character inside the brackets (in this case a, b, or c); a question mark (`?`) matches a single character; and brackets enclosing characters separated by a hyphen(`[0-9]`) matches any character between them (in this case 0 through 9).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202346Z" creationid="Prikryl" creationdate="20151029T202346Z">
-        <seg>Hvězdička (`*`) označuje žádný nebo více znaků; `[abc]` označuje jakýkoli znak uvedený v závorkách (v tomto případě `a`, `b` nebo `c`); otazník (`?`) označuje jeden znak; znaky v závorkách oddělené pomlčkou (`[0-9]`) označují jakýkoli znak v daném rozmezí (v našem případě 0 až 9).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T090453Z" creationid="Prikryl" creationdate="20151029T202346Z">
+        <seg>Hvězdička (`*`) označuje žádný nebo více znaků; `[abc]` označuje jakýkoli znak uvedený v závorkách (v tomto případě `a`, `b` nebo `c`); otazník (`?`) označuje jeden znak; znaky v hranatých závorkách oddělené pomlčkou (`[0-9]`) označují jakýkoli znak v daném rozmezí (v našem případě 0 až 9).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3211,8 +3211,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>Another useful thing you may want to do is to keep the file in your working tree but remove it from your staging area.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T225526Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Další užitečnou možností, která se vám může hodit, je zachování souboru v pracovním stromu při současném odstranění z oblasti připravených změn.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T104208Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Další užitečnou věcí, kterou byste mohli chtít, je možnost zachování souboru v pracovním stromu při současném odstranění z oblasti připravených změn.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3251,8 +3251,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>Anything you didn't stage is still sitting there modified; you can do another commit to add it to your history.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T223443Z" creationid="Prikryl" creationdate="20151031T223443Z">
-        <seg>Vše, co jste nepřipravili k zapsání, zůstane ve stavu změněno na vašem disku. Můžete provést další příkaz commit a přidat to také do vaší historie.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T094202Z" creationid="Prikryl" creationdate="20151031T223443Z">
+        <seg>Vše, co jste nepřipravili k zapsání, zůstane ve stavu změněno na vašem disku. Můžete provést další zápis a přidat to také do vaší historie.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3333,8 +3333,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>As you can see, the `--stat` option prints below each commit entry a list of modified files, how many files were changed, and how many lines in those files were added and removed.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jak vidíte, parametr `--stat` vypíše pod každým záznamem revize seznam změněných souborů, kolik souborů bylo změněno (changed) a kolik řádků bylo v těchto souborech vloženo (insertions) a smazáno (deletions).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T113419Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jak vidíte, volba `--stat` vypíše pod každým záznamem revize seznam změněných souborů, kolik souborů bylo změněno (changed) a kolik řádků bylo v těchto souborech vloženo (insertions) a smazáno (deletions).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3365,16 +3365,16 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>As you can tell, Git simply replaces the new command with whatever you alias it for.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T143636Z" creationid="Prikryl" creationdate="20151107T143636Z">
-        <seg>Chtělo by se tedy říci, že Git jednoduše nahradí nový příkaz jakýmkoli aliasem, který vytvoříte.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T145528Z" creationid="Prikryl" creationdate="20151107T143636Z">
+        <seg>Jak tušíte, Git jednoduše nahradí nový příkaz čímkoliv, co jste aliasem pojmenovali.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>As you edit files, Git sees them as modified, because you've changed them since your last commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T215408Z" creationid="Prikryl" creationdate="20151028T215408Z">
-        <seg>Jakmile soubory editujete, začne je Git považovat za změněné, protože jste v nich od poslední revize provedli změny.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T084126Z" creationid="Prikryl" creationdate="20151028T215408Z">
+        <seg>Jakmile soubory editujete, začne je Git považovat za změněné, protože jste v nich od posledního zápisu revize provedli změny.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3453,8 +3453,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>At any stage, you may want to undo something.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151105T214029Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Kdykoli se může stát, že byste nějakou úpravu chtěli vrátit do původního stavu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T123457Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Kdykoli se může stát, že něco chcete vrátit do původního stavu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3549,8 +3549,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>At this point, you can do all the basic local Git operations – creating or cloning a repository, making changes, staging and committing those changes, and viewing the history of all the changes the repository has been through.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151028T203800Z" creationid="Prikryl" creationdate="20151028T203800Z">
-        <seg>V tomto okamžiku už v Gitu provádět všechny základní lokální operace -- vytvořit a klonovat repozitář, provádět změny, připravit je k zapsání, zapsat je a prohlížet si historii všech změn, kterými repozitář prošel.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T145848Z" creationid="Prikryl" creationdate="20151028T203800Z">
+        <seg>V tomto okamžiku už v Gitu umíte provádět všechny základní lokální operace -- vytvořit a klonovat repozitář, provádět změny, připravit je k zapsání, zapsat je a prohlížet si historii všech změn, kterými repozitář prošel.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3959,8 +3959,8 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
       <tuv lang="EN">
         <seg>Collaborating with others involves managing these remote repositories and pushing and pulling data to and from them when you need to share work.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151101T161707Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Spolupráce s ostatními uživateli zahrnuje správu těchto vzdálených repozitářů a odesílání (push) a stahování dat (pull) v okamžicích kdy chcete práci sdílet</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T132828Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Spolupráce s ostatními uživateli zahrnuje správu těchto vzdálených repozitářů a odesílání (push) a stahování dat (pull) v okamžicích kdy chcete práci sdílet.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4160,8 +4160,8 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
         <seg>Doing so also puts the diff of your change in the editor so you can see exactly what changes you're committing.)
 When you exit the editor, Git creates your commit with that commit message (with the comments and diff stripped out).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T222812Z" creationid="Prikryl" creationdate="20151031T222812Z">
-        <seg>V editoru se pak zobrazí také výstup rozdílů (diff), takže uvidíte přesně, jaké změny budete zapisovat.) Jakmile editor zavřete, Git vytvoří revizi se zprávou, kterou jste napsali (s odstraněnými komentáři, které zobrazovaly rozdíly).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T093914Z" creationid="Prikryl" creationdate="20151031T222812Z">
+        <seg>V editoru se pak zobrazí také výstup rozdílů (diff), takže uvidíte přesně, jaké změny budete zapisovat.) Jakmile editor zavřete, Git vytvoří objekt revize se zprávou, kterou jste napsali (s odstraněnými komentáři, které zobrazovaly rozdíly).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4248,8 +4248,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Even commits that were on branches that were deleted or commits that were overwritten with an `--amend` commit can be recovered (see &lt;&lt;_data_recovery&gt;&gt; for data recovery).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151106T221338Z" creationid="Prikryl" creationdate="20151106T221338Z">
-        <seg>Obnovit lze dokonce i revize na odstraněných větvích nebo revize, které byly přepsány příkazem `commit --amend` (obnovování dat se věnuje kapitola &lt;&lt;_data_recovery&gt;&gt;).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T132325Z" creationid="Prikryl" creationdate="20151106T221338Z">
+        <seg>Obnovit lze dokonce i objekty revizí na odstraněných větvích nebo objekty revizí, které byly přepsány příkazem `commit --amend` (obnovování dat se věnuje kapitola &lt;&lt;_data_recovery&gt;&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4296,8 +4296,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Every time you perform a commit, you're recording a snapshot of your project that you can revert to or compare to later.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T223541Z" creationid="Prikryl" creationdate="20151031T223541Z">
-        <seg>Pokaždé, když provedete příkaz `commit` (tj. zapíšete revizi), nahrajete snímek svého projektu, k němuž se můžete později vrátit nebo ho můžete použít k srovnání.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T094228Z" creationid="Prikryl" creationdate="20151031T223541Z">
+        <seg>Pokaždé, když provedete příkaz `commit`, nahrajete snímek svého projektu, k němuž se můžete později vrátit nebo ho můžete použít k srovnání.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4496,8 +4496,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>For another example, if you stage the `CONTRIBUTING.md` file and then edit it, you can use `git diff` to see the changes in the file that are staged and the changes that are unstaged.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151030T093237Z" creationid="Prikryl" creationdate="20151030T093023Z">
-        <seg>Dalším příklad... Pokud jste soubor `CONTRIBUTING.md` připravili k zapsání a poté ho znovu upravili, můžete příkaz `git diff` použít k zobrazení změn v souboru, které byly připraveny k zapsání, a změn, které nejsou připraveny k zapsání.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T093016Z" creationid="Prikryl" creationdate="20151030T093023Z">
+        <seg>Další příklad... Pokud jste soubor `CONTRIBUTING.md` připravili k zapsání a poté ho znovu upravili, můžete příkaz `git diff` použít k zobrazení změn v souboru, které byly připraveny k zapsání, a změn, které nejsou připraveny k zapsání.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4560,8 +4560,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>For example, if you want to see some abbreviated stats for each commit, you can use the `--stat` option:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud například chcete zobrazit některé stručné statistiky pro každou revizi, použijte parametr `--stat`:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T113211Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud například chcete pro každou revizi zobrazit některé stručné statistiky, použijte volbu `--stat`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4632,8 +4632,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>For example, this command gets the list of commits made in the last two weeks:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Například tento příkaz zobrazí seznam všech revizí pořízených za poslední dva týdny (2 weeks):</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T121006Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Například následující příkaz zobrazí seznam všech revizí pořízených za poslední dva týdny (2 weeks):</seg>
       </tuv>
     </tu>
     <tu>
@@ -5211,8 +5211,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Git doesn't automatically infer your command if you type it in partially.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T142930Z" creationid="Prikryl" creationdate="20151107T142930Z">
-        <seg>Jestliže zadáte systému Git neúplný příkaz, systém si ho nedoplní.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T145027Z" creationid="Prikryl" creationdate="20151107T142930Z">
+        <seg>Jestliže zadáte neúplný příkaz, Git si ho automaticky nedoplní.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5427,8 +5427,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Glob patterns are like simplified regular expressions that shells use.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151029T204616Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Masky souborů jsou zjednodušené regulární výrazy, které používá shell.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T090314Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Masky souborů se podobají zjednodušeným regulárním výrazům, které znáte z shellu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5523,8 +5523,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Here is another example .gitignore file:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151029T202546Z" creationid="Prikryl" creationdate="20151029T202546Z">
-        <seg>Tady je další příklad souboru `.gitignore`:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T091239Z" creationid="Prikryl" creationdate="20151029T202546Z">
+        <seg>Další příklad souboru `.gitignore`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5555,8 +5555,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Here, we'll review a few basic tools for undoing changes that you've made.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151105T214254Z" creationid="Prikryl" creationdate="20151105T214254Z">
-        <seg>Proto se podíváme na pár základních nástrojů pro vrácení změn, které jsme udělali.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T123753Z" creationid="Prikryl" creationdate="20151105T214254Z">
+        <seg>Proto se podíváme na pár základních nástrojů pro vracení změn, které jste udělali.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6471,8 +6471,8 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
         <seg>If you don't want to type the entire text of each of the Git commands, you can easily set up an alias for each command using `git config`.(((git commands, config)))
 Here are a couple of examples you may want to set up:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T143144Z" creationid="Prikryl" creationdate="20151107T143144Z">
-        <seg>Pokud nechcete zadávat celý text příkazů Git, můžete pomocí `git config` jednoduše nastavit pro každý příkaz tzv. alias.(((git příkazy, config)))
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T144928Z" creationid="Prikryl" creationdate="20151107T143144Z">
+        <seg>Pokud nechcete zadávat celý text gitových příkazů, můžete pomocí `git config` jednoduše nastavit pro každý příkaz tzv. alias.(((git příkazy, config)))
 Tady je pár příkladů, které možná budete chtít nastavit:</seg>
       </tuv>
     </tu>
@@ -6601,9 +6601,9 @@ Tady je pár příkladů, které možná budete chtít nastavit:</seg>
         <seg>If you have a branch set up to track a remote branch (see the next section and &lt;&lt;_git_branching&gt;&gt; for more information), you can use the `git pull` command to automatically fetch and then merge a remote branch into your current branch.(((git commands, pull)))
 This may be an easier or more comfortable workflow for you; and by default, the `git clone` command automatically sets up your local master branch to track the remote master branch (or whatever the default branch is called) on the server you cloned from.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151101T172043Z" creationid="Prikryl" creationdate="20151101T172043Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T142059Z" creationid="Prikryl" creationdate="20151101T172043Z">
         <seg>Pokud máte větev nastavenou ke sledování vzdálené větve (více informací naleznete v následující podkapitole a v kapitole &lt;&lt;_git_branching&gt;&gt;), můžete použít příkaz `git pull`, který automaticky vyzvedne (fetch) a poté začlení (merge) vzdálenou větev do vaší aktuální větve.(((git příkazy, pull)))
-Tento postup pro vás může být snazší a pohodlnější. Standardně přitom příkaz `git clone` automaticky nastaví vaši lokální hlavní větev, aby sledovala vzdálenou hlavní větev (výchozí větev může být i jiná) na serveru, z kterého jste klonovali.</seg>
+Tento postup pro vás může být snazší a pohodlnější. Standardně přitom příkaz `git clone` automaticky nastaví vaši lokální větev `master` tak, aby sledovala vzdálenou větev `master` (výchozí větev může být i jiná) na serveru, z kterého jste klonovali.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7537,8 +7537,8 @@ Just type the name of the tool you'd rather use.</seg>
       <tuv lang="EN">
         <seg>If you would like to keep the changes you've made to that file but still need to get it out of the way for now, we'll go over stashing and branching in &lt;&lt;_git_branching&gt;&gt;; these are generally better ways to go.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151106T222815Z" creationid="Prikryl" creationdate="20151106T220923Z">
-        <seg>Pokud byste chtěli provedené změny souboru uchovat, ale pro tento okamžik je přesto chcete odklidit z cesty, podíváme se v kapitole &lt;&lt;_git_branching&gt;&gt; na odkládání (stashing) a větvení. Tyto postupy bývají většinou vhodnější.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T132024Z" creationid="Prikryl" creationdate="20151106T220923Z">
+        <seg>Pokud byste chtěli provedené změny souboru uchovat, ale pro tento okamžik je přesto chcete odklidit z cesty, podíváme se později na odkládání (stashing) a v kapitole &lt;&lt;_git_branching&gt;&gt; na větvení. Tyto postupy bývají většinou vhodnější.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7963,8 +7963,8 @@ Sledování souboru `README` zahájíme takto:</seg>
       <tuv lang="EN">
         <seg>In other words, you may want to keep the file on your hard drive but not have Git track it anymore.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T225655Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jinými slovy, soubor možná chcete ponechat na disku, ale už nechcete, aby ho Git sledoval.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T104234Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jinými slovy, soubor chcete ponechat na disku, ale už nechcete, aby ho Git sledoval.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7979,8 +7979,8 @@ Sledování souboru `README` zahájíme takto:</seg>
       <tuv lang="EN">
         <seg>In reality, you're unlikely to use that often, because Git by default pipes all output through a pager so you see only one page of log output at a time.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151103T200041Z" creationid="Prikryl" creationdate="20151103T200041Z">
-        <seg>Ve skutečnosti to asi nebudete využívat příliš často, protože Git standardně posílá výstup přes stránkovač, takže se najednou zobrazí jen jedna stránka logu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T120833Z" creationid="Prikryl" creationdate="20151103T200041Z">
+        <seg>Ve skutečnosti ji asi nebudete využívat příliš často, protože Git standardně posílá výstup přes stránkovač, takže se najednou zobrazí jen jedna stránka logu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8383,16 +8383,16 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
       <tuv lang="EN">
         <seg>It also puts a summary of the information at the end.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Zároveň vloží na konec výpisu shrnutí těchto informací.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T113529Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Na konci výpisu se zároveň objeví souhrn těchto informací.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>It also shows you which remote branches on the server you don't yet have, which remote branches you have that have been removed from the server, and multiple branches that are automatically merged when you run `git pull`.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T131524Z" creationid="Prikryl" creationdate="20151107T131524Z">
-        <seg>Příkaz vám také ukáže, které vzdálené větve na serveru ještě nemáte, které vzdálené větve máte, ale ze serveru už byly odstraněny, a několik větví, které budou automaticky sloučeny, jestliže spustíte příkaz `git pull`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T143543Z" creationid="Prikryl" creationdate="20151107T131524Z">
+        <seg>Příkaz vám také ukáže, které vzdálené větve na serveru ještě nemáte, které vzdálené větve máte, ale ze serveru už byly odstraněny, a několik větví, které budou automaticky začleněny (merge), když spustíte příkaz `git pull`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8473,8 +8473,8 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
       <tuv lang="EN">
         <seg>It lists the URL for the remote repository as well as the tracking branch information.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Bude obsahovat adresu URL vzdáleného repozitáře a informace ke sledování větví.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T143110Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Bude obsahovat adresu URL vzdáleného repozitáře a informace o sledovaných větvích.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9383,8 +9383,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>More important, you can use any tool you like to rename a file, and address the add/rm later, before you commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T231846Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Důležitější je, že můžete použít jakýkoli způsob přejmenování a později provést příkaz add/rm -- před zapsáním revize.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T105619Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Důležitější je, že můžete použít jakýkoli způsob přejmenování a později, před zapsáním revize, provést příkaz `add`/`rm`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9855,8 +9855,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Now you can use `git diff` to see what is still unstaged:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T120938Z" creationid="Prikryl" creationdate="20151107T120938Z">
-        <seg>Příkazem `git diff` se teď můžete podíva, co ještě není připraveno k zapsání:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T093128Z" creationid="Prikryl" creationdate="20151107T120938Z">
+        <seg>Příkazem `git diff` se teď můžete podívat, co ještě není připraveno k zapsání:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10175,8 +10175,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Of course if you do this and do a commit, your `version2` branch will be slightly different than your `v2.0.0` tag since it will move forward with your new changes, so do be careful.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151108T111530Z" creationid="Prikryl" creationdate="20151108T111530Z">
-        <seg>Je jasné, že když teď zapíšete nějakou změnu, vaše větev `version2` se bude od snímku se značkou `v2.0.0` lišit, protože jsme se s novými změnami posunuli dál, takže buďte opatrní.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T144731Z" creationid="Prikryl" creationdate="20151108T111530Z">
+        <seg>Je jasné, že když teď zapíšete nějakou změnu, vaše větev `version2` se bude od snímku se značkou `v2.0.0` lišit, protože vás nové změny posunou dál. Takže buďte opatrní.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10353,8 +10353,8 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="EN">
         <seg>One of the more helpful options is `-p`, which shows the difference introduced in each commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145242Z" creationid="Prikryl" creationdate="20151102T145242Z">
-        <seg>Jedním z užitečnějších je parametr `-p`, který zobrazí rozdíly (diff) provedené v každé revizi.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T110816Z" creationid="Prikryl" creationdate="20151102T145242Z">
+        <seg>Jednou z užitečnějších voleb je `-p`, která zobrazí rozdíly (diff) provedené v každé revizi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10651,8 +10651,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>Remember, anything that is _committed_ in Git can almost always be recovered.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T132727Z" creationid="Prikryl" creationdate="20151107T132727Z">
-        <seg>Zapamatujte si, že vše, co je _zapsáno_ v systému Git, lze téměř vždy obnovit.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T132234Z" creationid="Prikryl" creationdate="20151107T132727Z">
+        <seg>Zapamatujte si, že vše, co je v Gitu _zapsáno_, lze téměř vždy obnovit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10707,8 +10707,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>Right below the ``Changes to be committed'' text, it says use `git reset HEAD &lt;file&gt;...` to unstage.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151106T213952Z" creationid="Prikryl" creationdate="20151106T213952Z">
-        <seg>Přímo pod nadpisem „Changes to be committed“ (Změny k zapsání) se říká: pro návrat z oblasti připravených změn použijte příkaz `git reset HEAD &lt;soubor&gt;...`</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T131327Z" creationid="Prikryl" creationdate="20151106T213952Z">
+        <seg>Přímo pod textem „Changes to be committed“ („Změny k zapsání“) se říká: „pro odstranění z oblasti připravených změn použijte příkaz `git reset HEAD &lt;soubor&gt;...`“</seg>
       </tuv>
     </tu>
     <tu>
@@ -10731,8 +10731,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>Running `git pull` generally fetches data from the server you originally cloned from and automatically tries to merge it into the code you're currently working on.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151101T172203Z" creationid="Prikryl" creationdate="20151101T172203Z">
-        <seg>Příkaz `git pull` většinou vyzvedne data ze serveru, z něhož jste původně klonovali, a automaticky se pokusí začlenit je do kódu, na němž právě pracujete.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T142217Z" creationid="Prikryl" creationdate="20151101T172203Z">
+        <seg>Příkaz `git pull` většinou vyzvedne (fetch) data ze serveru, z něhož jste původně klonovali, a automaticky se pokusí začlenit je (merge) do kódu, na němž právě pracujete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10827,8 +10827,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>Setting up a `.gitignore` file before you get going is generally a good idea so you don't accidentally commit files that you really don't want in your Git repository.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151029T204429Z" creationid="Prikryl" creationdate="20151029T201553Z">
-        <seg>Vytvoření a naplnění souboru `.gitignore` ještě dříve, než se pustíte do práce, bývá většinou dobrý nápad. Díky tomu se vám nestane, že byste nedopatřením zapsali také soubory, o které v repozitáři Git nestojíte.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T090003Z" creationid="Prikryl" creationdate="20151029T201553Z">
+        <seg>Většinou je dobré, když soubor `.gitignore` vytvoříte a naplníte ještě dříve, než se pustíte do práce. Díky tomu se vám nestane, že byste nedopatřením zapsali také soubory, o které v gitovém repozitáři nestojíte.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10917,8 +10917,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>So for example in that output, the `README` file is modified in the working directory but not yet staged, while the `lib/simplegit.rb` file is modified and staged.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151029T175044Z" creationid="Prikryl" creationdate="20151029T175044Z">
-        <seg>Takže například v uvedeným výstupu byl soubor `README` změněn v pracovním adresáři, ale nebyl zatím připraven k zápisu (staged), zatímco soubor `lib/simplegit.rb` byl změněn a připraven k zápisu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T085554Z" creationid="Prikryl" creationdate="20151029T175044Z">
+        <seg>Takže například v uvedeném výstupu byl soubor `README` změněn v pracovním adresáři, ale nebyl zatím připraven k zápisu (staged), zatímco soubor `lib/simplegit.rb` byl změněn a připraven k zápisu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11015,8 +11015,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>So, let's use that advice to unstage the `CONTRIBUTING.md` file:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151106T214027Z" creationid="Prikryl" creationdate="20151106T214027Z">
-        <seg>Budeme se tedy řídit touto radou a vrátíme soubor `CONTRIBUTING.md` z oblasti připravených změn:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T131218Z" creationid="Prikryl" creationdate="20151106T214027Z">
+        <seg>Budeme se tedy řídit touto radou a z oblasti připravených změn odstraníme soubor `CONTRIBUTING.md`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -11743,8 +11743,8 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
       <tuv lang="EN">
         <seg>The `git rm` command does that, and also removes the file from your working directory so you don't see it as an untracked file the next time around.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T224402Z" creationid="Prikryl" creationdate="20151031T224402Z">
-        <seg>Provedete to příkazem `git rm`, který soubor zároveň odstraní z vašeho pracovního adresáře, a proto ho už příště neuvidíte mezi nesledovanými soubory.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T103701Z" creationid="Prikryl" creationdate="20151031T224402Z">
+        <seg>Je k tomu určen příkaz `git rm`, který soubor odstraní také z vašeho pracovního adresáře, takže ho už příště neuvidíte mezi nesledovanými soubory.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11937,8 +11937,8 @@ Pokud chcete na server `origin` odeslat svou větev `master` (znovu připomeňme
       <tuv lang="EN">
         <seg>The command helpfully tells you that if you're on the master branch and you run `git pull`, it will automatically merge in the master branch on the remote after it fetches all the remote references.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T121851Z" creationid="Prikryl" creationdate="20151107T121851Z">
-        <seg>Příkaz vám mimo jiné sděluje, že pokud se nacházíte na hlavní větvi (branch `master`) a spustíte příkaz `git pull`, pak se po vyzvednutí všech vzdálených referencí (fetch) větev `master` ze vzdáleného serveru automaticky začlení (merge).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T143222Z" creationid="Prikryl" creationdate="20151107T121851Z">
+        <seg>Příkaz vám mimo jiné sděluje, že pokud se nacházíte na větvi `master` a spustíte příkaz `git pull`, pak se po vyzvednutí všech vzdálených referencí (fetch) větev `master` ze vzdáleného serveru automaticky začlení (merge).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12379,8 +12379,8 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
       <tuv lang="EN">
         <seg>The last really useful option to pass to `git log` as a filter is a path.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151104T212641Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Posledním, opravdu užitečným parametrem, který lze jako filtr přidat k příkazu `git log`, je zadání cesty.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T121839Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Poslední opravdu užitečná volba pro `git log` spočívá ve filtrování podle zadané cesty.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12471,8 +12471,8 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       <tuv lang="EN">
         <seg>The most interesting option is `format`, which allows you to specify your own log output format.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151102T152354Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nejzajímavější možností je předpis `format`, který umožňuje definovat vlastní formát výstupu logu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T113851Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Nejzajímavější možností je předpis `format`, který vám umožní předepsat vlastní formát výstupu logu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12575,8 +12575,8 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       <tuv lang="EN">
         <seg>The nice part is that the command you use to determine the state of those two areas also reminds you how to undo changes to them.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Je příjemné, že příkaz, jímž se zjišťuje stav těchto dvou oblastí, zároveň připomíná, jak v nich nežádoucí změny zrušit.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T130851Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Dobré je, že příkaz, jímž se zjišťuje stav těchto dvou oblastí, zároveň připomíná, jak v nich nežádoucí změny zrušit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12599,8 +12599,8 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       <tuv lang="EN">
         <seg>The only real difference is that `mv` is one command instead of three – it's a convenience function.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T231701Z" creationid="Prikryl" creationdate="20151031T231701Z">
-        <seg>Jediným skutečným rozdílem je, že `mv` je jediný příkaz, zatímco u druhého způsobu potřebujete příkazy tři -- jde jen o funkci pro zjednodušení práce.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T105429Z" creationid="Prikryl" creationdate="20151031T231701Z">
+        <seg>Jediným skutečným rozdílem je, že `mv` je jediný příkaz místo tří -- jde o funkci pro zjednodušení práce.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13147,8 +13147,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>There are two columns to the output - the left hand column indicates that the file is staged and the right hand column indicates that it's modified.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151029T203937Z" creationid="Prikryl" creationdate="20151029T174843Z">
-        <seg>Značka na výstupu se zobrazuje ve dvou sloupcích. Levý sloupec indikuje stav souboru v oblasti připravených změn (index, stage area), v pravém sloupci se indikuje stav v pracovním stromu footnote:[Pozn. překl.: V době překladu byl originální popis zmatený. Upraveno podle dokumentace.].</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T085429Z" creationid="Prikryl" creationdate="20151029T174843Z">
+        <seg>Značka na výstupu se zobrazuje ve dvou sloupcích. Levý sloupec indikuje stav souboru v oblasti připravených změn (index, stage area), v pravém sloupci se indikuje stav v pracovním stromu{empty}footnote:[Pozn. překl.: V době překladu byl originální popis zmatený. Upraveno podle dokumentace.].</seg>
       </tuv>
     </tu>
     <tu>
@@ -13972,8 +13972,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is especially useful when you're generating output for machine parsing – because you specify the format explicitly, you know it won't change with updates to Git:(((log formatting)))</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151102T150152Z" creationid="Prikryl" creationdate="20151102T150152Z">
-        <seg>Tato možnost je užitečná zejména v situaci, kdy vytváříte výpis pro strojové zpracování -- formát předepisujete explicitně, takže máte jistotu, že se s aktualizací systému Git nezmění:(((log formátování)))</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T113948Z" creationid="Prikryl" creationdate="20151102T150152Z">
+        <seg>Je to užitečné zejména v situaci, kdy generujete výstup pro strojové zpracování -- formát předepisujete explicitně, takže máte jistotu, že se s aktualizací Gitu nezmění:(((log formátování)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -14100,16 +14100,16 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is one of the few areas in Git where you may lose some work if you do it wrong.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151105T214717Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Je to jedna z mála oblastí, kdy v Gitu při neuváženém postupu riskujete, že přijdete o část své práce.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T123612Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Je to jedna z mála oblastí, kdy při neuváženém postupu v Gitu riskujete, že přijdete o část své práce.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>This is particularly useful if you forgot to add something to your `.gitignore` file and accidentally staged it, like a large log file or a bunch of `.a` compiled files.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T225912Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Může to být zvlášť užitečné, pokud něco zapomenete přidat do souboru `.gitignore`, a omylem to zahrnete do oblasti připravených změn -- například velký log soubor nebo pár zkompilovaných souborů s příponou `.a`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T104546Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Může to být zvlášť užitečné, pokud jste něco zapomněli přidat do souboru `.gitignore` a omylem jste to zahrnuli do oblasti připravených změn -- například velký log soubor nebo spoustu zkompilovaných souborů s příponou `.a`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14220,8 +14220,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is very helpful for code review or to quickly browse what happened during a series of commits that a collaborator has added.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tato funkce je velmi užitečná při kontrole kódu nebo k rychlému zjištění, co bylo obsahem série revizí, které přidal váš spolupracovník.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T112333Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Je to velmi užitečné při kontrole kódu nebo k rychlému zjištění, co se stalo v posloupnosti revizí, které přidal váš spolupracovník.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14484,16 +14484,16 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This option changes the log output to formats other than the default.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tento parametr změní výstup logu na jiný než výchozí formát.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T113713Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Změní výstup logu na jiný než výchozí formát.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>This option displays the same information but with a diff directly following each entry.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151102T145425Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Zmíněný parametr zobrazí stejné informace, ale za každým záznamem následuje informace o rozdílech.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T112219Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tato volba zobrazí stejné informace, ale za každým záznamem následuje informace o rozdílech.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14582,8 +14582,8 @@ Některé z cílů nového systému byly následující:</seg>
       <tuv lang="EN">
         <seg>This seems a bit clearer.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Příkaz unstage je o něco jasnější.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T145224Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Příkaz `unstage` vypadá srozumitelněji.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14728,8 +14728,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>Those are only some simple output-formatting options to `git log` – there are many more.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151102T213713Z" creationid="Prikryl" creationdate="20151102T213713Z">
-        <seg>Toto je jen několik jednoduchých možností formátování výstupu příkazu `git log`. Existuje jich mnohem více.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T114503Z" creationid="Prikryl" creationdate="20151102T213713Z">
+        <seg>Uvedli jsme jen několik jednoduchých možností formátování výstupu příkazu `git log`. Existuje jich mnohem víc.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15040,8 +15040,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>To get the project, run</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151102T144629Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Projekt můžete získat spuštěním</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T110245Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Můžete ho získat spuštěním</seg>
       </tuv>
     </tu>
     <tu>
@@ -15259,9 +15259,9 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
         <seg>To see which remote servers you have configured, you can run the `git remote` command.(((git commands, remote)))
 It lists the shortnames of each remote handle you've specified.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151101T164240Z" creationid="Prikryl" creationdate="20151101T164042Z">
-        <seg>Chcete-li zjistit, jaké vzdálené servery jste si nastavili, můžete použít příkaz `git remote`.(((git příkazy, remote)))
-Zobrazí se seznam krátkých jmen, která jste si pro vzdálené repozitáře nastavili.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T134942Z" creationid="Prikryl" creationdate="20151101T164042Z">
+        <seg>Chcete-li zjistit, jaké vzdálené servery jste si nakonfigurovali, můžete použít příkaz `git remote`.(((git příkazy, remote)))
+Zobrazí se seznam krátkých jmen, která jste vzdáleným repozitářům přidělili.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15466,8 +15466,8 @@ To https://github.com/schacon/simplegit</seg>
       <tuv lang="EN">
         <seg>Untracked basically means that Git sees a file you didn't have in the previous snapshot (commit); Git won't start including it in your commit snapshots until you explicitly tell it to do so.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151029T111124Z" creationid="Prikryl" creationdate="20151029T111124Z">
-        <seg>Není-li soubor sledován, znamená to, že Git vidí souboru který nebyl v předchozím snímku (commit). Git ho nezařadí ani do dalších snímků, dokud mu k tomu nedáte výslovný příkaz.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T084359Z" creationid="Prikryl" creationdate="20151029T111124Z">
+        <seg>Není-li soubor sledován, znamená to, že Git vidí soubor, který nebyl v předchozím snímku (commit). Git ho nezařadí ani do dalších snímků, dokud mu k tomu nedáte výslovný příkaz.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15522,16 +15522,16 @@ To https://github.com/schacon/simplegit</seg>
       <tuv lang="EN">
         <seg>We can demonstrate by aliasing `git visual` to run `gitk`:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T144528Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Můžeme si to předvést vytvoření aliasu `git visual`, která má spouštět `gitk`:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T145720Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Můžeme si to předvést vytvořením aliasu `git visual` pro spuštění `gitk`:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>We may additionally have permission to push to one or more of these, though we can't tell that here.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151101T165642Z" creationid="Prikryl" creationdate="20151101T165642Z">
-        <seg>Na jeden nebo několik z nich můžeme mít navíc přiděleno právo pro odesílání změn, ale z tohoto výpisu to nelze poznat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T135443Z" creationid="Prikryl" creationdate="20151101T165642Z">
+        <seg>Na jeden nebo několik z nich můžeme mít navíc přiděleno právo pro odesílání změn (push), ale z tohoto výpisu to nelze poznat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15627,8 +15627,8 @@ To https://github.com/schacon/simplegit</seg>
         <seg>We've mentioned and given some demonstrations of adding remote repositories in previous sections, but here is how to do it explicitly.(((git commands, remote)))
 To add a new remote Git repository as a shortname you can reference easily, run `git remote add [shortname] [url]`:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151101T170241Z" creationid="Prikryl" creationdate="20151101T170241Z">
-        <seg>O přidávání vzdálených repozitářů jsme se zmínili v předchozích podkapitolách a něco jsme si i ukázali, ale tady přesně řekneme, jak to udělat.(((git příkazy, remote)))
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T135709Z" creationid="Prikryl" creationdate="20151101T170241Z">
+        <seg>O přidávání vzdálených repozitářů jsme se zmínili v předchozích podkapitolách a něco jsme si i ukázali, ale tady si přesně řekneme, jak to udělat.(((git příkazy, remote)))
 Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, přes který se můžete snadno odkazovat, spusťte příkaz `git remote add [zkrácený název] [url]`:</seg>
       </tuv>
     </tu>
@@ -15844,8 +15844,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>When you have your project at a point that you want to share, you have to push it upstream.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T110717Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud se váš projekt nachází ve stavu, kdy ho chcete sdílet s ostatními, můžete ho odeslat (push) na referenční server (upstream footnote:[Pozn. překl.: Pojem _upstream_ se používá pro vzdálený server umístěný doslova _výše proti proudu_ -- z logického pohledu. Podle konvence se často `upstream` používá i pro pojmenování takového vzdáleného serveru. Typicky jde o server, který slouží ke sdílení výsledků projektu, který se považuje v jistém smyslu za referenční -- z něj to _teče dolů po proudu_ k ostatním. Je možné, že se s tímto pojmem poprvé setkáte v okamžiku, kdy začnete používat GitHub a provedete takzvaný _Fork_ jiného projektu. V nápovědě přímo najdete příkazy, ve který se slovo _upstream_ vyskytuje -- https://help.github.com/articles/fork-a-repo/[GitHub Help: Fork a Repo]. V této souvislosti chápejte pojmy _vzdálený server_ a _vzdálený repozitář_ jako shodné. Repozitář označovaný pojmem _upstream_ je ten, ze kterého jste na GitHub provedli _fork_.]).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T142648Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud se váš projekt nachází ve stavu, kdy ho chcete sdílet s ostatními, můžete ho odeslat (push) na referenční server (upstream{empty}footnote:[Pozn. překl.: Pojem _upstream_ se používá pro vzdálený server umístěný doslova _výše proti proudu_ -- z logického pohledu. Podle konvence se často `upstream` používá i pro pojmenování takového vzdáleného serveru. Typicky jde o server, který slouží ke sdílení výsledků projektu, který se považuje v jistém smyslu za referenční -- z něj to _teče dolů po proudu_ k ostatním. Je možné, že se s tímto pojmem poprvé setkáte v okamžiku, kdy začnete používat GitHub a provedete takzvaný _Fork_ jiného projektu. V nápovědě přímo najdete příkazy, ve který se slovo _upstream_ vyskytuje -- https://help.github.com/articles/fork-a-repo/[GitHub Help: Fork a Repo]. V této souvislosti chápejte pojmy _vzdálený server_ a _vzdálený repozitář_ jako shodné. Repozitář označovaný pojmem _upstream_ je ten, ze kterého jste na GitHub provedli _fork_.]).</seg>
       </tuv>
     </tu>
     <tu>
@@ -15964,8 +15964,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>When you're using Git more heavily, however, you may see much more information from `git remote show`:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T121932Z" creationid="Prikryl" creationdate="20151107T121932Z">
-        <seg>Pokud však Git používáte na intenzivněji, může vám příkaz `git remote show` zobrazit mnohem více informací:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T143331Z" creationid="Prikryl" creationdate="20151107T121932Z">
+        <seg>Pokud však Git používáte intenzivněji, může vám příkaz `git remote show` zobrazit mnohem více informací:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16445,16 +16445,16 @@ You can use this format to push a local branch into a remote branch that is name
       <tuv lang="EN">
         <seg>You can also use `-2`, which limits the output to only the last two entries:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Můžete také použít parametr `-2`, který omezí výpis pouze na dva poslední záznamy:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T111001Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Můžete přidat volbu `-2`, která omezí výpis pouze na dva poslední záznamy:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>You can also use a series of summarizing options with `git log`.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Ve spojení s příkazem `git log` můžete použít také celou řadu shrnujících parametrů.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T112925Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Ve spojení s příkazem `git log` můžete použít také celou řadu shrnujících voleb.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16709,8 +16709,8 @@ You can use this format to push a local branch into a remote branch that is name
       <tuv lang="EN">
         <seg>You can have several of them, each of which generally is either read-only or read/write for you.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151101T161449Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vzdálených repozitářů můžete mít hned několik, každý pro vás přitom bude buď pouze ke čtení (read-only) nebo ke čtení a zápisu (read/write).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T132731Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Vzdálených repozitářů můžete mít několik, každý pro vás bude přístupný buď pouze pro čtení (read-only) nebo pro čtení i zápis (read/write).</seg>
       </tuv>
     </tu>
     <tu>
@@ -16821,8 +16821,8 @@ You can use this format to push a local branch into a remote branch that is name
       <tuv lang="EN">
         <seg>You can pass files, directories, and file-glob patterns to the `git rm` command.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T230135Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Příkazu `git rm` můžete předat soubory, adresáře a jejich masky.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T104648Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Příkazu `git rm` můžete zadat soubory, adresáře a jejich masky.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17561,8 +17561,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You need to make some changes and commit snapshots of those changes into your repository each time the project reaches a state you want to record.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Řekněme, že potřebujete udělat pár změn a zapsat snímky těchto změn do svého repozitáře pokaždé, kdy se projekt dostane do stavu, který chcete zaznamenat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T083937Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Řekněme, že potřebujete udělat pár změn a zapsat snímky těchto změn do svého repozitáře pokaždé, když se projekt dostane do stavu, který chcete zaznamenat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17809,8 +17809,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You'll have to pull down their work first and incorporate it into yours before you'll be allowed to push.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151107T111207Z" creationid="Prikryl" creationdate="20151107T111146Z">
-        <seg>Nejdříve musíte jeho práci stáhnout (pull), zahrnout ji do vaší a teprve potom budete moci vše odeslat (push).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T142846Z" creationid="Prikryl" creationdate="20151107T111146Z">
+        <seg>Nejdříve musíte jeho práci stáhnout, zahrnout ji do vaší a teprve potom budete moci vše odeslat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18078,9 +18078,9 @@ Pokud práci odesíláte přes HTTPS URL, vyptává se vás gitový server na jm
 ====
 We will continue to use the `git diff` command in various ways throughout the rest of the book.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151030T094145Z" creationid="Prikryl" creationdate="20151030T094145Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T093310Z" creationid="Prikryl" creationdate="20151030T094145Z">
         <seg>[NOTE]
-.Git Diff v externím nástroji
+.Git diff v externím nástroji
 ====
 Ve zbytku knihy budeme příkaz `git diff` používat různými způsoby.</seg>
       </tuv>
@@ -18195,10 +18195,10 @@ Příkaz `git reset` sice _může_ být nebezpečný, pokud jej voláte s volbou
 ====
 GitHub maintains a fairly comprehensive list of good `.gitignore` file examples for dozens of projects and languages at https://github.com/github/gitignore[] if you want a starting point for your project.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151029T203537Z" creationid="Prikryl" creationdate="20151029T203305Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T091830Z" creationid="Prikryl" creationdate="20151029T203305Z">
         <seg>[TIP]
 ====
-Pokud pro váš projekt potřebujete něco pro začátek, najdete na stránce https://github.com/github/gitignore[] serveru GitHub poměrně komplexní seznam dobrých příkladů souboru `.gitignore` pro desítky projektů a jazyků.</seg>
+Pokud pro váš projekt potřebujete něco pro začátek, najdete na stránce https://github.com/github/gitignore[] serveru GitHub poměrně rozsáhlý seznam dobrých příkladů souboru `.gitignore` pro desítky projektů a jazyků.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18634,9 +18634,9 @@ image::images/perils-of-rebasing-3.png["Někdo odešle přeskládané objekty re
         <seg>[[_undoing]]
 === Undoing Things</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151105T214007Z" creationid="Prikryl" creationdate="20151105T214007Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T123720Z" creationid="Prikryl" creationdate="20151105T214007Z">
         <seg>[[_undoing]]
-=== Vracení změn</seg>
+=== Návrat do předchozího stavu</seg>
       </tuv>
     </tu>
     <tu>
@@ -19928,10 +19928,10 @@ index 0000000..03902a1
 $ git fetch [remote-name]
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151101T170805Z" creationid="Prikryl" creationdate="20151101T170805Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T141332Z" creationid="Prikryl" creationdate="20151101T170805Z">
         <seg>[source,console]
 ----
-$ git fetch [jméno vzdáleného repozitáře]
+$ git fetch [jméno-vzdáleného-repozitáře]
 ----</seg>
       </tuv>
     </tu>
@@ -20236,10 +20236,10 @@ Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
 $ git log -Sfunction_name
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151104T212510Z" creationid="Prikryl" creationdate="20151104T212510Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T121349Z" creationid="Prikryl" creationdate="20151104T212510Z">
         <seg>[source,console]
 ----
-$ git log -Sfunction_name
+$ git log -Sjmeno_funkce
 ----</seg>
       </tuv>
     </tu>
@@ -20316,10 +20316,10 @@ Changes to be committed:</seg>
 $ git mv file_from file_to
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151031T231136Z" creationid="Prikryl" creationdate="20151031T231136Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T104947Z" creationid="Prikryl" creationdate="20151031T231136Z">
         <seg>[source,console]
 ----
-$ git mv file_from file_to
+$ git mv stare_jmeno_souboru nove_jmeno_souboru
 ----</seg>
       </tuv>
     </tu>

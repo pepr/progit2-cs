@@ -12,3 +12,6 @@ commit	zápis
 commit	revize
 commit object	objekt revize
 commit	objekt revize
+push	odeslat
+pull	stáhout
+bare repository	holý repozitář

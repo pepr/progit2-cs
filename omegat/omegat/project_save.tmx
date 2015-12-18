@@ -604,6 +604,16 @@ Když jste teď přeskládání a slučování viděli v akci, možná by vás z
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((serving repositories)))
+At this point, you should be able to do most of the day-to-day tasks for which you'll be using Git.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T141124Z" creationid="Prikryl" creationdate="20151218T140355Z">
+        <seg>(((obsluha repozitářů)))
+V tomto okamžiku už byste měli zvládat většinu každodenních úkonů, pro které budete Git používat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((staging area, skipping)))
 Although it can be amazingly useful for crafting commits exactly how you want them, the staging area is sometimes a bit more complex than you need in your workflow.</seg>
       </tuv>
@@ -2645,6 +2655,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>A remote repository is generally a _bare repository_ – a Git repository that has no working directory.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144356Z" creationid="Prikryl" creationdate="20151218T144356Z">
+        <seg>Vzdáleným repozitářem je obvykle _holý repozitář_ (bare repository), tj. gitový repozitář bez pracovního adresáře.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>A repository on NFS is often slower than the repository over SSH on the same server, allowing Git to run off local disks on each system.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3045,6 +3063,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tato operace bude trvat jen několik minut. Pokud byste se však pokoušeli zkopírovat originální repozitář ne do lokálního, nýbrž do jiného vzdáleného repozitáře, protáhne se proces téměř na hodinu, přestože repozitář obsahuje necelých 100 revizí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Although you can technically push changes to and pull changes from individuals' repositories, doing so is discouraged because you can fairly easily confuse what they're working on if you're not careful.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T141059Z" creationid="Prikryl" creationdate="20151218T141059Z">
+        <seg>Technicky vzato sice můžete odesílat a stahovat změny z repozitářů jednotlivých spolupracovníků, ale tento přístup se nedoporučuje, protože si při troše neopatrnosti můžete velmi snadno poplést, kdo na čem pracuje.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3703,6 +3729,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Vynecháte-li z původního vzorce refspec ve tvaru `&lt;src&gt;:&lt;dst&gt;` část `&lt;src&gt;`, říkáte v podstatě, aby byla větev „topic“ na vzdáleném serveru nahrazena ničím, čímž ji smažete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Because the repository is only used as a collaboration point, there is no reason to have a snapshot checked out on disk; it's just the Git data.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144525Z" creationid="Prikryl" creationdate="20151218T144525Z">
+        <seg>Protože se repozitář používá pouze jako místo pro spolupráci, není žádný důvod, aby byl na disku načten konkrétní snímek. Jsou zde uložena pouze data pro Git.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4958,6 +4992,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Furthermore, you want your collaborators to be able to access the repository even if your computer is offline – having a more reliable common repository is often useful.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T141538Z" creationid="Prikryl" creationdate="20151218T141454Z">
+        <seg>Navíc chcete, aby měli vaši spolupracovníci do repozitáře přístup, i když je váš počítač vypnutý nebo odpojený. Často bývá spolehlivější, když existuje společný repozitář.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>GIT 1.4.2.1</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T101912Z" creationid="Prikryl" creationdate="20151023T101912Z">
@@ -5725,6 +5767,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud však zpráva obsahuje správný vzor, Git vám umožní revizi zapsat:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>However, in order to do any collaboration in Git, you'll need to have a remote Git repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T140643Z" creationid="Prikryl" creationdate="20151218T140643Z">
+        <seg>Ale abyste mohli pomocí Gitu spolupracovat s ostatními, budete potřebovat vzdálený gitový repozitář.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8059,6 +8109,14 @@ Zde je příklad souboru `.gitignore`:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In the simplest terms, a bare repository is the contents of your project's `.git` directory and nothing else.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144630Z" creationid="Prikryl" creationdate="20151218T144630Z">
+        <seg>Když to zjednodušíme, holý repozitář je obsah adresáře `.git` vašeho projektu a nic víc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In this case, Git does a simple three-way merge, using the two snapshots pointed to by the branch tips and the common ancestor of the two.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151115T154152Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9055,6 +9113,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T131230Z" creationid="Prikryl" creationdate="20151029T131230Z">
         <seg>LICENSE.txt
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Last, we'll go over a few hosted options, if you don't mind hosting your code on someone else's server and don't want to go through the hassle of setting up and maintaining your own server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T143620Z" creationid="Prikryl" creationdate="20151218T143620Z">
+        <seg>Nakonec se podíváme na několik možností hostování -- pokud vám nevadí, že máte kód umístěný na cizím serveru, a nechcete se otravovat s nastavováním a údržbou svého vlastního serveru.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10745,6 +10811,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Running a Git server is fairly straightforward.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T142448Z" creationid="Prikryl" creationdate="20151218T142448Z">
+        <seg>Zprovoznění gitového serveru je celkem jednoduché.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Running this command gives you a list of commits in your text editor that looks something like this:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -12227,8 +12301,8 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
       <tuv lang="EN">
         <seg>The first section of this chapter will cover the available protocols and the pros and cons of each.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>První část této kapitoly se bude věnovat možným protokolům, jejich přednostem a nevýhodám.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T142616Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>První část této kapitoly se bude věnovat dostupným protokolům a kladům a záporům každého z nich.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12535,8 +12609,8 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       <tuv lang="EN">
         <seg>The next sections will explain some typical setups using those protocols and how to get your server running with them.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V dalších částech popíšeme některá typická nastavení pro použití těchto protokolů, a jak s nimi uvést server do provozu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T143214Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V dalších částech vysvětlíme některé typické konfigurace, které těchto protokolů využívají, a jak s nimi uvést server do provozu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13211,8 +13285,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>Therefore, the preferred method for collaborating with someone is to set up an intermediate repository that you both have access to, and push to and pull from that.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jako nejlepší metodu spolupráce s ostatními proto můžeme doporučit nastavení „neutrálního“ repozitáře, do nějž budete mít všichni přístup, budete do něj moci odesílat data a budete z něj moci stahovat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T142428Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Proto se pro spolupráci s ostatními doporučuje zřídit repozitář, ke kterému mají zúčastnění přístup pro odesílání (push) i pro stahování (pull).</seg>
       </tuv>
     </tu>
     <tu>
@@ -17343,8 +17417,8 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       <tuv lang="EN">
         <seg>You have several options to get a remote Git repository up and running so that you can collaborate with others or share your work.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Existuje několik možností, jak vytvořit a zprovoznit vzdálený repozitář Git tak, abyste mohli spolupracovat s ostatními uživateli nebo sdílet svou práci.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144750Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Existuje několik možností, jak vytvořit a zprovoznit vzdálený gitový repozitář tak, abyste mohli spolupracovat s ostatními uživateli nebo sdílet svou práci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21949,10 +22023,50 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>include::sections/generating-ssh-key.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144639Z" creationid="Prikryl" creationdate="20151218T144639Z">
+        <seg>include::sections/generating-ssh-key.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>include::sections/getting-a-repository.asc[]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T202850Z" creationid="Prikryl" creationdate="20151028T202850Z">
         <seg>include::sections/getting-a-repository.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/git-daemon.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144643Z" creationid="Prikryl" creationdate="20151218T144643Z">
+        <seg>include::sections/git-daemon.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/git-on-a-server.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144636Z" creationid="Prikryl" creationdate="20151218T144636Z">
+        <seg>include::sections/git-on-a-server.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/gitlab.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144650Z" creationid="Prikryl" creationdate="20151218T144650Z">
+        <seg>include::sections/gitlab.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/gitweb.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144647Z" creationid="Prikryl" creationdate="20151218T144647Z">
+        <seg>include::sections/gitweb.asc[]</seg>
       </tuv>
     </tu>
     <tu>
@@ -21973,6 +22087,14 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>include::sections/hosted.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144655Z" creationid="Prikryl" creationdate="20151218T144655Z">
+        <seg>include::sections/hosted.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>include::sections/installing.asc[]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T173817Z" creationid="Prikryl" creationdate="20151026T173817Z">
@@ -21985,6 +22107,14 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T133637Z" creationid="Prikryl" creationdate="20151108T133637Z">
         <seg>include::sections/nutshell.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/protocols.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144633Z" creationid="Prikryl" creationdate="20151218T144633Z">
+        <seg>include::sections/protocols.asc[]</seg>
       </tuv>
     </tu>
     <tu>
@@ -22017,6 +22147,22 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T202854Z" creationid="Prikryl" creationdate="20151028T202854Z">
         <seg>include::sections/remotes.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/setting-up-server.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144641Z" creationid="Prikryl" creationdate="20151218T144641Z">
+        <seg>include::sections/setting-up-server.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/smart-http.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151218T144645Z" creationid="Prikryl" creationdate="20151218T144645Z">
+        <seg>include::sections/smart-http.asc[]</seg>
       </tuv>
     </tu>
     <tu>

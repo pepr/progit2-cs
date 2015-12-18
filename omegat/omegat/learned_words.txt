@@ -33,3 +33,5 @@ console
 source
 třícestné
 třícestného
+repozitářům
+gitový

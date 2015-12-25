@@ -408,6 +408,15 @@ Občas se stane, že tento proces neproběhne hladce.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((protocols, local)))
+The most basic is the _Local protocol_, in which the remote repository is in another directory on disk.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T192241Z" creationid="Prikryl" creationdate="20151219T192241Z">
+        <seg>Nejzákladnějším z nich je _lokální protokol_, kdy je vzdálený repozitář uložen v jiném adresáři na disku.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((pulling)))
 While the `git fetch` command will fetch down all the changes on the server that you don't have yet, it will not modify your working directory at all.</seg>
       </tuv>
@@ -4454,8 +4463,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>For example, to clone a local repository, you can run something like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>K naklonování lokálního repozitáře můžete použít příkaz například v tomto tvaru:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T193528Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Naklonování lokálního repozitáře můžete provést například spuštěním něčeho takového:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4917,6 +4926,14 @@ We'll go over the `refs/heads/` part in detail in &lt;&lt;_git_internals&gt;&gt;
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Git can use four major protocols to transfer data: Local, HTTP, Secure Shell (SSH) and Git.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T191823Z" creationid="Prikryl" creationdate="20151219T191823Z">
+        <seg>Git může k přenosu dat používat čtyři hlavní protokoly: lokální, HTTP, Secure Shell (SSH) a Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Git checks for any listed alternates first:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5113,8 +5130,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Git operates slightly differently if you explicitly specify `file://` at the beginning of the URL.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud na začátek URL explicitně zadáte výraz `file://`, pracuje Git trochu jinak.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T193628Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud na začátek URL explicitně uvedete `file://`, pracuje Git trochu jinak.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5323,6 +5340,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Vidíme tu obě revize, jichž jsme se zbavili, ale není tu k nim mnoho informací.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Here we'll discuss what they are and in what basic circumstances you would want (or not want) to use them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T192118Z" creationid="Prikryl" creationdate="20151219T192118Z">
+        <seg>V této části si probereme, co jsou zač a za jakých základních okolností je budete (nebo nebudete) chtít použít.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6376,8 +6401,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you have a shared mounted filesystem, then you can clone, push to, and pull from a local file-based repository.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Máte-li připojený sdílený systém souborů, můžete klonovat, odesílat a stahovat z lokálního souborového repozitáře (local file-based repository).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T193038Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Máte-li připojený sdílený systém souborů, můžete klonovat, odesílat a stahovat z lokálního souborového repozitáře.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6418,6 +6443,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud víte, že nebudete chtít spravovat vlastní server, můžete přeskočit rovnou na poslední část této kapitoly a podívat se na možnosti nastavení hostovaného účtu. Pak přejděte na následující kapitolu, v níž se dočtete o detailech a záludnostech při práci v prostředí s distribuovanou správou zdrojového kódu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you just specify the path, Git tries to use hardlinks or directly copy the files it needs.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T193921Z" creationid="Prikryl" creationdate="20151219T193846Z">
+        <seg>Pokud uvedete pouze cestu, pokouší se Git použít pevné odkazy (hardlink), nebo přímo kopíruje potřebné soubory.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6530,6 +6563,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Umístíte-li na konec reference znak `^`, Git bude referenci chápat tak, že označuje rodiče dané revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you place your data on a hosted server, it's easy to set up and maintain; however, you have to be able to keep your code on someone else's servers, and some organizations don't allow that.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T191526Z" creationid="Prikryl" creationdate="20151219T191526Z">
+        <seg>Umístíte-li data na hostovaný server, bude nastavení a správa jednoduchá. Svůj zdrojový kód však v takovém případě ukládáte na cizím serveru, což některé organizace nedovolují.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6762,8 +6803,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you specify `file://`, Git fires up the processes that it normally uses to transfer data over a network which is generally a lot less efficient method of transferring the data.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud zadáte výraz `file://`, Git spustí procesy, jež běžně používá k přenosu dat prostřednictvím sítě. Síť je většinou výrazně méně výkonnou metodou přenosu dat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T194250Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud zadáte výraz `file://`, Git spustí procesy, které běžně používá k přenosu dat po síti, což je obecně mnohem méně efektivní metoda přenosu dat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10409,8 +10450,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>Running your own server gives you a lot of control and allows you to run the server within your own firewall, but such a server generally requires a fair amount of your time to set up and maintain.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Provoz vlastního serveru vám dává celou řadu možností kontroly a umožňuje provozovat server za vaším firewallem. Nastavení a správa takového serveru však obvykle bývají časově náročné.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T191344Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Provoz vlastního serveru vám dává celou řadu možností řízení a umožňuje provozovat server za vaším firewallem. Nastavení a správa takového serveru však obecně bývají časově náročné.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12015,6 +12056,22 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The latter wouldn't be ideal, because all your code repository instances would reside on the same computer, making a catastrophic loss much more likely.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T192923Z" creationid="Prikryl" creationdate="20151219T192923Z">
+        <seg>Druhá varianta není právě ideální, protože všechny instance repozitáře s kódem jsou umístěny na stejném počítači, čímž se zvyšuje riziko katastrofické ztráty dat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The main reason to specify the `file://` prefix is if you want a clean copy of the repository with extraneous references or objects left out – generally after an import from another version-control system or something similar (see &lt;&lt;_git_internals&gt;&gt; for maintenance tasks).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T194525Z" creationid="Prikryl" creationdate="20151219T194525Z">
+        <seg>Hlavním důvodem, proč zadat předponu `file://` je to, že tak získáte čistou kopii repozitáře bez nepotřebných referencí a objektů, například po importu z jiného verzovacího systému a podobně (viz popis úkonů správy v kapitole &lt;&lt;_git_internals&gt;&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The main tool you use to determine which files are in which state is the `git status` command.(((git commands, status)))
 If you run this command directly after a clone, you should see something like this:</seg>
       </tuv>
@@ -12607,8 +12664,8 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       <tuv lang="EN">
         <seg>Then, you can push to and pull from that remote as though you were doing so over a network.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Poté můžete odesílat data a stahovat je z tohoto vzdáleného serveru, jako byste tak činili prostřednictvím sítě.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T194918Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Poté můžete do vzdáleného repozitáře data odesílat (push) a stahovat je z něj (pull), jako byste tak činili prostřednictvím sítě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13642,8 +13699,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is often used if everyone on your team has access to a shared filesystem such as an NFS mount, or in the less likely case that everyone logs in to the same computer.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Často se využívá v případech, kdy mají všichni z vašeho týmu přístup k vašim sdíleným souborům, např. přes připojení systému NFS, nebo – v méně pravděpodobném případě – se všichni přihlašují na jednom počítači.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T192753Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Často se využívá v případech, kdy mají všichni z vašeho týmu přístup k sdílenému souborovému systému (například přes NFS), nebo v méně pravděpodobném případě, kdy se všichni přihlašují na stejný počítač.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14326,8 +14383,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>To add a local repository to an existing Git project, you can run something like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>K přidání lokálního repozitáře do existujícího projektu Git můžete použít příkaz například v tomto tvaru:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T194726Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>K přidání lokálního repozitáře do existujícího gitového projektu můžete něco takového:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14390,8 +14447,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>To clone a repository like this or to add one as a remote to an existing project, use the path to the repository as the URL.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li takový repozitář naklonovat nebo přidat jako vzdálený repozitář do existujícího projektu, použijte jako URL cestu k repozitáři.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T193339Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Při klonování takového repozitáře, nebo při jeho přidávání jako vzdáleného repozitáře existujícího projektu, se v roli URL používá cesta k repozitáři.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15122,6 +15179,14 @@ To https://github.com/schacon/simplegit</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T211108Z" creationid="Prikryl" creationdate="20151028T211108Z">
         <seg>K tomu, co přesně tyto příkazy provedou, se dostaneme za okamžik.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>We'll use the normal path here because doing so is almost always faster.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T194622Z" creationid="Prikryl" creationdate="20151219T194622Z">
+        <seg>My zde budeme používat normální cestu, protože je to téměř vždy rychlejší.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18925,6 +18990,34 @@ $ git checkout testing
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git clone /opt/git/project.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T193536Z" creationid="Prikryl" creationdate="20151219T193536Z">
+        <seg>[source,console]
+----
+$ git clone /opt/git/project.git
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git clone file:///opt/git/project.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T193548Z" creationid="Prikryl" creationdate="20151219T193548Z">
+        <seg>[source,console]
+----
+$ git clone file:///opt/git/project.git
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git clone git://git.kernel.org/pub/scm/git/git.git
 ----</seg>
       </tuv>
@@ -19826,6 +19919,20 @@ origin	https://github.com/schacon/ticgit (push)
 $ git remote -v
 origin	https://github.com/schacon/ticgit (fetch)
 origin	https://github.com/schacon/ticgit (push)
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git remote add local_proj /opt/git/project.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151219T194731Z" creationid="Prikryl" creationdate="20151219T194731Z">
+        <seg>[source,console]
+----
+$ git remote add local_proj /opt/git/project.git
 ----</seg>
       </tuv>
     </tu>

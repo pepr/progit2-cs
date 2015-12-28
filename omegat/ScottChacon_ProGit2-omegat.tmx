@@ -5956,8 +5956,8 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       <tuv lang="EN">
         <seg>If you and a co-worker are working on the same project and they want you to check something out, running a command like `git pull /home/john/project` is often easier than them pushing to a remote server and you pulling down.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud vy a váš kolega pracujete na společném projektu a vy potřebujete provést checkout kolegových dat, bývá například příkaz `git pull /home/john/project` jednodušší než odesílat data na vzdálený server a odsud je opět stahovat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151228T185940Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud vy a váš kolega pracujete na společném projektu a máte z něj něco přetáhnout, pak provedení příkazu jako `git pull /home/john/project` je často jednodušší, než aby jej on nejdříve odeslal (push) na vzdálený server a teprve z něho byste práci stahovali.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7061,6 +7061,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Chcete-li do hlavní větve natáhnout revizi `e43a6`, můžete zadat následující příkaz:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you want to push from your laptop when you're at home, you have to mount the remote disk, which can be difficult and slow compared to network-based access.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151228T190407Z" creationid="Prikryl" creationdate="20151228T190407Z">
+        <seg>Pokud budete chtít odeslat data z notebooku doma, budete muset připojit vzdálený disk, což může být ve srovnání s přístupem prostřednictvím sítě složité a pomalé.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12374,6 +12382,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The pros of file-based repositories are that they're simple and they use existing file permissions and network access.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151228T184555Z" creationid="Prikryl" creationdate="20151219T195016Z">
+        <seg>Výhoda souborových repozitářů spočívá v tom, že jsou jednoduché a používají existující oprávnění k souborům a pro přístup k síti.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The pros of using SSH are many.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -13485,6 +13501,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Je to speciální démon, který je distribuován spolu se systémem Git. Naslouchá na vyhrazeném portu (9418) a poskytuje podobnou službu jako protokol SSH, avšak bez jakékoliv autentizace.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is also a nice option for quickly grabbing work from someone else's working repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151228T185247Z" creationid="Prikryl" creationdate="20151228T185247Z">
+        <seg>Je to taky šikovná možnost rychlého získání práce z pracovního repozitáře někoho jiného.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15155,6 +15179,14 @@ To https://github.com/schacon/simplegit</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T212806Z" creationid="Prikryl" creationdate="20151102T212806Z">
         <seg>Uvedený rozdíl si blíže vysvětlíme v kapitole &lt;&lt;_distributed_git&gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>We'll discuss how to export a bare repository copy for this purpose in &lt;&lt;_git_on_the_server&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151228T185025Z" creationid="Prikryl" creationdate="20151228T185025Z">
+        <seg>O exportu kopie holého repozitáře pro tento účel se více dočtete v části &lt;&lt;_git_on_the_server&gt;&gt;.</seg>
       </tuv>
     </tu>
     <tu>

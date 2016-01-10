@@ -1,11 +1,11 @@
-10.1.16 1:01
+10.1.16 14:00
 Statistika projektu
 
                              	Segmenty	 Slova	Znaky (bez mezer)	Znaky (včetně mezer)	#Files	
 Celkem:                      	    8816	137194	           726020	              852102	   102	
-Zbývající:                   	    5903	 92539	           504419	              589096	    74	
+Zbývající:                   	    5879	 92022	           501781	              585965	    74	
 Jedinečné segmenty:          	    8284	134917	           712514	              836614	   102	
-Zbývající jedinečné segmenty:	    5687	 91498	           498110	              581849	    74	
+Zbývající jedinečné segmenty:	    5663	 90981	           495472	              578718	    74	
 
 
 Statistika jednotlivých souborů:
@@ -45,7 +45,7 @@ book/04-git-server/sections/protocols.asc                     	            118	 
 book/04-git-server/sections/setting-up-server.asc             	             44	                37	                43	                          37	         738	            641	            738	                      641	                    4141	                       3703	                       4137	                                 3703	                       4800	                          4272	                          4796	                                    4272	
 book/04-git-server/sections/smart-http.asc                    	             35	                35	                35	                          35	         582	            582	            582	                      582	                    3158	                       3158	                       3158	                                 3158	                       3668	                          3668	                          3668	                                    3668	
 book/05-distributed-git/1-distributed-git.asc                 	             11	                 0	                10	                           0	         170	              0	            169	                        0	                     939	                          0	                        929	                                    0	                       1092	                             0	                          1081	                                       0	
-book/05-distributed-git/sections/contributing.asc             	            356	               273	               339	                         260	        5308	           4085	           5242	                     4021	                   28523	                      22776	                      28038	                                22305	                      33280	                         26391	                         32755	                                   25880	
+book/05-distributed-git/sections/contributing.asc             	            356	               249	               339	                         236	        5308	           3568	           5242	                     3504	                   28523	                      20138	                      28038	                                19667	                      33280	                         23260	                         32755	                                   22749	
 book/05-distributed-git/sections/distributed-workflows.asc    	             72	                 0	                65	                           0	         980	              0	            973	                        0	                    5259	                          0	                       5245	                                    0	                       6157	                             0	                          6143	                                       0	
 book/05-distributed-git/sections/maintaining.asc              	            253	               178	               248	                         177	        4693	           3308	           4681	                     3301	                   24003	                      17573	                      23932	                                17535	                      28285	                         20543	                         28204	                                   20499	
 book/06-github/1-github.asc                                   	             19	                17	                17	                          17	         299	            298	            298	                      298	                    1643	                       1629	                       1629	                                 1629	                       1907	                          1892	                          1892	                                    1892	

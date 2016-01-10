@@ -35,3 +35,8 @@ třícestné
 třícestného
 repozitářům
 gitový
+fetch
+merge
+push
+pull
+commit

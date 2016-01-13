@@ -537,9 +537,9 @@ Hlavní potíž při popisu způsobu přispívání do projektu spočívá v tom
         <seg>(((distributed git)))
 Now that you have a remote Git repository set up as a point for all the developers to share their code, and you're familiar with basic Git commands in a local workflow, you'll look at how to utilize some of the distributed workflows that Git affords you.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160107T211801Z" creationid="Prikryl" creationdate="20160107T211801Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T170118Z" creationid="Prikryl" creationdate="20160107T211801Z">
         <seg>(((distribuovaný git)))
-Nyní máte vytvořen vzdálený gitový repozitář, který je nastaven tak, aby mohli všichni vývojáři sdílet svůj zdrojový kód, a znáte základní příkazy Gitu pro práci v lokálním prostředí. Nastal čas, abychom se podívali na využití některých distribuovaných pracovních postupů, které vám Git nabízí.</seg>
+Máte vytvořen vzdálený gitový repozitář, který je nastaven tak, aby mohli všichni vývojáři sdílet svůj zdrojový kód, a znáte základní příkazy Gitu pro práci v lokálním prostředí. Nastal čas, abychom se podívali na využití některých distribuovaných pracovních postupů, které vám Git nabízí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -567,9 +567,9 @@ Chcete-li soubor z Gitu odstranit, musíte ho odstranit ze sledovaných souborů
         <seg>(((forking)))
 This is a very common workflow with hub-based tools like GitHub or GitLab, where it's easy to fork a project and push your changes into your fork for everyone to see.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T230059Z" creationid="Prikryl" creationdate="20160109T230059Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T172510Z" creationid="Prikryl" creationdate="20160109T230059Z">
         <seg>(((forking)))
-Tento pracovní postup je velmi běžný, pokud se pracuje centralizačními nástroji{empty}footnote:[hub-based tools] jako je GitHub nebo GitLab, kde se dá projekt snadno rozštěpit a změny se pak odesílají do vlastní, odštěpené části, kde se na ně může každý podívat.</seg>
+Tento pracovní postup je velmi běžný, pokud se pracuje centralizačními nástroji{empty}footnote:[hub-based tools] jako je GitHub nebo GitLab. Projekt se zde dá snadno rozštěpit a změny se pak odesílají do vlastní, odštěpené části, kde se na ně může každý podívat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -577,9 +577,9 @@ Tento pracovní postup je velmi běžný, pokud se pracuje centralizačními ná
         <seg>(((git commands, diff, check)))
 First, you don't want to submit any whitespace errors.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T123653Z" creationid="Prikryl" creationdate="20160110T123613Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T193245Z" creationid="Prikryl" creationdate="20160110T123613Z">
         <seg>(((git příkazy, diff, check)))
-Především nechcete odesílat chyby v používání prázdných znaků (whitespace).</seg>
+Především nechcete odesílat chybně použité prázdné znaky (whitespace).</seg>
       </tuv>
     </tu>
     <tu>
@@ -745,9 +745,9 @@ Mnoho uživatelů realizuje správu verzí tak, že zkopírují soubory do jiné
         <seg>(((workflows)))
 Unlike Centralized Version Control Systems (CVCSs), the distributed nature of Git allows you to be far more flexible in how developers collaborate on projects.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160108T215348Z" creationid="Prikryl" creationdate="20160108T215348Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T170630Z" creationid="Prikryl" creationdate="20160108T215348Z">
         <seg>(((pracovní postupy)))
-Na rozdíl od centralizovaných systémů pro správu verzí umožňuje distribuovaný charakter systému Git dovoluje mnohem větší pružnost co se týká způsobů spolupráce vývojářů na projektech.</seg>
+Na rozdíl od centralizovaných systémů pro správu verzí, distribuovaný charakter systému Git umožňuje vývojářům mnohem větší pružnost ve způsobech spolupráce na projektech.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2770,8 +2770,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>A number of developers are nodes – consumers of that hub – and synchronize to that one place.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T152458Z" creationid="Prikryl" creationdate="20160109T152458Z">
-        <seg>Několik vývojářů představuje uzly -- konzumenty centrálního úložiště -- a synchronizují se podle jednoho místa.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T171530Z" creationid="Prikryl" creationdate="20160109T152458Z">
+        <seg>Několik vývojářů představuje uzly -- konzumenty centrálního úložiště --, které se synchronizují se podle tohoto místa.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3448,8 +3448,8 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="EN">
         <seg>As a general rule, your messages should start with a single line that's no more than about 50 characters and that describes the changeset concisely, followed by a blank line, followed by a more detailed explanation.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T125953Z" creationid="Prikryl" creationdate="20160110T125953Z">
-        <seg>Základním pravidlem je, že by vaše zprávy měly začínat jedním řádkem o maximálně 50 znacích, který popisuje sadu provedených změn. Za ním následuje prázdný řádek a potom podrobnější vysvětlení.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T204313Z" creationid="Prikryl" creationdate="20160110T125953Z">
+        <seg>Základním pravidlem je, že by vaše zprávy měly začínat jedním řádkem, který nemá víc než asi 50 znaků a který popisuje sadu provedených změn. Za ním následuje prázdný řádek a potom podrobnější vysvětlení.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4114,8 +4114,8 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
       <tuv lang="EN">
         <seg>Changes you submit may be rendered obsolete or severely broken by work that is merged in while you were working or while your changes were waiting to be approved or applied.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T121406Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vámi odeslané změny se mohou ukázat jako zastaralé nebo vážně narušené pracemi, které byly do projektu začleněny během vaší práce nebo v době, kdy vaše změny čekaly na schválení či aplikaci.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T192348Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Vámi odeslané změny se mohou ukázat jako zastaralé nebo vážně narušené pracemi, které byly do projektu začleněny během vaší práce, nebo v době, kdy vaše změny čekaly na schválení či aplikaci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4459,8 +4459,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Even if you don't commit during the weekend, use the staging area on Monday to split your work into at least one commit per issue, with a useful message per commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T124317Z" creationid="Prikryl" creationdate="20160110T124317Z">
-        <seg>Když už během víkendu nebudete zapisovat revize, využijte v pondělí oblasti připravených změn a rozdělte svou práci alespoň do stejného počtu revizí, kolik je řešených problémů, a přidejte k nim vysvětlující zprávy.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T203904Z" creationid="Prikryl" creationdate="20160110T124317Z">
+        <seg>Když už během víkendu nebudete zapisovat revize, využijte v pondělí oblasti připravených změn pro rozdělení práce alespoň do stejného počtu revizí, kolik je řešených problémů, a přidejte k nim vysvětlující zprávy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5011,8 +5011,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>For larger companies or projects, the number of developers could be in the thousands, with hundreds or thousands of commits coming in each day.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T120336Z" creationid="Prikryl" creationdate="20160110T120336Z">
-        <seg>U větších společností nebo u větších projektů může počet vývojářů dosahovat tisíců při stovkách nebo tisících zápisů revizí (commit) denně.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T191729Z" creationid="Prikryl" creationdate="20160110T120336Z">
+        <seg>U větších společností nebo u větších projektů může počet vývojářů dosahovat tisíců -- při stovkách nebo tisících zápisů revizí (commit) denně.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5227,8 +5227,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Getting in the habit of creating quality commit messages makes using and collaborating with Git a lot easier.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T125519Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud si zvyknete vytvářet k revizím kvalitní zprávy, bude pro vás práce s Gitem a spolupráce s ostatními mnohem jednodušší.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T204131Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud si zvyknete připisovat k revizím kvalitní zprávy, bude pro vás práce s Gitem a spolupráce s ostatními mnohem jednodušší.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5566,8 +5566,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Git provides an easy way to check for this – before you commit, run `git diff --check`, which identifies possible whitespace errors and lists them for you.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T123807Z" creationid="Prikryl" creationdate="20160110T123807Z">
-        <seg>Git nabízí snadný způsob, jak tyto chyby zkontrolovat. Před zapsáním revize spusťte `git diff --check`, který zkontroluje prázdné znaky a vypíše vám jejich seznam.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T203356Z" creationid="Prikryl" creationdate="20160110T123807Z">
+        <seg>Git nabízí snadný způsob, jak tyto chyby zkontrolovat. Před zapsáním revize spusťte `git diff --check`, který zkontroluje prázdné znaky a zobrazí vám je.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6537,8 +6537,8 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       <tuv lang="EN">
         <seg>If you can, try to make your changes digestible – don't code for a whole weekend on five different issues and then submit them all as one massive commit on Monday.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T124214Z" creationid="Prikryl" creationdate="20160110T124214Z">
-        <seg>Pokud je to možné, snažte se provádět stravitelné změny. Není právě ideální pracovat celý víkend na pěti různých problémech a v pondělí je všechny najednou odeslat formou jedné velké revize.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T203738Z" creationid="Prikryl" creationdate="20160110T124214Z">
+        <seg>Pokud je to možné, snažte se, aby byly vaše změny stravitelné. Není právě ideální pracovat celý víkend na pěti různých problémech a v pondělí je všechny najednou odeslat formou jedné velké revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7295,8 +7295,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you run that command before committing, you can tell if you're about to commit whitespace issues that may annoy other developers.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T124025Z" creationid="Prikryl" creationdate="20160110T124025Z">
-        <seg>Spustíte-li tento příkaz před zapsáním revize, můžete zjistit, zda se budou zapisovat i problematické prázdné znaky, které mohou ostatní vývojáře obtěžovat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T203557Z" creationid="Prikryl" creationdate="20160110T124025Z">
+        <seg>Spustíte-li tento příkaz před zapsáním revize, můžete zjistit, zda se budou zapisovat i problematické prázdné znaky, které by mohly ostatní vývojáře obtěžovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8714,8 +8714,8 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
       <tuv lang="EN">
         <seg>Is it centralized, with each developer having equal write access to the main codeline?</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Probíhá vývoj centralizovaně, má každý vývojář stejné oprávnění pro zápis do hlavní linie kódu?</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T192510Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Probíhá vývoj centralizovaně s tím, že každý vývojář má stejné oprávnění pro zápis do hlavní linie kódu?</seg>
       </tuv>
     </tu>
     <tu>
@@ -10098,8 +10098,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Now that you can (hopefully) determine which workflow combination may work for you, we'll cover some more specific examples of how to accomplish the main roles that make up the different flows.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T235902Z" creationid="Prikryl" creationdate="20160109T235902Z">
-        <seg>Nyní, když už snad dokážete určit pro vás nejvhodnější kombinaci pracovních postupů, ukážeme si pár konkrétnějších příkladů toho, jak lze určit hlavní role, z nichž vyplývají jednotlivé postupy práce.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T191023Z" creationid="Prikryl" creationdate="20160109T235902Z">
+        <seg>Teď už si (snad) dokážete vybrat, jaká kombinace by vám mohla vyhovovat. Ukážeme si pár konkrétnějších příkladů toho, jak splnit hlavní role, které různé pracovní postupy vytvářejí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12006,8 +12006,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>The Git project provides a document that lays out a number of good tips for creating commits from which to submit patches – you can read it in the Git source code in the `Documentation/SubmittingPatches` file.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T123438Z" creationid="Prikryl" creationdate="20160110T123438Z">
-        <seg>Projekt Git obsahuje dokument, v němž je navržena celá řada dobrých tipů pro vytváření revizí, z nichž se skládají jednotlivé záplaty. Dokument najdete ve zdrojovém kódu systému Git v souboru `Documentation/SubmittingPatches`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T193114Z" creationid="Prikryl" creationdate="20160110T123438Z">
+        <seg>Samotný projekt Git obsahuje dokument, v němž je navržena celá řada dobrých tipů pro vytváření revizí, z kterých se vytvářejí záplaty. Najdete ho ve zdrojovém kódu systému Git, v souboru `Documentation/SubmittingPatches`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12258,8 +12258,8 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
       <tuv lang="EN">
         <seg>The `master` branch is that of the dictator.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T232450Z" creationid="Prikryl" creationdate="20160109T232450Z">
-        <seg>Větev `master` patří diktátorovi.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T172932Z" creationid="Prikryl" creationdate="20160109T232450Z">
+        <seg>Větev `master` je předmětem zájmu diktátora.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12532,8 +12532,8 @@ Pokud chcete na server `origin` odeslat svou větev `master` (znovu připomeňme
       <tuv lang="EN">
         <seg>The dictator pushes their `master` to the reference repository so the other developers can rebase on it.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T232905Z" creationid="Prikryl" creationdate="20160109T232905Z">
-        <seg>Diktátor odesílá svou větev `master` do referenčního repozitáře, aby ji ostatní vývojáři mohli použít pro přeskládání (rebase).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T173048Z" creationid="Prikryl" creationdate="20160109T232905Z">
+        <seg>Diktátor odesílá svou větev `master` do referenčního repozitáře, aby ji ostatní vývojáři mohli použít jako základ pro přeskládání (rebase).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12790,8 +12790,8 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
       <tuv lang="EN">
         <seg>The first variable is active contributor count – how many users are actively contributing code to this project, and how often?</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T115835Z" creationid="Prikryl" creationdate="20160110T115835Z">
-        <seg>První proměnnou je počet aktivních přispěvatelů -- kolik uživatelů aktivně přispívá svým kódem do projektu a jak často?</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T191607Z" creationid="Prikryl" creationdate="20160110T115835Z">
+        <seg>První proměnnou je počet aktivních přispěvatelů. Kolik uživatelů aktivně přispívá svým kódem do projektu a jak často?</seg>
       </tuv>
     </tu>
     <tu>
@@ -12968,16 +12968,16 @@ Spustíte-li tento příkaz bezprostředně po klonování, objeví se zhruba n�
       <tuv lang="EN">
         <seg>The maintainer adds the contributor's repo as a remote and merges locally.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T160223Z" creationid="Prikryl" creationdate="20160109T160147Z">
-        <seg>Správce přidá přispěvatelův repozitář jako vzdálený a provede lokální sloučení (merge).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T172304Z" creationid="Prikryl" creationdate="20160109T160147Z">
+        <seg>Správce si přidá přispěvatelův repozitář jako vzdálený a provede lokální sloučení (merge).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>The maintainer can then add your repository as a remote, test your changes locally, merge them into their branch, and push back to their repository.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T155559Z" creationid="Prikryl" creationdate="20160109T155559Z">
-        <seg>Správce pak může váš repozitář přidat jako vzdálený, lokálně otestovat vaše změny, začlenit (merge) je do své větve a odeslat zpět (push) do svého repozitáře.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T172113Z" creationid="Prikryl" creationdate="20160109T155559Z">
+        <seg>Správce si pak může váš repozitář přidat jako vzdálený, lokálně otestovat vaše změny, začlenit (merge) je do své větve a odeslat zpět (push) do svého repozitáře.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13284,8 +13284,8 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       <tuv lang="EN">
         <seg>The process works as follows (see &lt;&lt;wfdiag_b&gt;&gt;):</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T155625Z" creationid="Prikryl" creationdate="20160109T155625Z">
-        <seg>Proces funguje následovně (viz &lt;&lt;wfdiag_b&gt;&gt;):</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T172202Z" creationid="Prikryl" creationdate="20160109T155625Z">
+        <seg>Proces funguje následovně (viz obrázek &lt;&lt;wfdiag_b&gt;&gt;):</seg>
       </tuv>
     </tu>
     <tu>
@@ -13838,8 +13838,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>These are some commonly used workflows that are possible with a distributed system like Git, but you can see that many variations are possible to suit your particular real-world workflow.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T234046Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Toto jsou tedy některé z běžně používaných pracovních postupů, které umožňují distribuované systémy jako je Git. Ale sami vidíte, že lze uplatnit řadu variací, aby to vyhovovalo vašim konkrétně používaným pracovním postupům.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T190534Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Toto jsou tedy některé z běžně používaných pracovních postupů, které umožňují distribuované systémy, jako je Git. Ale sami vidíte, že lze uplatnit řadu variací, aby to vyhovovalo vašim konkrétně používaným pracovním postupům.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14663,8 +14663,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is important because with more and more developers, you run into more issues with making sure your code applies cleanly or can be easily merged.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T120753Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>To je důležité z toho hlediska, že s rostoucím počtem vývojářů se zvětšují potíže s tím, aby byl kód aplikován čistě a aby ho bylo možné snadno začlenit.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T192242Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Počet přispěvatelů je důležitý, protože s rostoucím počtem vývojářů narůstají i potíže se zajištěním toho, aby byl váš kód aplikován čistě, nebo aby ho bylo možné snadno začlenit (merge).</seg>
       </tuv>
     </tu>
     <tu>
@@ -15387,8 +15387,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>This workflow is attractive to a lot of people because it's a paradigm that many are familiar and comfortable with.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T154208Z" creationid="Prikryl" creationdate="20160109T154208Z">
-        <seg>Tento pracovní postup je pro mnoho lidí zajímavý, protože je to model, který jsou mnozí zvyklí používat a jsou s ním spokojeni.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T171755Z" creationid="Prikryl" creationdate="20160109T154208Z">
+        <seg>Tento pracovní postup je pro mnoho lidí zajímavý, protože je to model, který jsou zvyklí používat a jsou s ním spokojeni.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16285,8 +16285,8 @@ To https://github.com/schacon/simplegit</seg>
       <tuv lang="EN">
         <seg>We'll go over the strengths and possible weaknesses of each design; you can choose a single one to use, or you can mix and match features from each.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160109T152044Z" creationid="Prikryl" creationdate="20160109T152044Z">
-        <seg>Uvedeme si jejich přednosti i eventuální slabiny. Budete si moci vybrat některý z postupů nebo je navzájem kombinovat a vybírat si z jejich vlastností.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160113T171315Z" creationid="Prikryl" creationdate="20160109T152044Z">
+        <seg>Uvedeme si jejich přednosti i eventuální slabiny. Můžete vybrat jeden z nich, nebo je můžete pro dosažení požadovaných vlastností navzájem kombinovat.</seg>
       </tuv>
     </tu>
     <tu>

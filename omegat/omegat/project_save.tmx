@@ -1076,6 +1076,14 @@ Protože Git umožňuje práci s více vzdálenými repozitáři, lze využít p
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>- Typically a hyphen or asterisk is used for the bullet,</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T153900Z" creationid="Prikryl" creationdate="20160114T153900Z">
+        <seg>- Pro odrážku se typicky používá pomlčka nebo hvězdička,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>- [deleted]         serverfix
 ----</seg>
       </tuv>
@@ -8324,6 +8332,18 @@ Sledování souboru `README` zahájíme takto:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In some contexts, the first
+line is treated as the subject of an email and the rest of
+the text as the body.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T153538Z" creationid="Prikryl" creationdate="20160114T153538Z">
+        <seg>Někdy se první
+řádek používá jako předmět emailu a zbytek
+textu jako tělo dopisu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In such cases, you can create a file listing patterns to match them named `.gitignore`.(((ignoring files)))
 Here is an example `.gitignore` file:</seg>
       </tuv>
@@ -8636,6 +8656,16 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Místo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Instead of ``I added tests for'' or ``Adding tests for,'' use ``Add tests for.''
+Here is a template originally written by Tim Pope:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T153113Z" creationid="Prikryl" creationdate="20160114T153113Z">
+        <seg>Místo „Přidal jsem testy pro“ nebo „Přidány testy pro“ použijte „Přidej testy pro“.
+Zde je originální (přeložená) šablona, kterou napsal Tim Pope:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9144,6 +9174,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151215T132053Z" creationid="Prikryl" creationdate="20151214T094251Z">
         <seg>Funguje to tak, že se přejde na společného předka obou větví (větve, na níž se nacházíte, a větve, na kterou přeskládáváte), zjistí se rozdíly pro každý objekt revize ve větvi, na které se nacházíte, zjištěné rozdíly se uloží do dočasných souborů, aktuální větev se nastaví na stejný bod jako větev, na kterou přeskládáváte, a nakonec postupně aplikují všechny změny.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's also a good idea to use the imperative present tense in these messages.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T125942Z" creationid="Prikryl" creationdate="20160114T125903Z">
+        <seg>Doporučuje se také, aby se pro zápis zpráv používal rozkazovací způsob.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9786,8 +9824,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>More detailed explanatory text, if necessary.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151023T215518Z" creationid="Prikryl" creationdate="20151023T215518Z">
-        <seg>Podrobnější popis revize, je-li třeba.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T153230Z" creationid="Prikryl" creationdate="20151023T215518Z">
+        <seg>Podrobnější vysvětlující text, pokud je třeba.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12012,6 +12050,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The Git project requires that the more detailed explanation include your motivation for the change and contrast its implementation with previous behavior – this is a good guideline to follow.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T125535Z" creationid="Prikryl" creationdate="20160114T125535Z">
+        <seg>Projekt Git vyžaduje, aby podrobnější popis revize zahrnoval i vaši motivaci ke změnám a aby uvedl srovnání nové implementace s původním chováním. Tuto zásadu je dobré dodržovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The Git server will generally keep the data there for a while until a garbage collection runs, so if it was accidentally deleted, it's often easy to recover.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T080611Z" creationid="Prikryl" creationdate="20151214T080611Z">
@@ -12380,6 +12426,20 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T001059Z" creationid="Prikryl" creationdate="20151028T001059Z">
         <seg>Binární instalátory bývají trošku pozadu, ačkoli v posledních letech Git vyspěl a rozdíly už nejsou tak významné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The blank line separating the
+summary from the body is critical (unless you omit the body
+entirely); tools like rebase can get confused if you run
+the two together.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T153800Z" creationid="Prikryl" creationdate="20160114T153800Z">
+        <seg>Prázdný řádek, který odděluje
+shrnutí do těla je nezbytně nutný (pokud tělo nevynecháte
+úplně); nástroje jako rebase mohou být zmatené, pokud
+tyto části neoddělíte.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16809,6 +16869,16 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Bez parametru `-3` se celá situace tváří jako konflikt.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Wrap it to
+about 72 characters or so.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T153323Z" creationid="Prikryl" creationdate="20160114T153323Z">
+        <seg>Zalamujte řádky
+přibližně na 72 znaků.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22068,6 +22138,18 @@ please contact us at email.support@github.com
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[source,text]
+----
+Short (50 chars or less) summary of changes</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T153154Z" creationid="Prikryl" creationdate="20160114T153154Z">
+        <seg>[source,text]
+----
+Krátké shrnutí změn (do 50 znaků)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[source]
 ----</seg>
       </tuv>
@@ -22246,6 +22328,16 @@ please contact us at email.support@github.com
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151024T091349Z" creationid="Prikryl" creationdate="20151024T091349Z">
         <seg>autogen change</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>between, but conventions vary here
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T154227Z" creationid="Prikryl" creationdate="20160114T154021Z">
+        <seg>řádky, ale tady se zvyklosti mohou lišit.
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -23334,6 +23426,14 @@ $ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \</seg>
 &lt;/div&gt;
 &gt;&gt;&gt;&gt;&gt;&gt;&gt; iss53:index.html
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>preceded by a single space, with blank lines in</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160114T154220Z" creationid="Prikryl" creationdate="20160114T153951Z">
+        <seg>před kterou se uvádí jedna mezera. Mezi odrážky se vkládají prázdné</seg>
       </tuv>
     </tu>
     <tu>

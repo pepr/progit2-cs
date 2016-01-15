@@ -16,3 +16,4 @@ push	odeslat
 pull	stáhout
 bare repository	holý repozitář
 integration-manager workflow	pracovní postup s integračním manažerem	název pro workflow
+fast-forward	„rychle vpřed“

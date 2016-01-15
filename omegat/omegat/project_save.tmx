@@ -1310,6 +1310,14 @@ image::images/perils-of-rebasing-2.png[Vyzvednutí (fetch) bodů zápisu a jejic
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.General sequence of events for a simple multiple-developer Git workflow.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T221923Z" creationid="Prikryl" creationdate="20160115T221614Z">
+        <seg>.Obecná posloupnost událostí pro jednoduchý pracovní postup s více vývojáři.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Git OS X Installer.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T215009Z" creationid="Prikryl" creationdate="20151027T215009Z">
@@ -1372,6 +1380,22 @@ image::images/basic-branching-4.png[Větev pro opravu je odvozená od `master`.]
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T145756Z" creationid="Prikryl" creationdate="20160115T145756Z">
         <seg>.Historie Jessicy po vyzvednutí Johnových změn.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Jessica's history after merging John's changes.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214314Z" creationid="Prikryl" creationdate="20160115T214314Z">
+        <seg>.Jessičina historie po začlenění Johnových změn.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Jessica's history after pushing all changes back to the server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214859Z" creationid="Prikryl" creationdate="20160115T214859Z">
+        <seg>.Jessičina historie po odeslání všech změn zpět na server.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1688,6 +1712,16 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>2 files changed, 6 insertions(+), 1 deletions(-)
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T213241Z" creationid="Prikryl" creationdate="20160115T213241Z">
+        <seg>2 files changed, 6 insertions(+), 1 deletions(-)
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>2.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -1734,6 +1768,16 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>6.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>72bbc59..8059c15  master -&gt; master
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214607Z" creationid="Prikryl" creationdate="20160115T214607Z">
+        <seg>72bbc59..8059c15  master -&gt; master
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -4531,6 +4575,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Each developer has committed a few times and merged each other's work successfully.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214815Z" creationid="Prikryl" creationdate="20160115T214815Z">
+        <seg>Každý z nich provedl několik zápisů (commit) a úspěšně začlenil (merge) práci toho druhého.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Each level overrides values in the previous level, so values in `.git/config` trump those in `/etc/gitconfig`.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4659,6 +4711,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Everything merges cleanly, and Jessica's history looks like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214243Z" creationid="Prikryl" creationdate="20160115T214243Z">
+        <seg>Začlenění proběhne čistě a Jessičina historie bude vypadat následovně:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Exiting non-zero from this hook aborts the commit, although you can bypass it with `git commit --no-verify`.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4759,6 +4819,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Zaprvé to, že pracuje i off-line, na rozdíl od skutečného příkazu `svn log`, který si data vyžádá ze serveru Subversion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>First, she switches back to her master branch to integrate all this work:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T212454Z" creationid="Prikryl" creationdate="20160115T212454Z">
+        <seg>Nejdříve se přepne zpět na svou větev `master`, aby do ní mohla vše integrovat:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5191,6 +5259,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T110700Z" creationid="Prikryl" creationdate="20151029T110700Z">
         <seg>Prozatím budeme uvažovat, že jde o větev `master`, což je výchozí název (zatím se s tím nezatěžujte).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For now, we can see from the output that there is a single commit that John has made that Jessica has not merged in.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T211651Z" creationid="Prikryl" creationdate="20160115T211651Z">
+        <seg>Z výstupu vidíme, že existuje jediná revize, kterou zapsal John a kterou Jessica nesloučila se svou prací.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6394,6 +6470,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud vám později opět pošle e-mail, že jiná větev obsahuje další skvělou funkci, můžete tuto větev vyzvednout a provést její checkout, protože už máte nastaven tento repozitář jako vzdálený.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If she merges `origin/master`, that is the single commit that will modify her local work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T211903Z" creationid="Prikryl" creationdate="20160115T211903Z">
+        <seg>Pokud začlení `origin/master`, bude to jediná revize, která změní její lokální práci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10159,6 +10243,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>No problems occur; as you can see it was a simple fast-forward.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214115Z" creationid="Prikryl" creationdate="20160115T214115Z">
+        <seg>Nevyskytly se žádné problémy. Jak vidíte, šlo o jednoduchý posun „rychle vpřed“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Normal merge conflict for 'index.html':</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T075225Z" creationid="Prikryl" creationdate="20151120T075225Z">
@@ -10303,10 +10395,26 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Now Jessica merges in John's work (`origin/master`):</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214131Z" creationid="Prikryl" creationdate="20160115T214131Z">
+        <seg>Nyní Jessica začlení Johnovu práci (`origin/master`):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Now `CONTRIBUTING.md` is listed as both staged _and_ unstaged.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T125530Z" creationid="Prikryl" creationdate="20151029T125530Z">
         <seg>Soubor `CONTRIBUTING.md` je uveden jak v části připraveno k zapsání (Changes to be committed), tak v části nepřipraveno k zapsání (Changes not staged for commit).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now `origin/master` is reachable from Jessica's `master` branch, so she should be able to successfully push (assuming John hasn't pushed again in the meantime):</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214556Z" creationid="Prikryl" creationdate="20160115T214556Z">
+        <seg>Větev `origin/master` je dosažitelná z Jessičiny větve `master`, takže by měla být schopná práci úspěšně odeslat (za předpokladu, že John mezitím neodeslal další revizi):</seg>
       </tuv>
     </tu>
     <tu>
@@ -10595,6 +10703,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Git bude nyní k zobrazení výstupů nástoje diff a k řešení konfliktů při slučování používat nástroj KDiff3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now, Jessica can merge her topic work into her master branch, merge John's work (`origin/master`) into her `master` branch, and then push back to the server again.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T212251Z" creationid="Prikryl" creationdate="20160115T212251Z">
+        <seg>Teď může Jessica začlenit (merge) svou tématickou větev do své větve `master`, začlenit Johnovu práci (`origin/master`) rovněž do své větve `master` a potom vše může odeslat (push) znovu na server.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11235,6 +11351,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>README           |    1 +</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T213237Z" creationid="Prikryl" creationdate="20160115T213237Z">
+        <seg>README           |    1 +</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>README           |  6 ++++++</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T145547Z" creationid="Prikryl" creationdate="20151102T145547Z">
@@ -11515,10 +11639,18 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>She can merge either `origin/master` or `issue54` first – they're both upstream, so the order doesn't matter.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T213114Z" creationid="Prikryl" creationdate="20160115T212740Z">
+        <seg>Buď může nejdříve začlenit `origin/master` nebo `issue54`. Obě revize jsou následníky té aktuální, takže na pořadí nezáleží.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>She chooses to merge in `issue54` first:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jessica se rozhodne začlenit jako první větev `issue54`:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T213231Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jessica se rozhodne začlenit nejdříve `issue54`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -12907,8 +13039,8 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
       <tuv lang="EN">
         <seg>The end snapshot should be identical no matter which order she chooses; only the history will be slightly different.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Konečný snímek bude stejný, ať zvolí jakékoli pořadí, mírně se bude lišit jen historie revizí.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T213206Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Konečný snímek bude stejný, ať zvolí jakékoli pořadí. Trochu se bude lišit jen historie revizí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13117,6 +13249,14 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Refspec má následující formát: fakultativní znak `+`, za nímž následuje `&lt;src&gt;:&lt;dst&gt;`, kde `&lt;src&gt;` je vzor pro referenci na straně vzdáleného serveru a `&lt;dst&gt;` je lokální umístění, kam mají být tyto reference zapsány.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The general sequence is something like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T221424Z" creationid="Prikryl" creationdate="20160115T221424Z">
+        <seg>Obvyklá posloupnost vypadá takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -17002,6 +17142,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>When you want to share that work, you merge it into your own master branch, then fetch and merge `origin/master` if it has changed, and finally push to the `master` branch on the server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T221229Z" creationid="Prikryl" creationdate="20160115T215110Z">
+        <seg>Chcete-li tuto práci sdílet, začleníte ji (merge) do své větve `master`. Poté vyzvednete změny (fetch) a pokud se větev `origin/master` změnila, začleníte ji (merge). Nakonec odešlete (push) všechna data do větve `master` na serveru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>When you're branching and merging, everything is being done only in your Git repository – no server communication is happening.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T190514Z" creationid="Prikryl" creationdate="20151209T190514Z">
@@ -18853,6 +19001,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T094803Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>S těmito otisky se budete setkávat v Gitu všude, protože je používá opravdu často.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You work for a while, generally in a topic branch, and merge into your master branch when it's ready to be integrated.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T215027Z" creationid="Prikryl" creationdate="20160115T215027Z">
+        <seg>Po určitou dobu pracujete, obvykle na nějaké tématické větvi, a když je připravena k integraci, začleníte ji do své větve `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20791,6 +20947,22 @@ Switched to branch 'master'
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git checkout master
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T212455Z" creationid="Prikryl" creationdate="20160115T212455Z">
+        <seg>[source,console]
+----
+$ git checkout master
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git checkout serverfix
 Branch serverfix set up to track remote branch serverfix from origin.</seg>
       </tuv>
@@ -21593,6 +21765,38 @@ $ git merge iss53
 Auto-merging index.html
 CONFLICT (content): Merge conflict in index.html
 Automatic merge failed; fix conflicts and then commit the result.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git merge issue54
+Updating fbff5bc..4af4298
+Fast forward</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T213234Z" creationid="Prikryl" creationdate="20160115T213234Z">
+        <seg>[source,console]
+----
+$ git merge issue54
+Updating fbff5bc..4af4298
+Fast forward</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git merge origin/master
+Auto-merging lib/simplegit.rb
+Merge made by recursive.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214137Z" creationid="Prikryl" creationdate="20160115T214137Z">
+        <seg>[source,console]
+----
+$ git merge origin/master
+Auto-merging lib/simplegit.rb
+Merge made by recursive.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23235,6 +23439,30 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>image::images/small-team-6.png[Jessica's history after merging John's changes.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214321Z" creationid="Prikryl" creationdate="20160115T214321Z">
+        <seg>image::images/small-team-6.png[Jessičina historie po začlenění Johnových změn.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/small-team-7.png[Jessica's history after pushing all changes back to the server.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214912Z" creationid="Prikryl" creationdate="20160115T214912Z">
+        <seg>image::images/small-team-7.png[Jessičina historie po odeslání všech změn zpět na server.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/small-team-flow.png[General sequence of events for a simple multiple-developer Git workflow.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T221930Z" creationid="Prikryl" creationdate="20160115T221649Z">
+        <seg>image::images/small-team-flow.png[Obecná posloupnost událostí pro jednoduchý pracovní postup s více vývojáři.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>image::images/snapshots.png[Git stores data as snapshots of the project over time.]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T084026Z" creationid="Prikryl" creationdate="20151027T084026Z">
@@ -23713,6 +23941,22 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T131332Z" creationid="Prikryl" creationdate="20151107T131332Z">
         <seg>issue-45                         new (next fetch will store in remotes/origin)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>lib/simplegit.rb |    2 +-</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214140Z" creationid="Prikryl" creationdate="20160115T214140Z">
+        <seg>lib/simplegit.rb |    2 +-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>lib/simplegit.rb |    6 +++++-</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160115T213239Z" creationid="Prikryl" creationdate="20160115T213239Z">
+        <seg>lib/simplegit.rb |    6 +++++-</seg>
       </tuv>
     </tu>
     <tu>

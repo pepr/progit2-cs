@@ -41,3 +41,4 @@ push
 pull
 commit
 Jessica
+gitovských

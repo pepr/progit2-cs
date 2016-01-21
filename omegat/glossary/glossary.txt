@@ -17,3 +17,13 @@ pull	stáhout
 bare repository	holý repozitář
 integration-manager workflow	pracovní postup s integračním manažerem	název pro workflow
 fast-forward	„rychle vpřed“
+forked	odštěpený	ve smyslu "forked project"
+forking	odštěpení	ve smyslu "forking on Git"
+fork	odštěpený projekt	pokud je použito jako podstatné jméno
+fork	odštěpit	pokud je použito jako sloveso
+topic branch	tématická větev
+cherry-pick	přebírání jednotlivých revizí
+cherry-pick	převzetí jednotlivých revizí
+cherry-pick	částečné převzetí
+fork	odštěpený repozitář
+pull request	požadavek na stažení

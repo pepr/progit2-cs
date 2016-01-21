@@ -416,6 +416,16 @@ Nejjednodušší situaci, s kterou se asi setkáte, je soukromý projekt s jedn�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((contributing, public small project)))
+Contributing to public projects is a bit different.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T170448Z" creationid="Prikryl" creationdate="20160121T170448Z">
+        <seg>(((přispívání, veřejný malý projekt)))
+Přispívání do veřejných projektů je trochu odlišné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((distributed git)))
 Now that you have a remote Git repository set up as a point for all the developers to share their code, and you're familiar with basic Git commands in a local workflow, you'll look at how to utilize some of the distributed workflows that Git affords you.</seg>
       </tuv>
@@ -449,9 +459,9 @@ Chcete-li soubor z Gitu odstranit, musíte ho odstranit ze sledovaných souborů
         <seg>(((forking)))
 This is a very common workflow with hub-based tools like GitHub or GitLab, where it's easy to fork a project and push your changes into your fork for everyone to see.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160113T172510Z" creationid="Prikryl" creationdate="20160109T230059Z">
-        <seg>(((forking)))
-Tento pracovní postup je velmi běžný, pokud se pracuje centralizačními nástroji{empty}footnote:[hub-based tools] jako je GitHub nebo GitLab. Projekt se zde dá snadno rozštěpit a změny se pak odesílají do vlastní, odštěpené části, kde se na ně může každý podívat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T171452Z" creationid="Prikryl" creationdate="20160109T230059Z">
+        <seg>(((odštěpení)))
+Tento pracovní postup je velmi běžný, pokud se pracuje centralizačními nástroji{empty}footnote:[hub-based tools] jako je GitHub nebo GitLab. Projekt se zde dá snadno odštěpit a změny se pak odesílají do vlastní, odštěpené části, kde se na ně může každý podívat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -462,6 +472,16 @@ First, you don't want to submit any whitespace errors.</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20160113T193245Z" creationid="Prikryl" creationdate="20160110T123613Z">
         <seg>(((git příkazy, diff, check)))
 Především nechcete odesílat chybně použité prázdné znaky (whitespace).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((git commands, request-pull)))
+When your work has been pushed up to your fork, you need to notify the maintainer.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T194203Z" creationid="Prikryl" creationdate="20160121T194203Z">
+        <seg>(((git příkazy, request-pull)))
+Pokud jste práci odeslali do odštěpeného repozitáře, musíte to správci oznámit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1648,6 +1668,16 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>1 files changed, 9 insertions(+), 1 deletions(-)
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T200025Z" creationid="Prikryl" creationdate="20160121T200025Z">
+        <seg>1 files changed, 9 insertions(+), 1 deletions(-)
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>1.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -2142,8 +2172,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>==== Forking Projects</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>==== Štěpení projektů</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T184241Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>==== Odštěpení projektů</seg>
       </tuv>
     </tu>
     <tu>
@@ -3984,6 +4014,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Because you don't have the permissions to directly update branches on the project, you have to get the work to the maintainers some other way.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T170737Z" creationid="Prikryl" creationdate="20160121T170737Z">
+        <seg>Protože nemáte oprávnění k tomu, abyste mohli aktualizovat větve projektu přímo, musíte svou práci správcům doručit nějakým jiným způsobem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Because you have the entire history of the project right there on your local disk, most operations seem almost instantaneous.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
@@ -4811,6 +4849,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>First, you'll probably want to clone the main repository, create a topic branch for the patch or patch series you're planning to contribute, and do your work there.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T185916Z" creationid="Prikryl" creationdate="20160121T185916Z">
+        <seg>Nejdříve pravděpodobně naklonujete hlavní repozitář, vytvoříte tématickou větev pro záplatu nebo pro posloupnost záplat, kterými chcete přispět, a zde vaši práci zrealizujete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For a more in-depth look at how Git stores its data and how you can recover data that seems lost, see &lt;&lt;_undoing&gt;&gt;.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T114927Z" creationid="Prikryl" creationdate="20151027T114807Z">
@@ -4903,6 +4949,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T132950Z" creationid="Prikryl" creationdate="20151107T132950Z">
         <seg>Pokud například chcete zjistit, které revize upravující testovací soubory ve zdrojovém kódu Gitu zapsal Junio Hamano v říjnu 2008 (relativně k časové zóně New Yorku) a které přitom nevznikly sloučením (merge), můžete zadat následující příkaz:(((log filtrování)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, if you want to submit a second topic of work to the project, don't continue working on the topic branch you just pushed up – start over from the main repository's `master` branch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T201317Z" creationid="Prikryl" creationdate="20160121T201317Z">
+        <seg>Pokud například chcete do projektu odeslat druhé pracovní téma, nepokračujte v práci v tématické větvi, kterou jste právě odeslali. Začněte znovu od začátku z větve `master` hlavního repozitáře:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5039,6 +5093,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Na revizi můžete vytvořit například větev `recover-branch` (ab1afef):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For instance, if Jessica wants to send John a pull request, and she's done two commits on the topic branch she just pushed up, she can run this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T195935Z" creationid="Prikryl" creationdate="20160121T195935Z">
+        <seg>Pokud chce například Jessica poslat Johnovi požadavek na stažení a vytvořila předtím dvě revize v tématické větvi, kterou právě odeslala, může zadat tento příkaz:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5832,8 +5894,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>Having work themes isolated into topic branches also makes it easier for you to rebase your work if the tip of the main repository has moved in the meantime and your commits no longer apply cleanly.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142103Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jednotlivé úkoly izolované v tématických větvích mají také tu výhodu, že snáze přeskládáte svou práci, jestliže se průběžně posouvá konec hlavního repozitáře a vaše revize už nelze aplikovat čistě.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T202502Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Izolováním tématických úkolů do tématických větví si také usnadníte přeskládání vaší práce v případě, kdy se vrchol v hlavním repozitáři mezi tím posunul a vaše revize se už nedají čistě aplikovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6452,6 +6514,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T185859Z" creationid="Prikryl" creationdate="20151026T185859Z">
         <seg>A dojde-li k poruše pevného disku, na němž je uložena centrální databáze, a disk nebyl správně zálohován, ztratíte úplně vše -- celou historii projektu, s výjimkou souborů aktuálních verzí, jež mají uživatelé v lokálních počítačích.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If the maintainers merge, rebase, or cherry-pick your work, you'll eventually get it back via pulling from their repository anyhow:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T193930Z" creationid="Prikryl" creationdate="20160121T193930Z">
+        <seg>Pokud správci provedou sloučení (merge), přeskládání (rebase) nebo částečné převzetí vaší práce (cherry-pick), budete stejně muset stáhnout změny z jejich repozitáře (pull):</seg>
       </tuv>
     </tu>
     <tu>
@@ -9227,6 +9297,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It's easiest to push the topic branch you're working on up to your repository, rather than merging into your master branch and pushing that up.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T192414Z" creationid="Prikryl" creationdate="20160121T192414Z">
+        <seg>Lepší bude, když do repozitáře odešlete svou tématickou větev (v které pracujete) než abyste výsledek začlenili (merge) do své větve `master` a odesílali tuto větev.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It's generally a little clearer what the latest version is on the GitHub page, but the kernel.org page also has release signatures if you want to verify your download.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T103705Z" creationid="Prikryl" creationdate="20151028T103142Z">
@@ -9411,6 +9489,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Jessica Smith (2):</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T200013Z" creationid="Prikryl" creationdate="20160121T200013Z">
+        <seg>Jessica Smith (2):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Jessica can now merge this into the work she did with `git merge`:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160118T112318Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9495,6 +9581,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160118T113615Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jessica, Josie a John pošlou zprávu integrátorům, že větve `featureA` a `featureBee` jsou na serveru připraveny k integraci do hlavní linie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>John Smith (1):</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T195945Z" creationid="Prikryl" creationdate="20160121T195945Z">
+        <seg>John Smith (1):</seg>
       </tuv>
     </tu>
     <tu>
@@ -9859,6 +9953,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160118T145436Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Mnoho skupin přechází na Git právě kvůli této možnosti paralelní spolupráce několika týmů a následného slučování různých linií práce.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Many hosting sites support this (including GitHub, BitBucket, Google Code, repo.or.cz, and others), and many project maintainers expect this style of contribution.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T184648Z" creationid="Prikryl" creationdate="20160121T184457Z">
+        <seg>Tento mechanismus podporuje řada hostitelských serverů (včetně GitHub, BitBucket, Google Code, repo.or.cz a dalších) a řada správců projektů takový styl přispívání očekává.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10551,6 +10653,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Now, each of your topics is contained within a silo – similar to a patch queue – that you can rewrite, rebase, and modify without the topics interfering or interdepending on each other, like so:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T201844Z" creationid="Prikryl" creationdate="20160121T201844Z">
+        <seg>Teď je každé z vašich témat obsaženo v samostatném zásobníku -- podobá se frontě záplat -- a můžete je přepsat, přeskládat a upravit, aniž by se obě témata navzájem ovlivňovala nebo by se mezi nimi vytvářela vzájemná závislost, viz obrázek:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Now, if you want to merge your `opera` branch into `trunk` (your `master` branch), you can do so with a normal `git merge`.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10803,6 +10913,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151216T124350Z" creationid="Prikryl" creationdate="20151028T110457Z">
         <seg>Ve Windows se soubor `.gitconfig` hledá v adresáři `$HOME`{empty}footnote:[Pozn. překl.: V proměnných prostředí Windows je to `%USERPROFILE%`. Zápis `$HOME` odkazuje na odpovídající údaj v unixových systémech.] (u většiny uživatelů je to `C:\Users\$USER`{empty}footnote:[Pozn. překl.: Ve Windows odpovídá odkazu na unixovskou proměnnou `$USER` odkaz na proměnnou prostředí `%USERNAME%`]).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>On a project for which you're not the maintainer, it's generally easier to have a branch like `master` always track `origin/master` and to do your work in topic branches that you can easily discard if they're rejected.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T200802Z" creationid="Prikryl" creationdate="20160121T200802Z">
+        <seg>U projektů, kde nevystupujete jako správce, je většinou jednodušší, aby vaše větev `master` stále sledovala větev `origin/master` a abyste práci prováděli v tématických větvích, které můžete v případě odmítnutí snadno odstranit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12503,6 +12621,14 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The `request-pull` command takes the base branch into which you want your topic branch pulled and the Git repository URL you want them to pull from, and outputs a summary of all the changes you're asking to be pulled in.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T195811Z" creationid="Prikryl" creationdate="20160121T195811Z">
+        <seg>Příkazu `request-pull` se zadává základní větev, do které chcete nechat vaši tématickou větev vtáhnout, a URL adresu gitového repozitáře, z kterého se má stahovat. Příkaz vypíše shrnutí všech změn, které by měly být vtaženy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The `send-pack` process runs on the client and connects to a `receive-pack` process on the remote side.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -13277,6 +13403,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The next section deals with projects that prefer to accept contributed patches via email.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T184907Z" creationid="Prikryl" creationdate="20160121T184907Z">
+        <seg>Další část pojednává o projektech, které upřednostňují přijímání záplat posílaných e-mailem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The next sections will explain some typical setups using those protocols and how to get your server running with them.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151218T143214Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -13423,6 +13557,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The output can be sent to the maintainer – it tells them where the work was branched from, summarizes the commits, and tells where to pull this work from.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T200509Z" creationid="Prikryl" creationdate="20160121T200509Z">
+        <seg>Výstup příkazu lze odeslat správci. Říká mu, odkud daná větev vychází, podá mu přehled o revizích a řekne mu, odkud lze práci stáhnout.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The output from the command is a 40-character checksum hash.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -13535,6 +13677,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The reason is that if the work isn't accepted or is cherry picked, you don't have to rewind your master branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T193312Z" creationid="Prikryl" creationdate="20160121T193312Z">
+        <seg>Důvod je ten, že pokud nebude vaše práce přijata, nebo pokud z ní budou převzaty jen některé revize, nebudete muset svou větev `master` vracet zpět.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The result tells you the changes you've made that you haven't yet staged.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151030T092015Z" creationid="Prikryl" creationdate="20151030T092015Z">
@@ -13625,8 +13775,8 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       <tuv lang="EN">
         <seg>The sequence looks basically like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Posloupnost příkazů bude tedy následující:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T185954Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Posloupnost příkazů vypadá v podstatě takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -13731,6 +13881,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Proto ho musíte nejprve vrátit, až potom můžete přidat submodul:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Then you need to push your work up to it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T192101Z" creationid="Prikryl" creationdate="20160121T192101Z">
+        <seg>Do něj teď musíte odeslat (push) svou práci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14572,8 +14730,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This first example describes contributing via forking on Git hosts that support easy forking.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>První příklad popisuje, jak se přispívá s využitím rozštěpení na hostitelských serverech Git, které podporují snadné štěpení.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T184110Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>První příklad popisuje, jak se přispívá s využitím odštěpení (fork) na gitovských hostitelských serverech, které podporují snadné vytváření odštěpených projektů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14902,6 +15060,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tato syntaxe je užitečná zejména proto, že pomocí ní můžete zadat více než dvě reference, což není pomocí dvojtečkové syntaxe možné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is often called a pull request, and you can either generate it via the website – GitHub has its own Pull Request mechanism that we'll go over in &lt;&lt;_github&gt;&gt; – or you can run the `git request-pull` command and email the output to the project maintainer manually.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T195151Z" creationid="Prikryl" creationdate="20160121T195151Z">
+        <seg>Často se tomu říká „pull request“, čili požadavek na stažení. Můžete ho vytvořit prostřednictvím webové stránky -- GitHub má svůj vlastní mechanismus Pull Request, kterým se budeme zabývat v kapitole &lt;&lt;_github&gt;&gt; -- nebo můžete spustit příkaz `git request-pull` a správci projektu ručně zaslat výstup příkazu e-mailem.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16850,6 +17016,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>When your branch work is finished and you're ready to contribute it back to the maintainers, go to the original project page and click the ``Fork'' button, creating your own writable fork of the project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T190946Z" creationid="Prikryl" creationdate="20160121T190946Z">
+        <seg>Až budete s prací ve větvi hotovi a budete ji chtít poslat zpět správcům, přejděte na původní stránku projektu a klikněte na tlačítko „Fork“, čímž vytvoříte vlastní odštěpený projekt, do kterého budete moci zapisovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>When you’re finished, you should run `git bisect reset` to reset your HEAD to where you were before you started, or you’ll end up in a weird state:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -18611,8 +18785,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You then need to add in this new repository URL as a second remote, in this case named `myfork`:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Poté bude třeba, abyste tuto novou adresu URL repozitáře přidali jako druhý vzdálený repozitář, v tomto případě pojmenovaný `myfork`:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T192028Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Poté musíte URL adresu tohoto nového repozitáře přidat jako druhý vzdálený repozitář, v tomto případě pojmenovaný `myfork`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -19054,6 +19228,18 @@ Vim, Emacs a Notepad++ jsou oblíbené textové editory používané vývojáři
     <tu>
       <tuv lang="EN">
         <seg>[NOTE]
+====
+You may want to use `rebase -i` to squash your work down to a single commit, or rearrange the work in the commits to make the patch easier for the maintainer to review – see &lt;&lt;_rewriting_history&gt;&gt; for more information about interactive rebasing.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T190739Z" creationid="Prikryl" creationdate="20160121T190739Z">
+        <seg>[NOTE]
+====
+Možná budete chtít použít `rebase -i`, abyste svou práci stlačili do jediného zápisu revize, nebo budete chtít práci přeuspořádat do posloupnosti revizí, která správci usnadní zkoumání záplat. Další informace o interaktivním přeskládání najdete v části &lt;&lt;_rewriting_history&gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[NOTE]
 =====
 While `git reset` _can_ be a dangerous command if you call it with `--hard`, in this instance the file in your working directory is not touched.</seg>
       </tuv>
@@ -19399,6 +19585,16 @@ image::images/perils-of-rebasing-3.png["Někdo odešle přeskládané objekty re
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T141754Z" creationid="Prikryl" creationdate="20160115T141754Z">
         <seg>[[_private_team]]
 ==== Malý soukromý tým</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_public_project]]
+==== Forked Public Project</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T170336Z" creationid="Prikryl" creationdate="20160121T170336Z">
+        <seg>[[_public_project]]
+==== Odštěpený veřejný projekt</seg>
       </tuv>
     </tu>
     <tu>
@@ -20307,6 +20503,30 @@ Branch serverfix set up to track remote branch serverfix from origin.</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git checkout -b featureB origin/master
+# (work)
+$ git commit
+$ git push myfork featureB
+# (email maintainer)
+$ git fetch origin
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T201354Z" creationid="Prikryl" creationdate="20160121T201354Z">
+        <seg>[source,console]
+----
+$ git checkout -b featureB origin/master
+# (nějaká práce)
+$ git commit
+$ git push myfork featureB
+# (odeslání e-mailu správci)
+$ git fetch origin
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git checkout -b hotfix
 Switched to a new branch 'hotfix'
 $ vim index.html
@@ -20598,6 +20818,32 @@ $ git checkout testing
         <seg>[source,console]
 ----
 $ git checkout testing
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git clone (url)
+$ cd project
+$ git checkout -b featureA
+# (work)
+$ git commit
+# (work)
+$ git commit
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T190050Z" creationid="Prikryl" creationdate="20160121T185957Z">
+        <seg>[source,console]
+----
+$ git clone (url)
+$ cd project
+$ git checkout -b featureA
+# (něco uděláte)
+$ git commit
+# (něco uděláte)
+$ git commit
 ----</seg>
       </tuv>
     </tu>
@@ -21523,6 +21769,20 @@ $ git mv stare_jmeno_souboru nove_jmeno_souboru
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git push -u myfork featureA
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T193931Z" creationid="Prikryl" creationdate="20160121T193931Z">
+        <seg>[source,console]
+----
+$ git push -u myfork featureA
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git push -u origin featureA
 ...</seg>
       </tuv>
@@ -21723,6 +21983,20 @@ $ git remote add local_proj /opt/git/project.git
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git remote add myfork (url)
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T192031Z" creationid="Prikryl" creationdate="20160121T192031Z">
+        <seg>[source,console]
+----
+$ git remote add myfork (url)
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git remote rename pb paul
 $ git remote
 origin
@@ -21769,6 +22043,20 @@ $ git remote show origin
 ----
 $ git remote show origin
 * remote origin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git request-pull origin/master myfork
+The following changes since commit 1edee6b1d61823a2de3b09c160d7080b8d1b3a40:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T195941Z" creationid="Prikryl" creationdate="20160121T195941Z">
+        <seg>[source,console]
+----
+$ git request-pull origin/master myfork
+The following changes since commit 1edee6b1d61823a2de3b09c160d7080b8d1b3a40:</seg>
       </tuv>
     </tu>
     <tu>
@@ -22575,6 +22863,14 @@ Krátké shrnutí změn (do 50 znaků)</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>added a new function</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T195948Z" creationid="Prikryl" creationdate="20160121T195948Z">
+        <seg>added a new function</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>added some blame and merge stuff</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T221528Z" creationid="Prikryl" creationdate="20151023T221528Z">
@@ -22629,6 +22925,14 @@ Krátké shrnutí změn (do 50 znaků)</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T073018Z" creationid="Prikryl" creationdate="20151120T073018Z">
         <seg>both modified:      index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>change log output to 30 from 25</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T200020Z" creationid="Prikryl" creationdate="20160121T200020Z">
+        <seg>change log output to 30 from 25</seg>
       </tuv>
     </tu>
     <tu>
@@ -23625,6 +23929,14 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T213239Z" creationid="Prikryl" creationdate="20160115T213239Z">
         <seg>lib/simplegit.rb |    6 +++++-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>lib/simplegit.rb |   10 +++++++++-</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160121T200022Z" creationid="Prikryl" creationdate="20160121T200022Z">
+        <seg>lib/simplegit.rb |   10 +++++++++-</seg>
       </tuv>
     </tu>
     <tu>

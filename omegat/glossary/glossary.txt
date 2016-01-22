@@ -27,3 +27,6 @@ cherry-pick	převzetí jednotlivých revizí
 cherry-pick	částečné převzetí
 fork	odštěpený repozitář
 pull request	požadavek na stažení
+Commit history	historie revizí
+email	elektronická pošta	pokud se hodí rozepsání
+email	e-mail	pokud se nehodí rozepisovat

@@ -416,6 +416,15 @@ Nejjednodušší situaci, s kterou se asi setkáte, je soukromý projekt s jedn�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((contributing, public large project)))
+Many projects have established procedures for accepting patches – you'll need to check the specific rules for each project, because they will differ.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T205732Z" creationid="Prikryl" creationdate="20160122T205732Z">
+        <seg>Mnoho projektů si vytvořilo vlastní procedury pro přijímání záplat. Konkrétní pravidla si u každého projektu budete muset zjistit, protože budou odlišná.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((contributing, public small project)))
 Contributing to public projects is a bit different.</seg>
       </tuv>
@@ -472,6 +481,30 @@ First, you don't want to submit any whitespace errors.</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20160113T193245Z" creationid="Prikryl" creationdate="20160110T123613Z">
         <seg>(((git příkazy, diff, check)))
 Především nechcete odesílat chybně použité prázdné znaky (whitespace).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((git commands, merge, squash)))
+[source,console]
+----
+$ git checkout -b featureBv2 origin/master
+$ git merge --squash featureB
+# (change implementation)
+$ git commit
+$ git push myfork featureBv2
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T191822Z" creationid="Prikryl" creationdate="20160122T191822Z">
+        <seg>(((git commands, merge, squash)))
+[source,console]
+----
+$ git checkout -b featureBv2 origin/master
+$ git merge --squash featureB
+# (změníte implementaci)
+$ git commit
+$ git push myfork featureBv2
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -1174,6 +1207,14 @@ image::images/perils-of-rebasing-1.png[Naklonování repozitáře a provedení z
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Commit history after `featureBv2` work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T195453Z" creationid="Prikryl" creationdate="20160122T195353Z">
+        <seg>.Historie revizí po práci ve větvi `featureBv2`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Commits and their parents
 image::images/commits-and-parents.png[Commits and their parents.]</seg>
       </tuv>
@@ -1284,6 +1325,14 @@ image::images/basic-branching-4.png[Hotfix branch based on `master`.]</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151111T214045Z" creationid="Prikryl" creationdate="20151111T214045Z">
         <seg>.Větev pro opravu je odvozená od `master`
 image::images/basic-branching-4.png[Větev pro opravu je odvozená od `master`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.Initial commit history with `featureB` work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T183546Z" creationid="Prikryl" creationdate="20160122T183546Z">
+        <seg>.Počáteční historie revizí s prací na `featureB`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3242,6 +3291,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Also the `--no-commit` option can be useful to delay the merge commit in case of the default merge process.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T195143Z" creationid="Prikryl" creationdate="20160122T195143Z">
+        <seg>V případě základního procesu slučování (merge) může být užitečná i volba `--no-commit`, která oddálí vytvoření bodu sloučení.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Also, although the blob content can be nearly anything, the commit and tree content are very specifically formatted.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3358,8 +3415,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>An alternative would be to push this new work to a different branch on the server (perhaps called `featureAv2`).</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Druhou možností je odeslat tuto novou práci do jiné větve na serveru (nazvané např. `featureAv2`).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T185202Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Druhou možností by bylo odeslání nové práce na server do jiné větve (nazvané třeba `featureAv2`).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4042,6 +4099,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Protože chcete pouze parametry `old-file` a `new-file`, použijete wrapperový skript k zadání těch, které potřebujete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Because you rebased the branch, you have to specify the `-f` to your push command in order to be able to replace the `featureA` branch on the server with a commit that isn't a descendant of it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T184921Z" creationid="Prikryl" creationdate="20160122T184921Z">
+        <seg>Protože jste větev přeskládali, musíte u příkazu pro odesílání (push) přidat `-f`, abyste mohli serverové větvi `featureA` podsunout revizi, která není jejím potomkem.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8597,8 +8662,8 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
       <tuv lang="EN">
         <seg>In this case, you can try to rebase that branch on top of `origin/master`, resolve the conflicts for the maintainer, and then resubmit your changes:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V takovém případě můžete zkusit přeskládat tuto větev na vrcholu větve `origin/master`, vyřešit za správce vzniklé konflikty a poté své změny ještě jednou odeslat:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T183913Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V takovém případě můžete zkusit přeskládat tuto větev na vrchol větve `origin/master`, vyřešit za správce vzniklé konflikty a poté své změny ještě jednou odeslat:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9723,6 +9788,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Let's look at one more possible scenario: the maintainer has looked at work in your second branch and likes the concept but would like you to change an implementation detail.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T185359Z" creationid="Prikryl" creationdate="20160122T185359Z">
+        <seg>Podívejme se na ještě jeden možný scénář: Správce se podíval na práci ve vaší druhé větvi a tento koncept se mu líbí, ale rád by, abyste změnili jeden implementační detail.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Let's make a few changes and commit again:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T170042Z" creationid="Prikryl" creationdate="20151108T170042Z">
@@ -9735,6 +9808,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160118T110916Z" creationid="Prikryl" creationdate="20160118T110916Z">
         <seg>Řekněme, že John a Jessica spolupracují na jednom úkolu, zatímco Jessica a Josie pracují na jiném.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Let's say the project maintainer has pulled in a bunch of other patches and tried your first branch, but it no longer cleanly merges.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T183800Z" creationid="Prikryl" creationdate="20160122T183800Z">
+        <seg>Řekněme, že správce projektu vtáhl do projektu několik jiných záplat a vyzkoušel vaši první větev, ale ta už se nedá začlenit čistě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10497,6 +10578,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jak vidíte, soubory TODO a index.html jsou připraveny k zapsání, soubor simplegit.rb nikoli.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now you can send the maintainer a message that you've made the requested changes and they can find those changes in your `featureBv2` branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T195310Z" creationid="Prikryl" creationdate="20160122T195310Z">
+        <seg>Teď už můžete správci zaslat zprávu, že jste provedli požadované změny a že je najde ve vaší větvi `featureBv2`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12391,6 +12480,14 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151103T200932Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Volba `--author` vám umožní filtrovat výpisy podle zadaného autora, volbou `--grep` můžete ve zprávách k revizi hledat klíčová slova.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The `--squash` option takes all the work on the merged branch and squashes it into one changeset producing the repository state as if a real merge happened, without actually making a merge commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T205950Z" creationid="Prikryl" creationdate="20160122T192505Z">
+        <seg>Volba `--squash` (stlačit) zajistí převzetí všech změn ze začleňované větve a stlačí je do podoby jedné sady změn, která vede ke stejnému stavu repozitáře, jako kdyby se provedlo opravdové sloučení (merge), ale nevytvoří se při tom bod sloučení{empty}footnote:[Pozn. překl.: Nezapíše se tedy revize. Jinými slovy, nevytvoří se žádný objekt revize. Změny budou promítnuté jen to pracovního stromu.] (merge commit).</seg>
       </tuv>
     </tu>
     <tu>
@@ -15408,6 +15505,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This means your future commit will have one parent only and allows you to introduce all the changes from another branch and then make more changes before recording the new commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T194708Z" creationid="Prikryl" creationdate="20160122T194419Z">
+        <seg>To znamená, že váš budoucí objekt revize bude mít jen jednoho rodiče a přitom vám umožní vnést všechny změny z jiné větve a poté provést další úpravy ještě před tím, než se nová revize zapíše.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This message is displayed because 'merge.tool' is not configured.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T103001Z" creationid="Prikryl" creationdate="20151023T103001Z">
@@ -15550,6 +15655,14 @@ Některé z cílů nového systému byly následující:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T083120Z" creationid="Prikryl" creationdate="20151120T074804Z">
         <seg>Toto řešení obsahuje trochu z každé části a řádky `&lt;&lt;&lt;&lt;&lt;&lt;&lt;`, `=======` a `&gt;&gt;&gt;&gt;&gt;&gt;&gt;` byly úplně odstraněny.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This rewrites your history to now look like &lt;&lt;psp_b&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T184026Z" creationid="Prikryl" creationdate="20160122T184026Z">
+        <seg>Tím se vaše historie přepíše a bude vypadat jako na obrázku &lt;&lt;psp_b&gt;&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18753,8 +18866,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You start a new branch based off the current `origin/master` branch, squash the `featureB` changes there, resolve any conflicts, make the implementation change, and then push that up as a new branch:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Začnete vytvořením nové větve z aktuální větve `origin/master`, zkomprimujete do ní změny z větve `featureB`, vyřešíte všechny konflikty, provedete změnu v implementaci a to vše odešlete jako novou větev:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T191855Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Začnete vytvořením nové větve z aktuální větve `origin/master`, nacpete (squash) do ní změny z `featureB`, vyřešíte případné konflikty, provedete požadovanou úpravu implementace a vše odešlete jako novou větev:</seg>
       </tuv>
     </tu>
     <tu>
@@ -18827,6 +18940,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pracujete na webových stránkách a zapíšete několik revizí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You'll also take this opportunity to move the work to be based off the project's current `master` branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T191454Z" creationid="Prikryl" creationdate="20160122T191454Z">
+        <seg>Této příležitosti využijete i k tomu, abyste za základ své práce vzali aktuální stav projektu ve větvi `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19589,6 +19710,16 @@ image::images/perils-of-rebasing-3.png["Někdo odešle přeskládané objekty re
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_project_over_email]]
+==== Public Project over Email</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T195611Z" creationid="Prikryl" creationdate="20160122T195611Z">
+        <seg>[[_project_over_email]]
+==== Veřejný projekt využívající elektronickou poštu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_public_project]]
 ==== Forked Public Project</seg>
       </tuv>
@@ -19875,6 +20006,16 @@ image::images/lr-branches-2.png[„Zásobníkový“ pohled na větvení podle s
 | %cr      | Datum autora revize, relativní
 | %s       | Předmět (**s**ubject)
 |================================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[psp_b]]
+.Commit history after `featureA` work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T184214Z" creationid="Prikryl" creationdate="20160122T184214Z">
+        <seg>[[psp_b]]
+.Historie revizí po přeskládání práce z `featureA`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20617,6 +20758,24 @@ First, rewinding head to replay your work on top of it...</seg>
 $ git checkout experiment
 $ git rebase master
 First, rewinding head to replay your work on top of it...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout featureA
+$ git rebase origin/master
+$ git push -f myfork featureA
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T183937Z" creationid="Prikryl" creationdate="20160122T183937Z">
+        <seg>[source,console]
+----
+$ git checkout featureA
+$ git rebase origin/master
+$ git push -f myfork featureA
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -23359,6 +23518,30 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T152045Z" creationid="Prikryl" creationdate="20151214T152045Z">
         <seg>image::images/perils-of-rebasing-5.png[Přeskládání nad vynuceně odeslaným výsledkem přeskládání.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/public-small-1.png[Initial commit history with `featureB` work.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T183555Z" creationid="Prikryl" creationdate="20160122T183555Z">
+        <seg>image::images/public-small-1.png[Počáteční historie revizí s prací na `featureB`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/public-small-2.png[Commit history after `featureA` work.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T184223Z" creationid="Prikryl" creationdate="20160122T184223Z">
+        <seg>image::images/public-small-2.png[Historie revizí po přeskládání práce z `featureA`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/public-small-3.png[Commit history after `featureBv2` work.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160122T195509Z" creationid="Prikryl" creationdate="20160122T195509Z">
+        <seg>image::images/public-small-3.png[Historie revizí po práci ve větvi `featureBv2`.]</seg>
       </tuv>
     </tu>
     <tu>

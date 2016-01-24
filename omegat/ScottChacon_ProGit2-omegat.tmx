@@ -409,9 +409,9 @@ V následujícím scénáři se podíváme na role přispěvatelů ve větší s
         <seg>(((contributing, private small team)))
 The simplest setup you're likely to encounter is a private project with one or two other developers.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T142000Z" creationid="Prikryl" creationdate="20160115T142000Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T010519Z" creationid="Prikryl" creationdate="20160115T142000Z">
         <seg>(((přispívání, malý soukromý tým)))
-Nejjednodušší situaci, s kterou se asi setkáte, je soukromý projekt s jedním nebo pár dalšími vývojáři.</seg>
+Nejjednodušší situaci, s kterou se asi setkáte, představuje soukromý projekt s jedním nebo pár dalšími vývojáři.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4640,8 +4640,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Each developer has committed a few times and merged each other's work successfully.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T214815Z" creationid="Prikryl" creationdate="20160115T214815Z">
-        <seg>Každý z nich provedl několik zápisů (commit) a úspěšně začlenil (merge) práci toho druhého.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T012901Z" creationid="Prikryl" creationdate="20160115T214815Z">
+        <seg>Každý z nich provedl několik zápisů (commit) a úspěšně začlenil práci toho druhého (merge).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4960,8 +4960,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>First, you'll probably want to clone the main repository, create a topic branch for the patch or patch series you're planning to contribute, and do your work there.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160121T185916Z" creationid="Prikryl" creationdate="20160121T185916Z">
-        <seg>Nejdříve pravděpodobně naklonujete hlavní repozitář, vytvoříte tématickou větev pro záplatu nebo pro posloupnost záplat, kterými chcete přispět, a zde vaši práci zrealizujete.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T014653Z" creationid="Prikryl" creationdate="20160121T185916Z">
+        <seg>Nejdříve pravděpodobně naklonujete hlavní repozitář, vytvoříte tématickou větev -- pro záplatu nebo pro posloupnost záplat, kterými chcete přispět -- a zde vaši práci zrealizujete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9408,8 +9408,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>It's easiest to push the topic branch you're working on up to your repository, rather than merging into your master branch and pushing that up.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160121T192414Z" creationid="Prikryl" creationdate="20160121T192414Z">
-        <seg>Lepší bude, když do repozitáře odešlete svou tématickou větev (v které pracujete) než abyste výsledek začlenili (merge) do své větve `master` a odesílali tuto větev.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T015024Z" creationid="Prikryl" creationdate="20160121T192414Z">
+        <seg>Lepší bude, když do repozitáře odešlete svou tématickou větev (v které pracujete) než abyste výsledek začlenili do své větve `master` (merge) a odesílali tuto větev.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9616,8 +9616,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>Jessica doesn't have push access to the `master` branch – only the integrators do – so she has to push to another branch in order to collaborate with John:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160118T111732Z" creationid="Prikryl" creationdate="20160118T111732Z">
-        <seg>Jessica nemá oprávnění pro odesílání dat (push) do větve `master` (ten mají pouze integrátoři), takže aby mohla s Johnem spolupracovat, musí své revize odeslat do jiné větve:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T013325Z" creationid="Prikryl" creationdate="20160118T111732Z">
+        <seg>Jessica nemá oprávnění pro odesílání dat do větve `master` (ten mají pouze integrátoři), takže aby mohla s Johnem spolupracovat, musí své revize odeslat do jiné větve:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9632,8 +9632,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>Jessica first needs to merge those changes in with her own before she can push to the server.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Než bude Jessica moci odeslat svou práci na server, bude do ní nejprve muset začlenit práci Josie.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T013658Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Než bude Jessica moci odeslat svou práci na server, musí do ní nejprve začlenit práci Josie.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9834,8 +9834,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>Let's look at one more possible scenario: the maintainer has looked at work in your second branch and likes the concept but would like you to change an implementation detail.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160122T185359Z" creationid="Prikryl" creationdate="20160122T185359Z">
-        <seg>Podívejme se na ještě jeden možný scénář: Správce se podíval na práci ve vaší druhé větvi a tento koncept se mu líbí, ale rád by, abyste změnili jeden implementační detail.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T020123Z" creationid="Prikryl" creationdate="20160122T185359Z">
+        <seg>Podívejme se ještě na jeden možný scénář: Správce se podíval na práci ve vaší druhé větvi a tento koncept se mu líbí, ale rád by, abyste změnili jeden implementační detail.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10102,8 +10102,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Many groups switch to Git because of this ability to have multiple teams working in parallel, merging the different lines of work late in the process.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160118T145436Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Mnoho skupin přechází na Git právě kvůli této možnosti paralelní spolupráce několika týmů a následného slučování různých linií práce.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T014418Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Mnoho skupin přechází na Git právě kvůli této možnosti paralelní spolupráce několika týmů a možnosti slučování různých linií práce až v pozdějších fázích procesu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10270,8 +10270,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Next, try to make each commit a logically separate changeset.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160110T124110Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Dále se snažte provádět každý zápis (commit) jako logicky oddělený soubor změn.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T005940Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Dále se snažte zapisovat každou revizi (commit) jako logicky oddělený soubor změn.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10310,8 +10310,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Next, you'll see how to work the other side of the coin: maintaining a Git project.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160124T004538Z" creationid="Prikryl" creationdate="20160124T004538Z">
-        <seg>Dále uvidíte, jak se pracuje na druhé straně -- jak se spravuje gitový projekt.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T021636Z" creationid="Prikryl" creationdate="20160124T004538Z">
+        <seg>V další části uvidíte, jak se pracuje na druhé straně -- jak se spravuje gitový projekt.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10774,8 +10774,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Now, Jessica can merge her topic work into her master branch, merge John's work (`origin/master`) into her `master` branch, and then push back to the server again.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T212251Z" creationid="Prikryl" creationdate="20160115T212251Z">
-        <seg>Teď může Jessica začlenit (merge) svou tématickou větev do své větve `master`, začlenit Johnovu práci (`origin/master`) rovněž do své větve `master` a potom vše může odeslat (push) znovu na server.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T012535Z" creationid="Prikryl" creationdate="20160115T212251Z">
+        <seg>Teď může Jessica začlenit svou tématickou větev do své větve `master` (merge), pak začlenit Johnovu práci (`origin/master`) rovněž do své větve `master` a potom může vše znovu odeslat na server (push).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10814,8 +10814,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Now, each of your topics is contained within a silo – similar to a patch queue – that you can rewrite, rebase, and modify without the topics interfering or interdepending on each other, like so:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160121T201844Z" creationid="Prikryl" creationdate="20160121T201844Z">
-        <seg>Teď je každé z vašich témat obsaženo v samostatném zásobníku -- podobá se frontě záplat -- a můžete je přepsat, přeskládat a upravit, aniž by se obě témata navzájem ovlivňovala nebo by se mezi nimi vytvářela vzájemná závislost, viz obrázek:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T015810Z" creationid="Prikryl" creationdate="20160121T201844Z">
+        <seg>Teď je každé z vašich témat obsaženo v samostatném zásobníku -- podobá se frontě záplat -- a můžete je přepsat, přeskládat a upravit, aniž by se obě témata navzájem ovlivňovala nebo aby se mezi nimi vytvářela vzájemná závislost, viz obrázek:</seg>
       </tuv>
     </tu>
     <tu>
@@ -12736,8 +12736,8 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
       <tuv lang="EN">
         <seg>The `issue54..origin/master` syntax is a log filter that asks Git to only show the list of commits that are on the latter branch (in this case `origin/master`) that are not on the first branch (in this case `issue54`).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T150511Z" creationid="Prikryl" creationdate="20160115T150511Z">
-        <seg>Zápis `issue54..origin/master` předtavuje filtr příkazu, kterým se Gitu říká, aby zobrazil seznam jen těch objektů revize, které se nacházejí v druhé z větví (zde `origin/master`), ale které se nenacházejí v první větvi (zde `issue54`).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T012208Z" creationid="Prikryl" creationdate="20160115T150511Z">
+        <seg>Zápis `issue54..origin/master` představuje filtr příkazu, kterým se Gitu říká, aby zobrazil seznam jen těch objektů revize, které se nacházejí v druhé z větví (zde `origin/master`), ale které se nenacházejí v první větvi (zde `issue54`).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12816,8 +12816,8 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
       <tuv lang="EN">
         <seg>The `request-pull` command takes the base branch into which you want your topic branch pulled and the Git repository URL you want them to pull from, and outputs a summary of all the changes you're asking to be pulled in.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160121T195811Z" creationid="Prikryl" creationdate="20160121T195811Z">
-        <seg>Příkazu `request-pull` se zadává základní větev, do které chcete nechat vaši tématickou větev vtáhnout, a URL adresu gitového repozitáře, z kterého se má stahovat. Příkaz vypíše shrnutí všech změn, které by měly být vtaženy.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T015347Z" creationid="Prikryl" creationdate="20160121T195811Z">
+        <seg>Příkazu `request-pull` se zadává základní větev, do které chcete nechat vaši tématickou větev vtáhnout, a URL adresa gitového repozitáře, z kterého se má změna stahovat. Příkaz vypíše shrnutí všech změn, které by měly být vtaženy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13072,8 +13072,8 @@ Pokud chcete na server `origin` odeslat svou větev `master` (znovu připomeňme
       <tuv lang="EN">
         <seg>The difference is how you submit them to the project.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Liší se to, jak je budete doručovat do projektu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T020514Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Odlišnost spočívá ve způsobu doručování změn do projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13338,8 +13338,8 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
       <tuv lang="EN">
         <seg>The general sequence is something like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T221424Z" creationid="Prikryl" creationdate="20160115T221424Z">
-        <seg>Obvyklá posloupnost vypadá takto:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T013052Z" creationid="Prikryl" creationdate="20160115T221424Z">
+        <seg>Obvyklá posloupnost událostí vypadá takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14080,8 +14080,8 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       <tuv lang="EN">
         <seg>Then you need to push your work up to it.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160121T192101Z" creationid="Prikryl" creationdate="20160121T192101Z">
-        <seg>Do něj teď musíte odeslat (push) svou práci.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T014928Z" creationid="Prikryl" creationdate="20160121T192101Z">
+        <seg>Do něj teď musíte odeslat svou práci (push).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14338,8 +14338,8 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       <tuv lang="EN">
         <seg>There is a bit of a problem – she needs to push the merged work in her `featureB` branch to the `featureBee` branch on the server.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160118T112440Z" creationid="Prikryl" creationdate="20160118T112440Z">
-        <seg>Tady nastává drobný problém. Musí odeslat sloučenou práce ze své větve `featureB` do větve `featureBee` na serveru.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T013757Z" creationid="Prikryl" creationdate="20160118T112440Z">
+        <seg>Tady nastává drobný problém. Musí odeslat sloučenou práci ze své větve `featureB` do větve `featureBee` na serveru.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15789,8 +15789,8 @@ Některé z cílů nového systému byly následující:</seg>
       <tuv lang="EN">
         <seg>This section has covered a number of common workflows for dealing with several very different types of Git projects you're likely to encounter, and introduced a couple of new tools to help you manage this process.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160124T004232Z" creationid="Prikryl" creationdate="20160124T004232Z">
-        <seg>Tato část se zabývala několika obvyklými pracovními postupy, které týkají několika velmi odlišných typů gitových projektů, s kterými se asi setkáte. Uvedla pár nových nástrojů, které vám pomohou celý proces zvládnout.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T021531Z" creationid="Prikryl" creationdate="20160124T004232Z">
+        <seg>Tato část se zabývala obvyklými pracovními postupy, které týkají několika velmi odlišných typů gitových projektů, s kterými se asi setkáte. Uvedla pár nových nástrojů, které vám pomohou celý proces zvládnout.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16071,8 +16071,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>To begin, she starts a new feature branch, basing it off the server's `master` branch:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160118T111906Z" creationid="Prikryl" creationdate="20160118T111906Z">
-        <seg>Začne tím, že založí novou větev, která bude založena na větvi `master` ze serveru:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T013519Z" creationid="Prikryl" creationdate="20160118T111906Z">
+        <seg>Začne tím, že založí novou větev, která vychází ze serverové větve `master`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -17235,8 +17235,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>When you want to share that work, you merge it into your own master branch, then fetch and merge `origin/master` if it has changed, and finally push to the `master` branch on the server.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T221229Z" creationid="Prikryl" creationdate="20160115T215110Z">
-        <seg>Chcete-li tuto práci sdílet, začleníte ji (merge) do své větve `master`. Poté vyzvednete změny (fetch) a pokud se větev `origin/master` změnila, začleníte ji (merge). Nakonec odešlete (push) všechna data do větve `master` na serveru.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T012959Z" creationid="Prikryl" creationdate="20160115T215110Z">
+        <seg>Chcete-li tuto práci sdílet, začleníte ji do své větve `master`. Poté vyzvednete změny (fetch) a pokud se větev `origin/master` změnila, začleníte ji (merge). Nakonec odešlete všechna data do větve `master` na serveru (push).</seg>
       </tuv>
     </tu>
     <tu>
@@ -18366,8 +18366,8 @@ You can use this format to push a local branch into a remote branch that is name
       <tuv lang="EN">
         <seg>You can set each value separately with a series of `git config` commands, or you can add them manually, but in the end your config file should look something like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002754Z" creationid="Prikryl" creationdate="20160124T002754Z">
-        <seg>Každou hodnotu můžete nastavit zvlášť pomocí série příkazů `git config`, nebo můžete vložit hodnoty ručně. Na konci by ale měl váš konfigurační soubor vypadat nějak takto:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T021033Z" creationid="Prikryl" creationdate="20160124T002754Z">
+        <seg>Každou hodnotu můžete nastavit zvlášť pomocí série příkazů `git config`, nebo můžete vložit hodnoty ručně. Na závěr by ale měl váš konfigurační soubor vypadat nějak takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -20295,10 +20295,10 @@ $ vim lib/simplegit.rb
 $ git commit -am 'add limit to log function'
 [featureA 3300904] add limit to log function</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160118T111508Z" creationid="Prikryl" creationdate="20160118T111508Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T011309Z" creationid="Prikryl" creationdate="20160118T111508Z">
         <seg>[source,console]
 ----
-# Jessica's Machine
+# Jessičin počítač
 $ git checkout -b featureA
 Switched to a new branch 'featureA'
 $ vim lib/simplegit.rb
@@ -20319,10 +20319,10 @@ $ vim TODO
 $ git commit -am 'add reset task'
 [master fbff5bc] add reset task</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T143037Z" creationid="Prikryl" creationdate="20160115T143037Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T011038Z" creationid="Prikryl" creationdate="20160115T143037Z">
         <seg>[source,console]
 ----
-# Jessica's Machine
+# Jessičin počítač
 $ git clone jessica@githost:simplegit.git
 Cloning into 'simplegit'...
 ...
@@ -20342,10 +20342,10 @@ $ git checkout -b featureB origin/master
 Switched to a new branch 'featureB'
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160118T111907Z" creationid="Prikryl" creationdate="20160118T111907Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T011330Z" creationid="Prikryl" creationdate="20160118T111907Z">
         <seg>[source,console]
 ----
-# Jessica's Machine
+# Jessičin počítač
 $ git fetch origin
 $ git checkout -b featureB origin/master
 Switched to a new branch 'featureB'
@@ -20360,10 +20360,10 @@ Switched to a new branch 'featureB'
 $ git fetch origin
 ...</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T145627Z" creationid="Prikryl" creationdate="20160115T145627Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T011200Z" creationid="Prikryl" creationdate="20160115T145627Z">
         <seg>[source,console]
 ----
-# Jessica's Machine
+# Jessičin počítač
 $ git fetch origin
 ...</seg>
       </tuv>
@@ -20376,10 +20376,10 @@ $ git fetch origin
 $ git push origin master
 ...</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T143127Z" creationid="Prikryl" creationdate="20160115T143127Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T011059Z" creationid="Prikryl" creationdate="20160115T143127Z">
         <seg>[source,console]
 ----
-# Jessica's Machine
+# Jessičin počítač
 $ git push origin master
 ...</seg>
       </tuv>
@@ -20397,10 +20397,10 @@ $ vim lib/simplegit.rb
 $ git commit -am 'removed invalid default value'
 [master 738ee87] removed invalid default value</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T142852Z" creationid="Prikryl" creationdate="20160115T142852Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T011021Z" creationid="Prikryl" creationdate="20160115T142852Z">
         <seg>[source,console]
 ----
-# John's Machine
+# Johnův počítač
 $ git clone john@githost:simplegit.git
 Cloning into 'simplegit'...
 ...
@@ -20418,10 +20418,10 @@ $ git commit -am 'removed invalid default value'
 $ git push origin master
 To john@githost:simplegit.git</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160115T143152Z" creationid="Prikryl" creationdate="20160115T143152Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T011116Z" creationid="Prikryl" creationdate="20160115T143152Z">
         <seg>[source,console]
 ----
-# John's Machine
+# Johnův počítač
 $ git push origin master
 To john@githost:simplegit.git</seg>
       </tuv>
@@ -20939,13 +20939,13 @@ $ git commit
 $ git commit
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T235821Z" creationid="Prikryl" creationdate="20160123T235821Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T020636Z" creationid="Prikryl" creationdate="20160123T235821Z">
         <seg>[source,console]
 ----
 $ git checkout -b topicA
-# (work)
+# (práce)
 $ git commit
-# (work)
+# (práce)
 $ git commit
 ----</seg>
       </tuv>

@@ -621,12 +621,32 @@ Tento pracovní postup je velmi běžný, pokud se pracuje centralizačními ná
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((git commands, config)))(((email)))
+First, you need to set up the imap section in your `~/.gitconfig` file.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002622Z" creationid="Prikryl" creationdate="20160124T002622Z">
+        <seg>(((git příkazy, config)))(((e-mail)))
+Nejdříve si musíte ve vašem souboru `~/.gitconfig` nastavit sekci „imap“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((git commands, diff, check)))
 First, you don't want to submit any whitespace errors.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160113T193245Z" creationid="Prikryl" creationdate="20160110T123613Z">
         <seg>(((git příkazy, diff, check)))
 Především nechcete odesílat chybně použité prázdné znaky (whitespace).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((git commands, format-patch)))
+Now you have two commits that you want to send to the mailing list.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T235901Z" creationid="Prikryl" creationdate="20160123T235901Z">
+        <seg>(((git commands, format-patch)))
+Teď máte dvě revize, které chcete odeslat do poštovní konference.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1209,6 +1229,14 @@ Protože Git umožňuje práci s více vzdálenými repozitáři, lze využít p
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T075101Z" creationid="Prikryl" creationdate="20151214T075101Z">
         <seg>- [deleted]         serverfix
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>---</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T000610Z" creationid="Prikryl" creationdate="20160124T000610Z">
+        <seg>---</seg>
       </tuv>
     </tu>
     <tu>
@@ -1803,6 +1831,14 @@ image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpř
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T143048Z" creationid="Prikryl" creationdate="20160115T143048Z">
         <seg>1 files changed, 1 insertions(+), 0 deletions(-)
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>1 files changed, 1 insertions(+), 1 deletions(-)</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T000614Z" creationid="Prikryl" creationdate="20160124T000614Z">
+        <seg>1 files changed, 1 insertions(+), 1 deletions(-)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3561,6 +3597,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Alternatively, you can type your commit message inline with the `commit` command by specifying it after a `-m` flag, like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Zprávu k revizi můžete rovněž napsat do řádku k příkazu `commit`. Jako zprávu ji označíte tak, že před ni vložíte příznak `-m`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Although Subversion automatically does such a merge on the server if different files are edited, in Git you must merge the commits locally.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T144211Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3629,6 +3673,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Anotovaná značka je už složitější.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>An asterisk (`*`) matches zero or more characters; `[abc]` matches any character inside the brackets (in this case a, b, or c); a question mark (`?`) matches a single character; and brackets enclosing characters separated by a hyphen (`[0-9]`) matches any character between them (in this case 0 through 9).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212517Z" creationid="Prikryl" creationdate="20160123T212517Z">
+        <seg>Hvězdička (`*`) označuje žádný nebo více znaků; `[abc]` označuje jakýkoli znak uvedený v závorkách (v tomto případě `a`, `b` nebo `c`); otazník (`?`) označuje jeden znak; znaky v hranatých závorkách oddělené pomlčkou (`[0-9]`) označují jakýkoli znak v daném rozmezí (v našem případě 0 až 9).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3853,8 +3905,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>As before, you can set each value separately with a series of `git config` commands, or you can add them manually in the sendemail section in your `~/.gitconfig` file:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Stejně jako v předchozím případu můžete nastavit sérií příkazů `git config` každou hodnotu zvlášť, nebo je můžete vložit ručně do sekce sendemail souboru `~/.gitconfig`:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003506Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Můžete rovněž nastavit každou hodnotu zvlášť sérií příkazů `git config`, nebo je můžete vložit ručně do sekce sendemail vašeho souboru `~/.gitconfig`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4159,6 +4211,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>V této chvíli byste měli v systému Git zvládat většinu úkonů, které se běžně používají na příkazovém řádku, a neměly by vám činit větší potíže.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>At this point, you should be able to go to your Drafts folder, change the To field to the mailing list you're sending the patch to, possibly CC the maintainer or person responsible for that section, and send it off.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003315Z" creationid="Prikryl" creationdate="20160124T003315Z">
+        <seg>V tomto okamžiku byste měli být schopni přejít do své složky Drafts, změnit pole *To* na adresu poštovní konference, do které záplatu posíláte, případně pole *CC* na správce nebo na osobu odpovědnou za tuto část, a odeslat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5234,6 +5294,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T113211Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud například chcete pro každou revizi zobrazit některé stručné statistiky, použijte volbu `--stat`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, if you want to see which commits modifying test files in the Git source code history are merged and were committed by Junio Hamano in the month of October 2008, you can run something like this:(((log filtering)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233129Z" creationid="Prikryl" creationdate="20160123T233129Z">
+        <seg>Pokud například chcete zjistit, které revize upravující testovací soubory v historii zdrojového kódu Gitu začlenil a zapsal Junio Hamano v říjnu 2008, můžete zadat následující příkaz:(((log filtrování)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -6737,6 +6805,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If not configured, Git uses your system's default editor.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T211940Z" creationid="Prikryl" creationdate="20160123T211940Z">
+        <seg>Pokud jej nenastavíte, použije Git výchozí editor nastavený v systému.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If our environment looks like this:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151030T093306Z" creationid="Prikryl" creationdate="20151030T093104Z">
@@ -6939,6 +7015,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you add text between the `---` line and the beginning of the patch (the `diff --git` line), then developers can read it; but applying the patch excludes it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T001308Z" creationid="Prikryl" creationdate="20160124T001308Z">
+        <seg>Pokud mezi řádek `---` a začátek záplaty (řádek `lib/simplegit.rb`) přidáte nějaký text, mohou si ho vývojáři přečíst; ale při aplikaci záplaty se nepoužije.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you already have a local branch and want to set it to a remote branch you just pulled down, or want to change the upstream branch you're tracking, you can use the `-u` or `--set-upstream-to` option to `git branch` to explicitly set it at any time.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151213T213808Z" creationid="Prikryl" creationdate="20151213T213808Z">
@@ -7064,6 +7148,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160113T203738Z" creationid="Prikryl" creationdate="20160110T124214Z">
         <seg>Pokud je to možné, snažte se, aby byly vaše změny stravitelné. Není právě ideální pracovat celý víkend na pěti různých problémech a v pondělí je všechny najednou odeslat formou jedné velké revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you change a previously tracked file called `CONTRIBUTING.md` and then run your `git status` command again, you get something that looks like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212109Z" creationid="Prikryl" creationdate="20160123T212109Z">
+        <seg>Pokud změníte už dříve sledovaný soubor s názvem `CONTRIBUTING.md` a poté znovu spustíte příkaz `git status`, zobrazí se něco takového:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8487,6 +8579,14 @@ Just type the name of the tool you'd rather use.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If your IMAP server doesn't use SSL, the last two lines probably aren't necessary, and the host value will be `imap://` instead of `imaps://`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002927Z" creationid="Prikryl" creationdate="20160124T002927Z">
+        <seg>Pokud váš server IMAP nepoužívá SSL, nebudou zřejmě dva poslední řádky vůbec třeba a hodnota hostitele bude `imap://`, a nikoli `imaps://`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If your fix for issue #53 modified the same part of a file as the `hotfix`, you'll get a merge conflict that looks something like this:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T072717Z" creationid="Prikryl" creationdate="20151120T072717Z">
@@ -9218,6 +9318,14 @@ Zde je originální (přeložená) šablona, kterou napsal Tim Pope:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Instead of forking the project and pushing to your own writable version, you generate email versions of each commit series and email them to the developer mailing list:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T235819Z" creationid="Prikryl" creationdate="20160123T235600Z">
+        <seg>Místo vytváření odštěpeného projektu a odesílání změn (push) do vlastní zapisovatelné verze, vygenerujete e-mailovou verzi každé série revizí a pošlete je e-mailem do poštovní konference vývojářů:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Instead of just moving the branch pointer forward, Git creates a new snapshot that results from this three-way merge and automatically creates a new commit that points to it.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151215T133323Z" creationid="Prikryl" creationdate="20151115T154508Z">
@@ -9456,6 +9564,16 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Snazší k zapamatování je varianta s výrazem `~3`, neboť se pokoušíte upravit poslední tři revize. Nezapomeňte ale, že tím ve skutečnosti označujete čtvrtou revizi od konce, tedy rodiče poslední revize, kterou chcete upravit:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It may be helpful to think of it more as ``add this content to the next commit'' rather than ``add this file to the project''.(((git commands, add)))
+Let's run `git add` now to stage the `CONTRIBUTING.md` file, and then run `git status` again:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212226Z" creationid="Prikryl" creationdate="20160123T212226Z">
+        <seg>Možná vám pomůže, když o něm budete uvažovat spíše ve smyslu „přidej tento obsah do dalšího snímku“ než ve smyslu „přidej tento soubor do projektu“.(((git příkazy, add)))
+Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili k zapsání, a potom znovu zadejme příkaz `git status`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10354,6 +10472,32 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Log says:
+Sendmail: /usr/sbin/sendmail -i jessica@example.com
+From: Jessica Smith &lt;jessica@example.com&gt;
+To: jessica@example.com
+Subject: [PATCH 1/2] added limit to log function
+Date: Sat, 30 May 2009 13:29:15 -0700
+Message-Id: &lt;1243715356-61726-1-git-send-email-jessica@example.com&gt;
+X-Mailer: git-send-email 1.6.2.rc1.20.g8c5b.dirty
+In-Reply-To: &lt;y&gt;
+References: &lt;y&gt;</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003741Z" creationid="Prikryl" creationdate="20160124T003741Z">
+        <seg>Log says:
+Sendmail: /usr/sbin/sendmail -i jessica@example.com
+From: Jessica Smith &lt;jessica@example.com&gt;
+To: jessica@example.com
+Subject: [PATCH 1/2] added limit to log function
+Date: Sat, 30 May 2009 13:29:15 -0700
+Message-Id: &lt;1243715356-61726-1-git-send-email-jessica@example.com&gt;
+X-Mailer: git-send-email 1.6.2.rc1.20.g8c5b.dirty
+In-Reply-To: &lt;y&gt;
+References: &lt;y&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Looking at your Git status again, you can see that you’ve unstaged the TODO file:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10372,8 +10516,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>Luckily, Git provides a tool to help you send properly formatted patches via IMAP, which may be easier for you.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Git naštěstí nabízí nástroj, který vám pomůže odeslat správně formátované patche pomocí protokolu IMAP.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T001810Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Git naštěstí nabízí nástroj, který vám pomůže odeslat správně formátované záplaty protokolem IMAP, což pro vás může být jednodušší.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10494,6 +10638,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T105619Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Důležitější je, že můžete použít jakýkoli způsob přejmenování a později, před zapsáním revize, provést příkaz `add`/`rm`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>More importantly, you can use any tool you like to rename a file, and address the add/rm later, before you commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T213030Z" creationid="Prikryl" creationdate="20160123T213030Z">
+        <seg>Důležitější je, že pro přejmenování souboru můžete použít jakýkoli oblíbený nástroj a později, před zapsáním revize, provést příkaz `add`/`rm`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10626,6 +10778,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Next, you'll see how to work the other side of the coin: maintaining a Git project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T004538Z" creationid="Prikryl" creationdate="20160124T004538Z">
+        <seg>Dále uvidíte, jak se pracuje na druhé straně -- jak se spravuje gitový projekt.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>No commit was completed in that instance.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10718,6 +10878,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T230216Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Všimněte si zpětného lomítka (`\`) před znakem `*`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Notice how you don't have to run `git add` on the `CONTRIBUTING.md` file in this case before you commit.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212626Z" creationid="Prikryl" creationdate="20160123T212626Z">
+        <seg>Povšimněte si, že kvůli souboru `CONTRIBUTING.md` v tomto případě nemusíte před zapsáním revize provádět příkaz `git add`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11421,6 +11589,32 @@ M  lib/simplegit.rb
         <seg>On a x86 system
 [source,console]
 ----
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+----
+On a x64 system
+[source,console]
+----
+$ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212030Z" creationid="Prikryl" creationdate="20160123T212030Z">
+        <seg>On a x86 system
+[source,console]
+----
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+----
+On a x64 system
+[source,console]
+----
+$ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>On a x86 system
+[source,console]
+----
 $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession" 
 ----
 On a x64 system
@@ -11650,6 +11844,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Přidáte-li k příkazu `cat-file` parametr `-p`, říkáte mu, aby zjistil typ obsahu a přehledně vám ho zobrazil:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Pasting the text often causes formatting issues, especially with ``smarter'' clients that don't preserve newlines and other whitespace appropriately.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T001701Z" creationid="Prikryl" creationdate="20160124T001701Z">
+        <seg>Vkládání textu často způsobuje problémy s formátováním, zvlášť v případě některých „chytřejších“ klientů, kteří správně nezachovávají zalamování řádků a prázdné znaky (whitespace).</seg>
       </tuv>
     </tu>
     <tu>
@@ -11902,6 +12104,16 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Result: OK
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003743Z" creationid="Prikryl" creationdate="20160124T003743Z">
+        <seg>Result: OK
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Right below the ``Changes to be committed'' text, it says use `git reset HEAD &lt;file&gt;...` to unstage.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T131327Z" creationid="Prikryl" creationdate="20151106T213952Z">
@@ -11922,6 +12134,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151213T110436Z" creationid="Prikryl" creationdate="20151210T124206Z">
         <seg>Spusťte `git push (vzdálený) (větev)`:(((git příkazy, push)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Run `git push &lt;remote&gt; &lt;branch&gt;`:(((git commands, push)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233558Z" creationid="Prikryl" creationdate="20160123T233558Z">
+        <seg>Spusťte `git push &lt;vzdálený&gt; &lt;větev&gt;`:(((git příkazy, push)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -12188,6 +12408,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151216T104519Z" creationid="Prikryl" creationdate="20151026T133311Z">
         <seg>Od té doby jej přijaly téměř všechny Open Source komunity.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Since there are several older, larger projects which accept patches via a developer mailing list, we'll go over an example of that now.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T235724Z" creationid="Prikryl" creationdate="20160123T235341Z">
+        <seg>Protože existuje několik starších, větších projektů, kde se záplaty přijímají prostřednictvím vývojářské poštovní konference{empty}footnote:[mailing list], projdeme si teď podobný příklad.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12992,6 +13220,14 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The `CONTRIBUTING.md` file appears under a section named ``Changes not staged for commit'' – which means that a file that is tracked has been modified in the working directory but not yet staged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212144Z" creationid="Prikryl" creationdate="20160123T212144Z">
+        <seg>Soubor `CONTRIBUTING.md` je uveden v části „Changes not staged for commit“ (změny, které nejsou připraveny k zapsání). Znamená to, že soubor, který je sledován, byl v pracovním adresáři změněn, avšak ještě nebyl připraven k zapsání (staged).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The `CONTRIBUTING.md` file is modified but once again unstaged.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151106T214129Z" creationid="Prikryl" creationdate="20151106T214129Z">
@@ -13126,6 +13362,14 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>V adresáři `objects` je uložen celý obsah vaší databáze, v adresáři `refs` jsou uloženy ukazatele na objekty revizí v datech (větve). Soubor `HEAD` ukazuje na větev, na níž se právě nacházíte, a soubor `index` je pro systém Git úložištěm informací o oblasti připravených změn.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The `oneline` and `format` options are particularly useful with another `log` option called `--graph`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Parametry `oneline` a `format` jsou zvlášť užitečné ve spojení s další možností `log`u – parametrem `--graph`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14048,6 +14292,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The nice thing about this is that applying a patch from an email generated with `format-patch` preserves all the commit information properly.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T000545Z" creationid="Prikryl" creationdate="20160124T000545Z">
+        <seg>Výhodou tohoto postupu je, že se při aplikaci záplaty z e-mailu, který byl vygenerován příkazem `format-patch`, korektně převezmou všechny informace o revizi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The nice thing about this wrapper setup is that you can change your diff and merge tools easily.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -14434,6 +14686,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The workflow is similar to the previous use case – you create topic branches for each patch series you work on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T235416Z" creationid="Prikryl" creationdate="20160123T235416Z">
+        <seg>Pracovní postup je podobný jako v předchozím případě. Pro každou sérii záplat, na níž pracujete, vytvoříte samostatnou tématickou větev.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The workflow required in order to contribute to a project is much different if you have write access to the project than if you don't.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160110T121825Z" creationid="Prikryl" creationdate="20160110T121825Z">
@@ -14478,6 +14738,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160121T192101Z" creationid="Prikryl" creationdate="20160121T192101Z">
         <seg>Do něj teď musíte odeslat (push) svou práci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Then, Git spits out a bunch of log information looking something like this for each patch you're sending:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003734Z" creationid="Prikryl" creationdate="20160124T003734Z">
+        <seg>Git poté vytvoří log s určitými informacemi, který bude pro každou odesílanou záplatu vypadat asi takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -15289,6 +15557,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T151126Z" creationid="Prikryl" creationdate="20151108T151126Z">
         <seg>Vytvoří se tím nový ukazatel na stejný objekt revize, na kterém se momentálně nacházíte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This creates a new pointer to the same commit you're currently on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233203Z" creationid="Prikryl" creationdate="20160123T233203Z">
+        <seg>Vytvoří se tím nový ukazatel na stejný objekt revize, na kterém se právě nacházíte.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16199,6 +16475,14 @@ Některé z cílů nového systému byly následující:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This section has covered a number of common workflows for dealing with several very different types of Git projects you're likely to encounter, and introduced a couple of new tools to help you manage this process.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T004232Z" creationid="Prikryl" creationdate="20160124T004232Z">
+        <seg>Tato část se zabývala několika obvyklými pracovními postupy, které týkají několika velmi odlišných typů gitových projektů, s kterými se asi setkáte. Uvedla pár nových nástrojů, které vám pomohou celý proces zvládnout.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This section outlines the various ways you can refer to a single commit.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -16653,6 +16937,14 @@ Příkaz ukáže jen informaci o revizi:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Chcete-li e-mail odeslat do poštovní konference, můžete soubor buď vložit do svého e-mailového programu, nebo ho odeslat pomocí příkazového řádku.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>To email this to a mailing list, you can either paste the file into your email program or send it via a command-line program.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T001510Z" creationid="Prikryl" creationdate="20160124T001510Z">
+        <seg>Při odesílání souboru do poštovní konference můžete soubor buď vložit do svého poštovního programu, nebo ho můžete odeslat z příkazového řádku.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17267,6 +17559,14 @@ To https://github.com/schacon/simplegit</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>We'll demonstrate how to send a patch via Gmail, which happens to be the email agent we know best; you can read detailed instructions for a number of mail programs at the end of the aforementioned `Documentation/SubmittingPatches` file in the Git source code.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002424Z" creationid="Prikryl" creationdate="20160124T002424Z">
+        <seg>Ukážeme si, jak se dá záplata odeslat přes Gmail, což je nástroj pro poštu, který známe nejlépe. Podrobné pokyny pro používání celé řady poštovních programů najdete na konci dříve zmíněného souboru `Documentation/SubmittingPatches` ve zdrojovém kódu systému Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>We'll discuss how to export a bare repository copy for this purpose in &lt;&lt;_git_on_the_server&gt;&gt;.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151228T185025Z" creationid="Prikryl" creationdate="20151228T185025Z">
@@ -17343,6 +17643,16 @@ To https://github.com/schacon/simplegit</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T133717Z" creationid="Prikryl" creationdate="20151108T133717Z">
         <seg>V této kapitole jsme se věnovali základům větvení a slučování.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>We've mentioned and given some demonstrations of adding remote repositories in previous sections, but here is how to do it explicitly.(((git commands, remote)))
+To add a new remote Git repository as a shortname you can reference easily, run `git remote add &lt;shortname&gt; &lt;url&gt;`:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T213116Z" creationid="Prikryl" creationdate="20160123T213116Z">
+        <seg>O přidávání vzdálených repozitářů jsme se zmínili v předchozích podkapitolách a něco jsme si i ukázali, ale tady si přesně řekneme, jak to udělat.(((git příkazy, remote)))
+Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, přes který se můžete snadno odkazovat, spusťte příkaz `git remote add &lt;zkrácený název&gt; &lt;url&gt;`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -17479,8 +17789,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>When that is set up, you can use `git imap-send` to place the patch series in the Drafts folder of the specified IMAP server:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Až toto nastavení dokončíte, můžete použít příkaz `git imap-send`, jímž umístíte sérii záplat (patch) do složky Koncepty (Drafts) zadaného serveru IMAP:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003138Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Až toto nastavení dokončíte, můžete použít příkaz `git imap-send`, jímž umístíte sérii záplat (patch) do složky Drafts zadaného serveru IMAP:</seg>
       </tuv>
     </tu>
     <tu>
@@ -18048,6 +18358,14 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can also edit these patch files to add more information for the email list that you don't want to show up in the commit message.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T000952Z" creationid="Prikryl" creationdate="20160124T000952Z">
+        <seg>Do souborů se záplatami můžete dodatečně připsat další informace, které jsou určeny pro poštovní konferenci, ale které nechcete vkládat do zprávy k revizi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can also filter the list to commits that match some search criteria.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151103T200640Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -18440,6 +18758,14 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can get a full list of remote references explicitly with `git ls-remote [remote]`, or `git remote show [remote]` for remote branches as well as more information.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233524Z" creationid="Prikryl" creationdate="20160123T233524Z">
+        <seg>Seznam vzdálených referencí pro vzdálené větve a také další informace můžete získat explicitním příkazem `git ls-remote [vzdálený]` nebo `git remote show [vzdálený]` footnote:[Pozn. překl.: V originále je příkaz zapsán jako `git remote show [remote]`, přičemž první „remote“ je název příkazu a druhé slovo „remote“ v závorkách je symbolické vyjádření, že se zde má uvést jméno „vzdáleného“... a teď čeho. Na jiných místech v knize se volněji pracuje s pojmy „server“ nebo „repozitář“ ve smyslu gitového serveru nebo repozitáře. V této kapitole bychom měli být přesnější, protože pojem „remote“ musíme navíc spojit s větvemi. Přesnější je použít spojení „vzdálený repozitář“, protože z hlediska Gitu není důležité, jakou podobu toto „úložiště dat“ má. Může to být „server“, ale může to být také „adresář na lokálním disku“. V anglicky mluvící komunitě si s tím hlavu nelámou a nazývají to prostě „remote“, přičemž mají současně na mysli „krátké jméno vzdáleného repozitáře“. Podle jejich vzoru proto ponechávám pro druhý výskyt tohoto slova v příkladu český překlad „vzdálený“.].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can get a list of the SHA-1 values of all the commits that are being pushed by taking the `$newrev` and `$oldrev` values and passing them to a Git plumbing command called `git rev-list`.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -18816,6 +19142,14 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can set each value separately with a series of `git config` commands, or you can add them manually, but in the end your config file should look something like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002754Z" creationid="Prikryl" creationdate="20160124T002754Z">
+        <seg>Každou hodnotu můžete nastavit zvlášť pomocí série příkazů `git config`, nebo můžete vložit hodnoty ručně. Na konci by ale měl váš konfigurační soubor vypadat nějak takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can set up an attribute like this:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -18958,6 +19292,14 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151213T220614Z" creationid="Prikryl" creationdate="20151213T220614Z">
         <seg>Můžete to provést následovně: `$ git fetch --all; git branch -vv`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You could do that like this: `git fetch --all; git branch -vv`</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233619Z" creationid="Prikryl" creationdate="20160123T233619Z">
+        <seg>Můžete to provést následovně: `git fetch --all; git branch -vv`</seg>
       </tuv>
     </tu>
     <tu>
@@ -19524,6 +19866,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You use `git format-patch` to generate the mbox-formatted files that you can email to the list – it turns each commit into an email message with the first line of the commit message as the subject and the rest of the message plus the patch that the commit introduces as the body.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T000204Z" creationid="Prikryl" creationdate="20160124T000204Z">
+        <seg>Pro vygenerování souborů v podobě vhodné pro zaslání poštou použijete příkaz `git format-patch`. Každá revize se tím přetransformuje na e-mailovou zprávu, jejíž předmět bude tvořit první řádek zprávy k revizi a tělo e-mailu bude tvořeno zbytkem zprávy a samotnou záplatou.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You use this command to artificially add the earlier version of the test.txt file to a new staging area.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -19592,6 +19942,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T142846Z" creationid="Prikryl" creationdate="20151107T111146Z">
         <seg>Nejdříve musíte jeho práci stáhnout, zahrnout ji do vaší a teprve potom budete moci vše odeslat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You'll learn how to be a benevolent dictator or integration manager.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T004557Z" creationid="Prikryl" creationdate="20160124T004557Z">
+        <seg>Dozvíte se, jak být benevolentním diktátorem nebo integračním manažerem.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19838,12 +20196,36 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>[IMPORTANT]
 =====
+It's important to understand that `git checkout -- &lt;file&gt;` is a dangerous command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T213232Z" creationid="Prikryl" creationdate="20160123T213232Z">
+        <seg>[IMPORTANT]
+=====
+Je důležité, abyste porozuměli tomu, že příkaz `git checkout -- &lt;soubor&gt;` je nebezpečný.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[IMPORTANT]
+=====
 It's important to understand that `git checkout -- [file]` is a dangerous command.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151106T220204Z" creationid="Prikryl" creationdate="20151106T220204Z">
         <seg>[IMPORTANT]
 =====
 Je důležité, abyste porozuměli tomu, že příkaz `git checkout -- [soubor]` je nebezpečný.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[Jessica Smith &lt;jessica@example.com&gt;]
+Emails will be sent from: Jessica Smith &lt;jessica@example.com&gt;
+Who should the emails be sent to?</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003547Z" creationid="Prikryl" creationdate="20160124T003547Z">
+        <seg>[Jessica Smith &lt;jessica@example.com&gt;]
+Emails will be sent from: Jessica Smith &lt;jessica@example.com&gt;
+Who should the emails be sent to?</seg>
       </tuv>
     </tu>
     <tu>
@@ -20954,6 +21336,30 @@ To john@githost:simplegit.git</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ cat *.patch |git imap-send
+Resolving imap.gmail.com... ok
+Connecting to [74.125.142.109]:993... ok
+Logging in...
+sending 2 messages
+100% (2/2) done
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003102Z" creationid="Prikryl" creationdate="20160124T003102Z">
+        <seg>[source,console]
+----
+$ cat *.patch |git imap-send
+Resolving imap.gmail.com... ok
+Connecting to [74.125.142.109]:993... ok
+Logging in...
+sending 2 messages
+100% (2/2) done
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ cat .gitignore
 *.[oa]
 *~
@@ -20966,6 +21372,26 @@ $ cat .gitignore
 *.[oa]
 *~
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ cat 0001-add-limit-to-log-function.patch
+From 330090432754092d704da8e76ca5c05c198e71a8 Mon Sep 17 00:00:00 2001
+From: Jessica Smith &lt;jessica@example.com&gt;
+Date: Sun, 6 Apr 2008 10:17:23 -0700
+Subject: [PATCH 1/2] add limit to log function</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T000556Z" creationid="Prikryl" creationdate="20160124T000556Z">
+        <seg>[source,console]
+----
+$ cat 0001-add-limit-to-log-function.patch
+From 330090432754092d704da8e76ca5c05c198e71a8 Mon Sep 17 00:00:00 2001
+From: Jessica Smith &lt;jessica@example.com&gt;
+Date: Sun, 6 Apr 2008 10:17:23 -0700
+Subject: [PATCH 1/2] add limit to log function</seg>
       </tuv>
     </tu>
     <tu>
@@ -21119,7 +21545,7 @@ $ git status
 On branch master
 Changes to be committed:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151029T125141Z" creationid="Prikryl" creationdate="20151029T125141Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212315Z" creationid="Prikryl" creationdate="20160123T212315Z">
         <seg>[source,console]
 ----
 $ git add CONTRIBUTING.md
@@ -21438,6 +21864,28 @@ Branch sf set up to track remote branch serverfix from origin.</seg>
 ----
 $ git checkout -b sf origin/serverfix
 Branch sf set up to track remote branch serverfix from origin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout -b topicA
+# (work)
+$ git commit
+# (work)
+$ git commit
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T235821Z" creationid="Prikryl" creationdate="20160123T235821Z">
+        <seg>[source,console]
+----
+$ git checkout -b topicA
+# (work)
+$ git commit
+# (work)
+$ git commit
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -22182,6 +22630,24 @@ remote: Counting objects: 43, done.</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git format-patch -M origin/master
+0001-add-limit-to-log-function.patch
+0002-changed-log-output-to-30-from-25.patch
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T000547Z" creationid="Prikryl" creationdate="20160124T000547Z">
+        <seg>[source,console]
+----
+$ git format-patch -M origin/master
+0001-add-limit-to-log-function.patch
+0002-changed-log-output-to-30-from-25.patch
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git help &lt;verb&gt;
 $ git &lt;verb&gt; --help
 $ man git-&lt;verb&gt;
@@ -22276,6 +22742,26 @@ $ git log --no-merges issue54..origin/master
 commit 738ee872852dfaa9d6634e0dea7a324040193016
 Author: John Smith &lt;jsmith@example.com&gt;
 Date:   Fri May 29 16:01:27 2009 -0700</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log --oneline --decorate
+f30ab (HEAD -&gt; master, testing) add feature #32 - ability to add new formats to the central interface
+34ac2 Fixed bug #1328 - stack overflow under certain conditions
+98ca9 The initial commit of my project
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233216Z" creationid="Prikryl" creationdate="20160123T233216Z">
+        <seg>[source,console]
+----
+$ git log --oneline --decorate
+f30ab (HEAD -&gt; master, testing) add feature #32 - ability to add new formats to the central interface
+34ac2 Fixed bug #1328 - stack overflow under certain conditions
+98ca9 The initial commit of my project
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -23018,6 +23504,24 @@ $ git rm log/\*.log
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git send-email *.patch
+0001-added-limit-to-log-function.patch
+0002-changed-log-output-to-30-from-25.patch
+Who should the emails appear to be from?</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003541Z" creationid="Prikryl" creationdate="20160124T003541Z">
+        <seg>[source,console]
+----
+$ git send-email *.patch
+0001-added-limit-to-log-function.patch
+0002-changed-log-output-to-30-from-25.patch
+Who should the emails appear to be from?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git show v1.4
 tag v1.4
 Tagger: Ben Straub &lt;ben@straub.cc&gt;
@@ -23670,6 +24174,42 @@ please contact us at email.support@github.com
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[source,ini]
+----
+[imap]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002758Z" creationid="Prikryl" creationdate="20160124T002758Z">
+        <seg>[source,ini]
+----
+[imap]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,ini]
+----
+[sendemail]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003507Z" creationid="Prikryl" creationdate="20160124T003507Z">
+        <seg>[source,ini]
+----
+[sendemail]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,text]
+----
+(mbox) Adding cc: Jessica Smith &lt;jessica@example.com&gt; from</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003736Z" creationid="Prikryl" creationdate="20160124T003736Z">
+        <seg>[source,text]
+----
+(mbox) Adding cc: Jessica Smith &lt;jessica@example.com&gt; from</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[source,text]
 ----
 Short (50 chars or less) summary of changes</seg>
@@ -23716,6 +24256,16 @@ Krátké shrnutí změn (do 50 znaků)</seg>
 ----
 24b9da6552252987aa493b52f8696cd6d3b00373
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>\line 'From: Jessica Smith &lt;jessica@example.com&gt;'
+OK.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003738Z" creationid="Prikryl" creationdate="20160124T003738Z">
+        <seg>\line 'From: Jessica Smith &lt;jessica@example.com&gt;'
+OK.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23856,6 +24406,14 @@ Krátké shrnutí změn (do 50 znaků)</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>and `git diff --cached` to see what you've staged so far (`--staged` and `--cached` are synonyms):</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212541Z" creationid="Prikryl" creationdate="20160123T212541Z">
+        <seg>a příkaz `git diff --cached` ukáže změny, které už jsou připraveny k zapsání (`--staged` a `--cached` jsou synonyma):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>and it works fine.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T231203Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -23988,6 +24546,32 @@ Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>def log(treeish = 'master')
+-    command("git log #{treeish}")
++    command("git log -n 20 #{treeish}")</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T000621Z" creationid="Prikryl" creationdate="20160124T000621Z">
+        <seg>def log(treeish = 'master')
+-    command("git log #{treeish}")
++    command("git log -n 20 #{treeish}")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>def ls_tree(treeish = 'master')
+--
+2.1.0
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T000627Z" creationid="Prikryl" creationdate="20160124T000627Z">
+        <seg>def ls_tree(treeish = 'master')
+--
+2.1.0
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>deleted:    PROJECTS.md</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T224543Z" creationid="Prikryl" creationdate="20151031T224543Z">
@@ -24050,6 +24634,22 @@ index a874b73..8f94139 100644
 --- a/Rakefile
 +++ b/Rakefile
 @@ -5,7 +5,7 @@ require 'rake/gempackagetask'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>diff --git a/lib/simplegit.rb b/lib/simplegit.rb
+index 76f47bc..f9815f1 100644
+--- a/lib/simplegit.rb
++++ b/lib/simplegit.rb
+@@ -14,7 +14,7 @@ class SimpleGit</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T000617Z" creationid="Prikryl" creationdate="20160124T000617Z">
+        <seg>diff --git a/lib/simplegit.rb b/lib/simplegit.rb
+index 76f47bc..f9815f1 100644
+--- a/lib/simplegit.rb
++++ b/lib/simplegit.rb
+@@ -14,7 +14,7 @@ class SimpleGit</seg>
       </tuv>
     </tu>
     <tu>
@@ -24180,6 +24780,14 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>folder = "[Gmail]/Drafts"</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002803Z" creationid="Prikryl" creationdate="20160124T002803Z">
+        <seg>folder = "[Gmail]/Drafts"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>git commit --amend</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T222707Z" creationid="Prikryl" creationdate="20151023T222707Z">
@@ -24192,6 +24800,14 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T220922Z" creationid="Prikryl" creationdate="20151023T220922Z">
         <seg>git://githost/simplegit.git featureA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>host = imaps://imap.gmail.com</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002806Z" creationid="Prikryl" creationdate="20160124T002806Z">
+        <seg>host = imaps://imap.gmail.com</seg>
       </tuv>
     </tu>
     <tu>
@@ -24902,6 +25518,16 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>jessica@example.com
+Message-ID to be used as In-Reply-To for the first email?</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003549Z" creationid="Prikryl" creationdate="20160124T003549Z">
+        <seg>jessica@example.com
+Message-ID to be used as In-Reply-To for the first email?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>lib/simplegit.rb |    2 +-</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T214140Z" creationid="Prikryl" creationdate="20160115T214140Z">
@@ -25176,6 +25802,14 @@ $ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>pass = p4ssw0rd</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002811Z" creationid="Prikryl" creationdate="20160124T002811Z">
+        <seg>pass = p4ssw0rd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>please contact us at support@github.com
 &lt;/div&gt;
 &gt;&gt;&gt;&gt;&gt;&gt;&gt; iss53:index.html
@@ -25186,6 +25820,14 @@ $ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \</seg>
 &lt;/div&gt;
 &gt;&gt;&gt;&gt;&gt;&gt;&gt; iss53:index.html
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>port = 993</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002814Z" creationid="Prikryl" creationdate="20160124T002814Z">
+        <seg>port = 993</seg>
       </tuv>
     </tu>
     <tu>
@@ -25372,10 +26014,54 @@ Unpacking objects: 100% (43/43), done.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>smtpencryption = tls</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003513Z" creationid="Prikryl" creationdate="20160124T003513Z">
+        <seg>smtpencryption = tls</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>smtpserver = smtp.gmail.com</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003515Z" creationid="Prikryl" creationdate="20160124T003515Z">
+        <seg>smtpserver = smtp.gmail.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>smtpserverport = 587
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003520Z" creationid="Prikryl" creationdate="20160124T003520Z">
+        <seg>smtpserverport = 587
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>smtpuser = user@gmail.com</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003518Z" creationid="Prikryl" creationdate="20160124T003518Z">
+        <seg>smtpuser = user@gmail.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>spec = Gem::Specification.new do |s|</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T145256Z" creationid="Prikryl" creationdate="20151102T145256Z">
         <seg>spec = Gem::Specification.new do |s|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>sslverify = false
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002817Z" creationid="Prikryl" creationdate="20160124T002817Z">
+        <seg>sslverify = false
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -25464,6 +26150,14 @@ Unpacking objects: 100% (43/43), done.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>user = user@gmail.com</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T002808Z" creationid="Prikryl" creationdate="20160124T002808Z">
+        <seg>user = user@gmail.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>version 1.2
 commit 9fceb02d0ae598e95dc970b74767f19372d61af8
 Author: Magnus Chacon &lt;mchacon@gee-mail.com&gt;
@@ -25498,6 +26192,16 @@ Date:   Sun Apr 27 20:43:35 2008 -0700</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T221036Z" creationid="Prikryl" creationdate="20151023T221036Z">
         <seg>y</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>y
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160124T003552Z" creationid="Prikryl" creationdate="20160124T003552Z">
+        <seg>y
+----</seg>
       </tuv>
     </tu>
     <tu>

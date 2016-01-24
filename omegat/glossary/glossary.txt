@@ -30,3 +30,5 @@ pull request	požadavek na stažení
 Commit history	historie revizí
 email	elektronická pošta	pokud se hodí rozepsání
 email	e-mail	pokud se nehodí rozepisovat
+mailing list	poštovní konference
+commit message	zpráva k revizi

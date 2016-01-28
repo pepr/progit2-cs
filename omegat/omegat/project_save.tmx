@@ -522,6 +522,15 @@ Naproti tomu tématické větve se hodí v projektech jakékoli velikosti.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((branches, topic)))
+When you're thinking of integrating new work, it's generally a good idea to try it out in a topic branch – a temporary branch specifically made to try out that new work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T180803Z" creationid="Prikryl" creationdate="20160128T180651Z">
+        <seg>Pokud uvažujete o integraci nové práce do projektu, je většinou dobré vyzkoušet si to v tématické větvi, tj. v dočasné větvi, kterou vytvoříte konkrétně pro vyzkoušení této práce.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((branches, tracking)))(((branches, upstream)))
 Checking out a local branch from a remote-tracking branch automatically creates what is called a ``tracking branch'' (or sometimes an ``upstream branch'').</seg>
       </tuv>
@@ -587,6 +596,16 @@ Now that you have a remote Git repository set up as a point for all the develope
       <tuv lang="CS" changeid="Prikryl" changedate="20160113T170118Z" creationid="Prikryl" creationdate="20160107T211801Z">
         <seg>(((distribuovaný git)))
 Máte vytvořen vzdálený gitový repozitář, který je nastaven tak, aby mohli všichni vývojáři sdílet svůj zdrojový kód, a znáte základní příkazy Gitu pro práci v lokálním prostředí. Nastal čas, abychom se podívali na využití některých distribuovaných pracovních postupů, které vám Git nabízí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((email, applying patches from)))
+If you receive a patch over email that you need to integrate into your project, you need to apply the patch in your topic branch to evaluate it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T185352Z" creationid="Prikryl" creationdate="20160128T185352Z">
+        <seg>(((e-mail, aplikace zaslaných záplat)))
+Pokud záplatu přijmete elektronickou poštou a potřebujete ji integrovat do svého projektu, ,If you receive a patch over email that you need to integrate into your project, you need to apply the patch in your topic branch to evaluate it.</seg>
       </tuv>
     </tu>
     <tu>
@@ -681,6 +700,15 @@ When your work has been pushed up to your fork, you need to notify the maintaine
       <tuv lang="CS" changeid="Prikryl" changedate="20160121T194203Z" creationid="Prikryl" creationdate="20160121T194203Z">
         <seg>(((git příkazy, request-pull)))
 Pokud jste práci odeslali do odštěpeného repozitáře, musíte to správci oznámit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((maintaining a project)))
+In addition to knowing how to effectively contribute to a project, you'll likely need to know how to maintain one.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T175718Z" creationid="Prikryl" creationdate="20160128T175536Z">
+        <seg>K znalosti toho, jak lze do projektu efektivně přispívat, budete pravděpodobně muset vědět, jak ho spravovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4031,6 +4059,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>As you'll remember, you can create the branch based off your master branch like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T182101Z" creationid="Prikryl" creationdate="20160128T182101Z">
+        <seg>Jak si vzpomínáte, můžete větev založenou na své větvi `master` vytvořit takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Assuming she already has her repository cloned, she decides to work on `featureA` first.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160118T111404Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7236,6 +7272,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Vytvoříte-li novou větev, přidáte do ní submodul a poté přepnete zpět na větev bez tohoto submodulu, není adresář submodulu stále ještě sledován:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you create a simple branch name based on the theme of the work you're going to try, such as `ruby_client` or something similarly descriptive, you can easily remember it if you have to abandon it for a while and come back later.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T181537Z" creationid="Prikryl" creationdate="20160128T181537Z">
+        <seg>Pokud pro větev vytvoříte jednoduchý název spojený s tématem testované práce (například `ruby_client` nebo něco obdobně popisného), snadno si zase vzpomenete, pokud ji na nějakou dobu opustíte a vrátíte se k až tomu později.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11226,6 +11270,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Now you're ready to add your contributed work into this topic branch and determine if you want to merge it into your longer-term branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T182913Z" creationid="Prikryl" creationdate="20160128T182913Z">
+        <seg>Teď jste připraveni svůj příspěvek do této tématické větve přidat a rozhodnout se, zda ji začleníte do své větve s delší životností.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Now you've created your first commit!</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T223033Z" creationid="Prikryl" creationdate="20151031T223033Z">
@@ -11804,6 +11856,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T154005Z" creationid="Prikryl" creationdate="20151214T154005Z">
         <seg>Nebo to v tomto případě můžete provést ručně příkazem `git fetch`, následovaným příkazem `git rebase teamone/master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Or, if you want to also switch to it immediately, you can use the `checkout -b` option:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T182156Z" creationid="Prikryl" creationdate="20160128T182156Z">
+        <seg>Nebo, pokud na ni chcete rovnou přepnout, můžete použít volbu `checkout -b`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14122,6 +14182,14 @@ Spustíte-li tento příkaz bezprostředně po klonování, objeví se zhruba n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The maintainer of the Git project tends to namespace these branches as well – such as `sc/ruby_client`, where `sc` is short for the person who contributed the work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T181852Z" creationid="Prikryl" creationdate="20160128T181852Z">
+        <seg>Správce projektu v Gitu má sklony přidělovat těmto větvím také jmenný prostor -- například `sc/ruby_client`, kde `sc` je zkratka pro osobu, která práci vytvořila.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The maintainer pushes merged changes to the main repository.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160109T161850Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -15333,6 +15401,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151030T092714Z" creationid="Prikryl" creationdate="20151030T092714Z">
         <seg>Může to být matoucí, protože pokud jste všechny provedené změny připravili k zapsání, bude výstup příkazu `git diff` prázdný.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This can consist of accepting and applying patches generated via `format-patch` and emailed to you, or integrating changes in remote branches for repositories you've added as remotes to your project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T180028Z" creationid="Prikryl" creationdate="20160128T180028Z">
+        <seg>Spadá sem přijímání a aplikování záplat generovaných příkazem `format-patch` a zaslaných elektronickou poštou, nebo integrování změn ve vzdálených větvích pro repozitáře, které jste do svého projektu přidali jako vzdálené repozitáře.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16601,6 +16677,14 @@ Příkaz ukáže jen informaci o revizi:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T150714Z" creationid="Prikryl" creationdate="20151026T150714Z">
         <seg>Uvedla mě do stylu programování, při kterém jsem se cítil přirozeněji než u přístupů, s kterými jsem se do té doby potkal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This way, it's easy to tweak a patch individually and leave it if it's not working until you have time to come back to it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T181208Z" creationid="Prikryl" creationdate="20160128T181208Z">
+        <seg>Tímto způsobem můžete záplatu odděleně doladit, a pokud není funkční, můžete ji nechat být až do doby, kdy najdete čas se k ní vrátit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18029,8 +18113,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>Whether you maintain a canonical repository or want to help by verifying or approving patches, you need to know how to accept work in a way that is clearest for other contributors and sustainable by you over the long run.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Ať spravujete standardní repozitář, nebo pomáháte při ověřování či schvalování záplat, budete muset vědět, jak přijímat práci ostatních přispěvatelů, a to způsobem, který je pro ostatní co nejčistší a pro vás dlouhodobě udržitelný.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T180351Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Ať už spravujete obecně uznávaný repozitář, nebo chcete pomáhat při ověřování či schvalování záplat, budete muset vědět, jak přijímat práci ostatních přispěvatelů způsobem, který je pro ostatní přispěvatele co nejčistší a pro vás dlouhodobě udržitelný.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20702,6 +20786,16 @@ image::images/perils-of-rebasing-4.png[Opakované začlenění stejné práce do
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_patches_from_email]]
+==== Applying Patches from Email</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T182946Z" creationid="Prikryl" creationdate="20160128T182946Z">
+        <seg>[[_patches_from_email]]
+==== Aplikace záplat zaslaných elektronickou poštou</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_pre_merge_rebase_work]]
 .Someone pushes rebased commits, abandoning commits you've based your work on
 image::images/perils-of-rebasing-3.png["Someone pushes rebased commits, abandoning commits you've based your work on."]</seg>
@@ -21736,6 +21830,20 @@ $ git checkout iss53
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git branch sc/ruby_client master
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T182104Z" creationid="Prikryl" creationdate="20160128T182104Z">
+        <seg>[source,console]
+----
+$ git branch sc/ruby_client master
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git branch testing
 ----</seg>
       </tuv>
@@ -21835,6 +21943,20 @@ Switched to a new branch "iss53"
 ----
 $ git checkout -b iss53
 Switched to a new branch "iss53"
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git checkout -b sc/ruby_client master
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160128T182158Z" creationid="Prikryl" creationdate="20160128T182158Z">
+        <seg>[source,console]
+----
+$ git checkout -b sc/ruby_client master
 ----</seg>
       </tuv>
     </tu>

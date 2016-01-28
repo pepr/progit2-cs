@@ -33,3 +33,6 @@ email	e-mail	pokud se nehodí rozepisovat
 mailing list	poštovní konference
 commit message	zpráva k revizi
 whitespace	prázdný znak
+long-running branch	větev s dlouhou životností
+long-term branch	větev s dlouhou životností
+longer-term branch	větev s delší životností

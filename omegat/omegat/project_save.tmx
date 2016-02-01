@@ -603,9 +603,9 @@ Máte vytvořen vzdálený gitový repozitář, který je nastaven tak, aby mohl
         <seg>(((email, applying patches from)))
 If you receive a patch over email that you need to integrate into your project, you need to apply the patch in your topic branch to evaluate it.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160128T185352Z" creationid="Prikryl" creationdate="20160128T185352Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T125759Z" creationid="Prikryl" creationdate="20160128T185352Z">
         <seg>(((e-mail, aplikace zaslaných záplat)))
-Pokud záplatu přijmete elektronickou poštou a potřebujete ji integrovat do svého projektu, ,If you receive a patch over email that you need to integrate into your project, you need to apply the patch in your topic branch to evaluate it.</seg>
+Pokud elektronickou poštou obdržíte záplatu, kterou potřebujete integrovat do svého projektu, budete ji chtít aplikovat do tématické větve, kde ji posoudíte.</seg>
       </tuv>
     </tu>
     <tu>
@@ -636,6 +636,26 @@ This is a very common workflow with hub-based tools like GitHub or GitLab, where
       <tuv lang="CS" changeid="Prikryl" changedate="20160121T171452Z" creationid="Prikryl" creationdate="20160109T230059Z">
         <seg>(((odštěpení)))
 Tento pracovní postup je velmi běžný, pokud se pracuje centralizačními nástroji{empty}footnote:[hub-based tools] jako je GitHub nebo GitLab. Projekt se zde dá snadno odštěpit a změny se pak odesílají do vlastní, odštěpené části, kde se na ně může každý podívat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((git commands, am)))
+If the contributor is a Git user and was good enough to use the `format-patch` command to generate their patch, then your job is easier because the patch contains author information and a commit message for you.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T134404Z" creationid="Prikryl" creationdate="20160201T134404Z">
+        <seg>(((git příkazy, am)))
+Pokud je přispěvatel uživatelem Gitu a byl natolik dobrý, že k vygenerování záplaty použil příkaz `format-patch`, budete mít usnadněnou práci, protože záplata obsahuje informace o autorovi a zprávu k revizi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((git commands, apply)))
+If you received the patch from someone who generated it with the `git diff` or a Unix `diff` command (which is not recommended; see the next section), you can apply it with the `git apply` command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T130238Z" creationid="Prikryl" creationdate="20160201T125955Z">
+        <seg>(((git příkazy, apply)))
+Pokud dostanete záplatu od někoho, kdo ji vygeneroval příkazem `git diff` nebo unixovým příkazem `diff` (což se nedoporučuje -- viz následující část), můžete ho aplikovat příkazem `git apply`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2935,8 +2955,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>===== Applying a Patch with apply</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>===== Aplikace záplaty příkazem „apply“</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133856Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>===== Aplikace záplaty příkazem `apply`</seg>
       </tuv>
     </tu>
     <tu>
@@ -4085,8 +4105,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>Assuming you saved the patch at `/tmp/patch-ruby-client.patch`, you can apply the patch like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Předpokládejme, že jste záplatu uložili jako `/tmp/patch-ruby-client.patch`. Aplikaci pak provedete takto:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T130350Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Za předpokladu, že jste záplatu uložili jako `/tmp/patch-ruby-client.patch`, můžete záplatu aplikovat následovně:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5098,6 +5118,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T145222Z" creationid="Prikryl" creationdate="20160115T145222Z">
         <seg>Johnova historie revizí nakonec vypadá takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Finally, `git apply` is an ``apply all or abort all'' model where either everything is applied or nothing is, whereas `patch` can partially apply patchfiles, leaving your working directory in a weird state.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T132533Z" creationid="Prikryl" creationdate="20160201T132533Z">
+        <seg>A konečně příkaz `git apply` pracuje na principu „aplikuj vše, nebo zruš vše“. Buď jsou tedy aplikovány všechny soubory, nebo žádný. Naproti tomu příkaz `patch` může aplikovat soubory záplat jen částečně a tím zanechat váš pracovní adresář v podivném stavu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7005,8 +7033,8 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       <tuv lang="EN">
         <seg>If there is no output, then the patch should apply cleanly.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud se nezobrazí žádný výstup, záplata bude aplikována čistě.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133610Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud se nezobrazí žádný výstup, bude záplata aplikována čistě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9458,6 +9486,14 @@ Zde je originální (přeložená) šablona, kterou napsal Tim Pope:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It also handles file adds, deletes, and renames if they're described in the `git diff` format, which `patch` won't do.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T131613Z" creationid="Prikryl" creationdate="20160201T131613Z">
+        <seg>Poradí si také s přidanými, odstraněnými a přejmenovanými soubory, jsou-li popsány ve formátu `git diff`, což by příkaz `patch` neudělal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It also lists all the remote references it has pulled down.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9856,10 +9892,26 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It won't create a commit for you – after running it, you must stage and commit the changes introduced manually.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133254Z" creationid="Prikryl" creationdate="20160201T133254Z">
+        <seg>Tímto příkazem se nezapíše revize. Po jeho provedení budete muset připravit a zapsat provedené změny ručně.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It works by going to the common ancestor of the two branches (the one you're on and the one you're rebasing onto), getting the diff introduced by each commit of the branch you're on, saving those diffs to temporary files, resetting the current branch to the same commit as the branch you are rebasing onto, and finally applying each change in turn.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151215T132053Z" creationid="Prikryl" creationdate="20151214T094251Z">
         <seg>Funguje to tak, že se přejde na společného předka obou větví (větve, na níž se nacházíte, a větve, na kterou přeskládáváte), zjistí se rozdíly pro každý objekt revize ve větvi, na které se nacházíte, zjištěné rozdíly se uloží do dočasných souborů, aktuální větev se nastaví na stejný bod jako větev, na kterou přeskládáváte, a nakonec postupně aplikují všechny změny.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's almost identical to running a `patch -p1` command to apply the patch, although it's more paranoid and accepts fewer fuzzy matches than patch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T131506Z" creationid="Prikryl" creationdate="20160201T131506Z">
+        <seg>Je to téměř stejné, jako byste k aplikaci záplaty použili příkaz `patch -p1`. Příkaz `apply` je ale víc paranoidní a přijímá méně přibližných shod než příkaz `patch`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15060,6 +15112,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>There are two ways to apply an emailed patch: with `git apply` or with `git am`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T125907Z" creationid="Prikryl" creationdate="20160201T125907Z">
+        <seg>Záplatu zaslanou elektronickou poštou lze aplikovat dvěma způsoby: příkazem `git apply` nebo příkazem `git am`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>There are two ways to generate e-book content from this source code.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T130109Z" creationid="Prikryl" creationdate="20151026T130109Z">
@@ -15455,8 +15515,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This command also exits with a non-zero status if the check fails, so you can use it in scripts if you want.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jestliže kontrola selže, příkaz vrací nenulový návratový kód, a proto ho lze snadno používat ve skriptech.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133800Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jestliže kontrola selže, příkaz vrací nenulový návratový kód, a proto ho můžete snadno používat ve skriptech.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16399,8 +16459,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This modifies the files in your working directory.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tím změníte soubory ve svém pracovním adresáři.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T130422Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tím se soubory ve svém pracovním adresáři změní.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18618,6 +18678,14 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can also use git apply to see if a patch applies cleanly before you try actually applying it – you can run `git apply --check` with the patch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133529Z" creationid="Prikryl" creationdate="20160201T133529Z">
+        <seg>Příkaz `git apply` můžete použít také ke kontrole, zda bude záplata aplikována čistě ještě před tím, než skutečnou aplikaci provedete. V takovém případě pro záplatu použijte příkaz `git apply --check`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can also use interactive rebases to reorder or remove commits entirely.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -20664,6 +20732,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_git_am]]
+===== Applying a Patch with `am`</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133831Z" creationid="Prikryl" creationdate="20160201T133831Z">
+        <seg>[[_git_am]]
+===== Aplikace záplaty příkazem `am`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_git_basics_chapter]]
 == Git Basics</seg>
       </tuv>
@@ -21675,6 +21753,38 @@ $ git commit -m 'The initial commit of my project'
 ----
 $ git add README test.rb LICENSE
 $ git commit -m 'The initial commit of my project'
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git apply --check 0001-seeing-if-this-helps-the-gem.patch
+error: patch failed: ticgit.gemspec:1
+error: ticgit.gemspec: patch does not apply
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133531Z" creationid="Prikryl" creationdate="20160201T133531Z">
+        <seg>[source,console]
+----
+$ git apply --check 0001-seeing-if-this-helps-the-gem.patch
+error: patch failed: ticgit.gemspec:1
+error: ticgit.gemspec: patch does not apply
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git apply /tmp/patch-ruby-client.patch
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T130352Z" creationid="Prikryl" creationdate="20160201T130352Z">
+        <seg>[source,console]
+----
+$ git apply /tmp/patch-ruby-client.patch
 ----</seg>
       </tuv>
     </tu>
@@ -24460,6 +24570,14 @@ OK.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T121313Z" creationid="Prikryl" creationdate="20151029T121313Z">
         <seg>Příkaz `git add` je víceúčelový -- používá se k zahájení sledování nových souborů, k přípravě souborů k zapsání a k dalším věcem, jako je například označení vyřešených případů kolize souborů při slučování.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>`git apply` is overall much more conservative than `patch`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T132613Z" creationid="Prikryl" creationdate="20160201T132613Z">
+        <seg>Příkaz `git apply` je celkově konzervativnější než příkaz `patch`.</seg>
       </tuv>
     </tu>
     <tu>

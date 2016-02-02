@@ -36,3 +36,7 @@ whitespace	prázdný znak
 long-running branch	větev s dlouhou životností
 long-term branch	větev s dlouhou životností
 longer-term branch	větev s delší životností
+check out	získat obsah	ve smyslu "získat obsah větve"
+check out	přepnout se	ve smyslu "přepnout se na větev"
+diffing	zjišťování rozdílů
+option	volba

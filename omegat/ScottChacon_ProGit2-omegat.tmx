@@ -315,6 +315,16 @@ Dejme tomu, že máte vzdálenou větev hotovou -- řekněme, že jste se spolup
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((branches, diffing)))
+Now you have a topic branch that contains contributed work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T145500Z" creationid="Prikryl" creationdate="20160202T145500Z">
+        <seg>(((větve, zjišťování rozdílů)))
+Máte tématickou větev, která obsahuje příspěvek od jiného vývojáře.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((branches, long-running)))
 Because Git uses a simple three-way merge, merging from one branch into another multiple times over a long period is generally easy to do.</seg>
       </tuv>
@@ -340,6 +350,16 @@ Suppose you've decided that your issue #53 work is complete and ready to be merg
       <tuv lang="CS" changeid="Prikryl" changedate="20151215T125205Z" creationid="Prikryl" creationdate="20151115T153021Z">
         <seg>(((větve, slučování)))(((slučování)))
 Předpokládejme, že jste se rozhodli, že práce na problému #53 je hotová a lze ji začlenit do větve `master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((branches, remote)))
+If your contribution came from a Git user who set up their own repository, pushed a number of changes into it, and then sent you the URL to the repository and the name of the remote branch the changes are in, you can add them as a remote and do merges locally.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T121917Z" creationid="Prikryl" creationdate="20160202T081205Z">
+        <seg>(((větve, vzdálená větev)))
+Pokud váš příspěvek pochází od uživatele Gitu, který založil vlastní repozitář, odeslal do něj sérii změn a následně vám poslal adresu repozitáře (URL) a název vzdálené větve, v níž změny najdete, můžete je přidat jako vzdálené a lokálně je začlenit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -457,9 +477,9 @@ Máte vytvořen vzdálený gitový repozitář, který je nastaven tak, aby mohl
         <seg>(((email, applying patches from)))
 If you receive a patch over email that you need to integrate into your project, you need to apply the patch in your topic branch to evaluate it.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160128T185352Z" creationid="Prikryl" creationdate="20160128T185352Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T125759Z" creationid="Prikryl" creationdate="20160128T185352Z">
         <seg>(((e-mail, aplikace zaslaných záplat)))
-Pokud záplatu přijmete elektronickou poštou a potřebujete ji integrovat do svého projektu, ,If you receive a patch over email that you need to integrate into your project, you need to apply the patch in your topic branch to evaluate it.</seg>
+Pokud elektronickou poštou obdržíte záplatu, kterou potřebujete integrovat do svého projektu, budete ji chtít aplikovat do tématické větve, kde ji posoudíte.</seg>
       </tuv>
     </tu>
     <tu>
@@ -490,6 +510,26 @@ This is a very common workflow with hub-based tools like GitHub or GitLab, where
       <tuv lang="CS" changeid="Prikryl" changedate="20160121T171452Z" creationid="Prikryl" creationdate="20160109T230059Z">
         <seg>(((odštěpení)))
 Tento pracovní postup je velmi běžný, pokud se pracuje centralizačními nástroji{empty}footnote:[hub-based tools] jako je GitHub nebo GitLab. Projekt se zde dá snadno odštěpit a změny se pak odesílají do vlastní, odštěpené části, kde se na ně může každý podívat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((git commands, am)))
+If the contributor is a Git user and was good enough to use the `format-patch` command to generate their patch, then your job is easier because the patch contains author information and a commit message for you.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T134404Z" creationid="Prikryl" creationdate="20160201T134404Z">
+        <seg>(((git příkazy, am)))
+Pokud je přispěvatel uživatelem Gitu a byl natolik dobrý, že k vygenerování záplaty použil příkaz `format-patch`, budete mít usnadněnou práci, protože záplata obsahuje informace o autorovi a zprávu k revizi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((git commands, apply)))
+If you received the patch from someone who generated it with the `git diff` or a Unix `diff` command (which is not recommended; see the next section), you can apply it with the `git apply` command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T130238Z" creationid="Prikryl" creationdate="20160201T125955Z">
+        <seg>(((git příkazy, apply)))
+Pokud dostanete záplatu od někoho, kdo ji vygeneroval příkazem `git diff` nebo unixovým příkazem `diff` (což se nedoporučuje -- viz následující část), můžete ho aplikovat příkazem `git apply`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1029,6 +1069,16 @@ Protože Git umožňuje práci s více vzdálenými repozitáři, lze využít p
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T224911Z" creationid="Prikryl" creationdate="20151107T224911Z">
         <seg>* [new tag]         v1.5 -&gt; v1.5
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* branch            HEAD       -&gt; FETCH_HEAD
+Merge made by recursive.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T145212Z" creationid="Prikryl" creationdate="20160202T145212Z">
+        <seg>* branch            HEAD       -&gt; FETCH_HEAD
+Merge made by recursive.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2773,8 +2823,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>===== Applying a Patch with apply</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>===== Aplikace záplaty příkazem „apply“</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133856Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>===== Aplikace záplaty příkazem `apply`</seg>
       </tuv>
     </tu>
     <tu>
@@ -3413,10 +3463,10 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>Alternatively, you can type your commit message inline with the `commit` command by specifying it after a `-m` flag, like this:</seg>
+        <seg>Alternatively, you can type your commit message inline with the `commit` command by specifying it after a -m flag, like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Zprávu k revizi můžete rovněž napsat do řádku k příkazu `commit`. Jako zprávu ji označíte tak, že před ni vložíte příznak `-m`:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151031T223003Z" creationid="Prikryl" creationdate="20151031T223003Z">
+        <seg>Zprávu k revizi můžete napsat také do řádku k příkazu `commit` tak, že ji uvedete za volbu `-m`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3455,8 +3505,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>Although you may have legitimate merge issues, you know where in your history their work is based; a proper three-way merge is the default rather than having to supply a `-3` and hope the patch was generated off a public commit to which you have access.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Přestože můžete mít oprávněné problémy se slučováním, víte, kde ve své historii můžete hledat příčiny. Řádné třícestné sloučení je vždy lepším řešením, než zadat parametr `-3` a doufat, že byl patch vygenerován z veřejné revize, k níž máte přístup.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T144842Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>I když můžete při slučování narazit na opodstatněné problémy, víte, z jakých historických základů jejich práce vychází. Řádné třícestné sloučení je vždy lepším řešením, než nutnost zadat volbu `-3` a doufat, že byla záplata vygenerována z veřejné revize, kterou máte k dispozici.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3493,9 +3543,9 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>An asterisk (`*`) matches zero or more characters; `[abc]` matches any character inside the brackets (in this case a, b, or c); a question mark (`?`) matches a single character; and brackets enclosing characters separated by a hyphen (`[0-9]`) matches any character between them (in this case 0 through 9).</seg>
+        <seg>An asterisk (`*`) matches zero or more characters; `[abc]` matches any character inside the brackets (in this case a, b, or c); a question mark (`?`) matches a single character; and brackets enclosing characters separated by a hyphen(`[0-9]`) matches any character between them (in this case 0 through 9).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212517Z" creationid="Prikryl" creationdate="20160123T212517Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T090453Z" creationid="Prikryl" creationdate="20151029T202346Z">
         <seg>Hvězdička (`*`) označuje žádný nebo více znaků; `[abc]` označuje jakýkoli znak uvedený v závorkách (v tomto případě `a`, `b` nebo `c`); otazník (`?`) označuje jeden znak; znaky v hranatých závorkách oddělené pomlčkou (`[0-9]`) označují jakýkoli znak v daném rozmezí (v našem případě 0 až 9).</seg>
       </tuv>
     </tu>
@@ -3849,8 +3899,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>Assuming you saved the patch at `/tmp/patch-ruby-client.patch`, you can apply the patch like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Předpokládejme, že jste záplatu uložili jako `/tmp/patch-ruby-client.patch`. Aplikaci pak provedete takto:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T130350Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Za předpokladu, že jste záplatu uložili jako `/tmp/patch-ruby-client.patch`, můžete záplatu aplikovat následovně:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3955,6 +4005,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Ostatní nyní mohou velmi snadno repozitář naklonovat i do něj odesílat změny:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>At this point, you can determine what you'd like to do with it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T145551Z" creationid="Prikryl" creationdate="20160202T145551Z">
+        <seg>V tomto okamžiku můžete určit, co byste s ním rádi udělali.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4291,6 +4349,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T143036Z" creationid="Prikryl" creationdate="20151209T143036Z">
         <seg>Ale v Gitu je běžné, že se větev vytvoří, pracuje se v ní, sloučí se a odstraní -- to vše i několikrát za den.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>But it's possible that the patch won't apply cleanly.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T074035Z" creationid="Prikryl" creationdate="20160202T074035Z">
+        <seg>Může se ale stát, že záplata nebude aplikována čistě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4826,6 +4892,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Falling back to patching base and 3-way merge...</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075627Z" creationid="Prikryl" creationdate="20160202T075627Z">
+        <seg>Falling back to patching base and 3-way merge...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Fetch URL: https://github.com/my-org/complex-project</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T131315Z" creationid="Prikryl" creationdate="20151107T131315Z">
@@ -4854,6 +4928,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T145222Z" creationid="Prikryl" creationdate="20160115T145222Z">
         <seg>Johnova historie revizí nakonec vypadá takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Finally, `git apply` is an ``apply all or abort all'' model where either everything is applied or nothing is, whereas `patch` can partially apply patchfiles, leaving your working directory in a weird state.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T132533Z" creationid="Prikryl" creationdate="20160201T132533Z">
+        <seg>A konečně příkaz `git apply` pracuje na principu „aplikuj vše, nebo zruš vše“. Buď jsou tedy aplikovány všechny soubory, nebo žádný. Naproti tomu příkaz `patch` může aplikovat soubory záplat jen částečně a tím zanechat váš pracovní adresář v podivném stavu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5050,6 +5132,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For example, if this patch was applied from the mbox example above, the commit generated would look something like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T073857Z" creationid="Prikryl" creationdate="20160202T073857Z">
+        <seg>Pokud byla záplata aplikována například ze souboru mbox z předchozího příkladu, bude vygenerovaná revize vypadat zhruba takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For example, if you make two changes to your simplegit.rb file and want to stage one of them and not the other, doing so is very easy in Git.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5090,10 +5180,10 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>For example, if you want to see which commits modifying test files in the Git source code history are merged and were committed by Junio Hamano in the month of October 2008, you can run something like this:(((log filtering)))</seg>
+        <seg>For example, if you want to see which commits modifying test files in the Git source code history were committed by Junio Hamano and were not merged in the month of October 2008, you can run something like this:(((log filtering)))</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233129Z" creationid="Prikryl" creationdate="20160123T233129Z">
-        <seg>Pokud například chcete zjistit, které revize upravující testovací soubory v historii zdrojového kódu Gitu začlenil a zapsal Junio Hamano v říjnu 2008, můžete zadat následující příkaz:(((log filtrování)))</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T132950Z" creationid="Prikryl" creationdate="20151107T132950Z">
+        <seg>Pokud například chcete zjistit, které revize upravující testovací soubory ve zdrojovém kódu Gitu zapsal Junio Hamano v říjnu 2008 (relativně k časové zóně New Yorku) a které přitom nevznikly sloučením (merge), můžete zadat následující příkaz:(((log filtrování)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -5114,10 +5204,18 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For example, if you've added a line in a file on the `master` branch, a direct comparison of the snapshots will look like the topic branch is going to remove that line.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T152910Z" creationid="Prikryl" creationdate="20160202T152910Z">
+        <seg>Pokud jste například do souboru ve větvi `master` přidali jeden řádek, přímé srovnání snímků bude vypadat, jako kdyby měla tématická větev tento řádek odstranit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For example, if your contributor sends you two patches and you create a branch called `contrib` and applied those patches there, you can run this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud vám například přispěvatel pošle dvě záplaty a vy vytvoříte větev s názvem `contrib`, do níž tyto záplaty aplikujete, můžete použít tento příkaz:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T151134Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud vám například přispěvatel pošle dvě záplaty a vy vytvoříte větev s názvem `contrib`, do níž tyto záplaty aplikujete, můžete spustit následující příkaz:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5238,6 +5336,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Na revizi můžete vytvořit například větev `recover-branch` (ab1afef):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For instance, if Jessica sends you an email saying that she has a great new feature in the `ruby-client` branch of her repository, you can test it by adding the remote and checking out that branch locally:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T121415Z" creationid="Prikryl" creationdate="20160202T121415Z">
+        <seg>Pokud vám například Jessica poslala dopis, že ve svém repozitáři ve větvi `ruby-client` vytvořila skvělou novou funkci, můžete si ji po přidání vzdáleného repozitáře a po získání obsahu zmíněné větve otestovat lokálně:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6295,8 +6401,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>However, if someone uploaded a patch file generated via `format-patch` to a ticketing system or something similar, you can save the file locally and then pass that file saved on your disk to `git am` to apply it:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud však někdo nahrál soubor záplaty vygenerovaný příkazem `format-patch` do tiketového nebo podobného systému, můžete soubor uložit lokálně a poté na tento uložený soubor použít příkaz `git am`. Tímto způsobem záplatu aplikujete:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T073333Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud však někdo nahrál soubor záplaty vygenerovaný příkazem `format-patch` do tiketového nebo podobného systému, můžete soubor uložit lokálně a poté jej aplikovat předáním uloženého souboru příkazu `git am`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6361,6 +6467,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Může se však stát, že budete chtít spustit externí příkaz, a ne dílčí příkaz Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>However, scripts and hosted services may make this easier – it depends largely on how you develop and how your contributors develop.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T124719Z" creationid="Prikryl" creationdate="20160202T124719Z">
+        <seg>Ale skripty a hostované služby tento přístup mohou velmi usnadnit. Do velké míry tu záleží na tom, jak vy a vaši vývojáři k vývoji přistupujete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6493,6 +6607,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If `master` is a direct ancestor of your topic branch, this isn't a problem; but if the two histories have diverged, the diff will look like you're adding all the new stuff in your topic branch and removing everything unique to the `master` branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T153249Z" creationid="Prikryl" creationdate="20160202T153249Z">
+        <seg>Pokud je větev `master` přímým předkem vaší tématické větve, nebude s příkazem žádný problém. Pokud se však obě historie v nějakém bodě rozdělily, bude výpis rozdílů vypadat, jako kdybyste chtěli přidat všechny nové věci v tématické větvi a odstranit vše, co je pouze ve větvi `master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If a particular version of a file is in the Git directory, it's considered committed.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T122449Z" creationid="Prikryl" creationdate="20151027T121844Z">
@@ -6541,10 +6663,10 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>If not configured, Git uses your system's default editor.</seg>
+        <seg>If not configured, Git uses your system's default editor, which is system dependant.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T211940Z" creationid="Prikryl" creationdate="20160123T211940Z">
-        <seg>Pokud jej nenastavíte, použije Git výchozí editor nastavený v systému.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T114536Z" creationid="Prikryl" creationdate="20151107T114536Z">
+        <seg>Pokud jej nenastavíte, použije Git výchozí editor nastavený v systému, což závisí na systému.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6553,6 +6675,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151030T093306Z" creationid="Prikryl" creationdate="20151030T093104Z">
         <seg>Dejme tomu, že situace vypadá následovně:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If she emails you again later with another branch containing another great feature, you can fetch and check out because you already have the remote setup.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T123243Z" creationid="Prikryl" creationdate="20160202T123243Z">
+        <seg>Pokud vám později znovu napíše, že jiná větev obsahuje další skvělou funkci, můžete tuto větev vyzvednout a získat její obsah, protože už repozitář máte nastaven jako vzdálený.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6581,10 +6711,26 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If someone has emailed you the patch properly using git send-email, and you download that into an mbox format, then you can point git am to that mbox file, and it will start applying all the patches it sees.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T072817Z" creationid="Prikryl" creationdate="20160202T072817Z">
+        <seg>Pokud vám někdo poslal záplatu příkazem `git send-email` a vy záplatu stáhnete do formátu mbox, můžete tento soubor mbox předat příkazu `git am` a ten začne aplikovat všechny záplaty, které najde.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If someone on your team force pushes changes that overwrite work that you've based work on, your challenge is to figure out what is yours and what they've rewritten.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T184052Z" creationid="Prikryl" creationdate="20151214T143316Z">
         <seg>Pokud někdo ve vašem týmu vynutí odeslání změn, které přepíší práci z které vycházíte, pak potřebujete zjistit, co zůstalo vaše a co bylo přepsáno.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If someone only has a single patch to contribute once in a while, then accepting it over email may be less time consuming than requiring everyone to run their own server and having to continually add and remove remotes to get a few patches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T124044Z" creationid="Prikryl" creationdate="20160202T124044Z">
+        <seg>Pokud někdo přispěje jen sem tam jednou záplatou, pak bude časově výhodnější, když vám ji pošle e-mailem, než abyste všechny přispěvatele kvůli pár záplatám nutili zprovoznit si vlastní server a abyste si stále přidávali a odstraňovali vzdálené repozitáře.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6689,8 +6835,8 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       <tuv lang="EN">
         <seg>If there is no output, then the patch should apply cleanly.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud se nezobrazí žádný výstup, záplata bude aplikována čistě.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133610Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud se nezobrazí žádný výstup, bude záplata aplikována čistě.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6840,6 +6986,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you aren't working with a person consistently but still want to pull from them in this way, you can provide the URL of the remote repository to the `git pull` command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T145055Z" creationid="Prikryl" creationdate="20160202T145055Z">
+        <seg>Pokud s někým nespolupracujete dlouhodobě, ale přesto od něj chcete stáhnout data tímto způsobem, můžete zadat URL vzdáleného repozitáře k příkazu `git pull`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you can read only one chapter to get going with Git, this is it.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151216T134538Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6864,9 +7018,9 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>If you change a previously tracked file called `CONTRIBUTING.md` and then run your `git status` command again, you get something that looks like this:</seg>
+        <seg>If you change a previously tracked file called ``CONTRIBUTING.md'' and then run your `git status` command again, you get something that looks like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212109Z" creationid="Prikryl" creationdate="20160123T212109Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T120850Z" creationid="Prikryl" creationdate="20151029T120850Z">
         <seg>Pokud změníte už dříve sledovaný soubor s názvem `CONTRIBUTING.md` a poté znovu spustíte příkaz `git status`, zobrazí se něco takového:</seg>
       </tuv>
     </tu>
@@ -6960,6 +7114,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you created a working directory from the new tree you just wrote, you would get the two files in the top level of the working directory and a subdirectory named `bak` that contained the first version of the test.txt file.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud byste vytvořili pracovní adresář z nového stromu, který jste právě zapsali, dostali byste dva soubory na nejvyšší úrovni pracovního adresáře a podadresář `bak`, obsahující první verzi souboru test.txt.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you decide to sign the tag as the maintainer, the tagging may look something like this:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7004,6 +7166,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud náhodou zapíšete objekt, který má stejnou hodnotu SHA-1 otisku jako předchozí objekt ve vašem repozitáři, Git už uvidí předchozí objekt v databázi Git a bude předpokládat, že už byl zapsán.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you do have that commit – if the patch was based on a public commit – then the `-3` option is generally much smarter about applying a conflicting patch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075619Z" creationid="Prikryl" creationdate="20160202T075619Z">
+        <seg>Pokud ale tuto revizi k dispozici máte -- záplata byla založena na veřejné revizi -- vede volba `-3` k mnohem inteligentnější  aplikaci kolidující záplaty:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7110,6 +7280,14 @@ Tady je pár příkladů, které možná budete chtít nastavit:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud u příkazu neoznačíte konkrétní odklad, Git se automaticky pokusí aplikovat ten nejnovější:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you download and install the `exiftool` program, you can use it to convert your images into text about the metadata, so at least the diff will show you a textual representation of any changes that happened:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud stáhnete a nainstalujete program `exiftool`, můžete ho použít ke konverzi obrázků na text prostřednictvím metadat, a nástroj diff vám tak přinejmenším zobrazí textovou verzi všech provedených změn.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7582,6 +7760,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you run a mail client that can save several emails out in mbox format, you can save entire patch series into a file and then use git am to apply them one at a time.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T073004Z" creationid="Prikryl" creationdate="20160202T073004Z">
+        <seg>Jestliže spustíte poštovního klienta, který dokáže uložit několik e-mailů ve formátu mbox, můžete do jednoho souboru uložit celou sérii záplat a příkazem `git am` je pak aplikovat všechny najednou.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you run that command before committing, you can tell if you're about to commit whitespace issues that may annoy other developers.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160113T203557Z" creationid="Prikryl" creationdate="20160110T124025Z">
@@ -7744,8 +7930,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you want Git to try a bit more intelligently to resolve the conflict, you can pass a `-3` option to it, which makes Git attempt a three-way merge.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud chcete, aby se Git pokusil vyřešit konflikt inteligentněji, můžete zadat parametr `-3`. Git se pokusí o třícestné sloučení.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075039Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud chcete, aby se Git pokusil vyřešit konflikt inteligentněji, můžete zadat volbu `-3`. Git se pokusí o třícestné sloučení.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8139,6 +8325,14 @@ Just type the name of the tool you'd rather use.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you're applying a number of patches from an mbox, you can also run the `am` command in interactive mode, which stops at each patch it finds and asks if you want to apply it:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075927Z" creationid="Prikryl" creationdate="20160202T075927Z">
+        <seg>Pokud aplikujete několik záplat z jednoho souboru mbox, můžete příkaz `am` spustit také v interaktivním režimu, který zastaví před každou nalezenou záplatou a zeptá se vás, zda ji chcete aplikovat:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you're familiar with other VCS systems such as Subversion, you'll notice that the command is "clone" and not "checkout".</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T211259Z" creationid="Prikryl" creationdate="20151028T211259Z">
@@ -8223,6 +8417,14 @@ Just type the name of the tool you'd rather use.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160124T002927Z" creationid="Prikryl" creationdate="20160124T002927Z">
         <seg>Pokud váš server IMAP nepoužívá SSL, nebudou zřejmě dva poslední řádky vůbec třeba a hodnota hostitele bude `imap://`, a nikoli `imaps://`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If your `master` branch has moved forward since you created the topic branch from it, then you'll get seemingly strange results.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T152340Z" creationid="Prikryl" creationdate="20160202T152340Z">
+        <seg>Pokud se vaše větev `master` posunula vpřed od chvíle, kdy jste z ní vytvořili tématickou větev, dostanete zdánlivě nesmyslné výsledky.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8596,8 +8798,8 @@ Zde je příklad souboru `.gitignore`:</seg>
       <tuv lang="EN">
         <seg>In that case, the `git am` process will fail and ask you what you want to do:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V takovém případě proces `git am` neproběhne a Git se vás zeptá, co chcete udělat dál:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T074206Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V takovém případě proces `git am` selže a zeptá se vás, co chcete udělat dál:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8724,6 +8926,14 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In this case, this patch had already been applied.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075740Z" creationid="Prikryl" creationdate="20160202T075740Z">
+        <seg>V tomto případě už byla záplata aplikována.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In this case, two stashes were done previously, so you have access to three different stashed works.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -8768,6 +8978,14 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>V našem příkladu máte několik správců, několik tvůrců dokumentace s přístupem do adresáře `doc` a jednoho vývojáře, který má jako jediný přístup do adresářů `lib` a `tests`. Soubor ACL proto bude vypadat následovně:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In this case, you remove a file called passwords.txt from every snapshot, whether it exists or not.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V tomto případě odstraníte soubor s názvem passwords.txt ze všech snímků, ať v nich existuje, nebo neexistuje.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9014,6 +9232,14 @@ Zde je originální (přeložená) šablona, kterou napsal Tim Pope:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It also handles file adds, deletes, and renames if they're described in the `git diff` format, which `patch` won't do.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T131613Z" creationid="Prikryl" creationdate="20160201T131613Z">
+        <seg>Poradí si také s přidanými, odstraněnými a přejmenovanými soubory, jsou-li popsány ve formátu `git diff`, což by příkaz `patch` neudělal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It also lists all the remote references it has pulled down.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9169,9 +9395,9 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
     <tu>
       <tuv lang="EN">
         <seg>It may be helpful to think of it more as ``add this content to the next commit'' rather than ``add this file to the project''.(((git commands, add)))
-Let's run `git add` now to stage the `CONTRIBUTING.md` file, and then run `git status` again:</seg>
+Let's run `git add` now to stage the ``CONTRIBUTING.md'' file, and then run `git status` again:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212226Z" creationid="Prikryl" creationdate="20160123T212226Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151029T125127Z" creationid="Prikryl" creationdate="20151029T125127Z">
         <seg>Možná vám pomůže, když o něm budete uvažovat spíše ve smyslu „přidej tento obsah do dalšího snímku“ než ve smyslu „přidej tento soubor do projektu“.(((git příkazy, add)))
 Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili k zapsání, a potom znovu zadejme příkaz `git status`:</seg>
       </tuv>
@@ -9402,10 +9628,26 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It won't create a commit for you – after running it, you must stage and commit the changes introduced manually.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133254Z" creationid="Prikryl" creationdate="20160201T133254Z">
+        <seg>Tímto příkazem se nezapíše revize. Po jeho provedení budete muset připravit a zapsat provedené změny ručně.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It works by going to the common ancestor of the two branches (the one you're on and the one you're rebasing onto), getting the diff introduced by each commit of the branch you're on, saving those diffs to temporary files, resetting the current branch to the same commit as the branch you are rebasing onto, and finally applying each change in turn.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151215T132053Z" creationid="Prikryl" creationdate="20151214T094251Z">
         <seg>Funguje to tak, že se přejde na společného předka obou větví (větve, na níž se nacházíte, a větve, na kterou přeskládáváte), zjistí se rozdíly pro každý objekt revize ve větvi, na které se nacházíte, zjištěné rozdíly se uloží do dočasných souborů, aktuální větev se nastaví na stejný bod jako větev, na kterou přeskládáváte, a nakonec postupně aplikují všechny změny.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's almost identical to running a `patch -p1` command to apply the patch, although it's more paranoid and accepts fewer fuzzy matches than patch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T131506Z" creationid="Prikryl" creationdate="20160201T131506Z">
+        <seg>Je to téměř stejné, jako byste k aplikaci záplaty použili příkaz `patch -p1`. Příkaz `apply` je ale víc paranoidní a přijímá méně přibližných shod než příkaz `patch`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9542,6 +9784,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T174318Z" creationid="Prikryl" creationdate="20151026T174244Z">
         <seg>Nastal čas, abychom se naučili základům práce s Gitem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's often helpful to get a review of all the commits that are in this branch but that aren't in your master branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T150538Z" creationid="Prikryl" creationdate="20160202T150538Z">
+        <seg>Často může být užitečné získat přehled o všech revizích, které jsou obsaženy v určité větvi, ale nejsou ve vaší větvi `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9996,6 +10246,16 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Limit log functionality to the first 20
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T071925Z" creationid="Prikryl" creationdate="20160202T071925Z">
+        <seg>Limit log functionality to the first 20
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.</seg>
       </tuv>
@@ -10216,10 +10476,10 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>More importantly, you can use any tool you like to rename a file, and address the add/rm later, before you commit.</seg>
+        <seg>More important, you can use any tool you like to rename a file, and address the add/rm later, before you commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T213030Z" creationid="Prikryl" creationdate="20160123T213030Z">
-        <seg>Důležitější je, že pro přejmenování souboru můžete použít jakýkoli oblíbený nástroj a později, před zapsáním revize, provést příkaz `add`/`rm`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T105619Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Důležitější je, že můžete použít jakýkoli způsob přejmenování a později, před zapsáním revize, provést příkaz `add`/`rm`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10360,6 +10620,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>No changes -- Patch already applied.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075631Z" creationid="Prikryl" creationdate="20160202T075631Z">
+        <seg>No changes -- Patch already applied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>No commit was completed in that instance.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10448,9 +10716,9 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>Notice how you don't have to run `git add` on the `CONTRIBUTING.md` file in this case before you commit.</seg>
+        <seg>Notice how you don't have to run `git add` on the ``CONTRIBUTING.md'' file in this case before you commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212626Z" creationid="Prikryl" creationdate="20160123T212626Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151031T224058Z" creationid="Prikryl" creationdate="20151031T224058Z">
         <seg>Povšimněte si, že kvůli souboru `CONTRIBUTING.md` v tomto případě nemusíte před zapsáním revize provádět příkaz `git add`.</seg>
       </tuv>
     </tu>
@@ -10628,6 +10896,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T211724Z" creationid="Prikryl" creationdate="20151214T211724Z">
         <seg>Když teď víte, jak oba přístupy fungují, je jen na vás, který z nich ve vaší konkrétní situaci zvolíte jako nejlepší.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now that your filter is ready, you can test it by setting up a file with your `$Date$` keyword and then setting up a Git attribute for that file that engages the new filter:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Nyní, když máte filtr hotový, můžete ho otestovat vytvořením souboru s klíčovým slovem `$Date$` a nastavením atributu Git pro tento soubor, jímž nový filtr aktivujete:</seg>
       </tuv>
     </tu>
     <tu>
@@ -11139,24 +11415,24 @@ M  lib/simplegit.rb
         <seg>On a x86 system
 [source,console]
 ----
-$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession" 
 ----
 On a x64 system
 [source,console]
 ----
-$ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
+$ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession" 
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212030Z" creationid="Prikryl" creationdate="20160123T212030Z">
-        <seg>On a x86 system
+      <tuv lang="CS" changeid="Prikryl" changedate="20151216T125252Z" creationid="Prikryl" creationdate="20151107T114608Z">
+        <seg>Na 32bitovém systému
 [source,console]
 ----
-$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession" 
 ----
-On a x64 system
+Na 64bitovém systému
 [source,console]
 ----
-$ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
+$ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession" 
 ----</seg>
       </tuv>
     </tu>
@@ -11404,6 +11680,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Perhaps your main branch has diverged too far from the branch the patch was built from, or the patch depends on another patch you haven't applied yet.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T074109Z" creationid="Prikryl" creationdate="20160202T074109Z">
+        <seg>Vaše hlavní větev se mohla příliš odchýlit od větve, z níž byla záplata vytvořena, nebo je záplata závislá na jiné záplatě, kterou jste ještě neaplikovali.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Please include a nice description of your changes when you submit your PR;</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151030T091804Z" creationid="Prikryl" creationdate="20151030T091804Z">
@@ -11646,10 +11930,10 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>Run `git push &lt;remote&gt; &lt;branch&gt;`:(((git commands, push)))</seg>
+        <seg>Run `git push (remote) (branch)`:(((git commands, push)))</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233558Z" creationid="Prikryl" creationdate="20160123T233558Z">
-        <seg>Spusťte `git push &lt;vzdálený&gt; &lt;větev&gt;`:(((git příkazy, push)))</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151213T110436Z" creationid="Prikryl" creationdate="20151210T124206Z">
+        <seg>Spusťte `git push (vzdálený) (větev)`:(((git příkazy, push)))</seg>
       </tuv>
     </tu>
     <tu>
@@ -12258,6 +12542,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Suppose you’ve done an import from another source control system and have subdirectories that make no sense (trunk, tags, and so on).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Předpokládejme, že jste dokončili import z jiného systému ke správě zdrojového kódu a máte podadresáře, které nedávají žádný smysl (trunk, tags apod.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Switch back to your original story and continue working.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151111T153236Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -12310,10 +12602,18 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Technically, `git am` is built to read an mbox file, which is a simple, plain-text format for storing one or more email messages in one text file.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T071915Z" creationid="Prikryl" creationdate="20160202T071915Z">
+        <seg>Z technického hlediska je `git am` navržen tak, aby četl soubor ve formátu elektronické pošty (mbox), což je jednoduchý textový formát pro uložení jedné nebo více e-mailových zpráv do jednoho textového souboru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Technically, you can do that by explicitly figuring out the common ancestor and then running your diff on it:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Můžete tedy explicitně najít společného předka obou větví a spustit na něm příkaz diff:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T154457Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Šlo by to udělat tak, že explicitně najdete společného předka obou větví a spustíte pro něj příkaz `diff`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -12690,16 +12990,8 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
       <tuv lang="EN">
         <seg>The `Author` information is the individual who originally created the patch and when it was originally created.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Informace `Author` naproti tomu označuje jedince, který patch původně vytvořil, a kdy tak učinil.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN">
-        <seg>The `CONTRIBUTING.md` file appears under a section named ``Changes not staged for commit'' – which means that a file that is tracked has been modified in the working directory but not yet staged.</seg>
-      </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212144Z" creationid="Prikryl" creationdate="20160123T212144Z">
-        <seg>Soubor `CONTRIBUTING.md` je uveden v části „Changes not staged for commit“ (změny, které nejsou připraveny k zapsání). Znamená to, že soubor, který je sledován, byl v pracovním adresáři změněn, avšak ještě nebyl připraven k zapsání (staged).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T074021Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Informace `Author` uvádí jedince, který záplatu původně vytvořil, a kdy tak učinil.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12714,8 +13006,8 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
       <tuv lang="EN">
         <seg>The `Commit` information indicates the person who applied the patch and the time it was applied.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Informace `Commit` uvádí osobu, která patch aplikovala, a čas, kdy se tak stalo.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T073948Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Informace `Commit` uvádí osobu, která záplatu aplikovala, a čas, kdy se tak stalo.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12732,6 +13024,14 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Syntaxe `SHA^@` se vztahuje na všechny rodiče této revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The ``CONTRIBUTING.md'' file appears under a section named ``Changes not staged for commit'' – which means that a file that is tracked has been modified in the working directory but not yet staged.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151107T120529Z" creationid="Prikryl" creationdate="20151107T120529Z">
+        <seg>Soubor `CONTRIBUTING.md` je uveden v části „Changes not staged for commit“ (změny, které nejsou připraveny k zapsání). Znamená to, že soubor, který je sledován, byl v pracovním adresáři změněn, avšak ještě nebyl připraven k zapsání (staged).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12826,14 +13126,6 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>The `oneline` and `format` options are particularly useful with another `log` option called `--graph`.</seg>
-      </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Parametry `oneline` a `format` jsou zvlášť užitečné ve spojení s další možností `log`u – parametrem `--graph`.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN">
         <seg>The `oneline` option prints each commit on a single line, which is useful if you're looking at a lot of commits.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T152153Z" creationid="Prikryl" creationdate="20151102T145802Z">
@@ -12910,6 +13202,14 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Řešením této situace je odložení (stashing) příkazem `git stash`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The author information is taken from the email's `From` and `Date` headers, and the message of the commit is taken from the `Subject` and body (before the patch) of the email.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T073635Z" creationid="Prikryl" creationdate="20160202T073635Z">
+        <seg>Informace o autorovi jsou převzaty z hlavičkových polí e-mailu `From` a `Date`, zpráva k revizi je převzata z pole `Subject` a těla e-mailu (před samotnou záplatou).</seg>
       </tuv>
     </tu>
     <tu>
@@ -13420,6 +13720,14 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The idea of the subtree merge is that you have two projects, and one of the projects maps to a subdirectory of the other one and vice versa.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Začlenění podstromu spočívá v tom, že máte dva projekty a jeden z projektů se promítá do podadresáře druhého projektu a naopak.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The index is a file that contains offsets into that packfile so you can quickly seek to a specific object.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -13724,6 +14032,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Příjemné na tomto wrapperovém nastavení je, že lze snadno změnit nástroj diff i nástroj pro slučování.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The oneline and format options are particularly useful with another `log` option called `--graph`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151102T213044Z" creationid="Prikryl" creationdate="20151102T213044Z">
+        <seg>Parametry `oneline` a `format` jsou zvlášť užitečné ve spojení s další volbou příkazu `log` nazvanou `--graph`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14396,6 +14712,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>There are two ways to apply an emailed patch: with `git apply` or with `git am`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T125907Z" creationid="Prikryl" creationdate="20160201T125907Z">
+        <seg>Záplatu zaslanou elektronickou poštou lze aplikovat dvěma způsoby: příkazem `git apply` nebo příkazem `git am`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>There are ways to get around this (namely, stashing and commit amending) that we'll cover later on, in &lt;&lt;_git_stashing&gt;&gt;.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151111T212908Z" creationid="Prikryl" creationdate="20151111T212814Z">
@@ -14783,8 +15107,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This command also exits with a non-zero status if the check fails, so you can use it in scripts if you want.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jestliže kontrola selže, příkaz vrací nenulový návratový kód, a proto ho lze snadno používat ve skriptech.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133800Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jestliže kontrola selže, příkaz vrací nenulový návratový kód, a proto ho můžete snadno používat ve skriptech.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14807,8 +15131,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This command gives you a diff, but it may be misleading.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Výstupem tohoto příkazu bude výpis diff, který však může být lehce matoucí.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T152127Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Výstupem příkazu bude výpis rozdílů, ale může být zavádějící.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14839,8 +15163,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This command puts conflict markers in any files it has issues with, much like a conflicted merge or rebase operation.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tento příkaz vloží poznámku o konfliktu (conflict marker) do všech souborů, u nichž došlo k problémům, stejně jako u operací sloučení nebo přeskládání, při nichž došlo ke konfliktu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T074624Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tento příkaz vloží značky konfliktu do všech problematických souborů -- podobně jako při konfliktu u operací sloučení (merge) nebo přeskládání (rebase).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14973,10 +15297,26 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This does a one-time pull and doesn't save the URL as a remote reference:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T145201Z" creationid="Prikryl" creationdate="20160202T145201Z">
+        <seg>Provede se jednorázové stažení a URL se neuloží jako odkaz na vzdálený repozitář:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This does the equivalent of the `svn copy trunk branches/opera` command in Subversion and operates on the Subversion server.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Příkaz je ekvivalentní s příkazem `svn copy trunk branches/opera` v systému Subversion a pracuje na serveru Subversion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This does the same thing as the `master..contrib` format that we used earlier.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T151027Z" creationid="Prikryl" creationdate="20160202T151027Z">
+        <seg>Činnost je stejná jako při uvedení tvaru `master..contrib`, který jsme použili dříve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15041,6 +15381,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Příkaz projde a přepíše všechny revize tak, aby obsahovaly novou adresu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This happens because Git directly compares the snapshots of the last commit of the topic branch you're on and the snapshot of the last commit on the `master` branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T152807Z" creationid="Prikryl" creationdate="20160202T152807Z">
+        <seg>Je to tím, že Git přímo porovnává snímek poslední revize v tématické větvi, na které se nacházíte, se snímkem poslední revize ve větvi `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15121,6 +15469,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151228T185247Z" creationid="Prikryl" creationdate="20151228T185247Z">
         <seg>Je to taky šikovná možnost rychlého získání práce z pracovního repozitáře někoho jiného.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is also a valid mbox email format.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T072045Z" creationid="Prikryl" creationdate="20160202T072045Z">
+        <seg>Zároveň je to také platný e-mailový formát mbox.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15325,6 +15681,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This is most useful if you're working with a person consistently.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T123443Z" creationid="Prikryl" creationdate="20160202T123443Z">
+        <seg>Užitečné je to zejména tehdy, když s někým spolupracujete dlouhodobě.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This is much like specifying `git diff --cached` on the command line:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -15345,6 +15709,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tato syntaxe je užitečná zejména proto, že pomocí ní můžete zadat více než dvě reference, což není pomocí dvojtečkové syntaxe možné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is nice if you have a number of patches saved, because you can view the patch first if you don't remember what it is, or not apply the patch if you've already done so.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T080338Z" creationid="Prikryl" creationdate="20160202T080338Z">
+        <seg>To oceníte v situaci, kdy už máte uložených více záplat, protože pokud si nepamatujete, o co v záplatě jde, můžete si ji před aplikací prohlédnout a neaplikovat ji, pokud už jste tak učinili dříve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15439,8 +15811,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is the beginning of the output of the format-patch command that you saw in the previous section.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Toto je začátek výstupu příkazu format-patch, s nímž jsme se setkali v předchozí části.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T072006Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Toto je začátek výstupu příkazu format-patch, který jste viděli v předchozí části.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15711,8 +16083,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This modifies the files in your working directory.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tím změníte soubory ve svém pracovním adresáři.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T130422Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tím se soubory ve svém pracovním adresáři změní.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15797,6 +16169,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This option isn't on by default because it doesn't work if the commit the patch says it was based on isn't in your repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075205Z" creationid="Prikryl" creationdate="20160202T075205Z">
+        <seg>Tato možnost není nastavena jako výchozí, protože ji nelze použít v situaci, kdy revize, o níž záplata říká, že je na ní založena, není obsažena ve vašem repozitáři.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This process is just like sharing remote branches – you can run `git push origin [tagname]`.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T224849Z" creationid="Prikryl" creationdate="20151107T224849Z">
@@ -15875,6 +16255,14 @@ Některé z cílů nového systému byly následující:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tato část uvede několik různých způsobů, jak lze určit jednu konkrétní revizi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This section revisits a couple of commands so you can see how you can use them to review exactly what you'll be introducing if you merge this into your main branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T150354Z" creationid="Prikryl" creationdate="20160202T150233Z">
+        <seg>V této části si zopakujeme několik příkazů, abyste viděli, jak se dají použít k přesnému zjištění toho, co se v případě sloučení (merge) dostane do vaší hlavní větve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16123,8 +16511,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>To apply a patch generated by `format-patch`, you use `git am`.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>K aplikaci patche vygenerovaného příkazem `format-patch` použijte příkaz `git am`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T071351Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>K aplikaci záplaty vygenerované příkazem `format-patch` používejte příkaz `git am`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16467,6 +16855,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>To remove a file named passwords.txt from your entire history, you can use the `--tree-filter` option to `filter-branch`:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pro odstranění souboru s názvem passwords.txt z celé historie můžete použít parametr `--tree-filter`, který přidáte k příkazu `filter-branch`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>To remove it, you can run `git stash drop` with the name of the stash to remove:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -16501,8 +16897,8 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       <tuv lang="EN">
         <seg>To see a full diff of what would happen if you were to merge this topic branch with another branch, you may have to use a weird trick to get the correct results.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li vidět plný výpis diff, jak by vypadaly rozdíly, kdybyste tuto tématickou větev začlenili do jiné větve, můžete použít speciální trik, který vám zobrazí požadované informace.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T151741Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Chcete-li vidět úplný výpis rozdílů, které by vznikly sloučením této tématické větve s jinou větví, budete muset pro obdržení správných výsledků použít zvláštní trik.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16549,8 +16945,8 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
       <tuv lang="EN">
         <seg>To see what changes each commit introduces, remember that you can pass the `-p` option to `git log` and it will append the diff introduced to each commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li zjistit, jaké změny byly v jednotlivých revizích provedeny, můžete k příkazu `git log` přidat parametr `-p`, který ke každé revizi připojí rozdíly ve formátu diff.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T151346Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Chcete-li zjistit, jaké změny byly provedeny v jednotlivých revizích, můžete k příkazu `git log` přidat volbu `-p`, která ke každé revizi připojí rozdíly ve formátu diff.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16996,11 +17392,11 @@ To https://github.com/schacon/simplegit</seg>
     <tu>
       <tuv lang="EN">
         <seg>We've mentioned and given some demonstrations of adding remote repositories in previous sections, but here is how to do it explicitly.(((git commands, remote)))
-To add a new remote Git repository as a shortname you can reference easily, run `git remote add &lt;shortname&gt; &lt;url&gt;`:</seg>
+To add a new remote Git repository as a shortname you can reference easily, run `git remote add [shortname] [url]`:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T213116Z" creationid="Prikryl" creationdate="20160123T213116Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151217T135709Z" creationid="Prikryl" creationdate="20151101T170241Z">
         <seg>O přidávání vzdálených repozitářů jsme se zmínili v předchozích podkapitolách a něco jsme si i ukázali, ale tady si přesně řekneme, jak to udělat.(((git příkazy, remote)))
-Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, přes který se můžete snadno odkazovat, spusťte příkaz `git remote add &lt;zkrácený název&gt; &lt;url&gt;`:</seg>
+Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, přes který se můžete snadno odkazovat, spusťte příkaz `git remote add [zkrácený název] [url]`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -17073,6 +17469,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Z původní reference `pb/master` se tak nyní stává `paul/master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>What you really want to see are the changes added to the topic branch – the work you'll introduce if you merge this branch with master.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T153630Z" creationid="Prikryl" creationdate="20160202T153630Z">
+        <seg>To, co opravdu chcete vidět, jsou změny přidané do tématické větve -- tj. práci, která se objeví v případě, že provedete začlenění této větve do větve `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17479,8 +17883,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>Without the `-3` option, it looks like a conflict.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Bez parametru `-3` se celá situace tváří jako konflikt.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075822Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Bez volby `-3` by to vypadalo jako konflikt.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17864,6 +18268,14 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can also use git apply to see if a patch applies cleanly before you try actually applying it – you can run `git apply --check` with the patch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133529Z" creationid="Prikryl" creationdate="20160201T133529Z">
+        <seg>Příkaz `git apply` můžete použít také ke kontrole, zda bude záplata aplikována čistě ještě před tím, než skutečnou aplikaci provedete. V takovém případě pro záplatu použijte příkaz `git apply --check`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can also use interactive rebases to reorder or remove commits entirely.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -18058,8 +18470,8 @@ You can use this format to push a local branch into a remote branch that is name
       <tuv lang="EN">
         <seg>You can exclude commits in the master branch by adding the `--not` option before the branch name.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Revize v hlavní větvi lze vyloučit vložením parametru `--not` před název větve.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T150739Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Revize ve větvi `master` lze vyloučit přidáním volby `--not` před název větve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18072,10 +18484,10 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>You can get a full list of remote references explicitly with `git ls-remote [remote]`, or `git remote show [remote]` for remote branches as well as more information.</seg>
+        <seg>You can get a full list of remote references explicitly with `git ls-remote (remote)`, or `git remote show (remote)` for remote branches as well as more information.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233524Z" creationid="Prikryl" creationdate="20160123T233524Z">
-        <seg>Seznam vzdálených referencí pro vzdálené větve a také další informace můžete získat explicitním příkazem `git ls-remote [vzdálený]` nebo `git remote show [vzdálený]` footnote:[Pozn. překl.: V originále je příkaz zapsán jako `git remote show [remote]`, přičemž první „remote“ je název příkazu a druhé slovo „remote“ v závorkách je symbolické vyjádření, že se zde má uvést jméno „vzdáleného“... a teď čeho. Na jiných místech v knize se volněji pracuje s pojmy „server“ nebo „repozitář“ ve smyslu gitového serveru nebo repozitáře. V této kapitole bychom měli být přesnější, protože pojem „remote“ musíme navíc spojit s větvemi. Přesnější je použít spojení „vzdálený repozitář“, protože z hlediska Gitu není důležité, jakou podobu toto „úložiště dat“ má. Může to být „server“, ale může to být také „adresář na lokálním disku“. V anglicky mluvící komunitě si s tím hlavu nelámou a nazývají to prostě „remote“, přičemž mají současně na mysli „krátké jméno vzdáleného repozitáře“. Podle jejich vzoru proto ponechávám pro druhý výskyt tohoto slova v příkladu český překlad „vzdálený“.].</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151213T105257Z" creationid="Prikryl" creationdate="20151210T081817Z">
+        <seg>Seznam vzdálených referencí pro vzdálené větve a také další informace můžete získat explicitním příkazem `git ls-remote (vzdálený)` nebo `git remote show (vzdálený)` footnote:[Pozn. překl.: V originále je příkaz zapsán jako `git remote show (remote)`, přičemž první „remote“ je název příkazu a druhé slovo „remote“ v závorkách je symbolické vyjádření, že se zde má uvést jméno „vzdáleného“... a teď čeho. Na jiných místech v knize se volněji pracuje s pojmy „server“ nebo „repozitář“ ve smyslu gitového serveru nebo repozitáře. V této kapitole bychom měli být přesnější, protože pojem „remote“ musíme navíc spojit s větvemi. Přesnější je použít spojení „vzdálený repozitář“, protože z hlediska Gitu není důležité, jakou podobu toto „úložiště dat“ má. Může to být „server“, ale může to být také „adresář na lokálním disku“. V anglicky mluvící komunitě si s tím hlavu nelámou a nazývají to prostě „remote“, přičemž mají současně na mysli „krátké jméno vzdáleného repozitáře“. Podle jejich vzoru proto ponechávám pro druhý výskyt tohoto slova v příkladu český překlad „vzdálený“.].</seg>
       </tuv>
     </tu>
     <tu>
@@ -18586,10 +18998,10 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>You could do that like this: `git fetch --all; git branch -vv`</seg>
+        <seg>You could do that like this: `$ git fetch --all; git branch -vv`</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233619Z" creationid="Prikryl" creationdate="20160123T233619Z">
-        <seg>Můžete to provést následovně: `git fetch --all; git branch -vv`</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151213T220614Z" creationid="Prikryl" creationdate="20151213T220614Z">
+        <seg>Můžete to provést následovně: `$ git fetch --all; git branch -vv`</seg>
       </tuv>
     </tu>
     <tu>
@@ -18620,8 +19032,8 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       <tuv lang="EN">
         <seg>You do that by having Git compare the last commit on your topic branch with the first common ancestor it has with the master branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tohoto srovnání dosáhnete tak, že necháte Git porovnat poslední revizi ve vaší tématické větvi s prvním předkem, kterého má společného s hlavní větví.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T154113Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Dosáhnete toho tak, že necháte Git porovnat poslední revizi z tématické větve s nejbližším společným předchůdcem sdíleným s větví `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18830,8 +19242,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You may think to run this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Můžete zadat následující příkaz:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T152024Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Možná vás napadne, že byste spustili příkaz:</seg>
       </tuv>
     </tu>
     <tu>
@@ -19062,8 +19474,16 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You should only have to use `git apply` for legacy patches and things like that.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Příkaz `git apply` je dobré používat jen pro starší záplaty a podobně.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T071312Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>K použití příkazu `git apply` byste měli být nuceni jen v případě použití starého typu záplat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You solve this issue much the same way – edit the file to resolve the conflict, stage the new file, and then run `git am --resolved` to continue to the next patch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T074941Z" creationid="Prikryl" creationdate="20160202T074941Z">
+        <seg>Problém se řešíte v podstatě stejným způsobem. Úpravou souboru konflikt odstraňte, připravte nový soubor k zapsání a spusťte příkaz `git am --resolved`, čímž se přesunete k následující záplatě:</seg>
       </tuv>
     </tu>
     <tu>
@@ -19136,6 +19556,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160124T000204Z" creationid="Prikryl" creationdate="20160124T000204Z">
         <seg>Pro vygenerování souborů v podobě vhodné pro zaslání poštou použijete příkaz `git format-patch`. Každá revize se tím přetransformuje na e-mailovou zprávu, jejíž předmět bude tvořit první řádek zprávy k revizi a tělo e-mailu bude tvořeno zbytkem zprávy a samotnou záplatou.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You use this command to artificially add the earlier version of the test.txt file to a new staging area.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tento příkaz lze použít, jestliže chcete uměle přidat starší verzi souboru test.txt do nové oblasti připravených změn.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19224,6 +19652,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151215T123958Z" creationid="Prikryl" creationdate="20151111T214818Z">
         <seg>Ve výstupu příkazu `merge` si všimněte fráze „fast-forward“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You're also unlikely to want to have hundreds of remotes, each for someone who contributes only a patch or two.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T124416Z" creationid="Prikryl" creationdate="20160202T124249Z">
+        <seg>Asi byste taky nechtěli spravovat stovky vzdálených repozitářů -- jeden pro každého, kdo přispěje jednou či dvěma záplatami.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19372,6 +19808,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Your staging area now has the new version of test.txt as well as the new file new.txt.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V oblasti připravených změn nyní máte jak novou verzi souboru test.txt, tak nový soubor new.txt.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Your strategy will be to go through the snapshots one at a time and create commits with the contents of each directory, linking each commit back to the previous one.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -19446,12 +19890,12 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>[IMPORTANT]
 =====
-It's important to understand that `git checkout -- &lt;file&gt;` is a dangerous command.</seg>
+It's important to understand that `git checkout -- [file]` is a dangerous command.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T213232Z" creationid="Prikryl" creationdate="20160123T213232Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151106T220204Z" creationid="Prikryl" creationdate="20151106T220204Z">
         <seg>[IMPORTANT]
 =====
-Je důležité, abyste porozuměli tomu, že příkaz `git checkout -- &lt;soubor&gt;` je nebezpečný.</seg>
+Je důležité, abyste porozuměli tomu, že příkaz `git checkout -- [soubor]` je nebezpečný.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19686,6 +20130,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_checking_out_remotes]]
+==== Checking Out Remote Branches</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T080613Z" creationid="Prikryl" creationdate="20160202T080613Z">
+        <seg>[[_checking_out_remotes]]
+==== Získání vzdálených větví (checkout)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_checking_status]]
 ==== Checking the Status of Your Files</seg>
       </tuv>
@@ -19802,6 +20256,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T134058Z" creationid="Prikryl" creationdate="20151107T134058Z">
         <seg>[[_git_aliases]]
 === Aliasy v Gitu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_git_am]]
+===== Applying a Patch with `am`</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133831Z" creationid="Prikryl" creationdate="20160201T133831Z">
+        <seg>[[_git_am]]
+===== Aplikace záplaty příkazem `am`</seg>
       </tuv>
     </tu>
     <tu>
@@ -20146,6 +20610,16 @@ image::images/perils-of-rebasing-3.png["Někdo odešle přeskládané objekty re
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T143939Z" creationid="Prikryl" creationdate="20151102T143939Z">
         <seg>[[_viewing_history]]
 === Zobrazení historie revizí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_what_is_introduced]]
+==== Determining What Is Introduced</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T145246Z" creationid="Prikryl" creationdate="20160202T145246Z">
+        <seg>[[_what_is_introduced]]
+==== Jak zjistit provedené změny</seg>
       </tuv>
     </tu>
     <tu>
@@ -20524,6 +20998,26 @@ To john@githost:simplegit.git</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ (fix the file)
+$ git add ticgit.gemspec
+$ git am --resolved
+Applying: seeing if this helps the gem
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T074943Z" creationid="Prikryl" creationdate="20160202T074943Z">
+        <seg>[source,console]
+----
+$ (fix the file)
+$ git add ticgit.gemspec
+$ git am --resolved
+Applying: seeing if this helps the gem
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ cat *.patch |git imap-send
 Resolving imap.gmail.com... ok
 Connecting to [74.125.142.109]:993... ok
@@ -20737,6 +21231,116 @@ $ git commit -m 'The initial commit of my project'
 ----
 $ git add README test.rb LICENSE
 $ git commit -m 'The initial commit of my project'
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git am -3 -i mbox
+Commit Body is:
+--------------------------
+seeing if this helps the gem
+--------------------------
+Apply?</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075930Z" creationid="Prikryl" creationdate="20160202T075930Z">
+        <seg>[source,console]
+----
+$ git am -3 -i mbox
+Commit Body is:
+--------------------------
+seeing if this helps the gem
+--------------------------
+Apply?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git am -3 0001-seeing-if-this-helps-the-gem.patch
+Applying: seeing if this helps the gem
+error: patch failed: ticgit.gemspec:1
+error: ticgit.gemspec: patch does not apply
+Using index info to reconstruct a base tree...</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075621Z" creationid="Prikryl" creationdate="20160202T075621Z">
+        <seg>[source,console]
+----
+$ git am -3 0001-seeing-if-this-helps-the-gem.patch
+Applying: seeing if this helps the gem
+error: patch failed: ticgit.gemspec:1
+error: ticgit.gemspec: patch does not apply
+Using index info to reconstruct a base tree...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git am 0001-limit-log-function.patch
+Applying: add limit to log function
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T073335Z" creationid="Prikryl" creationdate="20160202T073335Z">
+        <seg>[source,console]
+----
+$ git am 0001-limit-log-function.patch
+Applying: add limit to log function
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git am 0001-seeing-if-this-helps-the-gem.patch
+Applying: seeing if this helps the gem
+error: patch failed: ticgit.gemspec:1
+error: ticgit.gemspec: patch does not apply
+Patch failed at 0001.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T074208Z" creationid="Prikryl" creationdate="20160202T074208Z">
+        <seg>[source,console]
+----
+$ git am 0001-seeing-if-this-helps-the-gem.patch
+Applying: seeing if this helps the gem
+error: patch failed: ticgit.gemspec:1
+error: ticgit.gemspec: patch does not apply
+Patch failed at 0001.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git apply --check 0001-seeing-if-this-helps-the-gem.patch
+error: patch failed: ticgit.gemspec:1
+error: ticgit.gemspec: patch does not apply
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T133531Z" creationid="Prikryl" creationdate="20160201T133531Z">
+        <seg>[source,console]
+----
+$ git apply --check 0001-seeing-if-this-helps-the-gem.patch
+error: patch failed: ticgit.gemspec:1
+error: ticgit.gemspec: patch does not apply
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git apply /tmp/patch-ruby-client.patch
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T130352Z" creationid="Prikryl" creationdate="20160201T130352Z">
+        <seg>[source,console]
+----
+$ git apply /tmp/patch-ruby-client.patch
 ----</seg>
       </tuv>
     </tu>
@@ -21758,6 +22362,20 @@ index 0000000..03902a1
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git diff master
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T152026Z" creationid="Prikryl" creationdate="20160202T152026Z">
+        <seg>[source,console]
+----
+$ git diff master
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git fetch [remote-name]
 ----</seg>
       </tuv>
@@ -21933,18 +22551,18 @@ Date:   Fri May 29 16:01:27 2009 -0700</seg>
         <seg>[source,console]
 ----
 $ git log --oneline --decorate
-f30ab (HEAD -&gt; master, testing) add feature #32 - ability to add new formats to the central interface
-34ac2 Fixed bug #1328 - stack overflow under certain conditions
-98ca9 The initial commit of my project
+f30ab (HEAD, master, testing) add feature #32 - ability to add new
+34ac2 fixed bug #1328 - stack overflow under certain conditions
+98ca9 initial commit of my project
 ----</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T233216Z" creationid="Prikryl" creationdate="20160123T233216Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151108T163524Z" creationid="Prikryl" creationdate="20151108T163524Z">
         <seg>[source,console]
 ----
 $ git log --oneline --decorate
-f30ab (HEAD -&gt; master, testing) add feature #32 - ability to add new formats to the central interface
-34ac2 Fixed bug #1328 - stack overflow under certain conditions
-98ca9 The initial commit of my project
+f30ab (HEAD, master, testing) add feature #32 - ability to add new
+34ac2 fixed bug #1328 - stack overflow under certain conditions
+98ca9 initial commit of my project
 ----</seg>
       </tuv>
     </tu>
@@ -22024,6 +22642,28 @@ ca82a6d - Scott Chacon, 6 years ago : changed the version number
 085bb3b - Scott Chacon, 6 years ago : removed unnecessary test
 a11bef0 - Scott Chacon, 6 years ago : first commit
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git log --pretty=fuller -1
+commit 6c5e70b984a60b3cecd395edd5b48a7575bf58e0
+Author:     Jessica Smith &lt;jessica@example.com&gt;
+AuthorDate: Sun Apr 6 10:17:23 2008 -0700
+Commit:     Scott Chacon &lt;schacon@gmail.com&gt;
+CommitDate: Thu Apr 9 09:19:06 2009 -0700</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T073900Z" creationid="Prikryl" creationdate="20160202T073900Z">
+        <seg>[source,console]
+----
+$ git log --pretty=fuller -1
+commit 6c5e70b984a60b3cecd395edd5b48a7575bf58e0
+Author:     Jessica Smith &lt;jessica@example.com&gt;
+AuthorDate: Sun Apr 6 10:17:23 2008 -0700
+Commit:     Scott Chacon &lt;schacon@gmail.com&gt;
+CommitDate: Thu Apr 9 09:19:06 2009 -0700</seg>
       </tuv>
     </tu>
     <tu>
@@ -22148,6 +22788,24 @@ Date:   Mon Mar 17 21:52:11 2008 -0700</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git log contrib --not master
+commit 5b6235bd297351589efc4d73316f0a68d484f118
+Author: Scott Chacon &lt;schacon@gmail.com&gt;
+Date:   Fri Oct 24 09:53:59 2008 -0700</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T151136Z" creationid="Prikryl" creationdate="20160202T151136Z">
+        <seg>[source,console]
+----
+$ git log contrib --not master
+commit 5b6235bd297351589efc4d73316f0a68d484f118
+Author: Scott Chacon &lt;schacon@gmail.com&gt;
+Date:   Fri Oct 24 09:53:59 2008 -0700</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git log featureA..origin/featureA
 commit aad881d154acdaeb2b6b18ea0e827ed8a6d671e6
 Author: John Smith &lt;jsmith@example.com&gt;
@@ -22246,6 +22904,24 @@ Merge made by recursive.</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git merge-base contrib master
+36c7dba2c95e6bbb78dfa822519ecfec6e1ca649
+$ git diff 36c7db
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T154459Z" creationid="Prikryl" creationdate="20160202T154459Z">
+        <seg>[source,console]
+----
+$ git merge-base contrib master
+36c7dba2c95e6bbb78dfa822519ecfec6e1ca649
+$ git diff 36c7db
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git mergetool</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T075159Z" creationid="Prikryl" creationdate="20151120T075159Z">
@@ -22284,6 +22960,20 @@ $ git mv file_from file_to
 ----
 $ git mv stare_jmeno_souboru nove_jmeno_souboru
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git pull https://github.com/onetimeguy/project
+From https://github.com/onetimeguy/project</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T145202Z" creationid="Prikryl" creationdate="20160202T145202Z">
+        <seg>[source,console]
+----
+$ git pull https://github.com/onetimeguy/project
+From https://github.com/onetimeguy/project</seg>
       </tuv>
     </tu>
     <tu>
@@ -22483,6 +23173,24 @@ origin	https://github.com/schacon/ticgit (push)
 $ git remote -v
 origin	https://github.com/schacon/ticgit (fetch)
 origin	https://github.com/schacon/ticgit (push)
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git remote add jessica git://github.com/jessica/myproject.git
+$ git fetch jessica
+$ git checkout -b rubyclient jessica/ruby-client
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T122010Z" creationid="Prikryl" creationdate="20160202T122010Z">
+        <seg>[source,console]
+----
+$ git remote add jessica git://github.com/jessica/myproject.git
+$ git fetch jessica
+$ git checkout -b rubyclient jessica/ruby-client
 ----</seg>
       </tuv>
     </tu>
@@ -23194,6 +23902,24 @@ Changes not staged for commit:</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+From 330090432754092d704da8e76ca5c05c198e71a8 Mon Sep 17 00:00:00 2001
+From: Jessica Smith &lt;jessica@example.com&gt;
+Date: Sun, 6 Apr 2008 10:17:23 -0700
+Subject: [PATCH 1/2] add limit to log function</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T071922Z" creationid="Prikryl" creationdate="20160202T071922Z">
+        <seg>[source,console]
+----
+From 330090432754092d704da8e76ca5c05c198e71a8 Mon Sep 17 00:00:00 2001
+From: Jessica Smith &lt;jessica@example.com&gt;
+Date: Sun, 6 Apr 2008 10:17:23 -0700
+Subject: [PATCH 1/2] add limit to log function</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 Merge branch 'iss53'</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T081108Z" creationid="Prikryl" creationdate="20151120T081108Z">
@@ -23326,6 +24052,16 @@ Krátké shrnutí změn (do 50 znaků)</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[y]es/[n]o/[e]dit/[v]iew patch/[a]ccept all
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T075934Z" creationid="Prikryl" creationdate="20160202T075934Z">
+        <seg>[y]es/[n]o/[e]dit/[v]iew patch/[a]ccept all
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>\line 'From: Jessica Smith &lt;jessica@example.com&gt;'
 OK.</seg>
       </tuv>
@@ -23408,6 +24144,14 @@ OK.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>`git apply` is overall much more conservative than `patch`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160201T132613Z" creationid="Prikryl" creationdate="20160201T132613Z">
+        <seg>Příkaz `git apply` je celkově konzervativnější než příkaz `patch`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>`git svn` has two commands to help with this issue.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -23464,9 +24208,9 @@ OK.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>and `git diff --cached` to see what you've staged so far (`--staged` and `--cached` are synonyms):</seg>
+        <seg>and `git diff --cached` to see what you've staged so far (--staged and --cached are synonyms):</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160123T212541Z" creationid="Prikryl" creationdate="20160123T212541Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20151030T093834Z" creationid="Prikryl" creationdate="20151030T093834Z">
         <seg>a příkaz `git diff --cached` ukáže změny, které už jsou připraveny k zapsání (`--staged` a `--cached` jsou synonyma):</seg>
       </tuv>
     </tu>
@@ -23558,6 +24302,18 @@ Date:   Sat Mar 15 16:40:33 2008 -0700</seg>
         <seg>commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
 Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
 Date:   Sat Mar 15 16:40:33 2008 -0700</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>commit 7482e0d16d04bea79d0dba8988cc78df655f16a0
+Author: Scott Chacon &lt;schacon@gmail.com&gt;
+Date:   Mon Oct 22 19:38:36 2008 -0700</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T151142Z" creationid="Prikryl" creationdate="20160202T151142Z">
+        <seg>commit 7482e0d16d04bea79d0dba8988cc78df655f16a0
+Author: Scott Chacon &lt;schacon@gmail.com&gt;
+Date:   Mon Oct 22 19:38:36 2008 -0700</seg>
       </tuv>
     </tu>
     <tu>
@@ -25187,6 +25943,16 @@ Unpacking objects: 100% (43/43), done.</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T224453Z" creationid="Prikryl" creationdate="20151107T224453Z">
         <seg>updated rakefile
 ...
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>updated the gemspec to hopefully work better
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160202T151145Z" creationid="Prikryl" creationdate="20160202T151145Z">
+        <seg>updated the gemspec to hopefully work better
 ----</seg>
       </tuv>
     </tu>

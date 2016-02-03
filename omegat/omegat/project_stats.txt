@@ -1,11 +1,11 @@
-3.2.16 12:26
+3.2.16 12:36
 Statistika projektu
 
                              	Segmenty	 Slova	Znaky (bez mezer)	Znaky (včetně mezer)	#Files	
 Celkem:                      	    8851	137446	           727326	              853560	   102	
-Zbývající:                   	    5554	 86708	           472439	              551854	    73	
+Zbývající:                   	    5552	 86683	           472307	              551699	    72	
 Jedinečné segmenty:          	    8303	135049	           713139	              837280	   102	
-Zbývající jedinečné segmenty:	    5354	 85744	           466650	              545181	    73	
+Zbývající jedinečné segmenty:	    5352	 85719	           466518	              545026	    72	
 
 
 Statistika jednotlivých souborů:
@@ -22,7 +22,7 @@ book/01-introduction/sections/installing.asc                  	             54	 
 book/02-git-basics/1-git-basics.asc                           	             15	                 0	                14	                           0	         181	              0	            180	                        0	                    1027	                          0	                       1017	                                    0	                       1181	                             0	                          1170	                                       0	
 book/02-git-basics/sections/aliases.asc                       	             26	                 0	                26	                           0	         361	              0	            361	                        0	                    1936	                          0	                       1936	                                    0	                       2260	                             0	                          2260	                                       0	
 book/02-git-basics/sections/getting-a-repository.asc          	             31	                 0	                31	                           0	         564	              0	            564	                        0	                    2873	                          0	                       2873	                                    0	                       3395	                             0	                          3395	                                       0	
-book/02-git-basics/sections/recording-changes.asc             	            265	                 2	               218	                           2	        3807	             25	           3488	                       25	                   19352	                        132	                      17549	                                  132	                      22846	                           155	                         20750	                                     155	
+book/02-git-basics/sections/recording-changes.asc             	            265	                 0	               218	                           0	        3807	              0	           3488	                        0	                   19352	                          0	                      17549	                                    0	                      22846	                             0	                         20750	                                       0	
 book/02-git-basics/sections/remotes.asc                       	            101	                 0	                98	                           0	        1559	              0	           1546	                        0	                    8367	                          0	                       8279	                                    0	                      10040	                             0	                          9943	                                       0	
 book/02-git-basics/sections/tagging.asc                       	             74	                 0	                73	                           0	        1008	              0	           1004	                        0	                    5608	                          0	                       5580	                                    0	                       6480	                             0	                          6449	                                       0	
 book/02-git-basics/sections/undoing.asc                       	             65	                 0	                50	                           0	         824	              0	            746	                        0	                    4209	                          0	                       3702	                                    0	                       4982	                             0	                          4394	                                       0	

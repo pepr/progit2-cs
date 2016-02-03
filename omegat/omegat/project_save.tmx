@@ -13414,6 +13414,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>That's because the `-a` flag includes all changed files.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T113151Z" creationid="Prikryl" creationdate="20160203T113151Z">
+        <seg>To proto, že příznak `-a` přidá všechny změněné soubory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>That's how it happened, and the repository should preserve that for posterity.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T210227Z" creationid="Prikryl" creationdate="20151214T210227Z">
@@ -16281,6 +16289,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T143742Z" creationid="Prikryl" creationdate="20151214T143742Z">
         <seg>Jmenuje se to „patch-id“ (doslova „identifikace záplaty“).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is convenient, but be careful; sometimes this flag will cause you to include unwanted changes.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T113422Z" creationid="Prikryl" creationdate="20160203T113422Z">
+        <seg>Je to praktické, ale buďte opatrní. Někdy se stane, že si tímto příznakem přidáte nechtěné změny.</seg>
       </tuv>
     </tu>
     <tu>

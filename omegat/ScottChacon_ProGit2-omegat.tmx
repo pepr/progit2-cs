@@ -788,9 +788,9 @@ Na rozdíl od centralizovaných systémů pro správu verzí, distribuovaný cha
         <seg>(((workflows, "merging (large)")))
 The Git project has four long-running branches: `master`, `next`, and `pu` (proposed updates) for new work, and `maint` for maintenance backports.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160203T134813Z" creationid="Prikryl" creationdate="20160203T134813Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T194902Z" creationid="Prikryl" creationdate="20160203T134813Z">
         <seg>(((pracovní postupy, "začleňování (velké)")))
-Váš gitový projekt má čtyři větve s dlouhou životností: `master`, `next` a `pu` (proposed updates, čili navrhované úpravy) pro novou práci a `maint` pro for maintenance backports.</seg>
+Váš gitový projekt má čtyři větve s dlouhou životností: `master`, `next` a `pu` (proposed updates, čili navrhované úpravy) pro novou práci a `maint` pro přenos oprav z novějších verzí do starších (maintenance backports).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4039,6 +4039,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>At this point, the topics are evaluated to determine whether they're safe and ready for consumption or whether they need more work.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T195348Z" creationid="Prikryl" creationdate="20160203T195348Z">
+        <seg>V této fázi jsou náměty vyhodnoceny a určí se, zda jsou bezpečné a zralé k použití, nebo zda potřebují dopracovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>At this point, you can determine what you'd like to do with it.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160202T145551Z" creationid="Prikryl" creationdate="20160202T145551Z">
@@ -6871,6 +6879,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If the topics still need work, they're merged into `pu` instead.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T200116Z" creationid="Prikryl" creationdate="20160203T200116Z">
+        <seg>Pokud nějaké téma ještě vyžaduje dopracování, je místo toho začleněno do větve `pu`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If the update script exits non-zero, only that reference is rejected; other references can still be updated.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6891,6 +6907,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Chcete-li, aby toto Git provedl automaticky pokaždé, když spustíte příkaz `git push origin`, můžete do konfiguračního souboru vložit hodnotu `push`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If they're safe, they're merged into `next`, and that branch is pushed up so everyone can try the topics integrated together.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T195621Z" creationid="Prikryl" creationdate="20160203T195621Z">
+        <seg>Pokud jsou bezpečné, jsou začleněny do  větve `next` a ta je odeslána do sdíleného repozitáře, aby si všichni mohli vyzkoušet výsledek jejich integrace.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12840,14 +12864,6 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>That's because the `-a` flag includes all changed files.</seg>
-      </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160203T113151Z" creationid="Prikryl" creationdate="20160203T113151Z">
-        <seg>To proto, že příznak `-a` přidá všechny změněné soubory.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN">
         <seg>That's how it happened, and the repository should preserve that for posterity.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T210227Z" creationid="Prikryl" creationdate="20151214T210227Z">
@@ -15615,14 +15631,6 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>This is convenient, but be careful; sometimes this flag will cause you to include unwanted changes.</seg>
-      </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160203T113422Z" creationid="Prikryl" creationdate="20160203T113422Z">
-        <seg>Je to praktické, ale buďte opatrní. Někdy se stane, že si tímto příznakem přidáte nechtěné změny.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN">
         <seg>This is especially important to understand if you're used to Subversion, because you'll notice that the two developers didn't edit the same file.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T143943Z" creationid="Prikryl" creationdate="20160115T143943Z">
@@ -17567,6 +17575,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>When new work is introduced by contributors, it's collected into topic branches in the maintainer's repository in a manner similar to what we've described (see &lt;&lt;merwf_f&gt;&gt;).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T195008Z" creationid="Prikryl" creationdate="20160203T195008Z">
+        <seg>Pokud přispěvatelé vytvoří novou práci, je shromažďována v tématických větvích v repozitáři správce podobným způsobem, jaký jsme popsali dříve (viz obrázek &lt;&lt;merwf_f&gt;&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>When that is set up, you can use `git imap-send` to place the patch series in the Drafts folder of the specified IMAP server:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160124T003138Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -18686,6 +18702,14 @@ You can use this format to push a local branch into a remote branch that is name
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T104648Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Příkazu `git rm` můžete zadat soubory, adresáře a jejich masky.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can pretty easily see what files have been modified in a single commit with the `--name-only` option to the `git log` command (mentioned briefly in Chapter 2):</seg>
+      </tuv>
+      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Zjistit, které soubory byly v jedné revizi změněny, lze velmi snadno pomocí příkazu `git log` s parametrem `--name-only` (stručně popsáno v kapitole 2):</seg>
       </tuv>
     </tu>
     <tu>
@@ -20770,6 +20794,16 @@ image::images/lr-branches-2.png[„Zásobníkový“ pohled na větvení podle s
       <tuv lang="CS" changeid="Prikryl" changedate="20160203T110608Z" creationid="Prikryl" creationdate="20160203T110608Z">
         <seg>[[merwf_e]]
 .Po vydání nové verze projektu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[merwf_f]]
+.Managing a complex series of parallel contributed topic branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T195908Z" creationid="Prikryl" creationdate="20160203T195908Z">
+        <seg>[[merwf_f]]
+.Správa komplexní série paralelně zpracovávaných příspěvků v tématických větvích.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24804,6 +24838,14 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160109T160521Z" creationid="Prikryl" creationdate="20160109T160521Z">
         <seg>image::images/integration-manager.png[Pracovní postup s integračním manažerem.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/large-merges-1.png[Managing a complex series of parallel contributed topic branches.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T195928Z" creationid="Prikryl" creationdate="20160203T195928Z">
+        <seg>image::images/large-merges-1.png[Správa komplexní série paralelně zpracovávaných příspěvků v tématických větvích.]</seg>
       </tuv>
     </tu>
     <tu>

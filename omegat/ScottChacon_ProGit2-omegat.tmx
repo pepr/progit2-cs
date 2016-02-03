@@ -785,6 +785,16 @@ Na rozdíl od centralizovaných systémů pro správu verzí, distribuovaný cha
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((workflows, "merging (large)")))
+The Git project has four long-running branches: `master`, `next`, and `pu` (proposed updates) for new work, and `maint` for maintenance backports.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T134813Z" creationid="Prikryl" creationdate="20160203T134813Z">
+        <seg>(((pracovní postupy, "začleňování (velké)")))
+Váš gitový projekt má čtyři větve s dlouhou životností: `master`, `next` a `pu` (proposed updates, čili navrhované úpravy) pro novou práci a `maint` pro for maintenance backports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((workflows, centralized)))
 In centralized systems, there is generally a single collaboration model–the centralized workflow.</seg>
       </tuv>
@@ -16435,8 +16445,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>This way, when people clone your project's repository, they can either check out master to build the latest stable version and keep up to date on that easily, or they can check out develop, which is the more cutting-edge stuff.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160203T112335Z" creationid="Prikryl" creationdate="20160203T112335Z">
-        <seg>Pokud někdo při takovém přístupu naklonuje repozitář vašeho projetu, může se buď přepnout na větev `master` s cílem přeložit si poslední stabilní verzi a snadno ji udržovat aktuální, nebo se může přepnout na větev `develop`, která obsahuje nejpokročilejší funkčnost.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T120227Z" creationid="Prikryl" creationdate="20160203T112335Z">
+        <seg>Pokud někdo při takovém přístupu naklonuje repozitář vašeho projektu, může se buď přepnout na větev `master` s cílem přeložit si poslední stabilní verzi a snadno ji udržovat aktuální, nebo se může přepnout na větev `develop`, která obsahuje nejpokročilejší funkčnost.</seg>
       </tuv>
     </tu>
     <tu>

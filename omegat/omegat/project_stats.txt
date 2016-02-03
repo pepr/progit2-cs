@@ -1,11 +1,11 @@
-3.2.16 12:36
+3.2.16 14:48
 Statistika projektu
 
                              	Segmenty	 Slova	Znaky (bez mezer)	Znaky (včetně mezer)	#Files	
 Celkem:                      	    8851	137446	           727326	              853560	   102	
-Zbývající:                   	    5552	 86683	           472307	              551699	    72	
+Zbývající:                   	    5551	 86659	           472148	              551518	    72	
 Jedinečné segmenty:          	    8303	135049	           713139	              837280	   102	
-Zbývající jedinečné segmenty:	    5352	 85719	           466518	              545026	    72	
+Zbývající jedinečné segmenty:	    5351	 85695	           466359	              544845	    72	
 
 
 Statistika jednotlivých souborů:
@@ -47,7 +47,7 @@ book/04-git-server/sections/smart-http.asc                    	             35	 
 book/05-distributed-git/1-distributed-git.asc                 	             11	                 0	                10	                           0	         170	              0	            169	                        0	                     939	                          0	                        929	                                    0	                       1092	                             0	                          1081	                                       0	
 book/05-distributed-git/sections/contributing.asc             	            356	                 0	               339	                           0	        5308	              0	           5242	                        0	                   28523	                          0	                      28038	                                    0	                      33280	                             0	                         32755	                                       0	
 book/05-distributed-git/sections/distributed-workflows.asc    	             72	                 0	                65	                           0	         980	              0	            973	                        0	                    5259	                          0	                       5245	                                    0	                       6157	                             0	                          6143	                                       0	
-book/05-distributed-git/sections/maintaining.asc              	            253	                76	               248	                          76	        4693	           1187	           4681	                     1187	                   23968	                       6582	                      23897	                                 6582	                      28250	                          7632	                         28169	                                    7632	
+book/05-distributed-git/sections/maintaining.asc              	            253	                75	               248	                          75	        4693	           1163	           4681	                     1163	                   23968	                       6423	                      23897	                                 6423	                      28250	                          7451	                         28169	                                    7451	
 book/06-github/1-github.asc                                   	             19	                17	                17	                          17	         299	            298	            298	                      298	                    1643	                       1629	                       1629	                                 1629	                       1907	                          1892	                          1892	                                    1892	
 book/06-github/sections/1-setting-up-account.asc              	             53	                51	                51	                          51	         876	            876	            876	                      876	                    4300	                       4292	                       4292	                                 4292	                       5096	                          5088	                          5088	                                    5088	
 book/06-github/sections/2-contributing.asc                    	            254	               237	               242	                         237	        4145	           4088	           4125	                     4088	                   20696	                      20397	                      20600	                                20397	                      24453	                         24111	                         24345	                                   24111	

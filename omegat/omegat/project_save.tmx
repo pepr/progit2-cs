@@ -744,6 +744,16 @@ Pokud jste práci odeslali do odštěpeného repozitáře, musíte to správci o
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((integrating work)))
+When all the work in your topic branch is ready to be integrated into a more mainline branch, the question is how to do it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T082600Z" creationid="Prikryl" creationdate="20160203T082600Z">
+        <seg>(((integrace příspěvků)))
+Když už je práce v tématické větvi připravena k integraci do některé z významnějších větví, vyvstává otázka, jak to provést.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((maintaining a project)))
 In addition to knowing how to effectively contribute to a project, you'll likely need to know how to maintain one.</seg>
       </tuv>
@@ -947,6 +957,16 @@ Because Git allows you to have multiple remote repositories, it's possible to ha
       <tuv lang="CS" changeid="Prikryl" changedate="20160109T155107Z" creationid="Prikryl" creationdate="20160109T155107Z">
         <seg>(((pracovní postupy, integrační manažer)))
 Protože Git umožňuje práci s více vzdálenými repozitáři, lze využít pracovní postup, kdy má každý vývojář přiděleno právo zápisu do svého vlastního veřejného repozitáře a oprávnění pro čtení k repozitářům všech ostatních.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((workflows, merging)))
+One simple workflow merges your work into your `master` branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T083144Z" creationid="Prikryl" creationdate="20160203T083144Z">
+        <seg>(((pracovní postupy, začleňování)))
+Jeden z jednoduchých pracovních postupů používá začleňování vaší práce do vaší větve `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5024,6 +5044,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Each time you have a new topic branch to merge in (&lt;&lt;merwf_c&gt;&gt;), you merge it into `develop` (&lt;&lt;merwf_d&gt;&gt;); then, when you tag a release, you fast-forward `master` to wherever the now-stable `develop` branch is (&lt;&lt;merwf_e&gt;&gt;).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T110446Z" creationid="Prikryl" creationdate="20160203T110446Z">
+        <seg>Pokaždé, když máte novou tématickou větev nachystanou k začlenění (obrázek &lt;&lt;merwf_c&gt;&gt;), začleníte ji do větve `develop` (obrázek &lt;&lt;merwf_d&gt;&gt;), označíte vydání (tag) a poté posunete větev `master` rychle vpřed do místa, kde je nyní větev `develop` stabilní (obrázek &lt;&lt;merwf_e&gt;&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Each time, Git will stop, let you amend the commit, and continue when you’re finished.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5882,8 +5910,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Furthermore, what overall workflow do you want to use to maintain your project?</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>A vůbec, jaký celkový pracovní postup zvolíte ke správě projektu?</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T082715Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Kromě toho, jaký celkový pracovní postup chcete při správě projektu používat?</seg>
       </tuv>
     </tu>
     <tu>
@@ -6755,6 +6783,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>However, that isn't convenient, so Git provides another shorthand for doing the same thing: the triple-dot syntax.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T081542Z" creationid="Prikryl" creationdate="20160203T081542Z">
+        <seg>Ale není to moc praktické, a proto Git nabízí pro provedení stejné činnosti jinou zkratku: trojtečkovou syntaxi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>However, that result is of limited use.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7177,6 +7213,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Je-li návratová hodnota skriptu nenulová, Git přeruší proces zapisování. Skript tak můžete používat k validaci stavu projektu nebo zprávy k revizi, než dovolíte, aby byla revize zapsána.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If we have a repository with work in two branches named `ruby_client` and `php_client` that looks like &lt;&lt;merwf_a&gt;&gt; and merge `ruby_client` first and then `php_client` next, then your history will end up looking like &lt;&lt;merwf_b&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T104645Z" creationid="Prikryl" creationdate="20160203T104645Z">
+        <seg>Máme-li repozitář s prací ve dvou větvích pojmenovaných `ruby_client` a `php_client`, který vypadá jako na obrázku &lt;&lt;merwf_a&gt;&gt;, a začleníme nejprve větev `ruby_client` a poté `php_client`, bude naše historie vypadat jako na obrázku &lt;&lt;merwf_b&gt;&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7734,6 +7778,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T225129Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Máte-li značek více a chcete je odeslat všechny najednou, můžete také u příkazu `git push` použít volbu `--tags`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you have a more important project, you might want to use a two-phase merge cycle.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T105537Z" creationid="Prikryl" creationdate="20160203T105537Z">
+        <seg>U důležitějších projektů asi budete chtít použít dvoufázový cyklus slučování{empty}footnote:[two-phase merge cycle].</seg>
       </tuv>
     </tu>
     <tu>
@@ -9224,6 +9276,14 @@ Zde je příklad souboru `.gitignore`:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In the context of the `diff` command, you can put three periods after another branch to do a `diff` between the last commit of the branch you're on and its common ancestor with another branch:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T082215Z" creationid="Prikryl" creationdate="20160203T082215Z">
+        <seg>V souvislosti s příkazem `diff` můžete za jméno druhé větve připsat tři tečky a pak jméno aktuální větve. Zjistí se tím změny mezi poslední revizí v aktuální větvi a společným předkem s druhou větví:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In the current project, this directory contains no files, but it does contain a simple structure:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9460,16 +9520,16 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
       <tuv lang="EN">
         <seg>In this scenario, you have a `master` branch that contains basically stable code.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V tomto scénáři obsahuje vaše větev `master` převážně jen stabilní kód.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T083234Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V tomto scénáři máte svou větev `master`, která obsahuje v podstatě stabilní kód.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>In this scenario, you have two long-running branches, `master` and `develop`, in which you determine that `master` is updated only when a very stable release is cut and all new code is integrated into the `develop` branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V tomto scénáři máte dvě dlouhodobé větve, hlavní větev `master` a větev `develop`. Určíte, že větev `master` bude aktualizována, pouze když je k dispozici velmi stabilní verze a do větve `develop` je integrován veškerý nový kód.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T111342Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V tomto scénáři máte dvě větve s dlouhou životností: hlavní větev `master` a větev `develop`. Určíte, že větev `master` bude aktualizována, pouze když je k dispozici velmi stabilní verze. Veškerý nový kód je integrován do větve `develop`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13244,8 +13304,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>That is a very useful syntax to remember.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Určitě uděláte dobře, pokud si tuto syntaxi zapamatujete.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T082423Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tento velmi užitečný zápis stojí za zapamatování.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13254,6 +13314,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Toto je jeden z nejjednodušších pracovních postupů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>That is probably the simplest workflow, but it can possibly be problematic if you're dealing with larger or more stable projects where you want to be really careful about what you introduce.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T105318Z" creationid="Prikryl" creationdate="20160203T105318Z">
+        <seg>Jde nejspíš o nejjednodušší pracovní postup, ale může vést k problémům v případě, že se použije pro větší nebo stabilnější projekty, u kterých chcete být při vkládání nových věcí opravdu opatrní.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15144,8 +15212,8 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       <tuv lang="EN">
         <seg>Then, when the codebase on that branch is stable and passes tests, you merge it into a develop branch; and when that has proven itself stable for a while, you fast-forward your master branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Teprve pokud je kód v této větvi stabilní a projde testováním, začleníte ho do větve develop. A až se větev develop ukáže v některém okamžiku jako stabilní, posunete rychle vpřed i svou hlavní větev.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T112452Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Teprve pokud je kód v této větvi stabilní a projde testováním, začleníte ho do větve `develop`. A až se větev develop ukáže v některém okamžiku jako stabilní, posunete rychle vpřed i svou větev `master`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17037,6 +17105,14 @@ Příkaz ukáže jen informaci o revizi:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This way, when people clone your project's repository, they can either check out master to build the latest stable version and keep up to date on that easily, or they can check out develop, which is the more cutting-edge stuff.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T112335Z" creationid="Prikryl" creationdate="20160203T112335Z">
+        <seg>Pokud někdo při takovém přístupu naklonuje repozitář vašeho projetu, může se buď přepnout na větev `master` s cílem přeložit si poslední stabilní verzi a snadno ji udržovat aktuální, nebo se může přepnout na větev `develop`, která obsahuje nejpokročilejší funkčnost.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This way, you can export a snapshot or build and name it something understandable to people.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -18303,6 +18379,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Máte-li určitou práci v tématické větvi a rozhodli jste se, že ji integrujete, přejdete na tuto větev a spustíte příkaz rebase, jímž znovu sestavíte příslušné změny na vrcholu svojí aktuální hlavní větve (příp. větve `develop` apod.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>When you have work in a topic branch that you've done or that someone has contributed and you've verified, you merge it into your master branch, delete the topic branch, and then continue the process.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T111023Z" creationid="Prikryl" creationdate="20160203T083739Z">
+        <seg>Pokud mátě v tématické větvi nějakou práci, kterou jste vytvořili sami, nebo kterou přispěl někdo jiný a vy jste ji ověřovali, začleníte ji do své větve `master` (merge), odstraníte tématickou větev a pokračujete dál.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19876,6 +19960,14 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>V tomto se nabízí celá řada možností.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You have a number of choices, so we'll cover a few of them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T082815Z" creationid="Prikryl" creationdate="20160203T082815Z">
+        <seg>Můžete si vybrat z řady možností, takže se na pár z nich podíváme.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21468,6 +21560,56 @@ image::images/lr-branches-2.png[A ``silo'' view of progressive-stability branchi
         <seg>[[lrbranch_b]]
 .„Zásobníkový“ pohled na větvení podle stupně stability
 image::images/lr-branches-2.png[„Zásobníkový“ pohled na větvení podle stupně stability.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[merwf_a]]
+.History with several topic branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T104711Z" creationid="Prikryl" creationdate="20160203T104711Z">
+        <seg>[[merwf_a]]
+.Historie s několika tématickými větvemi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[merwf_b]]
+.After a topic branch merge.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T104809Z" creationid="Prikryl" creationdate="20160203T104809Z">
+        <seg>[[merwf_b]]
+.Po začlenění tématické větve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[merwf_c]]
+.Before a topic branch merge.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T110505Z" creationid="Prikryl" creationdate="20160203T110505Z">
+        <seg>[[merwf_c]]
+.Před začleněním tématické větve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[merwf_d]]
+.After a topic branch merge.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T110532Z" creationid="Prikryl" creationdate="20160203T110532Z">
+        <seg>[[merwf_d]]
+.Po začlenění tématické větve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[merwf_e]]
+.After a project release.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T110608Z" creationid="Prikryl" creationdate="20160203T110608Z">
+        <seg>[[merwf_e]]
+.Po vydání nové verze projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23235,6 +23377,20 @@ $ git diff master
         <seg>[source,console]
 ----
 $ git diff master
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git diff master...contrib
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T082219Z" creationid="Prikryl" creationdate="20160203T082219Z">
+        <seg>[source,console]
+----
+$ git diff master...contrib
 ----</seg>
       </tuv>
     </tu>
@@ -25742,6 +25898,46 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160118T150558Z" creationid="Prikryl" creationdate="20160118T150558Z">
         <seg>image::images/managed-team-flow.png[Základní posloupnost událostí pracovního postupu řízeného týmu.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/merging-workflows-1.png[History with several topic branches.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T104719Z" creationid="Prikryl" creationdate="20160203T104719Z">
+        <seg>image::images/merging-workflows-1.png[Historie s několika tématickými větvemi.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/merging-workflows-2.png[After a topic branch merge.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T104832Z" creationid="Prikryl" creationdate="20160203T104832Z">
+        <seg>image::images/merging-workflows-2.png[Po začlenění tématické větve.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/merging-workflows-3.png[Before a topic branch merge.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T110512Z" creationid="Prikryl" creationdate="20160203T110512Z">
+        <seg>image::images/merging-workflows-3.png[Před začleněním tématické větve.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/merging-workflows-4.png[After a topic branch merge.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T110539Z" creationid="Prikryl" creationdate="20160203T110539Z">
+        <seg>image::images/merging-workflows-4.png[Po začlenění tématické větve.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/merging-workflows-5.png[After a topic branch release.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T110712Z" creationid="Prikryl" creationdate="20160203T110712Z">
+        <seg>image::images/merging-workflows-5.png[Po vydání nové verze projektu.]</seg>
       </tuv>
     </tu>
     <tu>

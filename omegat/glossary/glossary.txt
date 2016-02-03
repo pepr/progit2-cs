@@ -40,3 +40,5 @@ check out	získat obsah	ve smyslu "získat obsah větve"
 check out	přepnout se	ve smyslu "přepnout se na větev"
 diffing	zjišťování rozdílů
 option	volba
+workflow	pracovní postup
+tag	značka

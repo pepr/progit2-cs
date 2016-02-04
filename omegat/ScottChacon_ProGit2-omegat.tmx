@@ -1571,6 +1571,14 @@ image::images/remote-branches-2.png[Lokální a vzdálená historie práce se m�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Merging contributed topic branches into long-term integration branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160204T111441Z" creationid="Prikryl" creationdate="20160204T111441Z">
+        <seg>.Začlenění tématických větví s příspěvky do integračních větví s dlouhou životností.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Merging to integrate diverged work history
 image::images/basic-rebase-2.png[Merging to integrate diverged work history.]</seg>
       </tuv>
@@ -12864,6 +12872,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>That's because the `-a` flag includes all changed files.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T113151Z" creationid="Prikryl" creationdate="20160203T113151Z">
+        <seg>To proto, že příznak `-a` přidá všechny změněné soubory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>That's how it happened, and the repository should preserve that for posterity.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T210227Z" creationid="Prikryl" creationdate="20151214T210227Z">
@@ -15631,6 +15647,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This is convenient, but be careful; sometimes this flag will cause you to include unwanted changes.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160203T113422Z" creationid="Prikryl" creationdate="20160203T113422Z">
+        <seg>Je to praktické, ale buďte opatrní. Někdy se stane, že si tímto příznakem přidáte nechtěné změny.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This is especially important to understand if you're used to Subversion, because you'll notice that the two developers didn't edit the same file.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T143943Z" creationid="Prikryl" creationdate="20160115T143943Z">
@@ -16019,6 +16043,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>Možná to vypadá jako maličkost, ale divili byste se, jak velký je v tom rozdíl.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This means `master` almost always moves forward, `next` is rebased occasionally, and `pu` is rebased even more often:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160204T111328Z" creationid="Prikryl" creationdate="20160204T111328Z">
+        <seg>To znamená, že se větev `master` téměř vždy posouvá vpřed, větev `next` je čas od času přeskládána a větev `pu` je přeskládávána ještě o něco častěji:</seg>
       </tuv>
     </tu>
     <tu>
@@ -17575,6 +17607,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>When it's determined that they're totally stable, the topics are re-merged into `master` and are then rebuilt from the topics that were in `next` but didn't yet graduate to `master`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160204T111239Z" creationid="Prikryl" creationdate="20160204T111239Z">
+        <seg>Pokud se určí, že je téma zcela stabilní, začlení se tématická větev znovu do větve `master` a témata, která byla dříve ve větvi `next`, ale až dosud nepostoupila do větve `master`, se znovu sestaví.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>When new work is introduced by contributors, it's collected into topic branches in the maintainer's repository in a manner similar to what we've described (see &lt;&lt;merwf_f&gt;&gt;).</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160203T195008Z" creationid="Prikryl" creationdate="20160203T195008Z">
@@ -18702,14 +18742,6 @@ You can use this format to push a local branch into a remote branch that is name
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T104648Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Příkazu `git rm` můžete zadat soubory, adresáře a jejich masky.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN">
-        <seg>You can pretty easily see what files have been modified in a single commit with the `--name-only` option to the `git log` command (mentioned briefly in Chapter 2):</seg>
-      </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Zjistit, které soubory byly v jedné revizi změněny, lze velmi snadno pomocí příkazu `git log` s parametrem `--name-only` (stručně popsáno v kapitole 2):</seg>
       </tuv>
     </tu>
     <tu>
@@ -24846,6 +24878,14 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160203T195928Z" creationid="Prikryl" creationdate="20160203T195928Z">
         <seg>image::images/large-merges-1.png[Správa komplexní série paralelně zpracovávaných příspěvků v tématických větvích.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/large-merges-2.png[Merging contributed topic branches into long-term integration branches.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160204T111449Z" creationid="Prikryl" creationdate="20160204T111449Z">
+        <seg>image::images/large-merges-2.png[Začlenění tématických větví s příspěvky do integračních větví s dlouhou životností.]</seg>
       </tuv>
     </tu>
     <tu>

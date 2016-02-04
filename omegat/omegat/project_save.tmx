@@ -1717,6 +1717,14 @@ image::images/remote-branches-2.png[Lokální a vzdálená historie práce se m�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Merging contributed topic branches into long-term integration branches.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160204T111441Z" creationid="Prikryl" creationdate="20160204T111441Z">
+        <seg>.Začlenění tématických větví s příspěvky do integračních větví s dlouhou životností.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Merging to integrate diverged work history
 image::images/basic-rebase-2.png[Merging to integrate diverged work history.]</seg>
       </tuv>
@@ -16727,6 +16735,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This means `master` almost always moves forward, `next` is rebased occasionally, and `pu` is rebased even more often:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160204T111328Z" creationid="Prikryl" creationdate="20160204T111328Z">
+        <seg>To znamená, že se větev `master` téměř vždy posouvá vpřed, větev `next` je čas od času přeskládána a větev `pu` je přeskládávána ještě o něco častěji:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This means it's impossible to change the contents of any file or directory without Git knowing about it.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T094152Z" creationid="Prikryl" creationdate="20151027T094152Z">
@@ -18341,6 +18357,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Až budete mít všechny záplaty aplikovány a zapsány do tématické větve, můžete se rozhodnout, zda a jak je chcete integrovat do některé z trvalejších větví.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>When it's determined that they're totally stable, the topics are re-merged into `master` and are then rebuilt from the topics that were in `next` but didn't yet graduate to `master`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160204T111239Z" creationid="Prikryl" creationdate="20160204T111239Z">
+        <seg>Pokud se určí, že je téma zcela stabilní, začlení se tématická větev znovu do větve `master` a témata, která byla dříve ve větvi `next`, ale až dosud nepostoupila do větve `master`, se znovu sestaví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25926,6 +25950,14 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160203T195928Z" creationid="Prikryl" creationdate="20160203T195928Z">
         <seg>image::images/large-merges-1.png[Správa komplexní série paralelně zpracovávaných příspěvků v tématických větvích.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/large-merges-2.png[Merging contributed topic branches into long-term integration branches.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160204T111449Z" creationid="Prikryl" creationdate="20160204T111449Z">
+        <seg>image::images/large-merges-2.png[Začlenění tématických větví s příspěvky do integračních větví s dlouhou životností.]</seg>
       </tuv>
     </tu>
     <tu>

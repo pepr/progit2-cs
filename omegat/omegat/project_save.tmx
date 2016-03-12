@@ -680,6 +680,16 @@ Pokud dostanete záplatu od někoho, kdo ji vygeneroval příkazem `git diff` ne
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((git commands, cherry-pick)))
+The other way to move introduced work from one branch to another is to cherry-pick it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T152908Z" creationid="Prikryl" creationdate="20160312T152908Z">
+        <seg>(((git příkazy, cherry-pick)))
+Druhým způsobem, jak přesunout práci z jedné větve do druhé, je tzv. částečné převzetí (angl. cherry picking{empty}footnote:[Pozn. překl.: „Cherry picking“ je doslova něco jako „vyzobání třešniček“.]).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((git commands, config)))(((email)))
 First, you need to set up the imap section in your `~/.gitconfig` file.</seg>
       </tuv>
@@ -977,6 +987,16 @@ One simple workflow merges your work into your `master` branch.</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20160203T083144Z" creationid="Prikryl" creationdate="20160203T083144Z">
         <seg>(((pracovní postupy, začleňování)))
 Jeden z jednoduchých pracovních postupů používá začleňování vaší práce do vaší větve `master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((workflows, rebasing and cherry-picking)))
+Other maintainers prefer to rebase or cherry-pick contributed work on top of their master branch, rather than merging it in, to keep a mostly linear history.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T150630Z" creationid="Prikryl" creationdate="20160312T150630Z">
+        <seg>(((pracovní postupy, přeskládání a částečné převzetí)))
+Někteří správci dávají místo začlenění práce z příspěvků (merge) přednost přeskládání (rebase) nebo částečnému převzetí (cherry pick) do větve `master`, čímž udržují historii téměř lineární.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1525,6 +1545,14 @@ image::images/basic-branching-2.png[Vytvoření nového ukazatele větve.]</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Example history before a cherry-pick.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T153927Z" creationid="Prikryl" creationdate="20160312T153927Z">
+        <seg>.Příklad historie před provedením cherry-pick.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Fast-forwarding the master branch
 image::images/basic-rebase-4.png[Fast-forwarding the master branch.]</seg>
       </tuv>
@@ -1587,6 +1615,14 @@ image::images/head-to-testing.png[HEAD points to the current branch.]</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T164229Z" creationid="Prikryl" creationdate="20151108T164229Z">
         <seg>.HEAD ukazuje na aktuální větev
 image::images/head-to-testing.png[HEAD ukazuje na aktuální větev.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.History after cherry-picking a commit on a topic branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T155122Z" creationid="Prikryl" creationdate="20160312T155122Z">
+        <seg>.Historie po částečném převzetí revize z tématické větve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2065,6 +2101,16 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>3 files changed, 17 insertions(+), 3 deletions(-)
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T154551Z" creationid="Prikryl" creationdate="20160312T154551Z">
+        <seg>3 files changed, 17 insertions(+), 3 deletions(-)
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -3191,8 +3237,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>A cherry-pick in Git is like a rebase for a single commit.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Částečné převzetí lze v systému Git přirovnat k přeskládání jedné revize.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T153006Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Částečné převzetí lze v systému Git přirovnat k přeskládání jediného objektu revize.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5558,6 +5604,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For example, suppose you have a project that looks like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T153852Z" creationid="Prikryl" creationdate="20160312T153852Z">
+        <seg>Dejme tomu, že máte projekt, který vypadá nějak takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For example, suppose you want to split the middle commit of your three commits.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7137,6 +7191,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If that works well, you can fast-forward your `master` branch, and you'll end up with a linear project history.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T152311Z" creationid="Prikryl" creationdate="20160312T152311Z">
+        <seg>Pokud vše funguje, můžete větev `master` posunout rychle vpřed a výsledkem procesu bude lineární historie projektu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If the QA team wants to push their `master` branch to `qa/master` on the remote server, they can run</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -8540,8 +8602,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you want to pull commit `e43a6` into your master branch, you can run</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li do hlavní větve natáhnout revizi `e43a6`, můžete zadat následující příkaz:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T154136Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Chcete-li do hlavní větve stáhnout revizi `e43a6`, můžete zadat následující příkaz:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10040,6 +10102,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It takes the patch that was introduced in a commit and tries to reapply it on the branch you're currently on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T153204Z" creationid="Prikryl" creationdate="20160312T153204Z">
+        <seg>Vezme se záplata, která byla provedena v dané revizi, a zkusí se znovu aplikovat na větev, na níž se právě nacházíte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It takes the same stdin data as the `pre-receive` hook.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -11512,6 +11582,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Now you can remove your topic branch and drop the commits you didn't want to pull in.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T155249Z" creationid="Prikryl" creationdate="20160312T155249Z">
+        <seg>Teď můžete tématickou větev odstranit a zahodit revize, které nehodláte vtáhnout do jiné větve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Now you can revert the file back to the first version</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -11628,6 +11706,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T223033Z" creationid="Prikryl" creationdate="20151031T223033Z">
         <seg>Nyní jste vytvořili svou první revizi!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now your history looks like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T155003Z" creationid="Prikryl" creationdate="20160312T155003Z">
+        <seg>Vaše historie teď vypadá nějak takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -13490,8 +13576,8 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       <tuv lang="EN">
         <seg>The Git project also has a `maint` branch that is forked off from the last release to provide backported patches in case a maintenance release is required.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Projekt Git má kromě toho větev `maint`, která byla odštěpena z posledního vydání a představuje záplaty backportované pro případ, že by bylo třeba vydat opravnou verzi.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T144939Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Projekt Git má kromě toho větev `maint`, která byla odštěpena z posledního vydání a obsahuje záplaty přenesené z vyšších verzí (backport) pro případ, že by bylo třeba vydat opravnou verzi.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16607,6 +16693,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This is useful if you have a number of commits on a topic branch and you want to integrate only one of them, or if you only have one commit on a topic branch and you'd prefer to cherry-pick it rather than run rebase.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T153751Z" creationid="Prikryl" creationdate="20160312T153649Z">
+        <seg>Využijete to v situaci, kdy tématická větev obsahuje několik revizí a chcete integrovat pouze jednu z nich, nebo když máte v tématické větvi jediný objekt revize a dáváte přednost použití `cherry-pick` před provedením `rebase`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This is useful if you want to keep the `experiment` branch up to date and preview what you’re about to merge in.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -16737,8 +16831,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This means `master` almost always moves forward, `next` is rebased occasionally, and `pu` is rebased even more often:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160204T111328Z" creationid="Prikryl" creationdate="20160204T111328Z">
-        <seg>To znamená, že se větev `master` téměř vždy posouvá vpřed, větev `next` je čas od času přeskládána a větev `pu` je přeskládávána ještě o něco častěji:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T144222Z" creationid="Prikryl" creationdate="20160204T111328Z">
+        <seg>To znamená, že se větev `master` téměř vždy posouvá vpřed, větev `next` je čas od času přeskládána a větev `pu` je přeskládávána o něco častěji:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16979,8 +17073,8 @@ Některé z cílů nového systému byly následující:</seg>
       <tuv lang="EN">
         <seg>This pulls the same change introduced in `e43a6`, but you get a new commit SHA-1 value, because the date applied is different.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tímto natáhnete stejnou změnu, která byla provedena revizí `e43a6`, avšak hodnota SHA-1 obou revizí se bude lišit, neboť bude rozdílné datum aplikace.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T154929Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tím se stáhne stejná změna, která byla uvedena v revizi `e43a6`, ale hodnota SHA-1 obou revizí se bude lišit, protože se bude lišit datum.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17269,8 +17363,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>Thus, when you clone the Git repository, you have four branches that you can check out to evaluate the project in different stages of development, depending on how cutting edge you want to be or how you want to contribute; and the maintainer has a structured workflow to help them vet new contributions.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud tedy klonujete repozitář Git, můžete stáhnout až čtyři větve, a hodnotit tak projekt na čtyřech různých úrovních vývoje. Záleží na vás, do jaké hloubky chcete proniknout nebo jak chcete přispívat. A správce projektu má k dispozici strukturovaný pracovní postup k evaluaci nových příspěvků.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T145752Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud tedy klonujete repozitář Git, můžete se přepnout do čtyř větví a podívat se na projekt v různých fázích vývoje -- v závislosti na tom, jak čerstvou verzi chcete nebo jak chcete přispívat. A správce projektu má k dispozici strukturovaný pracovní postup k posouzení nových příspěvků.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18353,18 +18447,18 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>When all the patches for your topic are applied and committed into your branch, you can choose whether and how to integrate them into a longer-running branch.</seg>
+        <seg>When a topic branch has finally been merged into `master`, it's removed from the repository.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Až budete mít všechny záplaty aplikovány a zapsány do tématické větve, můžete se rozhodnout, zda a jak je chcete integrovat do některé z trvalejších větví.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T144541Z" creationid="Prikryl" creationdate="20160312T144541Z">
+        <seg>Pokud se tématická větev nakonec začlení do větve `master`, z repozitáře se odstraní.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
-        <seg>When it's determined that they're totally stable, the topics are re-merged into `master` and are then rebuilt from the topics that were in `next` but didn't yet graduate to `master`.</seg>
+        <seg>When all the patches for your topic are applied and committed into your branch, you can choose whether and how to integrate them into a longer-running branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160204T111239Z" creationid="Prikryl" creationdate="20160204T111239Z">
-        <seg>Pokud se určí, že je téma zcela stabilní, začlení se tématická větev znovu do větve `master` a témata, která byla dříve ve větvi `next`, ale až dosud nepostoupila do větve `master`, se znovu sestaví.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Až budete mít všechny záplaty aplikovány a zapsány do tématické větve, můžete se rozhodnout, zda a jak je chcete integrovat do některé z trvalejších větví.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18459,8 +18553,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>When you have work in a topic branch and have determined that you want to integrate it, you move to that branch and run the rebase command to rebuild the changes on top of your current master (or `develop`, and so on) branch.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Máte-li určitou práci v tématické větvi a rozhodli jste se, že ji integrujete, přejdete na tuto větev a spustíte příkaz rebase, jímž znovu sestavíte příslušné změny na vrcholu svojí aktuální hlavní větve (příp. větve `develop` apod.).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T152158Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Máte-li hotovou práci v tématické větvi a rozhodli jste se, že ji chcete integrovat, přejdete na tuto větev a spustíte příkaz `rebase`, jímž znovu sestavíte příslušné změny na vrcholu své aktuální větve `master` (nebo větve `develop` a podobně).</seg>
       </tuv>
     </tu>
     <tu>
@@ -21424,6 +21518,16 @@ image::images/perils-of-rebasing-3.png["Někdo odešle přeskládané objekty re
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_rebase_cherry_pick]]
+===== Rebasing and Cherry Picking Workflows</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T150040Z" creationid="Prikryl" creationdate="20160312T150040Z">
+        <seg>[[_rebase_cherry_pick]]
+===== Pracovní postupy s přeskládáním a s částečným převzetím revizí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_rebase_peril]]
 ==== The Perils of Rebasing</seg>
       </tuv>
@@ -21876,6 +21980,14 @@ image::images/interesting-rebase-5.png[Historie poslední revize.]</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20160109T232922Z" creationid="Prikryl" creationdate="20160109T232922Z">
         <seg>[[wfdiag_c]]
 .Pracovní postup s benevolentním diktátorem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[master]: created a0a41a9: "More friendly message when locking the index fails."</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T154547Z" creationid="Prikryl" creationdate="20160312T154547Z">
+        <seg>[master]: created a0a41a9: "More friendly message when locking the index fails."</seg>
       </tuv>
     </tu>
     <tu>
@@ -23026,6 +23138,20 @@ $ git checkout testing
 ----
 $ git checkout testing
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git cherry-pick e43a6
+Finished one cherry-pick.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T154538Z" creationid="Prikryl" creationdate="20160312T154538Z">
+        <seg>[source,console]
+----
+$ git cherry-pick e43a6
+Finished one cherry-pick.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26078,6 +26204,22 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160122T195509Z" creationid="Prikryl" creationdate="20160122T195509Z">
         <seg>image::images/public-small-3.png[Historie revizí po práci ve větvi `featureBv2`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/rebasing-1.png[Example history before a cherry-pick.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T154028Z" creationid="Prikryl" creationdate="20160312T154028Z">
+        <seg>image::images/rebasing-1.png[Příklad historie před provedením cherry-pick.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/rebasing-2.png[History after cherry-picking a commit on a topic branch.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160312T155145Z" creationid="Prikryl" creationdate="20160312T155145Z">
+        <seg>image::images/rebasing-2.png[Historie po částečném převzetí revize z tématické větve.]</seg>
       </tuv>
     </tu>
     <tu>

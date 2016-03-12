@@ -13,7 +13,7 @@ commit	revize
 commit object	objekt revize
 commit	objekt revize
 push	odeslat
-pull	stáhout
+pull	stáhnout
 bare repository	holý repozitář
 integration-manager workflow	pracovní postup s integračním manažerem	název pro workflow
 fast-forward	„rychle vpřed“

@@ -608,6 +608,16 @@ Pokud jste práci odeslali do odštěpeného repozitáře, musíte to správci o
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((git commands, rerere)))(((rerere)))
+If you're doing lots of merging and rebasing, or you're maintaining a long-lived topic branch, Git has a feature called ``rerere'' that can help.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T103402Z" creationid="Prikryl" creationdate="20160316T103402Z">
+        <seg>(((git příkazy, rerere)))(((rerere)))
+Pokud provádíte velké množství operací slučování a přeskládání, nebo pokud spravujete tématické větve s dlouhou životností, může vám pomoci vlastnost Gitu zvaná „rerere“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((integrating work)))
 When all the work in your topic branch is ready to be integrated into a more mainline branch, the question is how to do it.</seg>
       </tuv>
@@ -2997,6 +3007,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>===== Několik bodů</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>===== Rerere</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T102949Z" creationid="Prikryl" creationdate="20160316T102949Z">
+        <seg>===== Rerere</seg>
       </tuv>
     </tu>
     <tu>
@@ -7658,6 +7676,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you need to, you can interact with the rerere cache using the `git rerere` command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T115819Z" creationid="Prikryl" creationdate="20160316T113035Z">
+        <seg>V případě potřeby můžete s mezipamětí pro rerere pracovat pomocí příkazu `git rerere`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you only want to modify your last commit message, it’s very simple:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -11400,6 +11426,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Now, whenever you do a merge that resolves conflicts, the resolution will be recorded in the cache in case you need it in the future.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T112851Z" creationid="Prikryl" creationdate="20160316T112851Z">
+        <seg>Kdykoliv teď provedete sloučení, které řeší konflikt, zaznamená se řešení do mezipaměti pro případ, že bychom ho v budoucnu potřebovali.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Now, years later, I'm a contributor to a major Git implementation, I've worked for the largest Git hosting company, and I've traveled the world teaching people about Git.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T151318Z" creationid="Prikryl" creationdate="20151026T151318Z">
@@ -12040,6 +12074,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151213T102158Z" creationid="Prikryl" creationdate="20151210T094136Z">
         <seg>Vzdáleně sledované větve (remote-tracking branches) jsou reference na stav vzdálených větví.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Rerere stands for ``reuse recorded resolution'' – it's a way of shortcutting manual conflict resolution.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T104633Z" creationid="Prikryl" creationdate="20160316T104633Z">
+        <seg>Rerere znamená „reuse recorded resolution“, čili „znovupoužití zaznamenaného řešení“. Jde o způsob jak si zjednodušit ruční řešení konfliktu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13234,6 +13276,14 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The `git rerere` functionality is a bit of a hidden feature.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T115009Z" creationid="Prikryl" creationdate="20160316T115009Z">
+        <seg>Funkčnost příkazu `git rerere` patří k poněkud ukrytým rysům.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The `git rm` command does that, and also removes the file from your working directory so you don't see it as an untracked file the next time around.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T103701Z" creationid="Prikryl" creationdate="20151031T224402Z">
@@ -13534,6 +13584,14 @@ Pokud chcete na server `origin` odeslat svou větev `master` (znovu připomeňme
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Zpráva k revizi musí být ve speciálním formátu:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The configuration setting is `rerere.enabled`, and it's handy enough to put in your global config:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T112444Z" creationid="Prikryl" creationdate="20160316T112444Z">
+        <seg>Konfigurační nastavení se jmenuje `rerere.enabled` a je dost šikovné na to, abyste je umístili do globální konfigurace:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14844,6 +14902,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>There are also subcommands to see what will be recorded, to erase specific resolution from the cache, and to clear the entire cache.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T114046Z" creationid="Prikryl" creationdate="20160316T114046Z">
+        <seg>Existují i varianty příkazu pro případy, kdy chceme zobrazit, co se bude zaznamenávat, když chceme odstranit určité řešení z mezipaměti a když chceme celou mezipaměť vymazat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>There are the original command line tools, and there are many graphical user interfaces of varying capabilities.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T190651Z" creationid="Prikryl" creationdate="20151027T190651Z">
@@ -15497,6 +15563,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Následující příklad používá parametr `-L`, který omezí výstup na řádky 12 až 22:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This feature comes in two parts: a configuration setting and a command.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T112312Z" creationid="Prikryl" creationdate="20160316T112312Z">
+        <seg>Uvedený rys má dvě části: konfigurační nastavení a příkaz.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17459,6 +17533,14 @@ To https://github.com/schacon/simplegit</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>We will cover rerere in more detail in &lt;&lt;_rerere&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T115613Z" creationid="Prikryl" creationdate="20160316T114133Z">
+        <seg>Příkazem `rerere` se budeme podrobněji zabývat v podkapitole &lt;&lt;_rerere&gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>We will go into more detail about the various possible workflows for your Git project in &lt;&lt;_distributed_git&gt;&gt;, so before you decide which branching scheme your next project will use, be sure to read that chapter.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T190310Z" creationid="Prikryl" creationdate="20151209T190310Z">
@@ -17709,10 +17791,26 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>When it's invoked alone, Git checks its database of resolutions and tries to find a match with any current merge conflicts and resolve them (although this is done automatically if `rerere.enabled` is set to `true`).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T113803Z" creationid="Prikryl" creationdate="20160316T113803Z">
+        <seg>Pokud je vyvolán bez parametru, prochází Git svou databázi řešení a pokouší se najít shodu s konflikty při aktuální operaci slučování a vyřešit je (i když při nastavení `rerere.enabled` na hodnotu `true` se to dělá automaticky).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>When new work is introduced by contributors, it's collected into topic branches in the maintainer's repository in a manner similar to what we've described (see &lt;&lt;merwf_f&gt;&gt;).</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160203T195008Z" creationid="Prikryl" creationdate="20160203T195008Z">
         <seg>Pokud přispěvatelé vytvoří novou práci, je shromažďována v tématických větvích v repozitáři správce podobným způsobem, jaký jsme popsali dříve (viz obrázek &lt;&lt;merwf_f&gt;&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>When rerere is enabled, Git will keep a set of pre- and post-images from successful merges, and if it notices that there's a conflict that looks exactly like one you've already fixed, it'll just use the fix from last time, without bothering you with it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T105222Z" creationid="Prikryl" creationdate="20160316T105222Z">
+        <seg>Pokud je mechanismus rerere povolen, uchovává Git sadu obrazů před a po úspěšných sloučeních. Pokud si Git všimne, že konflikt vypadá přesně jako ten, který jste už vyřešili, použije vaše řešení z minula a nebude vás tím zatěžovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20732,6 +20830,16 @@ image::images/perils-of-rebasing-3.png["Někdo odešle přeskládané objekty re
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_rerere]]
+=== Rerere</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T115018Z" creationid="Prikryl" creationdate="20160316T115018Z">
+        <seg>[[_rerere]]
+=== Rerere</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_sharing_tags]]
 ==== Sharing Tags</seg>
       </tuv>
@@ -22481,6 +22589,20 @@ $ git config --global core.editor emacs
         <seg>[source,console]
 ----
 $ git config --global core.editor emacs
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git config --global rerere.enabled true
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160316T112446Z" creationid="Prikryl" creationdate="20160316T112446Z">
+        <seg>[source,console]
+----
+$ git config --global rerere.enabled true
 ----</seg>
       </tuv>
     </tu>

@@ -42,3 +42,4 @@ diffing	zjišťování rozdílů
 option	volba
 workflow	pracovní postup
 tag	značka
+cache	mezipaměť

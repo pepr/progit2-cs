@@ -1,11 +1,11 @@
-26.4.16 11:42
+26.4.16 13:28
 Statistika projektu
 
                              	Segmenty	 Slova	Znaky (bez mezer)	Znaky (včetně mezer)	#Files	
 Celkem:                      	    8851	137446	           727326	              853560	   102	
-Zbývající:                   	    5450	 85077	           463195	              541201	    70	
+Zbývající:                   	    5433	 84719	           461430	              539099	    70	
 Jedinečné segmenty:          	    8303	135049	           713139	              837280	   102	
-Zbývající jedinečné segmenty:	    5253	 84140	           457601	              534742	    70	
+Zbývající jedinečné segmenty:	    5236	 83782	           455836	              532640	    70	
 
 
 Statistika jednotlivých souborů:
@@ -41,7 +41,7 @@ book/04-git-server/sections/git-on-a-server.asc               	             49	 
 book/04-git-server/sections/gitlab.asc                        	             83	                83	                83	                          83	        1385	           1385	           1385	                     1385	                    7208	                       7208	                       7208	                                 7208	                       8474	                          8474	                          8474	                                    8474	
 book/04-git-server/sections/gitweb.asc                        	             38	                30	                38	                          30	         482	            316	            482	                      316	                    2525	                       1775	                       2525	                                 1775	                       2927	                          2018	                          2927	                                    2018	
 book/04-git-server/sections/hosted.asc                        	              7	                 5	                 7	                           5	         197	            148	            197	                      148	                     903	                        664	                        903	                                  664	                       1092	                           806	                          1092	                                     806	
-book/04-git-server/sections/protocols.asc                     	            118	                66	               112	                          66	        2143	           1356	           2131	                     1356	                   10524	                       6677	                      10452	                                 6677	                      12518	                          7937	                         12434	                                    7937	
+book/04-git-server/sections/protocols.asc                     	            118	                49	               112	                          49	        2143	            998	           2131	                      998	                   10524	                       4912	                      10452	                                 4912	                      12518	                          5835	                         12434	                                    5835	
 book/04-git-server/sections/setting-up-server.asc             	             44	                37	                43	                          37	         738	            641	            738	                      641	                    4141	                       3703	                       4137	                                 3703	                       4800	                          4272	                          4796	                                    4272	
 book/04-git-server/sections/smart-http.asc                    	             35	                35	                35	                          35	         582	            582	            582	                      582	                    3158	                       3158	                       3158	                                 3158	                       3668	                          3668	                          3668	                                    3668	
 book/05-distributed-git/1-distributed-git.asc                 	             11	                 0	                10	                           0	         170	              0	            169	                        0	                     939	                          0	                        929	                                    0	                       1092	                             0	                          1081	                                       0	

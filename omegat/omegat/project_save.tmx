@@ -870,6 +870,16 @@ Občas se stane, že tento proces neproběhne hladce.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((protocols, dumb HTTP)))
+If the server does not respond with a Git HTTP smart service, the Git client will try to fall back to the simpler ``dumb'' HTTP protocol.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160426T190348Z" creationid="Prikryl" creationdate="20160426T190348Z">
+        <seg>(((protokoly, hloupý HTTP)))
+Pokud server nepodporuje chytrou gitovou službu nad HTTP, pokusí se gitový klient vrátit k jednoduššímu „hloupému“ HTTP protokolu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((protocols, local)))
 The most basic is the _Local protocol_, in which the remote repository is in another directory on disk.</seg>
       </tuv>
@@ -3264,6 +3274,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>===== Dumb HTTP</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160426T174039Z" creationid="Prikryl" creationdate="20160426T174039Z">
+        <seg>===== Hloupý HTTP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>===== Enforcing a User-Based ACL System</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4456,8 +4474,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>At that point, anyone who can access the web server under which you put the repository can also clone your repository.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tím je nastavení hotové. V tuto chvíli může každý, kdo má přístup na webový server, kam jste repozitář uložili, tento repozitář naklonovat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160426T194248Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Od tohoto okamžiku může každý, kdo má přístup k webovému serveru, kam jste repozitář uložili, tento repozitář naklonovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4642,6 +4660,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T080240Z" creationid="Prikryl" creationdate="20151214T080240Z">
         <seg>V podstatě vše, co to udělá, je jen odstranění odkazu ze serveru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Basically, all you have to do is put a bare Git repository under your HTTP document root and set up a specific `post-update` hook, and you're done (See &lt;&lt;_git_hooks&gt;&gt;).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160426T191212Z" creationid="Prikryl" creationdate="20160426T191212Z">
+        <seg>V podstatě jediné, co musíte udělat, je umístit holý gitový repozitář pod kořenový adresář s HTTP dokumenty a nastavit příslušný zásuvný modul `post-update` (viz kapitola &lt;&lt;_git_hooks&gt;&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14056,6 +14082,16 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>That's all.(((hooks, post-update)))
+The `post-update` hook that comes with Git by default runs the appropriate command (`git update-server-info`) to make HTTP fetching and cloning work properly.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160426T194559Z" creationid="Prikryl" creationdate="20160426T194559Z">
+        <seg>To je vše.(((zásuvné moduly, post-update)))
+Zásuvný modul `post-update`, který je standardní součástí systému Git, spustí příslušný příkaz (`git update-server-info`), který zajistí správné vyzvedávání (fetch) a klonování přes protokol HTTP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>That's because the `-a` flag includes all changed files.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160203T113151Z" creationid="Prikryl" creationdate="20160203T113151Z">
@@ -14076,6 +14112,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>To je 1200násobek počtu všech zrnek písku na celé Zemi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Dumb protocol expects the bare Git repository to be served like normal files from the web server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160426T190856Z" creationid="Prikryl" creationdate="20160426T190856Z">
+        <seg>Hloupý protokol předpokládá, že se bude holý gitový repozitář obsluhovat ze strany webového serveru stejně jako běžné soubory.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14536,6 +14580,14 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T121528Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>Základní pracovní postup vypadá v Gitu následovně:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The beauty of the Dumb HTTP protocol is the simplicity of setting it up.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160426T190933Z" creationid="Prikryl" creationdate="20160426T190933Z">
+        <seg>Krása hloupého HTTP protokolu spočívá v jednoduchosti jeho nastavení.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16559,6 +16611,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160202T152127Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Výstupem příkazu bude výpis rozdílů, ale může být zavádějící.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This command is run when you push to this repository (over SSH perhaps); then, other people can clone via something like</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160426T194832Z" creationid="Prikryl" creationdate="20160426T194832Z">
+        <seg>Tento příkaz se spustí, když do tohoto repozitáře odesíláte data (možná přes protokol SSH). Poté mohou ostatní klonovat třeba takto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -23128,6 +23188,28 @@ NrRFi9wrf+M7Q== schacon@mylaptop.local
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ cd /var/www/htdocs/
+$ git clone --bare /path/to/git_project gitproject.git
+$ cd gitproject.git
+$ mv hooks/post-update.sample hooks/post-update
+$ chmod a+x hooks/post-update
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160426T194334Z" creationid="Prikryl" creationdate="20160426T194334Z">
+        <seg>[source,console]
+----
+$ cd /var/www/htdocs/
+$ git clone --bare /path/to/git_project gitproject.git
+$ cd gitproject.git
+$ mv hooks/post-update.sample hooks/post-update
+$ chmod a+x hooks/post-update
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ cd grit
 $ git remote -v
 bakkdoor  https://github.com/bakkdoor/grit (fetch)
@@ -24195,6 +24277,20 @@ $ git clone git://git.kernel.org/pub/scm/git/git.git
         <seg>[source,console]
 ----
 $ git clone git://git.kernel.org/pub/scm/git/git.git
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git clone https://example.com/gitproject.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160426T194837Z" creationid="Prikryl" creationdate="20160426T194837Z">
+        <seg>[source,console]
+----
+$ git clone https://example.com/gitproject.git
 ----</seg>
       </tuv>
     </tu>

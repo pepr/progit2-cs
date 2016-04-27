@@ -870,12 +870,32 @@ Občas se stane, že tento proces neproběhne hladce.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((protocols, SSH)))
+A common transport protocol for Git when self-hosting is over SSH.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T104300Z" creationid="Prikryl" creationdate="20160427T084247Z">
+        <seg>(((protokoly, SSH)))
+Při používání Gitu ve vlastním prostředí se běžně používá protokol SSH.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((protocols, dumb HTTP)))
 If the server does not respond with a Git HTTP smart service, the Git client will try to fall back to the simpler ``dumb'' HTTP protocol.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160426T190348Z" creationid="Prikryl" creationdate="20160426T190348Z">
         <seg>(((protokoly, hloupý HTTP)))
 Pokud server nepodporuje chytrou gitovou službu nad HTTP, pokusí se gitový klient vrátit k jednoduššímu „hloupému“ HTTP protokolu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((protocols, git)))
+Next is the Git protocol.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T095130Z" creationid="Prikryl" creationdate="20160427T095130Z">
+        <seg>(((protokoly, git)))
+Dalším v pořadí je protokol Git.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3492,8 +3512,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>A lot of people become concerned at some point that they will, by random happenstance, have two objects in their repository that hash to the same SHA-1 value.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Někteří uživatelé bývají zmateni, že mohou mít v repozitáři – shodou okolností – dva objekty, které mají stejnou hodnotu SHA-1 otisku.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T105234Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Někteří uživatelé bývají zmateni, že mohou mít v repozitáři -- shodou okolností -- dva objekty, které mají stejnou hodnotu SHA-1 otisku.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4162,6 +4182,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Dalším zajímavým problémem, který lze tímto způsobem řešit, je výpočet rozdílů u obrázkových souborů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Another nice thing is that HTTP/S are such commonly used protocols that corporate firewalls are often set up to allow traffic through these ports.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T082032Z" creationid="Prikryl" creationdate="20160427T082032Z">
+        <seg>Další výhodou je, že HTTP/S jsou tak často používané protokoly, že už jsou firemní firewally často nastaveny tak, aby byl provoz přes jejich porty povolen.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4866,8 +4894,16 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>Behind big corporate firewalls, this obscure port is commonly blocked.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Velkými podnikovými firewally je tento málo rozšířený port většinou blokován.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T103359Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Velkými podnikovými firewally je tento obskurní port většinou blokován.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Being able to authenticate with a username and password is also a big advantage over SSH, since users don't have to generate SSH keys locally and upload their public key to the server before being able to interact with it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T081313Z" creationid="Prikryl" creationdate="20160427T081313Z">
+        <seg>Možnost autentizace uživatelským jménem a heslem představuje vůči SSH také velkou výhodu, protože si uživatel nemusí na svém počítači generovat SSH klíče a nahrávat svůj veřejný klíč na server, aby se serverem vůbec mohl pracovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5379,6 +5415,14 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Either the Git repository is available for everyone to clone or it isn't.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T095348Z" creationid="Prikryl" creationdate="20160427T095348Z">
+        <seg>Gitový repozitář je buď dostupný pro všechny a všichni z něj mohou klonovat, nebo dostupný není.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Enter file in which to save the key (/home/schacon/.ssh/id_rsa):
 Created directory '/home/schacon/.ssh'.</seg>
       </tuv>
@@ -5621,6 +5665,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nejprve spustíte příkaz `git bisect start`, jímž celý proces zahájíte, a poté použijete příkaz `git bisect bad`, jímž systému oznámíte, že aktuální revize, na níž se právě nacházíte, obsahuje chybu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>First, SSH is relatively easy to set up – SSH daemons are commonplace, many network admins have experience with them, and many OS distributions are set up with them or have tools to manage them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T105145Z" creationid="Prikryl" creationdate="20160427T093449Z">
+        <seg>Zaprvé se protokol SSH snadno nastavuje -- SSH démoni jsou zcela běžní, správci sítě si s nimi mají zkušenosti a mnoho distribucí OS je má ve výchozí instalaci nebo poskytuje nástroje pro jejich správu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6129,6 +6181,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For less sophisticated users, or users on systems where SSH is less common, this is a major advantage in usability.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T081459Z" creationid="Prikryl" creationdate="20160427T081459Z">
+        <seg>Pro méně zdatné uživatele nebo pro uživatele na systémech, kde SSH není tak běžné, to představuje z hlediska použitelnosti velkou výhodu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For more information on the various credential caching options available, see &lt;&lt;_credential_caching&gt;&gt;.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151210T130349Z" creationid="Prikryl" creationdate="20151210T130349Z">
@@ -6259,8 +6319,8 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       <tuv lang="EN">
         <seg>From the interactive prompt, type `5` or `p` (for patch).</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Na interaktivní výzvu zadejte příkaz `5` nebo `p` (jako „patch“ – tedy záplata).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T105031Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Na interaktivní výzvu zadejte příkaz `5` nebo `p` (jako „patch“ -- tedy záplata).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6329,6 +6389,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Generally you would either choose to run a read/write Smart HTTP server or simply have the files accessible as read-only in the Dumb manner.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T071720Z" creationid="Prikryl" creationdate="20160427T071720Z">
+        <seg>Obecně se dá říct, že si buď vyberete „chytrý“ HTTP server umožňující čtení i zápis, nebo soubory zpřístupníte jen pro čtení „hloupým“ protokolem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Generally, eight to ten characters are more than enough to be unique within a project.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6349,6 +6417,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tento skript se tak většinou používá pro účely oznámení a podobně.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Generally, you'll pair it with SSH or HTTPS access for the few developers who have push (write) access and have everyone else use `git://` for read-only access.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T102921Z" creationid="Prikryl" creationdate="20160427T102921Z">
+        <seg>Většinou jej doplníte o přístup přes SSH nebo přes HTTPS pro pár vývojářů, kteří budou mít právo odesílat data (zápis; push). A všichni ostatní budou používat `git://` pro přístup pouze ke čtení.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6704,6 +6780,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151219T193628Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud na začátek URL explicitně uvedete `file://`, pracuje Git trochu jinak.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Git over HTTP/S can be a little more tricky to set up compared to SSH on some servers.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T082419Z" creationid="Prikryl" creationdate="20160427T082419Z">
+        <seg>Na některých serverech může být (ve srovnání s protokolem SSH) nastavení protokolu „Git přes HTTP/S“ trochu složitější.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8864,6 +8948,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you want to allow anonymous read-only access to your projects and also want to use SSH, you’ll have to set up SSH for you to push over but something else for others to fetch over.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T095048Z" creationid="Prikryl" creationdate="20160427T095010Z">
+        <seg>Pokud budete chtít pro vaše projekty zřídit anonymní přístup pro čtení a současně budete chtít používat SSH, budete muset SSH nastavit jinak pro sebe (pro odesílání; push) a jinak pro ostatní (pro vyzvedávání; fetch).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you want to always fetch the master and experiment branches, add two lines:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -9325,6 +9417,22 @@ Just type the name of the tool you'd rather use.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you're using HTTP for authenticated pushing, providing your credentials is sometimes more complicated than using keys over SSH.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T082812Z" creationid="Prikryl" creationdate="20160427T082812Z">
+        <seg>Pokud používáte HTTP pro autentizované odesílání, pak může být nastavení osobních údajů někdy komplikovanější než používání klíčů přes SSH.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you're using it only within your corporate network, SSH may be the only protocol you need to deal with.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T094501Z" creationid="Prikryl" creationdate="20160427T094501Z">
+        <seg>Pokud jej používáte jen v rámci firemní sítě, může se SSH stát jediným protokolem, kterým se budete muset zabývat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you've cloned your repository, you should at least see origin – that is the default name Git gives to the server you cloned from:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151101T164516Z" creationid="Prikryl" creationdate="20151101T164516Z">
@@ -9371,6 +9479,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T072717Z" creationid="Prikryl" creationdate="20151120T072717Z">
         <seg>Pokud se oprava problému #53 týkala stejné části souboru jako větev `hotfix`, dojde ke konfliktu při slučování (merge conflict), který vypadá nějak takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you’re serving a lot of traffic for a public project or serving a very large project that doesn't require user authentication for read access, it’s likely that you'll want to set up a Git daemon to serve your project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T100618Z" creationid="Prikryl" creationdate="20160427T100618Z">
+        <seg>Potřebujete-li obsloužit frekventovaný provoz u veřejného projektu nebo obsluhujete velmi velký projekt, u kterého se pro čtení nevyžaduje autentizace uživatele, bude se vám k obsluze asi nejvíc hodit právě démon Git.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9643,6 +9759,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>V mnoha jiných systémech je takový postup nemožný nebo přinejmenším obtížný.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In order for a repository to be served over the Git protocol, you must create the `git-daemon-export-ok` file – the daemon won't serve a repository without that file in it – but other than that there is no security.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T095251Z" creationid="Prikryl" creationdate="20160427T095251Z">
+        <seg>Chcete-li, aby byl repozitář zpřístupněn protokolem Git, musíte vytvořit soubor `git-daemon-export-ok`. Bez tohoto souboru nebude repozitář démonem zpřístupněn. Žádné jiné zabezpečení ale k dispozici není.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10032,6 +10156,14 @@ Nejjednodušší způsob spočívá v provedení `git commit`:(((git příkazy, 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In this particular case, we're using the `/var/www/htdocs` path that is common for Apache setups, but you can use any static web server – just put the bare repository in its path.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T105056Z" creationid="Prikryl" creationdate="20160427T065939Z">
+        <seg>V tomto konkrétním případě používáme cestu `/var/www/htdocs`, která se obvykle nastavuje pro Apache, ale použít lze v podstatě jakýkoliv statický webový server -- stačí uložit holý repozitář do dané cesty.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In this scenario, all work is done in team-based branches and pulled together by the integrators later.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160118T111130Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10274,6 +10406,14 @@ Zde je originální (přeložená) šablona, kterou napsal Tim Pope:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It also requires firewall access to port 9418, which isn't a standard port that corporate firewalls always allow.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T103310Z" creationid="Prikryl" creationdate="20160427T103310Z">
+        <seg>Vyžaduje rovněž povolení přístupu k portu 9418 přes firewall. Tento port nepatří mezi standardní porty, které by firemní firewally vždy povolovaly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It also shows you which remote branches on the server you don't yet have, which remote branches you have that have been removed from the server, and multiple branches that are automatically merged when you run `git pull`.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T143543Z" creationid="Prikryl" creationdate="20151107T131524Z">
@@ -10336,6 +10476,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160426T105318Z" creationid="Prikryl" creationdate="20160426T105318Z">
         <seg>Při používání Gitu se v současnosti stal pravděpodobně nejoblíbenějším, protože u něj lze nastavit jak anonymní přístup (jako u protokolu `git://`), tak i odesílání podmíněné autentizací a využívající šifrování (jako u protokolu SSH).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It is also a very fast and efficient protocol, similar to the SSH one.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T081623Z" creationid="Prikryl" creationdate="20160427T081623Z">
+        <seg>Navíc jde o velmi rychlý a efektivní protokol (podobně jako protokol SSH).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10460,6 +10608,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T164932Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Přemístil ukazatel `HEAD` zpět, takže nyní ukazuje na větev `master`, a vrátil soubory ve vašem pracovním adresáři zpět ke snímku, na který ukazuje větev `master`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It must run its own daemon, which requires `xinetd` configuration or the like, which isn't always a walk in the park.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T103216Z" creationid="Prikryl" creationdate="20160427T103216Z">
+        <seg>Běží pro něj vlastní démon, který vyžaduje konfiguraci `xinetd` nebo podobnou, což vždy není procházka růžovou zahradou.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10720,6 +10876,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It's also probably the most difficult protocol to set up.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T102946Z" creationid="Prikryl" creationdate="20160427T102946Z">
+        <seg>Pravděpodobně se také jedná o protokol s nejobtížnějším nastavením.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It's been a great pleasure and privilege to work on this book.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T151630Z" creationid="Prikryl" creationdate="20151026T151537Z">
@@ -10772,6 +10936,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T150001Z" creationid="Prikryl" creationdate="20151107T150001Z">
         <seg>Obecně se doporučuje používat v zájmu úplnosti informací spíše anotované značky. Pokud však vytváříte pouze dočasnou značku nebo z nějakého důvodu nechcete zadávat podrobnější informace, můžete využívat i prosté značky.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's generally undesirable for the Git protocol to be the only access to your project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T102511Z" creationid="Prikryl" creationdate="20160427T102511Z">
+        <seg>Většinou není žádoucí, aby protokol Git představoval jedinou možnost přístupu k vašemu projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10868,6 +11040,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T142848Z" creationid="Prikryl" creationdate="20151214T142848Z">
         <seg>Dá se předpokládat, že druhý vývojář nechtěl, aby byly `C4` a `C6` součástí historie. To je důvodem, proč přeskládání vůbec prováděl.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's rare to run a mix of the two services.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T071850Z" creationid="Prikryl" creationdate="20160427T071850Z">
+        <seg>Současné použití obou služeb je neobvyklé.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11134,6 +11314,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T131230Z" creationid="Prikryl" creationdate="20151029T131230Z">
         <seg>LICENSE.txt
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Last, like the HTTP/S, Git and Local protocols, SSH is efficient, making the data as compact as possible before transferring it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T093858Z" creationid="Prikryl" creationdate="20160427T093858Z">
+        <seg>A nakonec -- stejně jako je tomu u HTTP/S, u protokolu Git a u lokálních protokolů -- SSH je efektivní, protože data před přenosem upravuje do co nejkompaktnější podoby.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11652,6 +11840,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160118T113130Z" creationid="Prikryl" creationdate="20160118T113130Z">
         <seg>John poté pošle Jessice e-mail, aby jí sdělil, že odeslal několik změn do větve `featureA`, a poprosí ji, aby je ověřila.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Next, access over SSH is secure – all data transfer is encrypted and authenticated.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T093625Z" creationid="Prikryl" creationdate="20160427T093625Z">
+        <seg>Za další je přístup přes protokol SSH bezpečný -- veškerý přenos dat je šifrovaný a autentizovaný.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12790,6 +12986,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Or you can use the shorter scp-like syntax for the SSH protocol:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T092818Z" creationid="Prikryl" creationdate="20160427T092818Z">
+        <seg>Nebo můžete pro SSH protokol použít kratší syntaxi jako u scp:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Or you could do it manually with a `git fetch` followed by a `git rebase teamone/master` in this case.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T154005Z" creationid="Prikryl" creationdate="20151214T154005Z">
@@ -12818,6 +13022,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Provést můžete také tento příkaz:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Other than that, there is very little advantage that other protocols have over the ``Smart'' HTTP protocol for serving Git.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T082553Z" creationid="Prikryl" creationdate="20160427T082553Z">
+        <seg>Ale jinak mají ostatní protokoly pro obsluhu Gitu vůči „chytrému“ HTTP protokolu jen velmi malé výhody.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12858,6 +13070,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151101T170546Z" creationid="Prikryl" creationdate="20151101T170546Z">
         <seg>Paulova hlavní větev je teď lokálně dostupná jako `pb/master`. Můžete ji začlenit (merge) do některé ze svých větví, nebo ji můžete zpřístupnit jako lokální větev (check out), jestliže si ji chcete prohlédnout.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>People must have access to your machine over SSH to access it, even in a read-only capacity, which doesn't make SSH access conducive to open source projects.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T094327Z" creationid="Prikryl" creationdate="20160427T094327Z">
+        <seg>Ostatní musí mít k vašemu počítači přes SSH zřízen přístup, byť třeba jen ke čtení. Proto se přístup přes SSH nehodí pro open-source projekty.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13010,6 +13230,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T145525Z" creationid="Prikryl" creationdate="20151102T145525Z">
         <seg>Rakefile | 2 +-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Read &lt;&lt;_credential_caching&gt;&gt; to see how to set up secure HTTP password caching on your system.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T083655Z" creationid="Prikryl" creationdate="20160427T083555Z">
+        <seg>O tom, jak na vašem systému nastavit bezpečné uložení hesla pro HTTP, se dočtete v podkapitole &lt;&lt;_credential_caching&gt;&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13222,6 +13450,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151219T191344Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Provoz vlastního serveru vám dává celou řadu možností řízení a umožňuje provozovat server za vaším firewallem. Nastavení a správa takového serveru však obecně bývají časově náročné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>SSH is also an authenticated network protocol; and because it's ubiquitous, it's generally easy to set up and use.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T092511Z" creationid="Prikryl" creationdate="20160427T092346Z">
+        <seg>SSH je navíc síťovým protokolem s autentizací. A protože je všudypřítomný, je jeho nastavení a používání většinou snadné.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14118,8 +14354,16 @@ Zásuvný modul `post-update`, který je standardní součástí systému Git, s
       <tuv lang="EN">
         <seg>The Dumb protocol expects the bare Git repository to be served like normal files from the web server.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160426T190856Z" creationid="Prikryl" creationdate="20160426T190856Z">
-        <seg>Hloupý protokol předpokládá, že se bude holý gitový repozitář obsluhovat ze strany webového serveru stejně jako běžné soubory.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T103637Z" creationid="Prikryl" creationdate="20160426T190856Z">
+        <seg>Hloupý protokol předpokládá, že se bude holý gitový repozitář obsluhovat ze strany webového serveru stejně, jako běžné soubory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Git data is served as basic static files (see &lt;&lt;_git_internals&gt;&gt; for details about exactly how it's served).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T070021Z" creationid="Prikryl" creationdate="20160427T070021Z">
+        <seg>Data repozitáře Git jsou obsluhována jako obyčejné statické soubory (podrobnosti o přesném způsobu obsluhy naleznete v kapitole &lt;&lt;_git_internals&gt;&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14160,6 +14404,14 @@ Zásuvný modul `post-update`, který je standardní součástí systému Git, s
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160114T125535Z" creationid="Prikryl" creationdate="20160114T125535Z">
         <seg>Projekt Git vyžaduje, aby podrobnější popis revize zahrnoval i vaši motivaci ke změnám a aby uvedl srovnání nové implementace s původním chováním. Tuto zásadu je dobré dodržovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Git protocol is often the fastest network transfer protocol available.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T100146Z" creationid="Prikryl" creationdate="20160427T100146Z">
+        <seg>Protokol Git je často ze všech dostupných síťových přenosových protokolů nejrychlejší.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14466,8 +14718,8 @@ Pokud ho spustíte bez dalších parametrů, získáte prostý výpis všech akt
       <tuv lang="EN">
         <seg>The `oneline` and `format` options are particularly useful with another `log` option called `--graph`.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Parametry `oneline` a `format` jsou zvlášť užitečné ve spojení s další možností `log`u – parametrem `--graph`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T105102Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Parametry `oneline` a `format` jsou zvlášť užitečné ve spojení s další možností `log`u -- parametrem `--graph`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15330,6 +15582,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The negative aspect of SSH is that you can't serve anonymous access of your repository over it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T093930Z" creationid="Prikryl" creationdate="20160427T093930Z">
+        <seg>Nevýhodou protokolu SSH je, že neumožňuje anonymní přístup do repozitáře.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The newer version is often referred to as the ``Smart'' HTTP protocol and the older way as ``Dumb'' HTTP.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160426T104011Z" creationid="Prikryl" creationdate="20160426T104011Z">
@@ -15812,6 +16072,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The simplicity of having a single URL for all types of access and having the server prompt only when authentication is needed makes things very easy for the end user.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T103949Z" creationid="Prikryl" creationdate="20160427T080950Z">
+        <seg>Jednoduchost spočívající v používání jediného URL pro všechny typy přístupu a to, že se server vyptává, jen když požaduje autentizaci, to vše koncovému uživateli věci velmi usnadňuje.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The stable branches are farther down the line in your commit history, and the bleeding-edge branches are farther up the history.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T135307Z" creationid="Prikryl" creationdate="20151209T135307Z">
@@ -16138,6 +16406,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160316T114046Z" creationid="Prikryl" creationdate="20160316T114046Z">
         <seg>Existují i varianty příkazu pro případy, kdy chceme zobrazit, co se bude zaznamenávat, když chceme odstranit určité řešení z mezipaměti a když chceme celou mezipaměť vymazat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>There are however several credential caching tools you can use, including Keychain access on OSX and Credential Manager on Windows, to make this pretty painless.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T083417Z" creationid="Prikryl" creationdate="20160427T083417Z">
+        <seg>Ale můžete využít několika nástrojů pro uložení osobních údajů (credential caching tools), včetně „Keychain Access“ pro OSX a „Správce pověření“ pod Windows, čímž se to velmi usnadní.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17067,6 +17343,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T223432Z" creationid="Prikryl" creationdate="20151107T223432Z">
         <seg>Jde v podstatě o kontrolní součet revize uložený v souboru -- žádné další informace neobsahuje.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is because SSH access to servers is already set up in most places – and if it isn't, it's easy to do.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T092233Z" creationid="Prikryl" creationdate="20160427T092233Z">
+        <seg>Je to z toho důvodu, že SSH přístup k serverům je na většině míst už nastaven, a pokud ne, není těžké ho nastavit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18109,8 +18393,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>To clone a Git repository over SSH, you can specify ssh:// URL like this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li naklonovat repozitář Git pomocí protokolu SSH, zadejte `ssh://` URL, například:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T092641Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Chcete-li gitový repozitář naklonovat s přes SSH, můžete zadat URL začínající `ssh://`, například:</seg>
       </tuv>
     </tu>
     <tu>
@@ -18913,6 +19197,14 @@ To https://github.com/schacon/simplegit</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T202846Z" creationid="Prikryl" creationdate="20151028T202846Z">
         <seg>Ukážeme si také, jak nastavit Git, aby ignoroval určité soubory a masky souborů, jak rychle a jednoduše vrátit nežádoucí změny, jak procházet historii projektu a zobrazit změny mezi jednotlivými revizemi a jak posílat soubory do vzdálených repozitářů (push) a naopak z nich soubory zase stahovat (pull).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>We'll concentrate on the pros of the Smart version of the HTTP protocol.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T072015Z" creationid="Prikryl" creationdate="20160427T072015Z">
+        <seg>Zaměříme se na výhody „chytré“ verze HTTP protokolu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19876,6 +20168,14 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can also not specify a user, and Git assumes the user you're currently logged in as.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T093159Z" creationid="Prikryl" creationdate="20160427T093159Z">
+        <seg>Nemusíte ani zadávat uživatele. Git pak použije uživatele, který je právě přihlášen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can also run `git stash pop` to apply the stash and then immediately drop it from your stack.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -19918,8 +20218,8 @@ You can use this format to push a local branch into a remote branch that is name
       <tuv lang="EN">
         <seg>You can also serve your repositories read-only over HTTPS, which means you can encrypt the content transfer; or you can go so far as to make the clients use specific signed SSL certificates.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Své repozitáře můžete zpřístupnit ke čtení prostřednictvím protokolu HTTPS, což znamená, že se přenášený obsah šifruje. Nebo můžete zajít ještě dál a vyžadovat, aby klienti používali konkrétní podepsané SSL certifikáty.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T081712Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Své repozitáře můžete zpřístupnit ke čtení i prostřednictvím protokolu HTTPS, což znamená, že se přenášený obsah šifruje. Nebo můžete zajít ještě dál a vyžadovat, aby klienti používali konkrétní podepsané SSL certifikáty.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20134,8 +20434,8 @@ You can use this format to push a local branch into a remote branch that is name
       <tuv lang="EN">
         <seg>You can do this by listing them with the `bisect start` command if you want, listing the known bad commit first and the known good commit second:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Chcete-li, můžete to provést příkazem `bisect start` –- jako první uvedete známou revizi s chybou, jako druhá bude následovat poslední známá dobrá revize:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T105016Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Chcete-li, můžete to provést příkazem `bisect start` -- jako první uvedete známou revizi s chybou, jako druhá bude následovat poslední známá dobrá revize:</seg>
       </tuv>
     </tu>
     <tu>
@@ -20200,6 +20500,14 @@ You can use this format to push a local branch into a remote branch that is name
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T200601Z" creationid="Prikryl" creationdate="20151027T200601Z">
         <seg>Buď jej můžete nainstalovat jako balíček nebo přes nějaký jiný instalátor, nebo můžete stáhnout jeho zdrojový kód a zkompilovat ho.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can enable push access; but given the lack of authentication, if you turn on push access, anyone on the internet who finds your project's URL could push to your project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T095651Z" creationid="Prikryl" creationdate="20160427T095651Z">
+        <seg>Možnost odesílání lze zapnout, ale protože nepodporuje autentizaci, pak pokud zapnete možnost odesílání, může do vašeho projektu odesílat data (push) každý, kdo na internetu nalezne URL vašeho projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21636,8 +21944,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>Your local branches aren't automatically synchronized to the remotes you write to – you have to explicitly push the branches you want to share.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20151213T110326Z" creationid="Prikryl" creationdate="20151210T123603Z">
-        <seg>Vaše lokální větve nejsou automaticky synchronizovány se vzdálenými repozitáři, do kterých zapisujete –- ty, které chcete sdílet, musíte explicitně odeslat.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T105120Z" creationid="Prikryl" creationdate="20151210T123603Z">
+        <seg>Vaše lokální větve nejsou automaticky synchronizovány se vzdálenými repozitáři, do kterých zapisujete -- ty, které chcete sdílet, musíte explicitně odeslat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24350,6 +24658,34 @@ remote: Reusing existing pack: 1857, done.</seg>
 $ git clone https://github.com/schacon/ticgit
 Cloning into 'ticgit'...
 remote: Reusing existing pack: 1857, done.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git clone ssh://user@server/project.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T092642Z" creationid="Prikryl" creationdate="20160427T092642Z">
+        <seg>[source,console]
+----
+$ git clone ssh://user@server/project.git
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git clone user@server:project.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160427T092820Z" creationid="Prikryl" creationdate="20160427T092820Z">
+        <seg>[source,console]
+----
+$ git clone user@server:project.git
+----</seg>
       </tuv>
     </tu>
     <tu>

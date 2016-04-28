@@ -797,6 +797,16 @@ V tomto okamžiku už byste měli zvládat většinu každodenních úkonů, pro
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((serving repositories, SSH)))
+If you have a server to which all your developers already have SSH access, it's generally easiest to set up your first repository there, because you have to do almost no work (as we covered in the last section).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T115917Z" creationid="Prikryl" creationdate="20160428T110553Z">
+        <seg>(((obsluha repozitářů, SSH)))
+Jestliže už máte k dispozici nějaký server, k němuž mají všichni vaši vývojáři SSH přístup, bude většinou nejjednodušší nachystat repozitář na něm, protože celé nastavení už tím máte v podstatě hotové (jak jsme ukázali v předchozí podkapitole).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((staging area, skipping)))
 Although it can be amazingly useful for crafting commits exactly how you want them, the staging area is sometimes a bit more complex than you need in your workflow.</seg>
       </tuv>
@@ -3320,8 +3330,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>A second method is to create a single 'git' user on the machine, ask every user who is to have write access to send you an SSH public key, and add that key to the `~/.ssh/authorized_keys` file of your new 'git' user.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Druhým způsobem je vytvořit na počítači jediného uživatele 'git', požádat všechny uživatele, kteří mají mít oprávnění k zápisu, aby vám poslali veřejný SSH klíč, a přidat tento klíč do souboru `~/.ssh/authorized_keys` vašeho nového uživatele 'git'.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T111424Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Druhá metoda spočívá v tom, že na daném počítači vytvoříte jediného uživatele 'git', požádáte všechny uživatele, kteří mají mít oprávnění k zápisu, aby vám poslali svůj veřejný SSH klíč, a přidáte tento klíč do souboru `~/.ssh/authorized_keys` vašeho nového uživatele 'git'.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3346,6 +3356,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T142036Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Tématická větev (topic branch) je krátkodobá větev, kterou vytvoříte a používáte pro jediný konkrétní účel nebo práci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Actually setting up a production server within your infrastructure will certainly entail differences in security measures or operating system tools, but hopefully this will give you the general idea of what's involved.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T094235Z" creationid="Prikryl" creationdate="20160428T094235Z">
+        <seg>Při zprovozňování produkčního serveru uvnitř vaší infrastruktury ve skutečnosti určitě narazíte na rozdíly při nastavování zabezpečení nebo v použití nástrojů operačního systému, ale snad zde získáte obecný přehled, čeho všeho se to týká.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4036,8 +4054,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>As long as each user can get shell access on the machine, any SSH authentication mechanism you can think of should work.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Dokud má každý uživatel shellový přístup k počítači, měly by fungovat všechny mechanismy ověřování SSH, které vás jen napadnou.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T114923Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Dokud má každý uživatel shellový přístup k danému počítači, měly by fungovat všechny autentizační mechanismy SSH, které vás jen napadnou.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4154,6 +4172,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Assuming that `/opt/git` exists on that server, you can set up your new repository by copying your bare repository over:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T100832Z" creationid="Prikryl" creationdate="20160428T100832Z">
+        <seg>Za předpokladu, že `/opt/git` na serveru už existuje, můžete nový repozitář vytvořit tím, že dovnitř nakopírujete váš holý repozitář:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Assuming this happens, how can you get your commits back?</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4204,8 +4230,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>At that point, everyone will be able to access that machine via the 'git' user.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nyní budou mít všichni přístup k tomuto počítači prostřednictvím uživatele 'git'.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T111448Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Od toho okamžiku budou mít všichni přístup k tomuto počítači prostřednictvím uživatele 'git'.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4244,8 +4270,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>At this point, other users who have SSH access to the same server which has read-access to the `/opt/git` directory can clone your repository by running</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V tomto okamžiku mohou všichni ostatní, kdo mají SSH přístup k tomuto serveru s oprávněním pro čtení k adresáři `/opt/git`, naklonovat váš repozitář příkazem:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T115508Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Od tohoto okamžiku mohou ostatní uživatelé, kteří mají SSH přístup k stejnému serveru s oprávněním pro čtení k adresáři `/opt/git`, naklonovat váš repozitář spuštěním</seg>
       </tuv>
     </tu>
     <tu>
@@ -6518,6 +6544,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Git will automatically add group write permissions to a repository properly if you run the `git init` command with the `--shared` option.(((git commands, init, bare)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T101255Z" creationid="Prikryl" creationdate="20160428T101255Z">
+        <seg>Zadáte-li příkaz `git init` s volbou `--shared`, Git automaticky nastaví příslušná oprávnění skupiny k zápisu.(((git příkazy, init, bare)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Git will detect these issues when you run a `git diff` command and try to color them so you can possibly fix them before you commit.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -6888,8 +6922,8 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       <tuv lang="EN">
         <seg>However, keep in mind that to collaborate with a couple of people on a private project, all you _need_ is an SSH server and a bare repository.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>To však nemění nic na tom, že ke spolupráci se skupinou lidí na soukromém projektu _vystačíte_ s jedním SSH serverem a holým repozitářem.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T105424Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Ale zapamatujte si, že pro spolupráci skupiny lidí na soukromém projektu je vše, co opravdu _potřebujete_, jen libovolný server podporující SSH a holý repozitář.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8457,8 +8491,16 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you want more complex access control type permissions on your repositories, you can handle them with the normal filesystem permissions of the operating system your server runs.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud chcete pro své repozitáře nastavit komplexnější správu oprávnění, můžete je opatřit běžnými oprávněními k systému souborů, které vám nabízí operační systém daného serveru.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T120041Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud pro své repozitáře požadujete komplexnější správu oprávnění, můžete to zvládnout běžnými oprávněními k systému souborů, které vám nabízí operační systém daného serveru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you want some repositories to be read-only to certain users and read/write to others, access and permissions can be a bit more difficult to arrange.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T110233Z" creationid="Prikryl" creationdate="20160428T110233Z">
+        <seg>Pokud chcete, aby byly určité repozitáře pro některé uživatele přístupné pouze ke čtení a pro jiné i k zápisu, může být nastavení přístupu a oprávnění trochu obtížnější.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8571,6 +8613,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T114436Z" creationid="Prikryl" creationdate="20151107T114436Z">
         <seg>Pokud chcete pro konkrétní projekt uživatelské jméno nebo e-mailovou adresu změnit (přebít), můžete příkaz spustit bez volby `--global`. V takovém případě je nutné, abyste se nacházeli v adresáři daného projektu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you want to place your repositories on a server that doesn't have accounts for everyone on your team whom you want to have write access, then you must set up SSH access for them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T110821Z" creationid="Prikryl" creationdate="20160428T110821Z">
+        <seg>Pokud chcete své repozitáře umístit na server, na kterém nejsou zřízeny účty pro všechny členy vašeho týmu, kteří by měli mít oprávnění k zápisu, musíte pro ně nastavit SSH přístup.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8824,6 +8874,14 @@ Just type the name of the tool you'd rather use.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T221309Z" creationid="Prikryl" creationdate="20151023T221309Z">
         <seg>If you would prefer to skip this patch, instead run "git am --skip".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you're a small outfit or are just trying out Git in your organization and have only a few developers, things can be simple for you.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T105943Z" creationid="Prikryl" creationdate="20160428T105943Z">
+        <seg>Pokud je váš tým malý nebo pokud chcete Git jen vyzkoušet ve své organizaci a máte jen pár vývojářů, může se vám to zjednodušit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9262,6 +9320,15 @@ Sledování souboru `README` zahájíme takto:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In order to clone your repository to create a new bare repository, you run the clone command with the `--bare` option.(((git commands, clone, bare)))
+By convention, bare repository directories end in `.git`, like so:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T115311Z" creationid="Prikryl" creationdate="20160428T095901Z">
+        <seg>Chcete-li naklonovat stávající repozitář a vytvořit tím nový, holý repozitář, přidejte do příkazu pro klonování volbu `--bare`:(((git příkazy, clone, bare)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In order to do that, you'll merge your `iss53` branch into `master`, much like you merged your `hotfix` branch earlier.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151115T153258Z" creationid="Prikryl" creationdate="20151115T153258Z">
@@ -9274,6 +9341,14 @@ Sledování souboru `README` zahájíme takto:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Chcete-li importovat adresář Git, budeme se muset podívat na to, jak Git ukládá svá data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In order to initially set up any Git server, you have to export an existing repository into a new bare repository – a repository that doesn't contain a working directory.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T095513Z" creationid="Prikryl" creationdate="20160428T095513Z">
+        <seg>Pro úvodní nastavení jakéhokoliv gitového serveru musíte vyexportovat existující repozitář do nového, holého repozitáře (bare repository), tj. do repozitáře, který neobsahuje pracovní adresář.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9447,6 +9522,14 @@ Zde je příklad souboru `.gitignore`:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160108T191319Z" creationid="Prikryl" creationdate="20160108T190548Z">
         <seg>V další kapitole se naučíte, jak se používá největší a nejpopulárnějí služba pro hostování Gitu, známá jako GitHub.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In the next few sections, you'll see how to expand to more sophisticated setups.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T104746Z" creationid="Prikryl" creationdate="20160428T104746Z">
+        <seg>V několika dalších podkapitolách si ukážeme pokročilejší možnosti nastavení.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10125,8 +10208,8 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       <tuv lang="EN">
         <seg>It takes the Git repository by itself, without a working directory, and creates a directory specifically for it alone.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Oba vezmou samotný repozitář Git (bez pracovního adresáře) a vytvoří pro něj samostatný adresář.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T100339Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Vezme se samotný gitový repozitář (bez pracovního adresáře) a vytvoří pro něj samostatný adresář.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10407,6 +10490,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151213T220111Z" creationid="Prikryl" creationdate="20151213T220111Z">
         <seg>Měli bychom poznamenat, že tato čísla se vztahují k poslednímu času, kdy jsme z každého serveru vyzvedli data (fetch).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>It's important to note that this is literally all you need to do to run a useful Git server to which several people have access – just add SSH-able accounts on a server, and stick a bare repository somewhere that all those users have read and write access to.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T115700Z" creationid="Prikryl" creationdate="20160428T102313Z">
+        <seg>Důležité je, že je to opravdu vše, co musíte udělat pro spuštění gitového serveru, ke kterému má přístup víc lidí. Prostě na server přidáte účty s SSH přístupem a umístíte holý repozitář někam, kam budou mít všichni zúčastnění nastaveno oprávnění pro čtení i zápis.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10865,6 +10956,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151210T104837Z" creationid="Prikryl" creationdate="20151210T104837Z">
         <seg>Řekněme, že máte v síti gitový server označený `git.ourcompany.com`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Let's say you've set up a server called `git.example.com` that you have SSH access to, and you want to store all your Git repositories under the `/opt/git` directory.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T100635Z" creationid="Prikryl" creationdate="20160428T100635Z">
+        <seg>Řekněme, že jste nastavili server nazvaný `git.example.com`, k němuž máte SSH přístup, a že chcete všechny své gitové repozitáře umístit pod adresář `/opt/git`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11611,6 +11710,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Now we'll cover setting up a Git service running these protocols on your own server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T092640Z" creationid="Prikryl" creationdate="20160428T092640Z">
+        <seg>Teď se budeme věnovat nastavení gitové služby, která dříve zmíněné protokoly provozuje na vašem vlastním serveru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Now you can fast-forward your `master` branch (see &lt;&lt;rbdiag_g&gt;&gt;):</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151216T081653Z" creationid="Prikryl" creationdate="20151214T130244Z">
@@ -11735,6 +11842,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160128T182913Z" creationid="Prikryl" creationdate="20160128T182913Z">
         <seg>Teď jste připraveni svůj příspěvek do této tématické větve přidat a rozhodnout se, zda ji začleníte do své větve s delší životností.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now you're ready to collaborate on the same project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T101604Z" creationid="Prikryl" creationdate="20160428T101604Z">
+        <seg>Teď už vám nic nebrání v zahájení spolupráce na stejném projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12247,8 +12362,8 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="EN">
         <seg>One of the most complicated aspects of setting up a Git server is user management.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Jedním z nejsložitějších aspektů nastavení serveru Git je totiž správa uživatelů.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T110111Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Jednou z nejsložitějších stránek nastavení gitového serveru je správa uživatelů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14445,8 +14560,8 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
       <tuv lang="EN">
         <seg>The first is to set up accounts for everybody, which is straightforward but can be cumbersome.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Prvním způsobem je nastavit účty pro všechny, což je sice přímočaré, ale může to být poněkud zdlouhavé.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T111053Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Prvním způsobem je nastavit účty pro každého zvlášť, což je sice přímočaré, ale může to být těžkopádné.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15543,8 +15658,8 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       <tuv lang="EN">
         <seg>There are a couple of minor differences in the configuration file; but for your purpose, this is close to the same thing.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Bude tu sice pár menších rozdílů v konfiguračním souboru, ale pro náš účel můžeme příkazy považovat za ekvivalentní.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T100239Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Bude tu sice pár menších rozdílů v konfiguračním souboru, ale pro náš účel můžeme příkazy považovat za téměř shodné.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16224,6 +16339,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This discussion will include not having to create user accounts for each user, adding public read access to repositories, setting up web UIs and more.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T105001Z" creationid="Prikryl" creationdate="20160428T105001Z">
+        <seg>Probereme si, jak se vyhnout nutnosti vytváření uživatelských účtů pro každého uživatele, jak k repozitářům přiřadit veřejné oprávnění pro čtení, jak nastavit webová uživatelská rozhraní a další.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This does a one-time pull and doesn't save the URL as a remote reference:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160202T145201Z" creationid="Prikryl" creationdate="20160202T145201Z">
@@ -16244,6 +16367,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160202T151027Z" creationid="Prikryl" creationdate="20160202T151027Z">
         <seg>Činnost je stejná jako při uvedení tvaru `master..contrib`, který jsme použili dříve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This doesn't affect the commit data in any way – the SSH user you connect as doesn't affect the commits you've recorded.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T111548Z" creationid="Prikryl" creationdate="20160428T111548Z">
+        <seg>Tento postup nemá žádný vliv na data vašich revizí -- SSH uživatel, jehož účtem se přihlašujete, neovlivní revize, které jste nahráli.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16722,8 +16853,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is roughly equivalent to something like</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Je to přibližně stejné, jako byste zadali například:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T100146Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Je to přibližně stejné, jako byste provedli něco takového:</seg>
       </tuv>
     </tu>
     <tu>
@@ -18242,6 +18373,14 @@ To https://github.com/schacon/simplegit</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T174943Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>Správa verzí je systém, který zaznamenává změny souboru nebo sady souborů v čase tak, abyste se mohli později k určité verzi vrátit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>We assume that if you have a server with which to do this, you already have an SSH server installed, and that's how you're accessing the server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T110926Z" creationid="Prikryl" creationdate="20160428T110926Z">
+        <seg>Předpokládáme, že pokud máte server, na němž to lze provést, máte už nainstalován server SSH a jeho prostřednictvím k serveru přistupujete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20319,8 +20458,8 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
       <tuv lang="EN">
         <seg>You may not want to run `adduser` and set temporary passwords for every user.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Možná nebudete mít chuť spouštět příkaz `adduser` (přidat uživatele) a nastavovat pro každého uživatele dočasná hesla.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T111133Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Asi nebudete mít chuť spouštět příkaz `adduser` (přidat uživatele) a nastavovat pro každého uživatele dočasná hesla.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20505,8 +20644,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You see how easy it is to take a Git repository, create a bare version, and place it on a server to which you and your collaborators have SSH access.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Vidíte, jak je jednoduché vzít repozitář Git, vytvořit jeho holou verzi a umístit ji na server, k níž máte vy i vaši spolupracovníci SSH přístup.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T101427Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Vidíte, jak jednoduché je vzít gitový repozitář, vytvořit jeho holou verzi a umístit ji na server, k němuž máte vy i vaši spolupracovníci SSH přístup.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20577,8 +20716,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You should now have a copy of the Git directory data in your `my_project.git` directory.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V adresáři `my_project.git` byste nyní měli mít kopii dat z adresáře Git.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T100109Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V adresáři `my_project.git` byste teď měli mít kopii dat z původního gitového adresáře.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20771,6 +20910,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160424T210901Z" creationid="Prikryl" creationdate="20160424T210901Z">
         <seg>Hledejte dvojici souborů -- jeden s jménem jako `id_dsa` nebo `id_rsa` a k němu stejnojmenný soubor s příponou `.pub`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You're ready to go – nothing else needed.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T102337Z" creationid="Prikryl" creationdate="20160428T102337Z">
+        <seg>Můžete začít -- nic dalšího nepotřebujete.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21095,6 +21242,18 @@ Stejně jako jméno větve „master“ nemá pro Git žádný speciální význ
       <tuv lang="EN">
         <seg>[NOTE]
 ====
+Here we'll be demonstrating the commands and steps needed to do basic, simplified installations on a Linux based server, though it's also possible to run these services on Mac or Windows servers.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T115119Z" creationid="Prikryl" creationdate="20160428T092840Z">
+        <seg>[NOTE]
+====
+Ukážeme si příkazy a kroky pro základní, zjednodušenou instalaci na linuxovém serveru, ale tyto služby lze provozovat i na Mac nebo na windowsovských serverech.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[NOTE]
+====
 If you need more advanced tools for resolving tricky merge conflicts, we cover more on merging in &lt;&lt;_advanced_merging&gt;&gt;.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T083753Z" creationid="Prikryl" creationdate="20151120T080555Z">
@@ -21197,6 +21356,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T150013Z" creationid="Prikryl" creationdate="20151107T150013Z">
         <seg>[[_annotated_tags]]
 ==== Anotované značky</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_bare_repo]]
+==== Putting the Bare Repository on a Server</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T100353Z" creationid="Prikryl" creationdate="20160428T100353Z">
+        <seg>[[_bare_repo]]
+==== Umístění holého repozitáře na server</seg>
       </tuv>
     </tu>
     <tu>
@@ -21467,6 +21636,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151031T230456Z" creationid="Prikryl" creationdate="20151031T230456Z">
         <seg>[[_git_mv]]
 ==== Přesouvání souborů</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_git_on_the_server]]
+=== Getting Git on a Server</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T092346Z" creationid="Prikryl" creationdate="20160428T092346Z">
+        <seg>[[_git_on_the_server]]
+=== Zprovoznění Gitu na serveru</seg>
       </tuv>
     </tu>
     <tu>
@@ -22433,6 +22612,20 @@ config            id_dsa.pub
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ cp -Rf my_project/.git my_project.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T100152Z" creationid="Prikryl" creationdate="20160428T100152Z">
+        <seg>[source,console]
+----
+$ cp -Rf my_project/.git my_project.git
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ echo 'My Project' &gt; README
 $ git status
 On branch master
@@ -23321,6 +23514,22 @@ $ git commit
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git clone --bare my_project my_project.git
+Cloning into bare repository 'my_project.git'...
+done.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T095935Z" creationid="Prikryl" creationdate="20160428T095935Z">
+        <seg>[source,console]
+----
+$ git clone --bare my_project my_project.git
+Cloning into bare repository 'my_project.git'...
+done.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git clone /opt/git/project.git
 ----</seg>
       </tuv>
@@ -23442,6 +23651,20 @@ $ git clone ssh://user@server/project.git
         <seg>[source,console]
 ----
 $ git clone ssh://user@server/project.git
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git clone user@git.example.com:/opt/git/my_project.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T101046Z" creationid="Prikryl" creationdate="20160428T101046Z">
+        <seg>[source,console]
+----
+$ git clone user@git.example.com:/opt/git/my_project.git
 ----</seg>
       </tuv>
     </tu>
@@ -25275,6 +25498,38 @@ $ rm PROJECTS.md
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ scp -r my_project.git user@git.example.com:/opt/git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T100848Z" creationid="Prikryl" creationdate="20160428T100848Z">
+        <seg>[source,console]
+----
+$ scp -r my_project.git user@git.example.com:/opt/git
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ ssh user@git.example.com
+$ cd /opt/git/my_project.git
+$ git init --bare --shared
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160428T101257Z" creationid="Prikryl" creationdate="20160428T101257Z">
+        <seg>[source,console]
+----
+$ ssh user@git.example.com
+$ cd /opt/git/my_project.git
+$ git init --bare --shared
+----</seg>
       </tuv>
     </tu>
     <tu>

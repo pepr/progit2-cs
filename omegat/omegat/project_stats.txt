@@ -1,11 +1,11 @@
-27.4.16 12:54
+28.4.16 14:12
 Statistika projektu
 
                              	Segmenty	 Slova	Znaky (bez mezer)	Znaky (včetně mezer)	#Files	
 Celkem:                      	    8851	137446	           727326	              853560	   102	
-Zbývající:                   	    5384	 83721	           456518	              533264	    69	
+Zbývající:                   	    5358	 83155	           453565	              529793	    68	
 Jedinečné segmenty:          	    8303	135049	           713139	              837280	   102	
-Zbývající jedinečné segmenty:	    5187	 82784	           450924	              526805	    69	
+Zbývající jedinečné segmenty:	    5161	 82218	           447971	              523334	    68	
 
 
 Statistika jednotlivých souborů:
@@ -37,7 +37,7 @@ book/03-git-branching/sections/workflows.asc                  	             37	 
 book/04-git-server/1-git-server.asc                           	             29	                 0	                28	                           0	         482	              0	            481	                        0	                    2486	                          0	                       2476	                                    0	                       2924	                             0	                          2913	                                       0	
 book/04-git-server/sections/generating-ssh-key.asc            	             22	                 0	                22	                           0	         408	              0	            408	                        0	                    2345	                          0	                       2345	                                    0	                       2683	                             0	                          2683	                                       0	
 book/04-git-server/sections/git-daemon.asc                    	             32	                25	                32	                          25	         462	            366	            462	                      366	                    2409	                       1949	                       2409	                                 1949	                       2821	                          2271	                          2821	                                    2271	
-book/04-git-server/sections/git-on-a-server.asc               	             49	                26	                47	                          26	         969	            566	            969	                      566	                    4800	                       2953	                       4792	                                 2953	                       5698	                          3471	                          5690	                                    3471	
+book/04-git-server/sections/git-on-a-server.asc               	             49	                 0	                47	                           0	         969	              0	            969	                        0	                    4800	                          0	                       4792	                                    0	                       5698	                             0	                          5690	                                       0	
 book/04-git-server/sections/gitlab.asc                        	             83	                83	                83	                          83	        1385	           1385	           1385	                     1385	                    7208	                       7208	                       7208	                                 7208	                       8474	                          8474	                          8474	                                    8474	
 book/04-git-server/sections/gitweb.asc                        	             38	                30	                38	                          30	         482	            316	            482	                      316	                    2525	                       1775	                       2525	                                 1775	                       2927	                          2018	                          2927	                                    2018	
 book/04-git-server/sections/hosted.asc                        	              7	                 5	                 7	                           5	         197	            148	            197	                      148	                     903	                        664	                        903	                                  664	                       1092	                           806	                          1092	                                     806	

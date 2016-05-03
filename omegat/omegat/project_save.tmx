@@ -450,9 +450,9 @@ Na počítačích Mac můžeme Git instalovat několika způsoby.</seg>
         <seg>(((SSH keys)))
 That being said, many Git servers authenticate using SSH public keys.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160424T210326Z" creationid="Prikryl" creationdate="20160424T210326Z">
-        <seg>(((SSH keys)))
-Mnoho serverů Git provádí ověřování totožnosti pomocí veřejných klíčů SSH.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160503T102543Z" creationid="Prikryl" creationdate="20160424T210326Z">
+        <seg>(((SSH klíče)))
+Mnoho gitových serverů provádí ověřování totožnosti pomocí veřejných klíčů SSH.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5673,8 +5673,8 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       <tuv lang="EN">
         <seg>First it confirms where you want to save the key (`.ssh/id_rsa`), and then it asks twice for a passphrase, which you can leave empty if you don't want to type a password when you use the key.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160424T211343Z" creationid="Prikryl" creationdate="20160424T211343Z">
-        <seg>Program nejprve potvrdí, kam chcete klíč uložit (`.ssh/id_rsa`), a poté se dvakrát zeptá na přístupové heslo. Pokud nechcete při používání klíče zadávat heslo, můžete ho nyní nechat prázdné.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160503T104831Z" creationid="Prikryl" creationdate="20160424T211343Z">
+        <seg>Program vám nejdříve nechá potvrdit místo uložení klíče (`.ssh/id_rsa`) a poté se dvakrát zeptá na přístupové heslo. Pokud nechcete při používání klíče zadávat heslo, můžete ho nechat prázdné.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5817,8 +5817,8 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       <tuv lang="EN">
         <seg>For a more in-depth tutorial on creating an SSH key on multiple operating systems, see the GitHub guide on SSH keys at https://help.github.com/articles/generating-ssh-keys[].</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160424T211743Z" creationid="Prikryl" creationdate="20160424T211743Z">
-        <seg>Budete-li potřebovat podrobnější návod k vytvoření SSH klíče v různých operačních systémech, můžete se na vytváření SSH klíčů podívat do příručky GitHub na https://help.github.com/articles/generating-ssh-keys[] (anglicky).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160503T102414Z" creationid="Prikryl" creationdate="20160424T211743Z">
+        <seg>Podrobnější návod k vytvoření SSH klíče v různých operačních systémech naleznete v příručce GitHub, v části věnované SSH klíčům na stránce https://help.github.com/articles/generating-ssh-keys[] (anglicky).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8162,8 +8162,8 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       <tuv lang="EN">
         <seg>If you don't have these files (or you don't even have a `.ssh` directory), you can create them by running a program called `ssh-keygen`, which is provided with the SSH package on Linux/Mac systems and comes with Git for Windows:</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160424T211120Z" creationid="Prikryl" creationdate="20160424T211120Z">
-        <seg>Pokud tyto soubory nemáte (nebo dokonce vůbec nemáte adresář `.ssh`), můžete si je vytvořit. Spusťte program `ssh-keygen`, který je v systémech Linux/Mac součástí balíčku SSH a v systému Windows součástí balíčku MSysGit:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160503T101838Z" creationid="Prikryl" creationdate="20160424T211120Z">
+        <seg>Pokud tyto soubory nemáte (nebo dokonce vůbec nemáte adresář `.ssh`), můžete si je vytvořit spuštěním programu `ssh-keygen`, který je v systémech Linux/Mac součástí balíčku SSH a v systému Windows je součástí instalace _Git for Windows_:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9890,8 +9890,8 @@ By convention, bare repository directories end in `.git`, like so:</seg>
       <tuv lang="EN">
         <seg>In order to provide a public key, each user in your system must generate one if they don't already have one.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160424T210407Z" creationid="Prikryl" creationdate="20160424T210407Z">
-        <seg>Aby vám mohli všichni uživatelé ve vašem systému poskytnout veřejný klíč, musí si ho každý z nich nechat vygenerovat (pokud klíč ještě nemá).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160503T100125Z" creationid="Prikryl" creationdate="20160424T210407Z">
+        <seg>Aby mohl každý uživatel vašeho systému poskytnout veřejný klíč, musí si ho vygenerovat (pokud klíč dosud nemá).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12601,8 +12601,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Now, each user that does this has to send their public key to you or whoever is administrating the Git server (assuming you're using an SSH server setup that requires public keys).</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160424T211513Z" creationid="Prikryl" creationdate="20160424T211513Z">
-        <seg>Každý uživatel, který si tímto způsobem nechá vygenerovat veřejný klíč, ho teď musí poslat vám nebo jinému správci gitového serveru (za předpokladu, že používáte nastavení SSH serveru vyžadující veřejné klíče).</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160503T105400Z" creationid="Prikryl" creationdate="20160424T211513Z">
+        <seg>Každý uživatel, který si takto vygeneruje veřejný klíč, ho teď musí poslat vám nebo jinému správci gitového serveru (za předpokladu, že používáte server s SSH přístupem, který veřejné klíče vyžaduje).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14655,8 +14655,8 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
       <tuv lang="EN">
         <seg>The `.pub` file is your public key, and the other file is your private key.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Soubor `.pub` je váš veřejný klíč, druhý soubor je soukromý klíč.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160503T100248Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Soubor `.pub` je váš veřejný klíč, druhý soubor je váš soukromý klíč.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20597,8 +20597,8 @@ You can use this format to push a local branch into a remote branch that is name
       <tuv lang="EN">
         <seg>You can easily check to see if you have a key already by going to that directory and listing the contents:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nejsnazší způsob kontroly, zda už klíč vlastníte, je přejít do tohoto adresáře a zjistit jeho obsah:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160503T103002Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Zda už klíč vlastníte, můžete snadno zkontrolovat tak, že přejdete do uvedeného adresáře a vypíšete si jeho obsah:</seg>
       </tuv>
     </tu>
     <tu>
@@ -22616,9 +22616,9 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
         <seg>[[_generate_ssh_key]]
 === Generating Your SSH Public Key</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160424T210241Z" creationid="Prikryl" creationdate="20160424T210241Z">
+      <tuv lang="CS" changeid="Prikryl" changedate="20160503T095852Z" creationid="Prikryl" creationdate="20160424T210241Z">
         <seg>[[_generate_ssh_key]]
-=== Vygenerování veřejného klíče SSH</seg>
+=== Generování veřejného klíče SSH</seg>
       </tuv>
     </tu>
     <tu>
@@ -22963,6 +22963,16 @@ image::images/perils-of-rebasing-3.png["Někdo odešle přeskládané objekty re
       <tuv lang="CS" changeid="Prikryl" changedate="20160316T115018Z" creationid="Prikryl" creationdate="20160316T115018Z">
         <seg>[[_rerere]]
 === Rerere</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_setting_up_server]]
+=== Setting Up the Server</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160503T105604Z" creationid="Prikryl" creationdate="20160503T105604Z">
+        <seg>[[_setting_up_server]]
+=== Nastavení serveru</seg>
       </tuv>
     </tu>
     <tu>

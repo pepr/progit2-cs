@@ -1023,6 +1023,16 @@ Jestliže už máte k dispozici nějaký server, k němuž mají všichni vaši 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((serving repositories, git protocol)))
+Next we'll set up a daemon serving repositories over the ``Git'' protocol.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T122805Z" creationid="Prikryl" creationdate="20160505T115021Z">
+        <seg>(((obsluha repozitářů, protokol git)))
+Dále si zřídíme si démona pro obsluhu repozitářů přes protokol „Git“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((staging area, skipping)))
 Although it can be amazingly useful for crafting commits exactly how you want them, the staging area is sometimes a bit more complex than you need in your workflow.</seg>
       </tuv>
@@ -1558,6 +1568,14 @@ Merge made by recursive.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>--base-path=/opt/git/ \</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121057Z" creationid="Prikryl" creationdate="20160505T121057Z">
+        <seg>--base-path=/opt/git/ \</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>--before="2008-11-01" --no-merges -- t/
 5610e3b - Fix testcase failure when extended attributes are in use
 acd3b9e - Enhance hold_lock_file_for_{update,append}() API
@@ -1576,6 +1594,30 @@ d1a43f2 - reset --hard/read-tree --reset -u: remove unmerged new paths
 51a94af - Fix "checkout --track -b newbranch" on detached HEAD
 b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unborn branch
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>--detach \</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121055Z" creationid="Prikryl" creationdate="20160505T121055Z">
+        <seg>--detach \</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>--reuseaddr \</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121053Z" creationid="Prikryl" creationdate="20160505T121053Z">
+        <seg>--reuseaddr \</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>--user=git --group=git \</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121050Z" creationid="Prikryl" creationdate="20160505T121050Z">
+        <seg>--user=git --group=git \</seg>
       </tuv>
     </tu>
     <tu>
@@ -2118,6 +2160,18 @@ image::images/basic-branching-5.png[`master` is fast-forwarded to `hotfix`.]</se
       <tuv lang="CS" changeid="Prikryl" changedate="20151115T151932Z" creationid="Prikryl" creationdate="20151115T151932Z">
         <seg>.Větev `master` se přesunula „rychle vpřed“ na `hotfix`
 image::images/basic-branching-5.png[Větev `master` se přesunula „rychle vpřed“ na `hotfix`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>/opt/git/
+respawn
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121059Z" creationid="Prikryl" creationdate="20160505T121059Z">
+        <seg>/opt/git/
+respawn
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -4758,6 +4812,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Basically, you need to run this command in a daemonized manner:(((git commands, daemon)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T123319Z" creationid="Prikryl" creationdate="20160505T120328Z">
+        <seg>V podstatě je třeba následujícím příkazem spustit gitového démona:(((git příkazy, daemon)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Be careful, because you can't always undo some of these undos.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151105T214626Z" creationid="Prikryl" creationdate="20151105T214626Z">
@@ -6335,10 +6397,26 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For security reasons, it is strongly encouraged to have this daemon run as a user with read-only permissions to the repositories – you can easily do this by creating a new user 'git-ro' and running the daemon as them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121248Z" creationid="Prikryl" creationdate="20160505T121248Z">
+        <seg>Z bezpečnostních důvodů důrazně doporučujeme, aby byl tento démon spuštěn jako uživatel, který má k repozitářům oprávnění pouze pro čtení. To lze snadno zajistit vytvořením nového uživatele `git-ro` a spuštěním démona s jeho oprávněními.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For the examples in this book you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T175404Z" creationid="Prikryl" creationdate="20151026T175404Z">
         <seg>V této knize jsou jako příklady souborů použity zdrojové texty programů, avšak ve skutečnosti lze správu verzí použít pro libovolný typ souborů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For the sake of simplicity we'll simply run it as the same 'git' user that `git-shell` is running as.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121547Z" creationid="Prikryl" creationdate="20160505T121547Z">
+        <seg>Pro zjednodušení jej prostě spustíme pod stejným uživatelem `git`, pod kterým běží `git-shell`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7772,6 +7850,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T134019Z" creationid="Prikryl" creationdate="20151028T134019Z">
         <seg>Pokud nestačí ani manuálová stránka ani tato kniha a uvítali byste osobní pomoc, můžete zkusit kanál `#git` nebo `#github` na IRC serveru Freenode (irc.freenode.net).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If the server you're running it on is inside your firewall, you might use it for projects that a large number of people or computers (continuous integration or build servers) have read-only access to, when you don't want to have to add an SSH key for each.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T123204Z" creationid="Prikryl" creationdate="20160505T120008Z">
+        <seg>Pokud je server, na kterém protokol provozujete, uvnitř firewallu, můžete ho používat u projektů, k nimž má mít velký počet lidí nebo počítačů přístup pouze pro čtení (servery průběžné integrace nebo servery sestavení) a nechcete pro každého z nich přidávat SSH klíč.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9533,10 +9619,26 @@ Just type the name of the tool you'd rather use.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you're running a firewall, you'll also need to punch a hole in it at port 9418 on the box you're setting this up on.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T120808Z" creationid="Prikryl" creationdate="20160505T120808Z">
+        <seg>Jestliže používáte bránu firewall, budete do ní muset na daném počítači provrtat díru pro port 9418.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you're running it internally, and you set up DNS for `gitserver` to point to that server, then you can use the commands pretty much as is (assuming that `myproject` is an existing project with files in it):</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160504T063731Z" creationid="Prikryl" creationdate="20160504T063731Z">
         <seg>Pokud server provozujete interně a nastavíte DNS pro `gitserver` tak, aby ukazoval na tento server, můžete používat klasickou podobu příkazů (předpokládejme, že `myproject` je existující projekt obsahující soubory):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you're running this on a server outside your firewall, it should only be used for projects that are publicly visible to the world.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T123035Z" creationid="Prikryl" creationdate="20160505T115557Z">
+        <seg>Pokud protokol používáte na serveru mimo firewall, měl by být použit pouze pro projekty, které jsou veřejně viditelné okolnímu světu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9785,8 +9887,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>In any case, the Git protocol is relatively easy to set up.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Ať tak či tak, na protokolu Git jistě oceníte jeho snadné nastavení.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T120042Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Na protokolu Git každopádně oceníte jeho snadné nastavení.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12121,6 +12223,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Next, you have to tell Git which repositories to allow unauthenticated Git server-based access to.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T122321Z" creationid="Prikryl" creationdate="20160505T122321Z">
+        <seg>Dále musíte Gitu říct, ke kterým repozitářům povolíte neautentizovaný přístup přes gitový server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Next, you need to add some developer SSH public keys to the `authorized_keys` file for the `git` user.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160504T062349Z" creationid="Prikryl" creationdate="20160504T062349Z">
@@ -13093,6 +13203,22 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>On an Ubuntu machine, you can use an Upstart script.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121019Z" creationid="Prikryl" creationdate="20160505T121019Z">
+        <seg>U počítačů s Ubuntu můžete použít skript Upstart.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>On other systems, you may want to use `xinetd`, a script in your `sysvinit` system, or something else – as long as you get that command daemonized and watched somehow.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T122156Z" creationid="Prikryl" creationdate="20160505T122156Z">
+        <seg>V jiných systémech možná budete chtít použít `xinetd`, skript systému `sysvinit`, nebo nějaký podobný skript -- umožní-li vám dosáhnout démonizovaného příkazu, který je nějak hlídán.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>On the ACL file you looked at earlier, this `get_acl_access_data` method returns a data structure that looks like this:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -13557,6 +13683,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T214752Z" creationid="Prikryl" creationdate="20151028T214752Z">
         <seg>Zapamatujte si, že každý soubor ve vašem pracovním adresáři může být v jednou ze dvou stavů: sledován (tracked) a nesledován (untracked).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Remember that since it's not an authenticated service, anything you serve over this protocol is public within its network.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T115445Z" creationid="Prikryl" creationdate="20160505T115445Z">
+        <seg>Pamatujte na to, že se jedná o službu bez ověřování totožnosti, a proto vše, co budete tímto protokolem obsluhovat, bude uvnitř sítě pokládáno za veřejné.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16133,6 +16267,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The presence of that file tells Git that it's OK to serve this project without authentication.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T122611Z" creationid="Prikryl" creationdate="20160505T122611Z">
+        <seg>Přítomnost tohoto souboru Gitu sděluje, že obsluha daného projektu nevyžaduje ověřování totožnosti.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The previous example uses the `https://` protocol, but you may also see `git://` or `user@server:path/to/repo.git`, which uses the SSH transfer protocol.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T214243Z" creationid="Prikryl" creationdate="20151028T214243Z">
@@ -17680,6 +17822,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This is common choice for fast, unauthenticated access to your Git data.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T122918Z" creationid="Prikryl" creationdate="20160505T115152Z">
+        <seg>Jde o obvyklou volbu, pokud potřebujeme rychlý přístup ke gitovým datům bez nutnosti autentizace.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This is convenient, but be careful; sometimes this flag will cause you to include unwanted changes.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160203T113422Z" creationid="Prikryl" creationdate="20160203T113422Z">
@@ -18910,8 +19060,8 @@ Příkaz ukáže jen informaci o revizi:</seg>
       <tuv lang="EN">
         <seg>To get it running without having to reboot, you can run this:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud nechcete počítač restartovat, spusťte tento příkaz:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T123701Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud ho chcete spustit aniž byste museli počítač restartovat, použijte následující příkaz:</seg>
       </tuv>
     </tu>
     <tu>
@@ -19988,8 +20138,8 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       <tuv lang="EN">
         <seg>When you restart your machine, your Git daemon will start automatically and respawn if it goes down.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Při restartování počítače se démon Git spustí automaticky. V případě pádu démona bude jeho činnost automaticky obnovena.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T123615Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Při restartování počítače se gitový démon spustí automaticky. V případě pádu démona bude jeho činnost automaticky obnovena (respawn).</seg>
       </tuv>
     </tu>
     <tu>
@@ -20725,6 +20875,14 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can daemonize this process a number of ways, depending on the operating system you're running.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T120956Z" creationid="Prikryl" creationdate="20160505T120956Z">
+        <seg>Proces démona můžete spustit mnoha způsoby -- v závislosti na tom, jaký operační systém používáte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can decide what files go into which commits right before you commit with the staging area, you can decide that you didn’t mean to be working on something yet with the stash command, and you can rewrite commits that already happened so they look like they happened in a different way.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -20769,6 +20927,14 @@ You can use this format to push a local branch into a remote branch that is name
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160427T105016Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Chcete-li, můžete to provést příkazem `bisect start` -- jako první uvedete známou revizi s chybou, jako druhá bude následovat poslední známá dobrá revize:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can do this in each repository by creating a file named `git-daemon-export-ok`.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T122434Z" creationid="Prikryl" creationdate="20160505T122434Z">
+        <seg>Můžete to udělat tak, že v každém repozitáři vytvoříte soubor pojmenovaný `git-daemon-export-ok`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23999,6 +24165,22 @@ Initialized empty Git repository in /opt/git/project.git/
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ cd /path/to/project.git
+$ touch git-daemon-export-ok
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T122437Z" creationid="Prikryl" creationdate="20160505T122437Z">
+        <seg>[source,console]
+----
+$ cd /path/to/project.git
+$ touch git-daemon-export-ok
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ cd /var/www/htdocs/
 $ git clone --bare /path/to/git_project gitproject.git
 $ cd gitproject.git
@@ -25478,6 +25660,20 @@ John Doe
 ----
 $ git config user.name
 John Doe
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git daemon --reuseaddr --base-path=/opt/git/ /opt/git/
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T120336Z" creationid="Prikryl" creationdate="20160505T120336Z">
+        <seg>[source,console]
+----
+$ git daemon --reuseaddr --base-path=/opt/git/ /opt/git/
 ----</seg>
       </tuv>
     </tu>
@@ -27157,6 +27353,20 @@ $ gpg -a --export F721C45A | git hash-object -w --stdin
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ initctl start local-git-daemon
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121754Z" creationid="Prikryl" creationdate="20160505T121754Z">
+        <seg>[source,console]
+----
+$ initctl start local-git-daemon
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ mv README.md README
 $ git rm README.md
 $ git add README
@@ -27523,6 +27733,20 @@ $ git commit -a -m 'made other changes'
       <tuv lang="EN">
         <seg>[source,console]
 ----
+/etc/init/local-git-daemon.conf
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121037Z" creationid="Prikryl" creationdate="20160505T121037Z">
+        <seg>[source,console]
+----
+/etc/init/local-git-daemon.conf
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 Changes not staged for commit:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151106T215630Z" creationid="Prikryl" creationdate="20151106T215630Z">
@@ -27573,6 +27797,22 @@ git clone https://github.com/schacon/simplegit-progit
 ----
 git clone https://github.com/schacon/simplegit-progit
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+start on startup
+stop on shutdown
+exec /usr/bin/git daemon \</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T121046Z" creationid="Prikryl" creationdate="20160505T121046Z">
+        <seg>[source,console]
+----
+start on startup
+stop on shutdown
+exec /usr/bin/git daemon \</seg>
       </tuv>
     </tu>
     <tu>
@@ -27737,8 +27977,8 @@ OK.</seg>
       <tuv lang="EN">
         <seg>`--reuseaddr` allows the server to restart without waiting for old connections to time out, the `--base-path` option allows people to clone projects without specifying the entire path, and the path at the end tells the Git daemon where to look for repositories to export.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>`--reuseaddr` umožňuje serveru restartování bez nutnosti čekat na vypršení časového limitu pro stará spojení, parametr `--base-path` umožňuje uživatelům klonovat projekty, aniž by museli zadávat celou cestu, a cesta na konci příkazu říká démonovi Git, kde má hledat repozitáře určené k exportu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160505T120540Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Volba `--reuseaddr` umožňuje serveru restartování bez nutnosti čekat na vypršení časového limitu pro stará spojení, volba `--base-path` umožňuje uživatelům klonovat projekty, aniž by museli zadávat celou cestu, a cesta na konci příkazu říká démonu Git, kde má hledat repozitáře určené k exportu.</seg>
       </tuv>
     </tu>
     <tu>

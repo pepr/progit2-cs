@@ -1013,6 +1013,16 @@ V tomto okamžiku už byste měli zvládat většinu každodenních úkonů, pro
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((serving repositories, GitWeb)))(((GitWeb)))
+Now that you have basic read/write and read-only access to your project, you may want to set up a simple web-based visualizer.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T192229Z" creationid="Prikryl" creationdate="20160506T192229Z">
+        <seg>(((obsluha repozitářů, GitWeb)))(((GitWeb)))
+Když už máte ke svému projektu nastavena základní oprávnění pro čtení/zápis a pouze pro čtení, možná budete chtít zřídit jednoduché zobrazení formou webových stránek.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((serving repositories, HTTP)))
 We now have authenticated access though SSH and unauthenticated access through `git://`, but there is also a protocol that can do both at the same time.</seg>
       </tuv>
@@ -2432,6 +2442,18 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>&lt;/Directory&gt;
+&lt;/VirtualHost&gt;
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T195034Z" creationid="Prikryl" creationdate="20160506T195034Z">
+        <seg>&lt;/Directory&gt;
+&lt;/VirtualHost&gt;
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>&lt;&lt;_git_branching&gt;&gt;  will go over branches and references in detail.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T110742Z" creationid="Prikryl" creationdate="20151029T110742Z">
@@ -2484,6 +2506,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T152719Z" creationid="Prikryl" creationdate="20151102T150335Z">
         <seg>Tabulka &lt;&lt;pretty_format&gt;&gt; uvádí některé z užitečnějších značek, které předpis `format` akceptuje.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>&lt;Directory /var/www/gitweb&gt;</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T195014Z" creationid="Prikryl" creationdate="20160506T195014Z">
+        <seg>&lt;Directory /var/www/gitweb&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3744,6 +3774,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>AddHandler cgi-script cgi</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T195029Z" creationid="Prikryl" creationdate="20160506T195029Z">
+        <seg>AddHandler cgi-script cgi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Adding git-svn instructions to the README</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151024T091331Z" creationid="Prikryl" creationdate="20151024T091331Z">
@@ -3888,6 +3926,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Again, GitWeb can be served with any CGI or Perl capable web server; if you prefer to use something else, it shouldn't be difficult to set up.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T214139Z" creationid="Prikryl" creationdate="20160506T214139Z">
+        <seg>Zopakujme, že GitWeb může být obsluhován jakýmkoliv webovým serverem podporujícím CGI nebo Perl. Pokud chcete použít nějaký jiný, nemělo by  být jeho nastavení obtížné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Again, having multiple long-running branches isn't necessary, but it's often helpful, especially when you're dealing with very large or complex projects.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T141732Z" creationid="Prikryl" creationdate="20151209T141732Z">
@@ -4020,6 +4066,22 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Na novém serveru Git tak nyní máte v úhledném, čistém importu uloženy všechny větve a značky.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Allow from all</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T195025Z" creationid="Prikryl" creationdate="20160506T195025Z">
+        <seg>Allow from all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>AllowOverride All</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T195020Z" creationid="Prikryl" creationdate="20160506T195020Z">
+        <seg>AllowOverride All</seg>
       </tuv>
     </tu>
     <tu>
@@ -4798,6 +4860,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>At this point, you should be able to visit `http://gitserver/` to view your repositories online.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T214302Z" creationid="Prikryl" creationdate="20160506T214230Z">
+        <seg>V tomto okamžiku byste měli být schopni prohlížet své repozitáře online na adrese `http://gitserver/`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>At this point, you should have a valid Git repository that has imported your branches and tags:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5448,6 +5518,14 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>DirectoryIndex gitweb.cgi</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T195031Z" creationid="Prikryl" creationdate="20160506T195031Z">
+        <seg>DirectoryIndex gitweb.cgi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Do as we say, not as we do.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T141743Z" creationid="Prikryl" creationdate="20160115T141743Z">
@@ -5468,6 +5546,14 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pracujete na webových stránkách.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>DocumentRoot /var/www/gitweb</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T195008Z" creationid="Prikryl" creationdate="20160506T195008Z">
+        <seg>DocumentRoot /var/www/gitweb</seg>
       </tuv>
     </tu>
     <tu>
@@ -5937,8 +6023,8 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       <tuv lang="EN">
         <seg>First, you need to get the Git source code, which GitWeb comes with, and generate the custom CGI script:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nejprve je třeba získat zdrojový kód systému Git, s nímž je GitWeb distribuován, a vygenerovat uživatelský CGI skript:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194529Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Nejprve je třeba získat zdrojový kód systému Git, s nímž je GitWeb distribuován, a vygenerovat přizpůsobený CGI skript:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6591,6 +6677,26 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>GEN gitweb.cgi</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194557Z" creationid="Prikryl" creationdate="20160506T194557Z">
+        <seg>GEN gitweb.cgi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>GEN static/gitweb.js
+$ sudo cp -Rf gitweb /var/www/
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194602Z" creationid="Prikryl" creationdate="20160506T194602Z">
+        <seg>GEN static/gitweb.js
+$ sudo cp -Rf gitweb /var/www/
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>GIT 1.4.2.1</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T101912Z" creationid="Prikryl" creationdate="20151023T101912Z">
@@ -6820,6 +6926,14 @@ We'll go over the `refs/heads/` part in detail in &lt;&lt;_git_internals&gt;&gt;
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Git je standardně přednastaven tak, aby dokázal používat celou řadu různých nástrojů k řešení konfliktů při slučování, aniž byste museli nastavovat konfiguraci příkazu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Git comes with a CGI script called GitWeb that is sometimes used for this.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T192327Z" creationid="Prikryl" creationdate="20160506T192327Z">
+        <seg>Git se dodává s CGI scriptem nazvaným GitWeb, který se pro tento účel občas používá.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9290,8 +9404,8 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       <tuv lang="EN">
         <seg>If you want to check out what GitWeb would look like for your project, Git comes with a command to fire up a temporary instance if you have a lightweight server on your system like `lighttpd` or `webrick`.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Pokud vás zajímá, jak by GitWeb vypadal pro váš projekt, nabízí Git příkaz, jímž lze spustit dočasnou instanci. V systému je třeba mít lehký server typu `lighttpd` nebo `webrick`.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T192737Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Pokud si chcete vyzkoušet, jak by GitWeb vypadal pro váš projekt, nabízí Git příkaz, jímž lze spustit dočasnou instanci -- pokud máte v systému nainstalován lehký server jako `lighttpd` nebo `webrick`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9446,6 +9560,14 @@ Pokud například chcete přejmenovat `pb` na `paul`, můžete tak učinit pří
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160504T064430Z" creationid="Prikryl" creationdate="20160504T064430Z">
         <seg>Pokud chcete takový přístup omezit, budete muset běžný shell v souboru `passwd` změnit na něco jiného.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you want to run the web interface on a server all the time for your team or for an open source project you're hosting, you'll need to set up the CGI script to be served by your normal web server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194207Z" creationid="Prikryl" creationdate="20160506T194148Z">
+        <seg>Chcete-li pro svůj tým nebo pro vámi hostovaný open-source projekt spustit webové rozhraní na serveru trvale, budete muset zprovoznit obsluhu tohoto CGI skriptu na vašem běžném webovém serveru.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9713,6 +9835,14 @@ Just type the name of the tool you'd rather use.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T145550Z" creationid="Prikryl" creationdate="20151107T145550Z">
         <seg>Pokud se chcete podívat jen na sérii k verzi 1.8.5, můžete provést následující příkaz:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you're running a Mac, Leopard comes preinstalled with Ruby, so `webrick` may be your best bet.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T193248Z" creationid="Prikryl" creationdate="20160506T193248Z">
+        <seg>Pokud používáte Mac, dodává se systém Leopard s předinstalovaným Ruby, takže bude asi nejlepší zkusit `webrick`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11433,6 +11563,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It's pretty easy on your part.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T193730Z" creationid="Prikryl" creationdate="20160506T193730Z">
+        <seg>Není to nic obtížného.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It's pretty safe to assume that the other developer doesn't want `C4` and `C6` to be in the history; that's why they rebased in the first place.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T142848Z" creationid="Prikryl" creationdate="20151214T142848Z">
@@ -12523,8 +12661,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Notice that you have to tell the command where to find your Git repositories with the `GITWEB_PROJECTROOT` variable.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Všimněte si, že musíte příkazu pomocí proměnné `GITWEB_PROJECTROOT` sdělit, kde najde repozitáře Git.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194710Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Všimněte si, že příkazu musíte pomocí proměnné `GITWEB_PROJECTROOT` sdělit, kde najde vaše gitové repozitáře.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13163,8 +13301,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>Now, you need to make Apache use CGI for that script, for which you can add a VirtualHost:</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Nyní musíte zajistit, aby server Apache používal CGI pro skript, pro který můžete přidat VirtualHost:</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194957Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Nyní musíte zajistit, aby Apache používal GitWeb jako CGI skript. Pro tento účel můžete přidat VirtualHost:</seg>
       </tuv>
     </tu>
     <tu>
@@ -13251,8 +13389,8 @@ M  lib/simplegit.rb
       <tuv lang="EN">
         <seg>On Linux machines, `lighttpd` is often installed, so you may be able to get it to run by typing `git instaweb` in your project directory.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>V počítačích se systémem Linux je často nainstalován `lighttpd`. Spustit ho lze zadáním příkazu `git instaweb` v adresáři vašeho projektu.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T192926Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Na linuxových počítačích je `lighttpd` často nainstalován, takže se vám ho možná v adresáři vašeho projektu povede spustit příkazem `git instaweb`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13483,6 +13621,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jednou z možností je použít nástroj `git fsck`, který zkontroluje integritu vaší databáze.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Options ExecCGI +FollowSymLinks +SymLinksIfOwnerMatch</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T195018Z" creationid="Prikryl" creationdate="20160506T195018Z">
+        <seg>Options ExecCGI +FollowSymLinks +SymLinksIfOwnerMatch</seg>
       </tuv>
     </tu>
     <tu>
@@ -14019,6 +14165,24 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>SUBDIR ../
+make[2]: `GIT-VERSION-FILE' is up to date.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194554Z" creationid="Prikryl" creationdate="20160506T194554Z">
+        <seg>SUBDIR ../
+make[2]: `GIT-VERSION-FILE' is up to date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>SUBDIR gitweb</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194544Z" creationid="Prikryl" creationdate="20160506T194544Z">
+        <seg>SUBDIR gitweb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Satisfy any
 &lt;/Files&gt;
 ----</seg>
@@ -14091,6 +14255,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151030T093637Z" creationid="Prikryl" creationdate="20151030T093637Z">
         <seg>See our [projects list](https://github.com/libgit2/libgit2/blob/development/PROJECTS.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>ServerName gitserver</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T195002Z" creationid="Prikryl" creationdate="20160506T195002Z">
+        <seg>ServerName gitserver</seg>
       </tuv>
     </tu>
     <tu>
@@ -14415,8 +14587,8 @@ Tento CGI skript čte cestu a hlavičky zaslané pro dané HTTP URL příkazy `g
       <tuv lang="EN">
         <seg>Some Linux distributions have a `gitweb` package that you may be able to install via `apt` or `yum`, so you may want to try that first.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Některé linuxové distribuce mají balíček `gitweb`, který by mělo být možné nainstalovat pomocí nástrojů `apt` nebo `yum`. Zkuste proto tuto možnost jako první.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T214517Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>V některých linuxových distribucích existuje balíček `gitweb`, který by se měl dát nainstalovat pomocí `apt` nebo `yum`. Takže nejdříve zkuste tuto možnost.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14867,8 +15039,8 @@ Tento CGI skript čte cestu a hlavičky zaslané pro dané HTTP URL příkazy `g
       <tuv lang="EN">
         <seg>That starts up an HTTPD server on port 1234 and then automatically starts a web browser that opens on that page.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Tím spustíte HTTPD server na portu 1234 a automaticky se spustí webový prohlížeč, který otevře tuto stránku.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T193707Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Tím se spustí HTTPD server na portu 1234 a pak se automaticky spustí webový prohlížeč, který se otevře na odpovídající stránce.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19550,6 +19722,14 @@ Zobrazí se seznam krátkých jmen, která jste vzdáleným repozitářům přid
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>To start `instaweb` with a non-lighttpd handler, you can run it with the `--httpd` option.(((git commands, instaweb)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T193552Z" creationid="Prikryl" creationdate="20160506T193552Z">
+        <seg>Pokud chcete `instaweb` spustit s něčím jiným než s `lighttpd`, použijte při spuštění volbu `--httpd`.(((git příkazy, instaweb)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>To stay out of trouble, try to follow these guidelines:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -19992,6 +20172,14 @@ To https://github.com/schacon/simplegit</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151219T194622Z" creationid="Prikryl" creationdate="20151219T194622Z">
         <seg>My zde budeme používat normální cestu, protože je to téměř vždy rychlejší.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>We'll walk through installing GitWeb manually very quickly.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194425Z" creationid="Prikryl" creationdate="20160506T194425Z">
+        <seg>Ruční instalaci skriptu probereme velmi rychle.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20452,6 +20640,14 @@ Chcete-li přidat nový vzdálený repozitář Git a zadat zkrácený název, p�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T190514Z" creationid="Prikryl" creationdate="20151209T190514Z">
         <seg>Veškeré větvení a slučování se odehrává pouze ve vašem gitovém repozitáři -- neprobíhá žádná komunikace se serverem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>When you're done and want to shut down the server, you can run the same command with the `--stop` option:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T193757Z" creationid="Prikryl" creationdate="20160506T193757Z">
+        <seg>Až skončíte a budete chtít server vypnout, spusťte stejný příkaz s volbou `--stop`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -23737,6 +23933,16 @@ image::images/advance-master.png[Rozbíhající se historie.]</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[gitweb]]
+.The GitWeb web-based user interface.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T192427Z" creationid="Prikryl" creationdate="20160506T192427Z">
+        <seg>[[gitweb]]
+.Uživatelské webové rozhraní GitWeb.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[limit_options]]
 .Options to limit the output of `git log`
 [cols="2,4",options="header"]
@@ -25562,6 +25768,22 @@ $ git clone file:///opt/git/project.git
         <seg>[source,console]
 ----
 $ git clone git://git.kernel.org/pub/scm/git/git.git
+$ cd git/
+$ make GITWEB_PROJECTROOT="/opt/git" prefix=/usr gitweb</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194535Z" creationid="Prikryl" creationdate="20160506T194535Z">
+        <seg>[source,console]
+----
+$ git clone git://git.kernel.org/pub/scm/git/git.git
+$ cd git/
+$ make GITWEB_PROJECTROOT="/opt/git" prefix=/usr gitweb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git clone git://git.kernel.org/pub/scm/git/git.git
 ----</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T120144Z" creationid="Prikryl" creationdate="20151107T120144Z">
@@ -26200,6 +26422,38 @@ $ git init
         <seg>[source,console]
 ----
 $ git init
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git instaweb --httpd=webrick
+[2009-02-21 10:02:21] INFO  WEBrick 1.3.1
+[2009-02-21 10:02:21] INFO  ruby 1.8.6 (2008-03-03) [universal-darwin9.0]
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T193558Z" creationid="Prikryl" creationdate="20160506T193558Z">
+        <seg>[source,console]
+----
+$ git instaweb --httpd=webrick
+[2009-02-21 10:02:21] INFO  WEBrick 1.3.1
+[2009-02-21 10:02:21] INFO  ruby 1.8.6 (2008-03-03) [universal-darwin9.0]
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git instaweb --httpd=webrick --stop
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T193802Z" creationid="Prikryl" creationdate="20160506T193802Z">
+        <seg>[source,console]
+----
+$ git instaweb --httpd=webrick --stop
 ----</seg>
       </tuv>
     </tu>
@@ -28045,6 +28299,18 @@ $ git commit -a -m 'made other changes'
       <tuv lang="EN">
         <seg>[source,console]
 ----
+&lt;VirtualHost *:80&gt;</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T194959Z" creationid="Prikryl" creationdate="20160506T194959Z">
+        <seg>[source,console]
+----
+&lt;VirtualHost *:80&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 Changes not staged for commit:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151106T215630Z" creationid="Prikryl" creationdate="20151106T215630Z">
@@ -28949,6 +29215,14 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160110T123837Z" creationid="Prikryl" creationdate="20160110T123837Z">
         <seg>image::images/git-diff-check.png[Výstup příkazu `git diff --check`.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/git-instaweb.png[The GitWeb web-based user interface.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T192444Z" creationid="Prikryl" creationdate="20160506T192444Z">
+        <seg>image::images/git-instaweb.png[Uživatelské webové rozhraní GitWeb.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -29967,6 +30241,14 @@ $ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nebo do druhé verze:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>order allow,deny</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T195022Z" creationid="Prikryl" creationdate="20160506T195022Z">
+        <seg>order allow,deny</seg>
       </tuv>
     </tu>
     <tu>

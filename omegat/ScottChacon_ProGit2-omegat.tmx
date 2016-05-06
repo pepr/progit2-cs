@@ -821,6 +821,16 @@ V tomto okamžiku už byste měli zvládat většinu každodenních úkonů, pro
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((serving repositories, HTTP)))
+We now have authenticated access though SSH and unauthenticated access through `git://`, but there is also a protocol that can do both at the same time.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T095012Z" creationid="Prikryl" creationdate="20160506T064154Z">
+        <seg>(((obsluha repozitářů, HTTP)))
+K dispozici už máme autentizovaný přístup přes SSH a neautentizovaný přístup přes `git://`. Ale existuje i protokol, který umí obojí najednou.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((serving repositories, SSH)))
 If you have a server to which all your developers already have SSH access, it's generally easiest to set up your first repository there, because you have to do almost no work (as we covered in the last section).</seg>
       </tuv>
@@ -2270,6 +2280,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>&lt;Files "git-http-backend"&gt;</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074935Z" creationid="Prikryl" creationdate="20160506T074935Z">
+        <seg>&lt;Files "git-http-backend"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>&lt;p id="out"&gt;...&lt;/p&gt;</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T221634Z" creationid="Prikryl" creationdate="20151023T221634Z">
@@ -2418,6 +2436,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>=== Nahrávání změn do repozitáře</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>=== Smart HTTP</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T084314Z" creationid="Prikryl" creationdate="20160506T063959Z">
+        <seg>=== Chytrý HTTP</seg>
       </tuv>
     </tu>
     <tu>
@@ -4490,6 +4516,30 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>AuthName "Git Access"</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074941Z" creationid="Prikryl" creationdate="20160506T074941Z">
+        <seg>AuthName "Git Access"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>AuthType Basic</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074938Z" creationid="Prikryl" creationdate="20160506T074938Z">
+        <seg>AuthType Basic</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>AuthUserFile /opt/git/.htpasswd</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074944Z" creationid="Prikryl" creationdate="20160506T074944Z">
+        <seg>AuthUserFile /opt/git/.htpasswd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Basically all this does is remove the pointer from the server.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T080240Z" creationid="Prikryl" creationdate="20151214T080240Z">
@@ -5060,6 +5110,14 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Deny from env=AUTHREQUIRED</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074950Z" creationid="Prikryl" creationdate="20160506T074950Z">
+        <seg>Deny from env=AUTHREQUIRED</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Did you mean this?</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151024T090233Z" creationid="Prikryl" creationdate="20151024T090233Z">
@@ -5383,6 +5441,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151213T215851Z" creationid="Prikryl" creationdate="20151213T215851Z">
         <seg>A na konci vidíme, že naše větev `testing` nesleduje žádnou vzdálenou větev.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Finally you'll want to tell Apache to allow requests to `git-http-backend` and make writes be authenticated somehow, possibly with an Auth block like this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074859Z" creationid="Prikryl" creationdate="20160506T074859Z">
+        <seg>Nakonec budete muset serveru Apache říct, aby povolil požadavky na skript `git-http-backend` a aby nějak zajistil autentizaci při zápisu -- například podobným Auth blokem:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6782,6 +6848,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Here is an example of adding a ``schacon'' user to the file:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T075157Z" creationid="Prikryl" creationdate="20160506T075157Z">
+        <seg>Následující příklad do souboru přidává uživatele „schacon“:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Here is an example of adding your server as a remote:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7384,6 +7458,14 @@ $ which git-shell       # ujistěte se, že je git-shell ve vašem systému nain
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If the CGI sees that the client is smart, it will communicate smartly with it, otherwise it will fall back to the dumb behavior (so it is backward compatible for reads with older clients).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T064908Z" creationid="Prikryl" creationdate="20160506T064908Z">
+        <seg>Pokud CGI skript zjistí, že se jedná o chytrého klienta, bude s ním komunikovat chytrým způsobem. V opačném případě se uchýlí k hloupému chování (takže je vůči starším klientům zpětně kompatibilní pro čtení).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If the QA team wants to push their `master` branch to `qa/master` on the remote server, they can run</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7851,6 +7933,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you don't have Apache setup, you can do so on a Linux box with something like this:(((Apache)))</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T073122Z" creationid="Prikryl" creationdate="20160506T073122Z">
+        <seg>Pokud nemáte zprovozněn Apache, můžete jej na linuxovém počítači nainstalovat třeba takto:(((Apache)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you don't have it installed already, it will prompt you to install it.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T212519Z" creationid="Prikryl" creationdate="20151027T212519Z">
@@ -8115,6 +8205,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T195933Z" creationid="Prikryl" creationdate="20151027T193034Z">
         <seg>Pokud umíte použít verzi z příkazového řádku, pak pravděpodobně umíte zjistit, jak se totéž provede přes grafické uživatelské rozhraní. V opačném směru to nemusí platit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you leave out `GIT_HTTP_EXPORT_ALL` environment variable, then Git will only serve to unauthenticated clients the repositories with the `git-daemon-export-ok` file in them, just like the Git daemon did.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074228Z" creationid="Prikryl" creationdate="20160506T074228Z">
+        <seg>Pokud vynecháte proměnnou prostředí `GIT_HTTP_EXPORT_ALL`, pak bude Git obsluhovat neautentizované klienty jen pro ty repozitáře, které v sobě mají soubor `git-daemon-export-ok` -- právě tak, jak to dělá gitový démon.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10164,6 +10262,14 @@ Více si o tom řekneme o něco později, ale mělo by vám stačit, že to jsou
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It does not implement any authentication itself, but that can easily be controlled at the layer of the web server that invokes it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T083739Z" creationid="Prikryl" creationdate="20160506T083739Z">
+        <seg>Sám o sobě neprovádí žádnou autentizaci, ale to lze snadno zvládnout na úrovni webového serveru, který ho spouští.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>It does this so you don't accidentally begin including generated binary files or other files that you did not mean to include.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T111214Z" creationid="Prikryl" creationdate="20151029T111214Z">
@@ -11208,6 +11314,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Let's walk through a very basic setup.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T064928Z" creationid="Prikryl" creationdate="20160506T064928Z">
+        <seg>Projděme si nejzákladnější nastavení.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Let's walk through setting up SSH access on the server side.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160504T061943Z" creationid="Prikryl" creationdate="20160504T061943Z">
@@ -11546,6 +11660,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151215T132558Z" creationid="Prikryl" creationdate="20151213T215751Z">
         <seg>A dále vidíme, že naše větev `serverfix` sleduje větev `server-fix-good` na serveru `teamone`, má náskok tři a současně je pozadu o jeden, což znamená, že se na serveru nachází jeden objekt revize (commit), který jsme zatím nezačlenili (merge), a tři lokální objekty revize, které jsme zatím neodeslali (push).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Next we need to add some things to the Apache configuration to run the `git-http-backend` as the handler for anything coming into the `/git` path of your web server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T095440Z" creationid="Prikryl" creationdate="20160506T073958Z">
+        <seg>Dále potřebujeme do konfigurace Apache přidat další věci, aby se skript `git-http-backend` spouštěl pro obsluhu všeho, co na vašem webovém serveru prochází cestou `/git`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12754,6 +12876,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Order deny,allow</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074948Z" creationid="Prikryl" creationdate="20160506T074948Z">
+        <seg>Order deny,allow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Other than that, there is very little advantage that other protocols have over the ``Smart'' HTTP protocol for serving Git.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160427T082553Z" creationid="Prikryl" creationdate="20160427T082553Z">
@@ -13076,6 +13206,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Require valid-user</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074946Z" creationid="Prikryl" creationdate="20160506T074946Z">
+        <seg>Require valid-user</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Rerere stands for ``reuse recorded resolution'' – it's a way of shortcutting manual conflict resolution.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160316T104633Z" creationid="Prikryl" creationdate="20160316T104633Z">
@@ -13190,6 +13328,18 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Satisfy any
+&lt;/Files&gt;
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074954Z" creationid="Prikryl" creationdate="20160506T074954Z">
+        <seg>Satisfy any
+&lt;/Files&gt;
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Say John and Jessica both start working at the same time.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160109T153608Z" creationid="Prikryl" creationdate="20160109T153608Z">
@@ -13258,6 +13408,16 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>ID svého klíče nastavíte takto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Setting up Smart HTTP is basically just enabling a CGI script that is provided with Git called `git-http-backend` on the server.(((git commands, "http-backend")))
+This CGI will read the path and headers sent by a `git fetch` or `git push` to an HTTP URL and determine if the client can communicate over HTTP (which is true for any client since version 1.6.6).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T095222Z" creationid="Prikryl" creationdate="20160506T064654Z">
+        <seg>Zřízení chytrého HTTP v podstatě spočívá jen v povolení CGI skriptu, který se dodává s Gitem a na serveru se nachází pod jménem `git-http-backend`.(((git příkazy, "http-backend")))
+Tento CGI skript čte cestu a hlavičky zaslané pro dané HTTP URL příkazy `git fetch` nebo `git push` a zjistí, zda může klient komunikovat přes HTTP (což platí pro každého klienta od verze 1.6.6).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14010,6 +14170,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151210T123820Z" creationid="Prikryl" creationdate="20151210T123820Z">
         <seg>Tímto způsobem si můžete zachovat soukromé větve pro práci, kterou nehodláte sdílet, a odesílat pouze tématické větve, na nichž chcete spolupracovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>That will require you to create a `.htpasswd` file containing the passwords of all the valid users.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T075110Z" creationid="Prikryl" creationdate="20160506T075110Z">
+        <seg>Pro tento účel budete muset vytvořit soubor `.htpasswd`, který bude obsahovat hesla všech oprávněných uživatelů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15002,6 +15170,14 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Všechny zásuvné moduly jsou uloženy v podadresáři `hooks` adresáře Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The idea is that Git comes with a CGI called `git-http-backend` that when invoked will do all the negotiation to send and receive data over HTTP.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T083401Z" creationid="Prikryl" creationdate="20160506T083401Z">
+        <seg>Základní myšlenka je taková, že se Git dodává s CGI skriptem `git-http-backend`, který při aktivaci zajistí veškeré dohadování při odesílání a přijímání dat přes HTTP.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16042,6 +16218,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>There are tons of ways to have Apache authenticate users, you'll have to choose and implement one of them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T075338Z" creationid="Prikryl" creationdate="20160506T075338Z">
+        <seg>Existují spousty způsobů, jak může Apache autentizovat uživatele. Jeden z nich si budete muset vybrat a použít.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>There are two columns to the output - the left hand column indicates that the file is staged and the right hand column indicates that it's modified.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T085429Z" creationid="Prikryl" creationdate="20151029T174843Z">
@@ -16318,6 +16502,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T194112Z" creationid="Prikryl" creationdate="20151026T194112Z">
         <seg>Díky tomu lze zavést několik typů pracovních postupů, které nejsou v centralizovaných systémech možné -- jako jsou například hierarchické modely.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This also enables the `mod_cgi`, `mod_alias`, `mod_env`, and `mod_rewrite` modules, which are all needed for this to work properly.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T073236Z" creationid="Prikryl" creationdate="20160506T073236Z">
+        <seg>Povolí se tím také moduly `mod_cgi`, `mod_alias`, `mod_env` a `mod_rewrite`, které jsou pro správnou činnost nutné.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17071,6 +17263,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Toto je výchozí vzorec refspec pro příkaz `git fetch` pro tento vzdálený server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is just the simplest example we could come up with.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T075858Z" creationid="Prikryl" creationdate="20160506T075858Z">
+        <seg>Tohle je jen nejjednodušší příklad, který se dá použít.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18745,6 +18945,14 @@ To https://github.com/schacon/simplegit</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>We don't want to go too far down the rabbit hole of Apache configuration specifics, since you could well be using a different server or have different authentication needs.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T083159Z" creationid="Prikryl" creationdate="20160506T083159Z">
+        <seg>Nechceme zacházet do přílišných detailů konfigurace Apache, protože možná používáte jiný server, nebo máte jiné požadavky na autentizaci.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>We may additionally have permission to push to one or more of these, though we can't tell that here.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T135443Z" creationid="Prikryl" creationdate="20151101T165642Z">
@@ -18877,6 +19085,14 @@ To https://github.com/schacon/simplegit</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151028T211108Z" creationid="Prikryl" creationdate="20151028T211108Z">
         <seg>K tomu, co přesně tyto příkazy provedou, se dostaneme za okamžik.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>We'll set this up with Apache as the CGI server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T064955Z" creationid="Prikryl" creationdate="20160506T064955Z">
+        <seg>Jako CGI server použijeme Apache.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19986,6 +20202,14 @@ You can use this format to push a local branch into a remote branch that is name
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160505T122434Z" creationid="Prikryl" creationdate="20160505T122434Z">
         <seg>Můžete to udělat tak, že v každém repozitáři vytvoříte soubor pojmenovaný `git-daemon-export-ok`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can do this with nearly any CGI-capable web server, so go with the one that you know best.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T084009Z" creationid="Prikryl" creationdate="20160506T084009Z">
+        <seg>Lze toho dosáhnout s téměř každým webovým serverem, který podporuje CGI, takže použijte ten, který znáte nejlépe.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21226,6 +21450,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You'll also almost certainly want to set this up over SSL so all this data is encrypted.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T080012Z" creationid="Prikryl" creationdate="20160506T080012Z">
+        <seg>Téměř jistě budete chtít zprovoznit komunikaci přes SSL, aby byla všechna data šifrovaná.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You'll also take this opportunity to move the work to be based off the project's current `master` branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160122T191454Z" creationid="Prikryl" creationdate="20160122T191454Z">
@@ -21474,6 +21706,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You’ll also need to set the Unix user group of the `/opt/git` directories to `www-data` so your web server can read- and write-access the repositories, because the Apache instance running the CGI script will (by default) be running as that user:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T073622Z" creationid="Prikryl" creationdate="20160506T073622Z">
+        <seg>Pro adresář `/opt/git` také budete muset nastavit unixovou uživatelskou skupinu na `www-data`, aby váš webový server získal přístup do repozitářů pro čtení i pro zápis. Instance Apache, která CGI skript spouští, totiž (standardně) běží pod tímto uživatelem:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You’ll be able to watch Git rewriting trees and commits and then move the branch pointer at the end.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -21620,6 +21860,20 @@ Just like the branch name ``master'' does not have any special meaning in Git, n
 .Název „origin“ není nijak speciální
 ====
 Stejně jako jméno větve „master“ nemá pro Git žádný speciální význam, ani název „origin“ není nijak zvláštní.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[NOTE]
+====
+For more information on configuring authentication in Apache, check out the Apache docs here: http://httpd.apache.org/docs/current/howto/auth.html[]
+====</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T084138Z" creationid="Prikryl" creationdate="20160506T084138Z">
+        <seg>[NOTE]
+====
+Další informace o konfiguraci autentizace pro Apache naleznete v jeho dokumentaci na stránce http://httpd.apache.org/docs/current/howto/auth.html[]
+====</seg>
       </tuv>
     </tu>
     <tu>
@@ -23111,6 +23365,20 @@ $ cd ~/.ssh
 $ ls
 authorized_keys2  id_dsa       known_hosts
 config            id_dsa.pub
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ chgrp -R www-data /opt/git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T073624Z" creationid="Prikryl" creationdate="20160506T073624Z">
+        <seg>[source,console]
+----
+$ chgrp -R www-data /opt/git
 ----</seg>
       </tuv>
     </tu>
@@ -26010,6 +26278,20 @@ $ gpg -a --export F721C45A | git hash-object -w --stdin
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ htpasswd -c /opt/git/.htpasswd schacon
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T075213Z" creationid="Prikryl" creationdate="20160506T075213Z">
+        <seg>[source,console]
+----
+$ htpasswd -c /opt/git/.htpasswd schacon
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ initctl start local-git-daemon
 ----</seg>
       </tuv>
@@ -26135,6 +26417,22 @@ $ su git
 $ cd
 $ mkdir .ssh &amp;&amp; chmod 700 .ssh
 $ touch .ssh/authorized_keys &amp;&amp; chmod 600 .ssh/authorized_keys
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ sudo apt-get install apache2 apache2-utils
+$ a2enmod cgi alias env rewrite
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T073125Z" creationid="Prikryl" creationdate="20160506T073125Z">
+        <seg>[source,console]
+----
+$ sudo apt-get install apache2 apache2-utils
+$ a2enmod cgi alias env rewrite
 ----</seg>
       </tuv>
     </tu>
@@ -26382,6 +26680,42 @@ Merge branch 'iss53'</seg>
         <seg>[source,console]
 ----
 Merge branch 'iss53'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+RewriteEngine On
+RewriteCond %{QUERY_STRING} service=git-receive-pack [OR]
+RewriteCond %{REQUEST_URI} /git-receive-pack$
+RewriteRule ^/git/ - [E=AUTHREQUIRED]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074901Z" creationid="Prikryl" creationdate="20160506T074901Z">
+        <seg>[source,console]
+----
+RewriteEngine On
+RewriteCond %{QUERY_STRING} service=git-receive-pack [OR]
+RewriteCond %{REQUEST_URI} /git-receive-pack$
+RewriteRule ^/git/ - [E=AUTHREQUIRED]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+SetEnv GIT_PROJECT_ROOT /opt/git
+SetEnv GIT_HTTP_EXPORT_ALL
+ScriptAlias /git/ /usr/lib/git-core/git-http-backend/
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160506T074005Z" creationid="Prikryl" creationdate="20160506T074005Z">
+        <seg>[source,console]
+----
+SetEnv GIT_PROJECT_ROOT /opt/git
+SetEnv GIT_HTTP_EXPORT_ALL
+ScriptAlias /git/ /usr/lib/git-core/git-http-backend/
+----</seg>
       </tuv>
     </tu>
     <tu>

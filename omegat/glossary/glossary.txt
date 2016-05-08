@@ -43,3 +43,5 @@ option	volba
 workflow	pracovní postup
 tag	značka
 cache	mezipaměť
+merge request	požadavek na začlenění
+merge request	požadavek na sloučení

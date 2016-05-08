@@ -1013,6 +1013,16 @@ V tomto okamžiku už byste měli zvládat většinu každodenních úkonů, pro
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((serving repositories, GitLab)))(((GitLab)))
+GitWeb is pretty simplistic though.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T102307Z" creationid="Prikryl" creationdate="20160507T102307Z">
+        <seg>(((obsluha repozitářů, GitLab)))(((GitLab)))
+Jenže GitWeb je příliš zjednodušený.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((serving repositories, GitWeb)))(((GitWeb)))
 Now that you have basic read/write and read-only access to your project, you may want to set up a simple web-based visualizer.</seg>
       </tuv>
@@ -2646,6 +2656,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>=== GitLab</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T104849Z" creationid="Prikryl" creationdate="20160507T104849Z">
+        <seg>=== GitLab</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>=== GitWeb</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -2758,6 +2776,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>==== Administration</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T112031Z" creationid="Prikryl" creationdate="20160507T112031Z">
+        <seg>==== Správa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>==== Ancestry References</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -2770,6 +2796,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>==== Základní konfigurace klienta</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>==== Basic Usage</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T153506Z" creationid="Prikryl" creationdate="20160508T153506Z">
+        <seg>==== Základní použití</seg>
       </tuv>
     </tu>
     <tu>
@@ -2922,6 +2956,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>==== Inicializace repozitáře v existujícím adresáři</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>==== Installation</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T104909Z" creationid="Prikryl" creationdate="20160507T104909Z">
+        <seg>==== Instalace</seg>
       </tuv>
     </tu>
     <tu>
@@ -3342,6 +3384,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>==== Working Together</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T155047Z" creationid="Prikryl" creationdate="20160508T155047Z">
+        <seg>==== Spolupráce</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>==== Working in Topic Branches</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151209T142314Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3454,6 +3504,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>===== Hooks</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T152155Z" creationid="Prikryl" creationdate="20160508T152155Z">
+        <seg>===== Zásuvné moduly</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>===== Identifying Binary Files</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3490,6 +3548,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>===== Několik bodů</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>===== Projects</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T151016Z" creationid="Prikryl" creationdate="20160508T151016Z">
+        <seg>===== Projekty</seg>
       </tuv>
     </tu>
     <tu>
@@ -3542,6 +3608,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>===== Users</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T112800Z" creationid="Prikryl" creationdate="20160507T112800Z">
+        <seg>===== Uživatelé</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>===== `color.*`</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3554,6 +3628,22 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T221836Z" creationid="Prikryl" creationdate="20151023T221836Z">
         <seg>?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>A GitLab group is an assemblage of projects, along with data about how users can access those projects.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T145848Z" creationid="Prikryl" creationdate="20160508T145600Z">
+        <seg>Gitlabovská skupina je sbírkou projektů, která je doplněna o informace o tom, jak k nim mohou přistupovat uživatelé.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>A GitLab project roughly corresponds to a single git repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T151055Z" creationid="Prikryl" creationdate="20160508T151055Z">
+        <seg>Gitlabovský projekt zhruba odpovídá jednomu gitovému repozitáři.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3990,6 +4080,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>All projects and data in their namespace is removed, and any groups they own will also be removed.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T114337Z" creationid="Prikryl" creationdate="20160507T114337Z">
+        <seg>Všechny projekty a data z jeho jmenného prostoru jsou odstraněny -- včetně skupin, které uživatel vlastní.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>All the content is stored as tree and blob objects, with trees corresponding to UNIX directory entries and blobs corresponding more or less to inodes or file contents.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4242,6 +4340,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>An _Internal_ project is visible to any logged-in user, and a _Public_ project is visible to anyone.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T151924Z" creationid="Prikryl" creationdate="20160508T151924Z">
+        <seg>Projekt označený _Internal_ (interní) je viditelný pro kteréhokoliv přihlášeného uživatele, a projekt označený _Public_ (veřejný) je viditelný pro všechny.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>An alternative would be to push this new work to a different branch on the server (perhaps called `featureAv2`).</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160122T185202Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4418,6 +4524,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Another, more decoupled way of collaboration is by using merge requests.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T160257Z" creationid="Prikryl" creationdate="20160508T160257Z">
+        <seg>Další, trochu víc oddělený způsob spolupráce, je založen na použití žádostí o sloučení (merge request).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Any changes you made to that file are gone – Git just copied another file over it.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160424T204615Z" creationid="Prikryl" creationdate="20160424T204615Z">
@@ -4472,6 +4586,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jste součástí tohoto procesu?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>As GitLab is one of the more popular ones, we'll cover installing and using it as an example.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T102912Z" creationid="Prikryl" creationdate="20160507T102912Z">
+        <seg>GitLab patří k těm populárnějším. Použijeme jej jako příklad a probereme si jeho instalaci a používání.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5254,6 +5376,14 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>By giving a user an access level of ``Developer'' or above, that user can push commits and branches directly to the repository with impunity.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T160122Z" creationid="Prikryl" creationdate="20160508T160122Z">
+        <seg>Když uživateli přidělíte úroveň přístupu „Developer“ (vývojář) nebo vyšší, může uživatel do repozitáře přímo (beztrestně) odesílat revize a větve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>By now, you’ve learned most of the day-to-day commands and workflows that you need to manage or maintain a Git repository for your source code control.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5330,6 +5460,14 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T101812Z" creationid="Prikryl" creationdate="20151023T101812Z">
         <seg>Checking connectivity... done.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Click ``Create Project'', and you're done.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154032Z" creationid="Prikryl" creationdate="20160508T154032Z">
+        <seg>Kliknete na „Create Project“ a je to.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5631,6 +5769,22 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Each group has a project namespace (the same way that users do), so if the group +training+ has a project +materials+, its url would be http://server/training/materials[].</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T145756Z" creationid="Prikryl" creationdate="20160508T145756Z">
+        <seg>Každá skupina má svůj jmenný prostor (stejně, jak je tomu u uživatelů), takže pokud se ve skupině +training+ nachází projekt+materials+, bude mu odpovídat url http://server/training/materials[].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Each group is associated with a number of users, each of which has a level of permissions for the group's projects and the group itself.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T150105Z" creationid="Prikryl" creationdate="20160508T150105Z">
+        <seg>Každá skupina je svázána s množinou uživatelů a každý uživatel má přiděleny úrovně oprávnění k projektům skupiny a ke skupině samotné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Each level overrides values in the previous level, so values in `.git/config` trump those in `/etc/gitconfig`.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5655,6 +5809,22 @@ When you exit the editor, Git creates your commit with that commit message (with
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Each project is accessible over HTTPS or SSH, either of which can be used to configure a Git remote.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154329Z" creationid="Prikryl" creationdate="20160508T154329Z">
+        <seg>Každý z projekt je dostupný přes HTTPS nebo SSH -- pro konfiguraci vzdáleného gitového repozitáře lze použít libovolný z těchto protokolů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Each project's home page shows recent activity, and links along the top will lead you to views of the project's files and commit log.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T155032Z" creationid="Prikryl" creationdate="20160508T155032Z">
+        <seg>Každá stránka projektu zobrazuje nedávnou aktivitu a odkazy v horní části vedou k pohledům na soubory a na poznámky k revizím (commit log).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Each time you commit or change branches, the reflog is updated.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5675,6 +5845,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Git pokaždé zastaví, nechá vás revizi upravit, a až budete hotovi, bude pokračovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Each user account comes with a *namespace*, which is a logical grouping of projects that belong to that user.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T113409Z" creationid="Prikryl" creationdate="20160507T113409Z">
+        <seg>Každý uživatelský účet má svůj *jmenný prostor*, který představuje logické seskupení projektů patřících uživateli.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5745,6 +5923,22 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T202749Z" creationid="Prikryl" creationdate="20151026T193341Z">
         <seg>Každý klon je ve skutečnosti úplnou zálohou všech dat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Every project also has a visibility level, which controls who has read access to that project's pages and repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T151546Z" creationid="Prikryl" creationdate="20160508T151546Z">
+        <seg>U každého projektu je také určena úroveň viditelnosti, kterou se dá ovlivnit, kdo má ke stránkám projektu a k repozitáři přístup pro čtení.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Every project belongs to a single namespace, either a user or a group.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T151214Z" creationid="Prikryl" creationdate="20160508T151214Z">
+        <seg>Každý projekt spadá pod jediný jmenný prostor -- buď pod uživatele nebo pod skupinu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6085,6 +6279,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For an existing local repository, this command will create a remote named `gitlab` to the hosted location:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154609Z" creationid="Prikryl" creationdate="20160508T154609Z">
+        <seg>Následující příkaz vytvoří pro existující lokální repozitář vzdálený odkaz pojmenovaný `gitlab`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For another example, if you stage the `CONTRIBUTING.md` file and then edit it, you can use `git diff` to see the changes in the file that are staged and the changes that are unstaged.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T093016Z" creationid="Prikryl" creationdate="20151030T093023Z">
@@ -6093,10 +6295,26 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For anything else, follow the guidance in the GitLab Community Edition readme, which can be found at https://gitlab.com/gitlab-org/gitlab-ce/tree/master[].</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T111300Z" creationid="Prikryl" creationdate="20160507T111300Z">
+        <seg>Při ostatních činnostech postupujte podle návodu v souboru readme ke GitLab Community Edition. Najdete ho na https://gitlab.com/gitlab-org/gitlab-ce/tree/master[].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For each reference that this push will update, the `send-pack` process tells the `receive-pack` process that information.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pro každou referenci, která bude tímto odesláním aktualizována, sdělí proces `send-pack` tuto informaci procesu `receive-pack`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For either of these, the GitLab server will perform an HTTP POST with some descriptive JSON whenever relevant events occur.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T152740Z" creationid="Prikryl" creationdate="20160508T152740Z">
+        <seg>Pro každý s těchto typů provádí gitlabovský server při výskytu události odpovídající HTTP POST popisu ve formátu JSON.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6577,6 +6795,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T190833Z" creationid="Prikryl" creationdate="20151027T190833Z">
         <seg>V této knize budeme Git používat z příkazového řádku.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Fortunately, this process is very well-documented and supported.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T105106Z" creationid="Prikryl" creationdate="20160507T105106Z">
+        <seg>Naštěstí je jeho instalace velmi dobře dokumentována a podporována.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7236,6 +7462,30 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>GitLab includes support for hooks, both at a project or system level.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T152244Z" creationid="Prikryl" creationdate="20160508T152244Z">
+        <seg>GitLab podporuje použití zásuvných modulů jak na straně projektu, tak na úrovni systému.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>GitLab is a database-backed web application, so its installation is a bit more involved than some other git servers.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T105031Z" creationid="Prikryl" creationdate="20160507T105031Z">
+        <seg>GitLab je webová aplikace pracující nad databází, takže instalace vyžaduje trochu víc úsilí než ostatní servery pro Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>GitLab's administration interface is accessed over the web.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T112103Z" creationid="Prikryl" creationdate="20160507T112103Z">
+        <seg>Rozhraní pro správu GitLabu je přístupné přes web.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Glob patterns are like simplified regular expressions that shells use.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T090314Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -7782,6 +8032,14 @@ Chcete-li přidat nový vzdálený gitový repozitář a zadat zkrácený název
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If a project is _Private_, the project's owner must explicitly grant access to specific users.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T151746Z" creationid="Prikryl" creationdate="20160508T151746Z">
+        <seg>Pokud je projekt označený jako _Private_ (soukromý), pak musí vlastník projektu přímo přidělovat přístupová oprávnění konkrétním uživatelům.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If a user SSHs into a server and has write access to the `/opt/git/my_project.git` directory, they will also automatically have push access.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -8050,6 +8308,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If the project belongs to a user, the owner of the project has direct control over who has access to the project; if the project belongs to a group, the group's user-level permissions will also take effect.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T151409Z" creationid="Prikryl" creationdate="20160508T151409Z">
+        <seg>Pokud projekt patří uživateli, pak má vlastník projektu přímou kontrolu nad tím, kdo může k projektu přistupovat. Pokud projekt patří skupině, uplatní se také oprávnění definovaná na úrovni skupiny.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If the server you're running it on is inside your firewall, you might use it for projects that a large number of people or computers (continuous integration or build servers) have read-only access to, when you don't want to have to add an SSH key for each.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160505T123204Z" creationid="Prikryl" creationdate="20160505T120008Z">
@@ -8070,6 +8336,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Je-li výstup skriptu update nenulový, je zamítnuta pouze tato reference, ostatní mohou být aktualizovány.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If the user +jane+ had a project named +project+, that project's url would be http://server/jane/project[].</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T113521Z" creationid="Prikryl" creationdate="20160507T113521Z">
+        <seg>Pokud by uživatelka +jane+ měla projekt pojmenovaný +project+, pak by url tohoto projektu bylo http://server/jane/project[].</seg>
       </tuv>
     </tu>
     <tu>
@@ -8496,6 +8770,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160506T073122Z" creationid="Prikryl" creationdate="20160506T073122Z">
         <seg>Pokud nemáte zprovozněn Apache, můžete jej na linuxovém počítači nainstalovat třeba takto:(((Apache)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you don't have a local copy of the repository, you can simply do this:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154655Z" creationid="Prikryl" creationdate="20160508T154655Z">
+        <seg>Pokud lokální kopie repozitáře neexistuje, můžeme provést následující:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9803,6 +10085,14 @@ Just type the name of the tool you'd rather use.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151120T083931Z" creationid="Prikryl" creationdate="20151120T081035Z">
         <seg>Pokud jste s výsledkem spokojeni a ujistili jste se, že všechny soubory s konfliktem jsou připraveny k zapsání, můžete zadat příkaz `git commit` a dokončit vytvoření bodu sloučení (merge commit).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you're looking for a more modern, fully featured Git server, there are some several open source solutions out there that you can install instead.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T102735Z" creationid="Prikryl" creationdate="20160507T102735Z">
+        <seg>Pokud hledáte modernější, plnohodnotný server pro Git, můžete si místo GitWeb nainstalovat jedno z několika open-source řešení.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12363,6 +12653,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Most of what you specify here isn't permanent, and can be re-adjusted later through the settings interface.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T153943Z" creationid="Prikryl" creationdate="20160508T153943Z">
+        <seg>Většina věcí, kterou zde zadáte, nemá trvalou platnost a později je můžete upravit přes rozhraní pro nastavení.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Most operations in Git only need local files and resources to operate – generally no information is needed from another computer on your network.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T092523Z" creationid="Prikryl" creationdate="20151027T092523Z">
@@ -12583,6 +12881,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151215T132257Z" creationid="Prikryl" creationdate="20151214T122348Z">
         <seg>Všimněte si, že snímek, na který ukazuje poslední objekt revize -- ať už se jedná o poslední revizi vzniklou přeskládáním, nebo poslední bod sloučení po provedení `merge` --, je shodný. Liší se pouze historie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Note that this controls both git ``fetch'' access as well as access to the web UI for that project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T152111Z" creationid="Prikryl" creationdate="20160508T152111Z">
+        <seg>Poznamenejme, že tyto úrovně řídí jak přístup pro `git fetch`, tak přístup k webovému uživatelskému rozhraní projektu</seg>
       </tuv>
     </tu>
     <tu>
@@ -13495,6 +13801,22 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Once logged in, click the ``Admin area'' icon in the menu at the top right.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T112630Z" creationid="Prikryl" creationdate="20160507T112630Z">
+        <seg>Po přihlášení klikněte v menu vpravo nahoře na ikonu „Admin area“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Once the project exists, you'll probably want to connect it with a local Git repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154137Z" creationid="Prikryl" creationdate="20160508T154137Z">
+        <seg>Jakmile je projek založen, budete jej asi chtít spojit s lokálním gitovým repozitářem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Once you’re satisfied with your changes, run</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T222754Z" creationid="Prikryl" creationdate="20151023T222754Z">
@@ -14035,6 +14357,14 @@ Je to historický dokument, který je cenný sám o sobě, a neměli bychom s n�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Removing a user can be done in two ways.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T113640Z" creationid="Prikryl" creationdate="20160507T113640Z">
+        <seg>Odstranění uživatele lze provést dvěma způsoby.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Require valid-user</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160506T074946Z" creationid="Prikryl" creationdate="20160506T074946Z">
@@ -14395,6 +14725,14 @@ Tento CGI skript čte cestu a hlavičky zaslané pro dané HTTP URL příkazy `g
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T143508Z" creationid="Prikryl" creationdate="20151107T143508Z">
         <seg>Signed-off-by: Scott Chacon &lt;schacon@example.com&gt;
 ----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Simply point your browser to the hostname or IP address where GitLab is installed, and log in as an admin user.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T112257Z" creationid="Prikryl" creationdate="20160507T112257Z">
+        <seg>Prohlížeč jednoduše nasměrujte na hostitelské jméno nebo IP adresu, kde je GitLab nainstalovaný a přihlaste se jako uživatel admin.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15233,6 +15571,14 @@ Po většinu životního cyklu údržby jádra Linuxu (1991–2002) se změny p�
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The URLs are visible at the top of the project's home page.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154413Z" creationid="Prikryl" creationdate="20160508T154413Z">
+        <seg>Odpovídající URL odkazy se zobrazují v horní části domácí stránky projektu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The `*` next to each file means the file is selected to be staged.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -15779,6 +16125,14 @@ Pokud chcete na server `origin` odeslat svou větev `master` (znovu připomeňme
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The default username is `admin@local.host`, and the default password is `5iveL!fe` (which you will be prompted to change as soon as you enter it).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T112452Z" creationid="Prikryl" creationdate="20160507T112452Z">
+        <seg>Přednastavené uživatelské jméno je `admin@local.host` a heslo je `5iveL!fe`. (Jakmile ho zadáte, budete vyzváni k tomu, abyste ho změnili.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The dictator merges the lieutenants' `master` branches into the dictator's `master` branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160109T232636Z" creationid="Prikryl" creationdate="20160109T232636Z">
@@ -16041,6 +16395,14 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T114348Z" creationid="Prikryl" creationdate="20151107T114348Z">
         <seg>První věcí, kterou byste měli po nainstalování systému Git udělat, je nastavení vašeho uživatelského jména a e-mailové adresy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The first thing you'll want to do with GitLab is create a new project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T153549Z" creationid="Prikryl" creationdate="20160508T153549Z">
+        <seg>První věc, kterou budete chtít v GitLabu udělat, je vytvoření nového projektu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16847,6 +17209,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The simplest way of working together on a GitLab project is by giving another user direct push access to the git repository.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T155451Z" creationid="Prikryl" creationdate="20160508T155451Z">
+        <seg>Nejsnadněji lze spolupráce na gitlabovském projektu dosáhnout přímým přidělením oprávnění pro odesílání do repozitáře (push) jinému uživateli.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The simplicity of having a single URL for all types of access and having the server prompt only when authentication is needed makes things very easy for the end user.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160427T103949Z" creationid="Prikryl" creationdate="20160427T080950Z">
@@ -16879,6 +17249,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The types of permissions are too numerous to list here, but GitLab has a helpful link on the administration screen.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T151010Z" creationid="Prikryl" creationdate="20160508T151010Z">
+        <seg>Typů oprávnění je příliš mnoho na to, abychom je zde uváděli, ale na administrátorské stránce GitLabu najdete užitečný odkaz.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The useful `--merged` and `--no-merged` options can filter this list to branches that you have or have not yet merged into the branch you're currently on.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151124T210843Z" creationid="Prikryl" creationdate="20151124T210843Z">
@@ -16891,6 +17269,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T133604Z" creationid="Prikryl" creationdate="20151107T133356Z">
         <seg>Způsob, jakým Git větvení provádí, je neuvěřitelně snadný a operace větvení probíhají téměř okamžitě. A stejně rychlé je většinou i přepínání mezi větvemi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The web UI provides access to several useful views of the repository itself.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154813Z" creationid="Prikryl" creationdate="20160508T154813Z">
+        <seg>Webové uživatelské rozhraní zpřístupňuje několik užitečných pohledů na samotný repozitář.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17135,6 +17521,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>There are a few methods you can pursue to install GitLab.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T105214Z" creationid="Prikryl" creationdate="20160507T105214Z">
+        <seg>Nainstalování GitLabu lze dosáhnout několika metodami.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>There are a few ways you can give access to everyone on your team.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -17289,6 +17683,22 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>There you'll find assistance for installing GitLab using Chef recipes, a virtual machine on Digital Ocean, and RPM and DEB packages (which, as of this writing, are in beta).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T111800Z" creationid="Prikryl" creationdate="20160507T111800Z">
+        <seg>Naleznete zde rady pro instalaci GitLabu s využitím Chef recipes, virtuální počítač na Digital Ocean a balíčky RPM a DEB (které byly v době psaní tohoto textu ve stádiu beta).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>There's also ``unofficial'' guidance on getting GitLab running with non-standard operating systems and databases, a fully-manual installation script, and many other topics.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T112018Z" creationid="Prikryl" creationdate="20160507T112018Z">
+        <seg>Najdete zde in „neoficiální“ rady pro zprovoznění GitLabu na nestandardních operačních systémech a databázích, plně manuální popis instalace a řadu dalších témat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>There, you can do a mixed reset of that commit with `git reset HEAD^`, which effectively undoes that commit and leaves the modified files unstaged.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -17397,6 +17807,14 @@ Hlavní oficiální instalátor se dá stáhnout z domovského webového serveru
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>A toto nastavení platí také pro příkaz `git rebase`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>These range from ``Guest'' (issues and chat only) to ``Owner'' (full control of the group, its members, and its projects).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T150708Z" creationid="Prikryl" creationdate="20160508T150708Z">
+        <seg>Úrovně oprávnění se pohybují v rozmezí od „Guest“ (host; pouze debatní témata a přístup do diskuse) až po „Owner“ (vlastník; plná oprávnění ke skupině, k správě jejích členů a jejích projektů).</seg>
       </tuv>
     </tu>
     <tu>
@@ -17938,6 +18356,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This feature enables any user that can see a project to contribute to it in a controlled way.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T163857Z" creationid="Prikryl" creationdate="20160508T163857Z">
+        <seg>Tento rys umožňuje řízeným způsobem přispívat do projektu každému uživateli, který jej vidí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This file is written by the `update-server-info` command, which is why you need to enable that as a `post-receive` hook in order for the HTTP transport to work properly:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -18002,6 +18428,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This is a bit more complex than the GitWeb option and likely requires more maintenance, but it is a much more fully featured option.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T104844Z" creationid="Prikryl" creationdate="20160507T104844Z">
+        <seg>Je trochu složitější než GitWeb a bude pravděpodobně vyžadovat víc úsilí při správě, ale představuje mnohem plnohodnotnější alternativu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This is a bit of a shortcut.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -18022,6 +18456,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jedná se o konfigurační soubor, v němž je uloženo mapování mezi adresou URL projektu a lokálním podadresářem, do nějž jste stáhli repozitář.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is a great way to connect your git repositories and GitLab instance to the rest of your development automation, such as CI servers, chat rooms, or deployment tools.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T153457Z" creationid="Prikryl" creationdate="20160508T153457Z">
+        <seg>Jde parádní způsob propojení vašich gitových repozitářů a GitLabu se zbytkem automatizované podpory vývoje, jako jsou CI servery{empty}footnote:[Pozn. překl.: _Continuous Integration_, čili průběžná integrace.], diskusní místnosti, nebo nástroje pro zveřejňování.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18054,6 +18496,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Je to speciální démon, který je distribuován spolu se systémem Git. Naslouchá na vyhrazeném portu (9418) a poskytuje podobnou službu jako protokol SSH, avšak bez jakékoliv autentizace.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is accomplished by clicking the ``+'' icon on the toolbar.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T153625Z" creationid="Prikryl" creationdate="20160508T153625Z">
+        <seg>Provedete to kliknutím na ikonu „+“ na nástrojové liště.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18350,6 +18800,14 @@ It's a bit complex, but the result is pretty cool.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160202T080338Z" creationid="Prikryl" creationdate="20160202T080338Z">
         <seg>To oceníte v situaci, kdy už máte uložených více záplat, protože pokud si nepamatujete, o co v záplatě jde, můžete si ji před aplikací prohlédnout a neaplikovat ji, pokud už jste tak učinili dříve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is obviously a much more permanent and destructive action, and its uses are rare.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T145141Z" creationid="Prikryl" creationdate="20160508T145141Z">
+        <seg>Zjevně jde o trvalejší a destruktivnější změnu a používá se zřídka.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19438,6 +19896,16 @@ Příkaz ukáže jen informaci o revizi:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>To get something up and running quickly, you can download a virtual machine image or a one-click installer from https://bitnami.com/stack/gitlab[], and tweak the configuration to match your particular environment.(((bitnami)))
+One nice touch Bitnami has included is the login screen (accessed by typing alt-&amp;rarr;); it tells you the IP address and default username and password for the installed GitLab.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T110729Z" creationid="Prikryl" creationdate="20160507T110530Z">
+        <seg>Pokud chcete získat rychle něco, co funguje, můžete si stáhnout obraz pro virtuální počítač, nebo instalátor na jedno kliknutí z https://bitnami.com/stack/gitlab[]. Potom upravíte konfiguraci tak, aby vyhovovala vašemu konkrétnímu prostředí.(((bitnami)))
+Bitnami doplnilo do přihlašovací obrazovky (zpřístupněné stiskem alt-&amp;rarr;) jednu pěknou vychytávku. Ukáže vám pro nainstalovaný GitLab jeho IP adresu a přednastavené uživatelské jméno a heslo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>To get the project, run</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T110245Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -19932,6 +20400,38 @@ To https://github.com/schacon/simplegit</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160425T202946Z" creationid="Prikryl" creationdate="20160425T202946Z">
         <seg>Update version and History.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>User accounts don't have a lot of complexity; mainly it's a collection of personal information attached to login data.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T113025Z" creationid="Prikryl" creationdate="20160507T113025Z">
+        <seg>Uživatelské účty nejsou nijak složité. Jde v podstatě o souhrn osobních informací, které jsou přivěšeny k přihlašovacím údajům.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Users in GitLab are accounts that correspond to people.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T112910Z" creationid="Prikryl" creationdate="20160507T112910Z">
+        <seg>Za uživatele se v GitLabu považují účty, které odpovídají lidem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Users who don't have push permissions for a repository can ``fork'' it (create their own copy), push commits to _that_ copy, and open a merge request from their fork back to the main project.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T164451Z" creationid="Prikryl" creationdate="20160508T164451Z">
+        <seg>Uživatelé, kteří nemají oprávnění pro odesílání do repozitáře, mohou vytvořit odštěpený projekt (fork, čili jejich vlastní kopii), odeslat revize do _své_ kopie a otevřít požadavek na začlenění z jejich odštěpeného projektu zpět do hlavního projektu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Users with direct access can simply create a branch, push commits to it, and open a merge request from their branch back into `master` or any other branch.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T164102Z" creationid="Prikryl" creationdate="20160508T164102Z">
+        <seg>Uživatel s přímým přístupem může jednoduše vytvořit větev, odeslat do ní revize a otevřít požadavek na začlenění jeho větve zpět do `master`, nebo do jakékoliv jiné větve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20930,6 +21430,14 @@ přibližně na 72 znaků.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud chcete, můžete provést stejný úkon i pomocí parametru `--tree-filter`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can add a user to a project by going to the ``Members'' section of that project's settings, and associating the new user with an access level (the different access levels are discussed a bit in &lt;&lt;_gitlab_groups_section&gt;&gt;).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T155759Z" creationid="Prikryl" creationdate="20160508T155759Z">
+        <seg>Uživatele můžete do projektu přidat tak, že v nastavení projektu přejdete do sekce „Members“ (členové) a novému uživateli přidělíte úroveň přístupu. (O různých úrovních přístupu se trochu zmiňujeme v části &lt;&lt;_gitlab_groups_section&gt;&gt;.)</seg>
       </tuv>
     </tu>
     <tu>
@@ -22701,6 +23209,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You'll be asked for the project's name, which namespace it should belong to, and what its visibility level should be.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T153808Z" creationid="Prikryl" creationdate="20160508T153808Z">
+        <seg>Zeptá se vás to na jméno projektu, pod jaký jmenný prostor by měl spadat a jakou by měl mít přidělenu úroveň viditelnosti.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You'll do the following:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151111T152847Z" creationid="Prikryl" creationdate="20151111T152847Z">
@@ -23587,6 +24103,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[_gitlab_groups_section]]
+===== Groups</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T145149Z" creationid="Prikryl" creationdate="20160508T145149Z">
+        <seg>[[_gitlab_groups_section]]
+===== Skupiny</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[_ignoring]]
 ==== Ignoring Files</seg>
       </tuv>
@@ -23921,6 +24447,16 @@ image::images/perils-of-rebasing-3.png["Někdo odešle přeskládané objekty re
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>[[bitnami]]
+.The Bitnami GitLab virtual machine login screen.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T110912Z" creationid="Prikryl" creationdate="20160507T110912Z">
+        <seg>[[bitnami]]
+.Přihlašovací obrazovka Bitnami pro virtuální počítač s GitLab.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>[[divergent_history]]
 .Divergent history
 image::images/advance-master.png[Divergent history.]</seg>
@@ -23929,6 +24465,36 @@ image::images/advance-master.png[Divergent history.]</seg>
         <seg>[[divergent_history]]
 .Rozbíhající se historie
 image::images/advance-master.png[Rozbíhající se historie.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[gitlab_groups]]
+.The GitLab group administration screen.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T145841Z" creationid="Prikryl" creationdate="20160508T145841Z">
+        <seg>[[gitlab_groups]]
+.Obrazovka pro správu gitlabovských skupin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[gitlab_menu]]
+.The ``Admin area'' item in the GitLab menu.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T112730Z" creationid="Prikryl" creationdate="20160507T112701Z">
+        <seg>[[gitlab_menu]]
+.Položka „Admin area“ v menu GitLabu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[gitlab_users]]
+.The GitLab user administration screen.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T113604Z" creationid="Prikryl" creationdate="20160507T113604Z">
+        <seg>[[gitlab_users]]
+.Obrazovka GitLabu pro správu uživatelů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25891,6 +26457,20 @@ remote: Reusing existing pack: 1857, done.</seg>
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git clone https://server/namespace/project.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154702Z" creationid="Prikryl" creationdate="20160508T154702Z">
+        <seg>[source,console]
+----
+$ git clone https://server/namespace/project.git
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git clone ssh://user@server/project.git
 ----</seg>
       </tuv>
@@ -27176,6 +27756,20 @@ origin	https://github.com/schacon/ticgit (push)
 $ git remote -v
 origin	https://github.com/schacon/ticgit (fetch)
 origin	https://github.com/schacon/ticgit (push)
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ git remote add gitlab https://server/namespace/project.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154611Z" creationid="Prikryl" creationdate="20160508T154611Z">
+        <seg>[source,console]
+----
+$ git remote add gitlab https://server/namespace/project.git
 ----</seg>
       </tuv>
     </tu>
@@ -28591,6 +29185,22 @@ OK.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>``Blocking'' a user prevents them from logging into the GitLab instance, but all of the data under that user's namespace will be preserved, and commits signed with that user's email address will still link back to their profile.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T113943Z" creationid="Prikryl" creationdate="20160507T113943Z">
+        <seg>„Zablokováním“ (Block) uživateli zabráníte přihlásit se ke GitLabu, ale všechna data pod tímto uživatelským jménem budou zachována a revize podepsané jeho uživatelským e-mailem budou stále odkazovat do jeho profilu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>``Destroying'' a user, on the other hand, completely removes them from the database and filesystem.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T114124Z" creationid="Prikryl" creationdate="20160507T114124Z">
+        <seg>„Zničením“ uživatele (Destroy) naopak dosáhnete jeho úplného odstranění z databáze a ze systému souborů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>``Private,'' in this context, means closed-source – not accessible to the outside world.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T142211Z" creationid="Prikryl" creationdate="20160115T142211Z">
@@ -29179,6 +29789,14 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>image::images/bitnami.png[The Bitnami GitLab virtual machine login screen.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T111003Z" creationid="Prikryl" creationdate="20160507T111003Z">
+        <seg>image::images/bitnami.png[Přihlašovací obrazovka Bitnami pro virtuální počítač s GitLab.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>image::images/centralized.png[Centralized version control diagram]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T184405Z" creationid="Prikryl" creationdate="20151026T184405Z">
@@ -29231,6 +29849,30 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T215126Z" creationid="Prikryl" creationdate="20151027T215126Z">
         <seg>image::images/git-osx-installer.png[Instalátor Gitu pro OS X.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/gitlab-groups.png[The GitLab group administration screen.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160508T145907Z" creationid="Prikryl" creationdate="20160508T145907Z">
+        <seg>image::images/gitlab-groups.png[Obrazovka pro správu gitlabovských skupin.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/gitlab-menu.png[The ``Admin area'' item in the GitLab menu.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T112743Z" creationid="Prikryl" creationdate="20160507T112743Z">
+        <seg>image::images/gitlab-menu.png[Položka „Admin area“ v menu GitLabu.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/gitlab-users.png[The GitLab user administration screen.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160507T113613Z" creationid="Prikryl" creationdate="20160507T113613Z">
+        <seg>image::images/gitlab-users.png[Obrazovka GitLabu pro správu uživatelů.]</seg>
       </tuv>
     </tu>
     <tu>

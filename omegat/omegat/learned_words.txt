@@ -42,3 +42,4 @@ pull
 commit
 Jessica
 gitovských
+destruktivnější

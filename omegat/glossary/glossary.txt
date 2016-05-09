@@ -45,3 +45,4 @@ tag	značka
 cache	mezipaměť
 merge request	požadavek na začlenění
 merge request	požadavek na sloučení
+code review	recenze kódu

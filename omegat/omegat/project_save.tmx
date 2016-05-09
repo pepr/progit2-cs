@@ -2744,6 +2744,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>=== Third Party Hosted Options</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T074504Z" creationid="Prikryl" creationdate="20160509T074504Z">
+        <seg>=== Možnosti hostování u třetí strany</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>=== Transfer Protocols</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5278,6 +5286,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Both can be assigned to users, or organized into milestones.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T063715Z" creationid="Prikryl" creationdate="20160509T063715Z">
+        <seg>Obojí lze přidělit konkrétním uživatelům nebo organizovat po milnících.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Both files are staged and will go into your next commit.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5747,8 +5763,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Doing so offers a number of advantages: a hosting site is generally quick to set up and easy to start projects on, and no server maintenance or monitoring is involved.</seg>
       </tuv>
-      <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
-        <seg>Toto řešení vám nabízí celou řadu výhod. Hostingové místo má většinou velmi rychlé nastavení, snadno se na něm zakládají projekty a nevyžaduje od vás správu ani monitoring serveru.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T075019Z" creationid="progitSync" creationdate="20151012T102818Z">
+        <seg>Toto řešení vám nabízí celou řadu výhod. Hostingové místo lze zprovoznit většinou velmi rychle a snadno. A nemusíte se zabývat údržbou nebo sledováním serveru.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5771,8 +5787,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Each group has a project namespace (the same way that users do), so if the group +training+ has a project +materials+, its url would be http://server/training/materials[].</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160508T145756Z" creationid="Prikryl" creationdate="20160508T145756Z">
-        <seg>Každá skupina má svůj jmenný prostor (stejně, jak je tomu u uživatelů), takže pokud se ve skupině +training+ nachází projekt+materials+, bude mu odpovídat url http://server/training/materials[].</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T071323Z" creationid="Prikryl" creationdate="20160508T145756Z">
+        <seg>Každá skupina má svůj jmenný prostor (stejně, jak je tomu u uživatelů), takže pokud se ve skupině +training+ nachází projekt +materials+, bude mu odpovídat url http://server/training/materials[].</seg>
       </tuv>
     </tu>
     <tu>
@@ -5789,6 +5805,14 @@ When you exit the editor, Git creates your commit with that commit message (with
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Každá úroveň je nadřazená hodnotám úrovně předchozí, takže hodnoty v `.git/config` převládnou nad hodnotami v `/etc/gitconfig`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Each merge request allows a line-by-line discussion of the proposed change (which supports a lightweight kind of code review), as well as a general overall discussion thread.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T063626Z" creationid="Prikryl" creationdate="20160509T063626Z">
+        <seg>Každý požadavek na začlenění umožňuje diskutovat o navrhované změně jak pro každý řádek zvlášť (čímž se podporuje jakýsi odlehčený způsob recenzování kódu), tak i obecné diskusní vlákno o změně jako celku.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5811,8 +5835,8 @@ When you exit the editor, Git creates your commit with that commit message (with
       <tuv lang="EN">
         <seg>Each project is accessible over HTTPS or SSH, either of which can be used to configure a Git remote.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154329Z" creationid="Prikryl" creationdate="20160508T154329Z">
-        <seg>Každý z projekt je dostupný přes HTTPS nebo SSH -- pro konfiguraci vzdáleného gitového repozitáře lze použít libovolný z těchto protokolů.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T073604Z" creationid="Prikryl" creationdate="20160508T154329Z">
+        <seg>Každý projekt je dostupný přes HTTPS nebo SSH -- pro konfiguraci vzdáleného gitového repozitáře lze použít libovolný z těchto protokolů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5907,6 +5931,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160113T203904Z" creationid="Prikryl" creationdate="20160110T124317Z">
         <seg>Když už během víkendu nebudete zapisovat revize, využijte v pondělí oblasti připravených změn pro rozdělení práce alespoň do stejného počtu revizí, kolik je řešených problémů, a přidejte k nim vysvětlující zprávy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Even if you set up and run your own server internally, you may still want to use a public hosting site for your open source code – it's generally easier for the open source community to find and help you with.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T075436Z" creationid="Prikryl" creationdate="20160509T075436Z">
+        <seg>Veřejné hostingové místo můžete chtít pro svůj open-source kód použít dokonce i v případech, kdy interně provozujete svůj vlastní server. Pro open-source komunitu může být snadnější váš projekt najít a zapojit se do něj.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6313,8 +6345,8 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       <tuv lang="EN">
         <seg>For either of these, the GitLab server will perform an HTTP POST with some descriptive JSON whenever relevant events occur.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160508T152740Z" creationid="Prikryl" creationdate="20160508T152740Z">
-        <seg>Pro každý s těchto typů provádí gitlabovský server při výskytu události odpovídající HTTP POST popisu ve formátu JSON.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T072949Z" creationid="Prikryl" creationdate="20160508T152740Z">
+        <seg>Pro každý s těchto typů provádí gitlabovský server při výskytu události odpovídající HTTP POST s popisem ve formátu JSON.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8830,6 +8862,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you don't want to go through all of the work involved in setting up your own Git server, you have several options for hosting your Git projects on an external dedicated hosting site.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T074812Z" creationid="Prikryl" creationdate="20160509T074812Z">
+        <seg>Pokud nechcete vynakládat práci spojenou se zprovozněním vlastního severu pro Git, máte několik možností pro hostování svých gitových projektů na specializovaných externích serverech.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you don't want to type it every single time you push, you can set up a ``credential cache''.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151210T125909Z" creationid="Prikryl" creationdate="20151210T125909Z">
@@ -10091,8 +10131,8 @@ Just type the name of the tool you'd rather use.</seg>
       <tuv lang="EN">
         <seg>If you're looking for a more modern, fully featured Git server, there are some several open source solutions out there that you can install instead.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160507T102735Z" creationid="Prikryl" creationdate="20160507T102735Z">
-        <seg>Pokud hledáte modernější, plnohodnotný server pro Git, můžete si místo GitWeb nainstalovat jedno z několika open-source řešení.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T070846Z" creationid="Prikryl" creationdate="20160507T102735Z">
+        <seg>Pokud hledáte modernější, plnohodnotný server pro Git, můžete si místo GitWebu nainstalovat jedno z několika jiných open-source řešení.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12597,6 +12637,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Merge requests and issues are the main units of long-lived discussion in GitLab.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T063149Z" creationid="Prikryl" creationdate="20160509T063149Z">
+        <seg>Hlavními prvky diskusí s dlouhou životností jsou v GitLabu požadavky na začlenění a tématické diskuse (issues).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Minor fixes since 1.4.2, including git-mv and git-http with alternates.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T101921Z" creationid="Prikryl" creationdate="20151023T101921Z">
@@ -13811,8 +13859,8 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       <tuv lang="EN">
         <seg>Once the project exists, you'll probably want to connect it with a local Git repository.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160508T154137Z" creationid="Prikryl" creationdate="20160508T154137Z">
-        <seg>Jakmile je projek založen, budete jej asi chtít spojit s lokálním gitovým repozitářem.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T073504Z" creationid="Prikryl" creationdate="20160508T154137Z">
+        <seg>Jakmile je projek založen, budete ho asi chtít spojit s lokálním gitovým repozitářem.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13821,6 +13869,14 @@ $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.e
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T222754Z" creationid="Prikryl" creationdate="20151023T222754Z">
         <seg>Jakmile jste s vašimi změnami spokojeni, spusťte</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>One benefit to GitLab is that, once the server is set up and running, you'll rarely need to tweak a configuration file or access the server via SSH; most administration and general usage can be accomplished through the in-browser interface.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T064254Z" creationid="Prikryl" creationdate="20160509T064254Z">
+        <seg>Jednou z výhod GitLabu je, že jakmile gitlabovský sever zprovozníte, budete jen zřídka muset upravovat konfigurační soubor nebo přistupovat k serveru přes SSH. Většina úkonů správy a obecné používání se dá provádět přes rozhraní webového prohlížeče.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18462,8 +18518,8 @@ It's a bit complex, but the result is pretty cool.</seg>
       <tuv lang="EN">
         <seg>This is a great way to connect your git repositories and GitLab instance to the rest of your development automation, such as CI servers, chat rooms, or deployment tools.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160508T153457Z" creationid="Prikryl" creationdate="20160508T153457Z">
-        <seg>Jde parádní způsob propojení vašich gitových repozitářů a GitLabu se zbytkem automatizované podpory vývoje, jako jsou CI servery{empty}footnote:[Pozn. překl.: _Continuous Integration_, čili průběžná integrace.], diskusní místnosti, nebo nástroje pro zveřejňování.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T073057Z" creationid="Prikryl" creationdate="20160508T153457Z">
+        <seg>Nabízí se tím parádní způsob propojení vašich gitových repozitářů a GitLabu se zbytkem automatizované podpory vývoje, jako jsou CI servery{empty}footnote:[Pozn. překl.: _Continuous Integration_, čili průběžná integrace.], diskusní místnosti, nebo nástroje pro zveřejňování.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19188,6 +19244,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This model allows the owner to be in full control of what goes into the repository and when, while allowing contributions from untrusted users.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T062747Z" creationid="Prikryl" creationdate="20160509T062747Z">
+        <seg>Tento model umožňuje vlastníkovi plnou kontrolu nad tím, co se dostává do repozitáře a kdy, přičemž přispívat mohou i nedůvěryhodní (neprověření) uživatelé.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This modifies the files in your working directory.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160201T130422Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -19354,6 +19418,14 @@ Některé z cílů nového systému byly následující:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160124T021531Z" creationid="Prikryl" creationdate="20160124T004232Z">
         <seg>Tato část se zabývala obvyklými pracovními postupy, které týkají několika velmi odlišných typů gitových projektů, s kterými se asi setkáte. Uvedla pár nových nástrojů, které vám pomohou celý proces zvládnout.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This section is focused mainly on the Git-related features of GitLab, but as a mature project, it provides many other features to help your team work together, such as project wikis and system maintenance tools.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T074238Z" creationid="Prikryl" creationdate="20160509T063939Z">
+        <seg>V této části jsme se zaměřili především na rysy GitLabu související s Gitem. Ale jde o vyspělý projekt, který nabízí řadu dalších rysů, které pomáhají při spolupráci v týmu, jako jsou wiki projektu a nástroje pro údržbu systému.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20068,6 +20140,14 @@ která mě bude podporovat, až budu příliš starý na to, abych věděl, co s
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>To see an up-to-date list, check out the GitHosting page on the main Git wiki at https://git.wiki.kernel.org/index.php/GitHosting[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T075850Z" creationid="Prikryl" creationdate="20160509T075850Z">
+        <seg>Aktualizovaný seznam si můžete prohlédnout na stránce https://git.wiki.kernel.org/index.php/GitHosting[GitHosting], která je součástí hlavních wiki stránek pro Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>To see reflog information formatted like the `git log` output, you can run `git log -g`:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -20600,6 +20680,14 @@ To https://github.com/schacon/simplegit</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151102T212806Z" creationid="Prikryl" creationdate="20151102T212806Z">
         <seg>Uvedený rozdíl si blíže vysvětlíme v kapitole &lt;&lt;_distributed_git&gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>We'll cover using GitHub in detail in &lt;&lt;_github&gt;&gt;, as it is the largest Git host out there and you may need to interact with projects hosted on it in any case, but there are dozens more to choose from should you not want to set up your own Git server.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T080413Z" creationid="Prikryl" creationdate="20160509T080413Z">
+        <seg>V kapitole &lt;&lt;_github&gt;&gt; si podrobně probereme používání GitHubu, protože jde o nejrozsáhlejší hostovací server pro Git a protože asi budete potřebovat spolupracovat s projekty, které jsou na něm hostovány. Ale pokud si nechcete zprovoznit svůj vlastní server pro Git, můžete si vybrat z tuctu dalších možností.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23211,8 +23299,8 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
       <tuv lang="EN">
         <seg>You'll be asked for the project's name, which namespace it should belong to, and what its visibility level should be.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160508T153808Z" creationid="Prikryl" creationdate="20160508T153808Z">
-        <seg>Zeptá se vás to na jméno projektu, pod jaký jmenný prostor by měl spadat a jakou by měl mít přidělenu úroveň viditelnosti.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T073350Z" creationid="Prikryl" creationdate="20160508T153808Z">
+        <seg>GitLab se vás zeptá na jméno projektu, pod jaký jmenný prostor by měl spadat a jakou by měl mít přidělenu úroveň viditelnosti.</seg>
       </tuv>
     </tu>
     <tu>

@@ -4790,6 +4790,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Assuming that `/srv/git` exists on that server, you can set up your new repository by copying your bare repository over:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T081456Z" creationid="Prikryl" creationdate="20160509T081456Z">
+        <seg>Za předpokladu, že `/srv/git` na serveru už existuje, můžete nový repozitář vytvořit tím, že dovnitř nakopírujete váš holý repozitář:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Assuming this happens, how can you get your commits back?</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -4882,6 +4890,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160428T115508Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Od tohoto okamžiku mohou ostatní uživatelé, kteří mají SSH přístup k stejnému serveru s oprávněním pro čtení k adresáři `/opt/git`, naklonovat váš repozitář spuštěním</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>At this point, other users who have SSH access to the same server which has read-access to the `/srv/git` directory can clone your repository by running</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T081519Z" creationid="Prikryl" creationdate="20160509T081519Z">
+        <seg>Od tohoto okamžiku mohou ostatní uživatelé, kteří mají SSH přístup k stejnému serveru s oprávněním pro čtení k adresáři `/srv/git`, naklonovat váš repozitář spuštěním</seg>
       </tuv>
     </tu>
     <tu>
@@ -8076,6 +8092,14 @@ Chcete-li přidat nový vzdálený gitový repozitář a zadat zkrácený název
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud se uživatel dostane přes SSH na server a má oprávnění k zápisu do adresáře `/opt/git/my_project.git`, má automaticky také oprávnění k odesílání dat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If a user SSHs into a server and has write access to the `/srv/git/my_project.git` directory, they will also automatically have push access.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T081546Z" creationid="Prikryl" creationdate="20160509T081546Z">
+        <seg>Pokud se uživatel dostane přes SSH na server a má oprávnění k zápisu do adresáře `/srv/git/my_project.git`, má automaticky také oprávnění k odesílání dat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12339,6 +12363,14 @@ Spusťme nyní příkaz `git add`, abychom soubor `CONTRIBUTING.md` připravili 
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160428T100635Z" creationid="Prikryl" creationdate="20160428T100635Z">
         <seg>Řekněme, že jste nastavili server nazvaný `git.example.com`, k němuž máte SSH přístup, a že chcete všechny své gitové repozitáře umístit pod adresář `/opt/git`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Let's say you've set up a server called `git.example.com` that you have SSH access to, and you want to store all your Git repositories under the `/srv/git` directory.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T081427Z" creationid="Prikryl" creationdate="20160509T081427Z">
+        <seg>Řekněme, že jste zřídili server nazvaný `git.example.com`, k němuž máte přístup přes SSH, a že chcete všechny své gitové repozitáře umístit pod adresář `/srv/git`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26587,6 +26619,20 @@ $ git clone user@git.example.com:/opt/git/my_project.git
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ git clone user@git.example.com:/srv/git/my_project.git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T081524Z" creationid="Prikryl" creationdate="20160509T081524Z">
+        <seg>[source,console]
+----
+$ git clone user@git.example.com:/srv/git/my_project.git
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ git clone user@server:project.git
 ----</seg>
       </tuv>
@@ -28635,6 +28681,20 @@ $ scp -r my_project.git user@git.example.com:/opt/git
       <tuv lang="EN">
         <seg>[source,console]
 ----
+$ scp -r my_project.git user@git.example.com:/srv/git
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T081500Z" creationid="Prikryl" creationdate="20160509T081500Z">
+        <seg>[source,console]
+----
+$ scp -r my_project.git user@git.example.com:/srv/git
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
 $ ssh git@gitserver
 fatal: Interactive git shell is not enabled.</seg>
       </tuv>
@@ -28659,6 +28719,24 @@ $ git init --bare --shared
 ----
 $ ssh user@git.example.com
 $ cd /opt/git/my_project.git
+$ git init --bare --shared
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[source,console]
+----
+$ ssh user@git.example.com
+$ cd /srv/git/my_project.git
+$ git init --bare --shared
+----</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160509T081552Z" creationid="Prikryl" creationdate="20160509T081552Z">
+        <seg>[source,console]
+----
+$ ssh user@git.example.com
+$ cd /srv/git/my_project.git
 $ git init --bare --shared
 ----</seg>
       </tuv>

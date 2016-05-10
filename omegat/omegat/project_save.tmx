@@ -441,6 +441,16 @@ For many years, this has been the standard for version control.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((GitHub)))
+GitHub is the single largest host for Git repositories, and is the central point of collaboration for millions of developers and projects.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T122126Z" creationid="Prikryl" creationdate="20160510T112738Z">
+        <seg>(((GitHub)))
+GitHub je největší hostingový server pro gitové repozitáře. Je centrem pro spolupráci miliónů vývojářů a úložištěm jejich projektů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((Linux, installing)))
 If you want to install Git on Linux via a binary installer, you can generally do so through the basic package-management tool that comes with your distribution.</seg>
       </tuv>
@@ -2592,6 +2602,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>=== Account Setup and Configuration</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T121806Z" creationid="Prikryl" creationdate="20160510T121806Z">
+        <seg>=== Zřízení účtu a úprava konfigurace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>=== Basic Branching and Merging</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3732,6 +3750,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T110632Z" creationid="Prikryl" creationdate="20151102T145047Z">
         <seg>Příkaz `git log` disponuje velkým množstvím nejrůznějších voleb, díky nimž můžete zobrazit přesně to, co potřebujete.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>A large percentage of all Git repositories are hosted on GitHub, and many open-source projects use it for Git hosting, issue tracking, code review, and other things.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T122900Z" creationid="Prikryl" creationdate="20160510T113113Z">
+        <seg>Značné procento všech gitových repozitářů je hostováno právě na GitHubu a mnoho open-source projektů ho využívá pro Git hosting, pro diskuse o problémech (issue tracking), pro recenzování kódu a pro další věci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7728,6 +7754,14 @@ Chcete-li přidat nový vzdálený gitový repozitář a zadat zkrácený název
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Hopefully the general idea of what we're trying to accomplish here will still be there, but if you want more up to date versions of these screens, the online versions of this book may have newer screenshots.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T121303Z" creationid="Prikryl" creationdate="20160510T121303Z">
+        <seg>Doufáme ale, že obecná myšlenka toho, čeho se zde snažíme dosáhnout, zůstane zachována. Pokud ale potřebujete novější verze snímků obrazovky, pak je možná naleznete v on-line verzi této knihy. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>How can you easily unmodify it – revert it back to what it looked like when you last committed (or initially cloned, or however you got it into your working directory)?</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151106T215556Z" creationid="Prikryl" creationdate="20151106T215556Z">
@@ -8544,6 +8578,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T115008Z" creationid="Prikryl" creationdate="20151107T115008Z">
         <seg>Pokud žádný z těchto editorů neznáte, měli byste si najít konkrétní instrukce, jak si můžete pro Git váš oblíbený editor nastavit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you are not interested in using GitHub to host your own projects or to collaborate with other projects that are hosted on GitHub, you can safely skip to &lt;&lt;_git_tools&gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T120310Z" creationid="Prikryl" creationdate="20160510T120310Z">
+        <seg>Pokud vás nezajímá používání GitHubu pro hostování vlastních projektů nebo pro spolupráci na jiných projektech hostovaných na GitHubu, přeskočte na kapitolu &lt;&lt;_git_tools&gt;&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10831,6 +10873,14 @@ Zde je příklad souboru `.gitignore`:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160108T191319Z" creationid="Prikryl" creationdate="20160108T190548Z">
         <seg>V další kapitole se naučíte, jak se používá největší a nejpopulárnějí služba pro hostování Gitu, známá jako GitHub.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In the next chapter, you'll learn more powerful tools and tips for dealing with complex situations, which will truly make you a Git master.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T121715Z" creationid="Prikryl" creationdate="20160510T121715Z">
+        <seg>V další kapitole se naučíte používat mocnější nástroje a naleznete v ní tipy pro zvládnutí složitějších situací, což z vás udělá mistra Gitu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13373,6 +13423,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Now you're a GitHub user.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T121346Z" creationid="Prikryl" creationdate="20160510T121346Z">
+        <seg>Teď už jste uživatelem GitHubu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Now you're both in a pickle.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T140011Z" creationid="Prikryl" creationdate="20151214T140011Z">
@@ -14919,6 +14977,14 @@ Tento CGI skript čte cestu a hlavičky zaslané pro dané HTTP URL příkazy `g
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T210139Z" creationid="Prikryl" creationdate="20151214T210139Z">
         <seg>Jenže co když se vyskytly nějaké zamuchlané posloupnosti bodů sloučení?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>So while it's not a direct part of the Git open source project, there's a good chance that you'll want or need to interact with GitHub at some point while using Git professionally.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T122935Z" creationid="Prikryl" creationdate="20160510T115342Z">
+        <seg>Takže i když není přímou součástí open-source projektu (zvaného) Git, je velmi pravděpodobné, že při profesionálním používání Gitu budete chtít nebo potřebovat s GitHubem pracovat.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18140,6 +18206,14 @@ It's a bit complex, but the result is pretty cool.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This chapter is about using GitHub effectively.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T122517Z" creationid="Prikryl" creationdate="20160510T115513Z">
+        <seg>Tato kapitola je zaměřena na efektivní používání GitHubu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This chapter will be about getting started with Git.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151216T105810Z" creationid="progitSync" creationdate="20151011T193101Z">
@@ -20700,6 +20774,14 @@ To https://github.com/schacon/simplegit</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>We'll cover signing up for and managing an account, creating and using Git repositories, common workflows to contribute to projects and to accept contributions to yours, GitHub's programmatic interface and lots of little tips to make your life easier in general.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T122007Z" creationid="Prikryl" creationdate="20160510T115903Z">
+        <seg>Popíšeme si zřízení a správu účtu, vytvoření a používání gitových repozitářů, běžné pracovní postupy při přispívání do (jiných) projektů a přijímání příspěvku do vlastních projektů, programátorské rozhraní GitHubu a řadu drobných tipů, které vám mohou usnadnit život.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>We'll cover the newer ``smart'' HTTP protocol first.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160426T104035Z" creationid="Prikryl" creationdate="20160426T104035Z">
@@ -22871,6 +22953,14 @@ Pokud například chcete naklonovat gitovou knihovnu zvanou libgit2, můžete to
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You know how to create an account, manage an organization, create and push to repositories, contribute to other people's projects and accept contributions from others.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T124248Z" creationid="Prikryl" creationdate="20160510T121510Z">
+        <seg>Umíte vytvořit účet, spravovat organizaci, vytvářet repozitáře a odesílat do nich (push), přispívat do projektů jiných lidí a přijímat příspěvky od ostatních.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You may also include a log, tmp, or pid directory; automatically generated documentation; and so on.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151029T175854Z" creationid="Prikryl" creationdate="20151029T175854Z">
@@ -23890,6 +23980,20 @@ Pokud pro váš projekt potřebujete něco pro začátek, najdete na stránce ht
     <tu>
       <tuv lang="EN">
         <seg>[WARNING]
+.Interfaces Change
+====
+It's important to note that like many active websites, the UI elements in these screenshots are bound to change over time.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T120745Z" creationid="Prikryl" creationdate="20160510T120635Z">
+        <seg>[WARNING]
+.Změny rozhraní
+====
+Považujeme za důležité upozornit na to, že se prvky uživatelského rozhraní v sejmutých snímcích obrazovky mohou během času měnit -- jako v případě jiných aktivních webových serverů.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[WARNING]
 ====
 Vim and Emacs are popular text editors often used by developers on Unix based systems like Linux and Mac.</seg>
       </tuv>
@@ -24219,6 +24323,16 @@ Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z 
       <tuv lang="CS" changeid="Prikryl" changedate="20151107T222949Z" creationid="Prikryl" creationdate="20151107T144715Z">
         <seg>[[_git_tagging]]
 === Používání značek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_github]]
+== GitHub</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T112459Z" creationid="Prikryl" creationdate="20160510T112459Z">
+        <seg>[[_github]]
+== GitHub</seg>
       </tuv>
     </tu>
     <tu>
@@ -30401,6 +30515,46 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T123322Z" creationid="Prikryl" creationdate="20151026T123322Z">
         <seg>include::book/preface.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/1-setting-up-account.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T121307Z" creationid="Prikryl" creationdate="20160510T121307Z">
+        <seg>include::sections/1-setting-up-account.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/2-contributing.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T121309Z" creationid="Prikryl" creationdate="20160510T121309Z">
+        <seg>include::sections/2-contributing.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/3-maintaining.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T121311Z" creationid="Prikryl" creationdate="20160510T121311Z">
+        <seg>include::sections/3-maintaining.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/4-managing-organization.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T121312Z" creationid="Prikryl" creationdate="20160510T121312Z">
+        <seg>include::sections/4-managing-organization.asc[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>include::sections/5-scripting.asc[]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160510T121314Z" creationid="Prikryl" creationdate="20160510T121314Z">
+        <seg>include::sections/5-scripting.asc[]</seg>
       </tuv>
     </tu>
     <tu>

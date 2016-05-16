@@ -289,6 +289,16 @@ GitHub je největší hostingový server pro gitové repozitáře. Je centrem pr
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(((GitHub, user accounts)))
+The first thing you need to do is set up a free user account.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T071413Z" creationid="Prikryl" creationdate="20160516T071413Z">
+        <seg>(((GitHub, uživatelské účty)))
+Ze všeho nejdřív si budete muset zřídit (zdarma) uživatelský účet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(((Linux, installing)))
 If you want to install the basic Git tools on Linux via a binary installer, you can generally do so through the basic package-management tool that comes with your distribution.</seg>
       </tuv>
@@ -315,6 +325,16 @@ That being said, many Git servers authenticate using SSH public keys.</seg>
       <tuv lang="CS" changeid="Prikryl" changedate="20160503T102543Z" creationid="Prikryl" creationdate="20160424T210326Z">
         <seg>(((SSH klíče)))
 Mnoho gitových serverů provádí ověřování totožnosti pomocí veřejných klíčů SSH.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>(((SSH keys, with GitHub)))
+As of right now, you're fully able to connect with Git repositories using the `https://` protocol, authenticating with the username and password you just set up.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T073723Z" creationid="Prikryl" creationdate="20160516T073723Z">
+        <seg>(((SSH klíče, s GitHubem)))
+V této chvíli máte ke gitovým repozitářům plný přístup prostřednictvím protokolu `https://`. Svou totožnost prokazujete uživatelským jménem a heslem, které jste právě nastavili.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1058,6 +1078,16 @@ Někteří správci dávají místo začlenění práce z příspěvků (merge) 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>(If you don't already have one, see &lt;&lt;_generate_ssh_key&gt;&gt;.)
+Open up your account settings using the link at the top-right of the window:</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T075923Z" creationid="Prikryl" creationdate="20160516T074416Z">
+        <seg>(Pokud zatím žádný nemáte, podívejte se na podkapitolu &lt;&lt;_generate_ssh_key&gt;&gt;.)
+Otevřete nastavení vašeho účtu přes odkaz v pravé horní části okna:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>(Note that if you want to specify both author and grep options, you have to add `--all-match` or the command will match commits with either.)</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151104T215220Z" creationid="Prikryl" creationdate="20151103T201645Z">
@@ -1610,6 +1640,16 @@ image::images/basic-branching-2.png[Vytvoření nového ukazatele větve.]</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.Crop your avatar
+image::images/avatar-crop.png[Crop your uploaded avatar.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T081816Z" creationid="Prikryl" creationdate="20160516T081816Z">
+        <seg>.Ořezání osobního obrázku.
+image::images/avatar-crop.png[Ořezání osobního obrázku.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.Distributed version control.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151026T193359Z" creationid="Prikryl" creationdate="20151026T193359Z">
@@ -1928,12 +1968,44 @@ image::images/basic-rebase-1.png[Jednoduché rozvětvení historie.]</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.The GitHub sign-up form.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T071811Z" creationid="Prikryl" creationdate="20160516T071811Z">
+        <seg>.Formulář pro zapsání se na GitHub.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.The HEAD branch moves forward when a commit is made
 image::images/advance-testing.png[The HEAD branch moves forward when a commit is made.]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T164431Z" creationid="Prikryl" creationdate="20151108T164431Z">
         <seg>.Větev HEAD se při zápisu revize posune vpřed
 image::images/advance-testing.png[Větev HEAD se při zápisu revize posune vpřed.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.The ``Account settings'' link.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T080006Z" creationid="Prikryl" creationdate="20160516T080006Z">
+        <seg>.Odkaz „Account settings“ (nastavení účtu).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.The ``Profile'' link.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T081527Z" creationid="Prikryl" creationdate="20160516T081527Z">
+        <seg>.Odkaz „Profile“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>.The ``SSH keys'' link.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T080207Z" creationid="Prikryl" creationdate="20160516T080207Z">
+        <seg>.Odkaz „SSH keys“.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2956,6 +3028,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>==== SSH Access</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T073447Z" creationid="Prikryl" creationdate="20160516T073447Z">
+        <seg>==== Přístup SSH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>==== Server Configuration</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3208,6 +3288,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>==== Váš editor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>==== Your Email Addresses</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T082945Z" creationid="Prikryl" creationdate="20160516T082945Z">
+        <seg>==== Vaše e-mailová adresa</seg>
       </tuv>
     </tu>
     <tu>
@@ -5194,6 +5282,14 @@ Po vytvoření značky ji musíte na sdílený server poslat explicitně.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Clicking the Octocat logo at the top-left of the screen will take you to your dashboard page.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T073344Z" creationid="Prikryl" creationdate="20160516T073344Z">
+        <seg>Kliknutím na logo Octocat (doslova kočka-chobotnička) v levé horní části obrazovky se dostanete na svůj informační panel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Collaborating with others involves managing these remote repositories and pushing and pulling data to and from them when you need to share work.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T132828Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -5845,6 +5941,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151216T081006Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Nakonec jste se vrátili na větev `server` a zapsali dalších pár objektů revize.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>First go to the ``Profile'' tab (above the SSH Keys tab) and click ``Upload new picture''.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T081507Z" creationid="Prikryl" creationdate="20160516T081507Z">
+        <seg>Nejdříve se přepněte na záložku „Profile“ (nad záložkou „SSH Keys“) a klikněte na „Upload new picture“ (nahrát nový obrázek).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6561,6 +6665,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>From there, click the "`Add an SSH key`" button, give your key a name, paste the contents of your `~/.ssh/id_rsa.pub` (or whatever you named it) public-key file into the text area, and click ``Add key''.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T080701Z" creationid="Prikryl" creationdate="20160516T080701Z">
+        <seg>Zde klikněte na tlačítko „Add an SSH key“ (přidat SSH klíč), do textové oblasti vložte obsah vašeho souboru s veřejným klíčem `~/.ssh/id_rsa.pub` (nebo jak jste si jej nazvali) a klikněte na tlačítko „Add key“.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>From this angle, changing the commit history is almost blasphemous; you're _lying_ about what actually transpired.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151214T205815Z" creationid="Prikryl" creationdate="20151214T205815Z">
@@ -7168,6 +7280,22 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>GitHub will send you an email to verify the address you provided.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T072300Z" creationid="Prikryl" creationdate="20160516T072300Z">
+        <seg>GitHub vám pošle e-mail, aby si ověřil zadanou adresu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>GitHub's paid plans include a set number of private projects, but we won't be covering those in this book.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T073158Z" creationid="Prikryl" creationdate="20160516T073158Z">
+        <seg>Placená služba GitHub v sobě zahrnuje možnost vytváření soukromých projektů, ale v této knize se tím zabývat nebudeme.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>GitLab includes support for hooks, both at a project or system level.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160508T152244Z" creationid="Prikryl" creationdate="20160508T152244Z">
@@ -7196,6 +7324,14 @@ Tyto proměnné mohou být uloženy na třech různých místech:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151217T090314Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Masky souborů se podobají zjednodušeným regulárním výrazům, které znáte z shellu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Go ahead and do this, it's pretty important (as we'll see later).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T072653Z" creationid="Prikryl" creationdate="20160516T072653Z">
+        <seg>Takže to udělejte. Jak uvidíme později, je to docela důležité.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7646,6 +7782,14 @@ Chcete-li přidat nový vzdálený gitový repozitář a zadat zkrácený název
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151011T193101Z" creationid="progitSync" creationdate="20151011T193101Z">
         <seg>Avšak i tato koncepce má závažné nedostatky.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>However, to simply clone public projects, you don't even need to sign up - the account we just created comes into play when we fork projects and push to our forks a bit later.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T074159Z" creationid="Prikryl" creationdate="20160516T074159Z">
+        <seg>Ale pokud chcete klonovat veřejný projekt, nemusíte si dokonce ani zřizovat účet. Na účet, který jsme si právě vytvořili, přijde řada až později, kdy si vytvoříme odštěpený projekt (fork) a budeme do něj něco odesílat (push).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8589,6 +8733,14 @@ Tady je pár příkladů, které možná budete chtít nastavit:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Pokud jste spustili příkaz v této podobě, vrátili jste se zpět na svou původní pozici:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you happen to have uploaded an avatar to the popular Gravatar service (often used for Wordpress accounts), that avatar will be used by default and you don't need to do this step.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T082931Z" creationid="Prikryl" creationdate="20160516T082931Z">
+        <seg>Pokud už jste náhodou svou zástupnou ikonu nahráli na oblíbenou službu Gravatar (často se používá pro účty Wordpress), použije se standardně tento avatar a nemusíte tento krok provádět.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9618,6 +9770,14 @@ Just type the name of the tool you'd rather use.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151023T221309Z" creationid="Prikryl" creationdate="20151023T221309Z">
         <seg>If you would prefer to skip this patch, instead run "git am --skip".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you'd like to use SSH remotes, you'll need to configure a public key.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T074308Z" creationid="Prikryl" creationdate="20160516T074308Z">
+        <seg>Pokud budete chtít používat vzdálený přístup přes SSH, musíte si nakonfigurovat veřejný klíč.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12224,6 +12384,14 @@ M  lib/simplegit.rb
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Next, if you wish, you can replace the avatar that is generated for you with an image of your choosing.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T081346Z" creationid="Prikryl" creationdate="20160516T081246Z">
+        <seg>Pokud chcete, můžete si zástupnou osobní ikonku, která vám byla vygenerována, nahradit obrázkem dle vlastního výběru.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Next, move the rest of the references under `refs/remotes` to be local branches:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -12508,6 +12676,14 @@ M  lib/simplegit.rb
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Všechny staré větve jsou nyní skutečnými větvemi Git a všechny staré značky jsou nyní skutečnými značkami Git.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Now anywhere you interact on the site, people will see your avatar next to your username.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T082201Z" creationid="Prikryl" creationdate="20160516T082201Z">
+        <seg>Když teď budete na stránkách GitHubu něco dělat, lidi vedle vašeho uživatelského jména uvidí vaši zástupnou osobní ikonu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14158,6 +14334,14 @@ Tento CGI skript čte cestu a hlavičky zaslané pro dané HTTP URL příkazy `g
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160109T153507Z" creationid="Prikryl" creationdate="20160109T153507Z">
         <seg>Jednoduše vytvořte repozitář a přidělte všem ze svého týmu oprávnění k odesílání dat. Git uživatelům neumožní, aby se navzájem přepisovali.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Simply visit https://github.com[], choose a user name that isn't already taken, provide an email address and a password, and click the big green ``Sign up for GitHub'' button.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T071734Z" creationid="Prikryl" creationdate="20160516T071712Z">
+        <seg>Navštivte stránku https://github.com[], vyberte si uživatelské jméno, které zatím není obsazené, vyplňte e-mailovou adresu a heslo a klikněte na velké zelené tlačítko „Sign up for GitHub“ („Zapsat se na GitHub“).</seg>
       </tuv>
     </tu>
     <tu>
@@ -16128,6 +16312,14 @@ Jde se o řetězec o 40 hexadecimálních znacích (0–9, a–f) vypočítaný 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The next thing you'll see is the pricing page for upgraded plans, but it's safe to ignore this for now.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T072228Z" creationid="Prikryl" creationdate="20160516T072228Z">
+        <seg>Dále se vám zobrazí stránka s cenami pro vylepšené možnosti využití, ale pro tento okamžik ji můžete ignorovat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The next time one of your collaborators fetches from the server, they will get a reference to where the server's version of `serverfix` is under the remote branch `origin/serverfix`:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151210T144111Z" creationid="Prikryl" creationdate="20151210T130747Z">
@@ -16638,6 +16830,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160109T153716Z" creationid="Prikryl" creationdate="20160109T153716Z">
         <seg>Poté se Jessica pokusí odeslat své změny, ale server je odmítne.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Then select the ``SSH keys'' section along the left-hand side.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T080129Z" creationid="Prikryl" creationdate="20160516T080129Z">
+        <seg>Potom vyberte sekci „SSH keys“ v levém panelu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19837,6 +20037,14 @@ To https://github.com/schacon/simplegit</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>We'll choose a copy of the Git logo that is on our hard drive and then we get a chance to crop it.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T081717Z" creationid="Prikryl" creationdate="20160516T081717Z">
+        <seg>My si zde vybereme logo Gitu, které tu máme na disku, a dostaneme možnost obrázek oříznout.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>We'll concentrate on the pros of the Smart version of the HTTP protocol.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160427T072015Z" creationid="Prikryl" creationdate="20160427T072015Z">
@@ -21288,6 +21496,14 @@ You can use this format to push a local branch into a remote branch that is name
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You can name each of your keys (e.g. "My Laptop" or "Work Account") so that if you need to revoke a key later, you can easily tell which one you're looking for.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T081128Z" creationid="Prikryl" creationdate="20160516T081128Z">
+        <seg>Pojmenujte každý ze svých klíčů tak, abyste v případě potřeby jeho pozdějšího použití snadno poznali, který chcete (například „můj laptop“ nebo „účet pro zaměstnání“).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You can name this file `expand_date` and put it in your path.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -22422,6 +22638,14 @@ V příkazu `git add` je uvedena cesta buď k souboru, nebo k adresáři. Pokud 
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>You're now ready to use GitHub.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T073433Z" creationid="Prikryl" creationdate="20160516T073433Z">
+        <seg>Teď už jste připraveni k používání GitHubu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>You're ready to go – nothing else needed.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160428T102337Z" creationid="Prikryl" creationdate="20160428T102337Z">
@@ -22758,6 +22982,18 @@ Stejně jako jméno větve „master“ nemá pro Git žádný speciální význ
       <tuv lang="EN">
         <seg>[NOTE]
 ====
+Be sure to name your SSH key something you can remember.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T080803Z" creationid="Prikryl" creationdate="20160516T080803Z">
+        <seg>[NOTE]
+====
+Ujistěte se, že svému SSH klíči přidělíte nějaké zapamatovatelné jméno.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[NOTE]
+====
 For more information on configuring authentication in Apache, check out the Apache docs here: http://httpd.apache.org/docs/current/howto/auth.html[]
 ====</seg>
       </tuv>
@@ -22766,6 +23002,18 @@ For more information on configuring authentication in Apache, check out the Apac
 ====
 Další informace o konfiguraci autentizace pro Apache naleznete v jeho dokumentaci na stránce http://httpd.apache.org/docs/current/howto/auth.html[]
 ====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[NOTE]
+====
+GitHub provides all of its functionality with free accounts, with the limitation that all of your projects are fully public (everyone has read access).</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T072827Z" creationid="Prikryl" creationdate="20160516T072827Z">
+        <seg>[NOTE]
+====
+GitHub poskytuje pro účty zdarma plnou funkčnost s tím omezením, že všechny vaše projekty budou plně veřejné (kdokoliv má přístup pro čtení).</seg>
       </tuv>
     </tu>
     <tu>
@@ -23272,6 +23520,16 @@ image::images/perils-of-rebasing-4.png[Opakované začlenění stejné práce do
       <tuv lang="CS" changeid="Prikryl" changedate="20160128T182946Z" creationid="Prikryl" creationdate="20160128T182946Z">
         <seg>[[_patches_from_email]]
 ==== Aplikace záplat zaslaných elektronickou poštou</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_personal_avatar]]
+==== Your Avatar</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T081852Z" creationid="Prikryl" creationdate="20160516T081156Z">
+        <seg>[[_personal_avatar]]
+==== Osobní avatar</seg>
       </tuv>
     </tu>
     <tu>
@@ -28504,6 +28762,14 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>image::images/account-settings.png[The ``Account settings'' link.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T080015Z" creationid="Prikryl" creationdate="20160516T080015Z">
+        <seg>image::images/account-settings.png[Odkaz „Account settings“ (nastavení účtu).]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>image::images/areas.png["Working directory, staging area, and Git directory."]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T115539Z" creationid="Prikryl" creationdate="20151027T115539Z">
@@ -28768,6 +29034,14 @@ index a0a60ae..47c6340 100644
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>image::images/signup.png[The GitHub sign-up form.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T071818Z" creationid="Prikryl" creationdate="20160516T071818Z">
+        <seg>image::images/signup.png[Formulář pro zapsání se na GitHub.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>image::images/small-team-1.png[John's divergent history.]</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160115T144725Z" creationid="Prikryl" creationdate="20160115T144725Z">
@@ -28836,6 +29110,22 @@ index a0a60ae..47c6340 100644
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T084026Z" creationid="Prikryl" creationdate="20151027T084026Z">
         <seg>image::images/snapshots.png[Git ukládá data jako snímky projektu v daném čase.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/ssh-keys.png[The ``SSH keys'' link.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T080217Z" creationid="Prikryl" creationdate="20160516T080217Z">
+        <seg>image::images/ssh-keys.png[Odkaz „SSH keys“.]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>image::images/your-profile.png[The ``Profile'' link.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160516T081549Z" creationid="Prikryl" creationdate="20160516T081549Z">
+        <seg>image::images/your-profile.png[Odkaz „Profile“.]</seg>
       </tuv>
     </tu>
     <tu>

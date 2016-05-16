@@ -46,3 +46,6 @@ cache	mezipaměť
 merge request	požadavek na začlenění
 merge request	požadavek na sloučení
 code review	recenze kódu
+dashboard page	informační panel
+avatar	osobní obrázek
+avatar	zástupná osobní ikona

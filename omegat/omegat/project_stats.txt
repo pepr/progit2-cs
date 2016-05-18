@@ -1,11 +1,11 @@
-16.5.16 10:30
+18.5.16 13:27
 Statistika projektu
 
                              	Segmenty	 Slova	Znaky (bez mezer)	Znaky (včetně mezer)	#Files	
 Celkem:                      	    8866	137615	           728336	              854708	   102	
-Zbývající:                   	    5092	 78978	           431327	              503848	    61	
+Zbývající:                   	    5076	 78620	           429594	              501783	    60	
 Jedinečné segmenty:          	    8303	135118	           713544	              837753	   102	
-Zbývající jedinečné segmenty:	    4897	 78044	           425757	              497416	    61	
+Zbývající jedinečné segmenty:	    4881	 77686	           424024	              495351	    60	
 
 
 Statistika jednotlivých souborů:
@@ -49,7 +49,7 @@ book/05-distributed-git/sections/contributing.asc             	            356	 
 book/05-distributed-git/sections/distributed-workflows.asc    	             72	                 0	                65	                           0	         980	              0	            973	                        0	                    5259	                          0	                       5245	                                    0	                       6157	                             0	                          6143	                                       0	
 book/05-distributed-git/sections/maintaining.asc              	            253	                 0	               248	                           0	        4693	              0	           4681	                        0	                   23968	                          0	                      23897	                                    0	                      28250	                             0	                         28169	                                       0	
 book/06-github/1-github.asc                                   	             19	                 0	                17	                           0	         299	              0	            298	                        0	                    1643	                          0	                       1629	                                    0	                       1907	                             0	                          1892	                                       0	
-book/06-github/sections/1-setting-up-account.asc              	             53	                16	                51	                          16	         876	            358	            876	                      358	                    4300	                       1733	                       4292	                                 1733	                       5096	                          2065	                          5088	                                    2065	
+book/06-github/sections/1-setting-up-account.asc              	             53	                 0	                51	                           0	         876	              0	            876	                        0	                    4300	                          0	                       4292	                                    0	                       5096	                             0	                          5088	                                       0	
 book/06-github/sections/2-contributing.asc                    	            254	               237	               242	                         237	        4145	           4088	           4125	                     4088	                   20696	                      20397	                      20600	                                20397	                      24453	                         24111	                         24345	                                   24111	
 book/06-github/sections/3-maintaining.asc                     	            202	               198	               200	                         197	        3527	           3513	           3523	                     3509	                   17892	                      17800	                      17854	                                17766	                      21045	                         20940	                         21006	                                   20905	
 book/06-github/sections/4-managing-organization.asc           	             44	                44	                44	                          44	         693	            693	            693	                      693	                    3656	                       3656	                       3656	                                 3656	                       4286	                          4286	                          4286	                                    4286	

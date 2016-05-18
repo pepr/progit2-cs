@@ -1708,6 +1708,16 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>.2FA in the Security Tab
+image::images/2fa-1.png[2FA in the Security Tab]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T103842Z" creationid="Prikryl" creationdate="20160518T103842Z">
+        <seg>.Dvoufázová autentizace na záložce Security
+image::images/2fa-1.png[Dvoufázová autentizace na záložce Security]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>.A branch and its commit history
 image::images/branch-and-history.png[A branch and its commit history.]</seg>
       </tuv>
@@ -3466,6 +3476,14 @@ $ git commit -am 'add ls-files'
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>==== Two Factor Authentication</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T102621Z" creationid="Prikryl" creationdate="20160518T102621Z">
+        <seg>==== Dvoufázové ověření totožnosti</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>==== Unmodifying a Modified File</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -3844,8 +3862,8 @@ $ git commit -am 'add ls-files'
       <tuv lang="EN">
         <seg>A large percentage of all Git repositories are hosted on GitHub, and many open-source projects use it for Git hosting, issue tracking, code review, and other things.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160510T122900Z" creationid="Prikryl" creationdate="20160510T113113Z">
-        <seg>Značné procento všech gitových repozitářů je hostováno právě na GitHubu a mnoho open-source projektů ho využívá pro Git hosting, pro diskuse o problémech (issue tracking), pro recenzování kódu a pro další věci.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T105309Z" creationid="Prikryl" creationdate="20160510T113113Z">
+        <seg>Značné procento všech gitových repozitářů je hostováno právě na GitHubu. Mnoho open-source projektů ho využívá pro Git hosting, pro diskuse o problémech (issue tracking), pro recenzování kódu a pro další věci.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4086,6 +4104,14 @@ $ git commit -am 'add ls-files'
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Jakmile je to hotové, můžete záplaty odeslat příkazem `git send-email`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>After you choose which method you prefer and follow the instructions for setting up 2FA, your account will then be a little more secure and you will have to provide a code in addition to your password whenever you log into GitHub.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T104835Z" creationid="Prikryl" creationdate="20160518T104835Z">
+        <seg>Po výběru upřednostňované metody a po nastavení dvoufázové autentizace podle dalších pokynů bude váš účet o něco bezpečnější. Kromě hesla budete muset při každém přihlášení ke GitHubu zadávat další kód.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6241,6 +6267,14 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Finally, for extra security, you should definitely set up Two-factor Authentication or ``2FA''.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T103029Z" creationid="Prikryl" creationdate="20160518T103029Z">
+        <seg>Pro zvýšení zabezpečení byste si určitě měli nastavit dvoufázové ověření totožnosti{empty}footnote:[Two-factor Authentication nebo také „2FA“].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Finally, she merges John's work into her own `featureA` branch:</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160118T113259Z" creationid="Prikryl" creationdate="20160118T113259Z">
@@ -7035,8 +7069,8 @@ Your identification has been saved in /home/schacon/.ssh/id_rsa.</seg>
       <tuv lang="EN">
         <seg>From there, click the "`Add an SSH key`" button, give your key a name, paste the contents of your `~/.ssh/id_rsa.pub` (or whatever you named it) public-key file into the text area, and click ``Add key''.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160516T080701Z" creationid="Prikryl" creationdate="20160516T080701Z">
-        <seg>Zde klikněte na tlačítko „Add an SSH key“ (přidat SSH klíč), do textové oblasti vložte obsah vašeho souboru s veřejným klíčem `~/.ssh/id_rsa.pub` (nebo jak jste si jej nazvali) a klikněte na tlačítko „Add key“.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T110615Z" creationid="Prikryl" creationdate="20160516T080701Z">
+        <seg>Zde klikněte na tlačítko „Add SSH key“ (přidat SSH klíč), do textové oblasti vložte obsah vašeho souboru s veřejným klíčem `~/.ssh/id_rsa.pub` (nebo jak jste si jej nazvali) a klikněte na tlačítko „Add key“.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8242,6 +8276,14 @@ Chcete-li přidat nový vzdálený gitový repozitář a zadat zkrácený název
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If GitHub sees any of these in commit messages in any repository on the site, it will be linked to your user now.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T102333Z" creationid="Prikryl" creationdate="20160518T102333Z">
+        <seg>Pokud GitHub v libovolném repozitáři na serveru nalezne některou z těchto adres ve zprávě k revizi, vytvoří z ní odkaz na vaši uživatelskou stránku.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If `master` is a direct ancestor of your topic branch, this isn't a problem; but if the two histories have diverged, the diff will look like you're adding all the new stuff in your topic branch and removing everything unique to the `master` branch.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160202T153249Z" creationid="Prikryl" creationdate="20160202T153249Z">
@@ -8844,6 +8886,14 @@ Podrobněji se budeme příkazu `git diff` věnovat později, ale nejčastěji h
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Provedete-li checkout jedné a posléze druhé větve, uvidíte, že mají jiné kořenové adresáře:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If you click on the ``Set up two-factor authentication'' button, it will take you to a configuration page where you can choose to use a phone app to generate your secondary code (a ``time based one-time password''), or you can have GitHub send you a code via SMS each time you need to log in.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T104433Z" creationid="Prikryl" creationdate="20160518T104433Z">
+        <seg>Pokud kliknete na tlačítko „Set up two-factor authentication“, dostanete se na konfigurační stránku, kde si můžete vybrat, že chcete použít aplikaci pro telefon, která generuje váš druhý kód (jako „jednorázové heslo odvozené od času“). Nebo si můžete nechat od GitHubu pokaždé poslat kód potřebný pro přihlášení přes SMS.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9822,6 +9872,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>If you use multiple email addresses in your commits and you want GitHub to link them up properly, you need to add all the email addresses you have used to the Emails section of the admin section.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T101104Z" creationid="Prikryl" creationdate="20160518T101104Z">
+        <seg>Pokud pro objekty revizí používáte více e-mailových adres a chcete, aby je GitHub s vámi správně svázal, musíte v části pro správu účtu na záložce „Emails“ všechny své použité adresy přidat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If you use the ACL structure returned from the `get_acl_access_data` method and check it against the listed files in each of the commits, you can determine whether the user has access to push all of their commits:</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -10553,6 +10611,14 @@ Tento postup pro vás může být snazší a pohodlnější. Standardně přitom
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151027T073217Z" creationid="Prikryl" creationdate="20151027T073217Z">
         <seg>Vztahy mezi komunitou, která vyvíjela jádro Linuxu, a komerční společností, která vyvinula BitKeeper, se v roce 2005 zhoršily a nástroj přestal být poskytován zdarma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In &lt;&lt;_add_email_addresses&gt;&gt; we can see some of the different states that are possible.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T101317Z" creationid="Prikryl" creationdate="20160518T101317Z">
+        <seg>Na obrázku &lt;&lt;_add_email_addresses&gt;&gt; vidíme některé z možných různých stavů.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16593,6 +16659,14 @@ U systému Mavericks (10.9) a vyšších můžete v okně Terminálu zkusit hned
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The final address is unverified, meaning that you can't make it your primary address.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T102008Z" creationid="Prikryl" creationdate="20160518T102008Z">
+        <seg>Poslední adresa je neověřená, což znamená, že z ní nemůžete udělat svou primární adresu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The first developer, John, clones the repository, makes a change, and commits locally.</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -17467,6 +17541,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The second address is verified and so can be set as the primary if you wish to switch them.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T101917Z" creationid="Prikryl" creationdate="20160518T101917Z">
+        <seg>Druhá adresa je také ověřená, takže pokud ji budete chtít nastavit jako primární, můžete je přepnout.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The second clones an existing Git repository from another server.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151216T135522Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -17595,6 +17677,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The top address is verified and set as the primary address, meaning that is where you'll get any notifications and receipts.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T101631Z" creationid="Prikryl" creationdate="20160518T101631Z">
+        <seg>Horní adresa je ověřena a je nastavena jako primární adresa. To znamená, že na tuto adresu budete dostávat upozornění a potvrzení.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The types of permissions are too numerous to list here, but GitLab has a helpful link on the administration screen.</seg>
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160508T151010Z" creationid="Prikryl" creationdate="20160508T151010Z">
@@ -17615,6 +17705,14 @@ U knihy byste také nepublikovali pracovní verzi a příručka o tom, jak udrž
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20151108T133604Z" creationid="Prikryl" creationdate="20151107T133356Z">
         <seg>Způsob, jakým Git větvení provádí, je neuvěřitelně snadný a operace větvení probíhají téměř okamžitě. A stejně rychlé je většinou i přepínání mezi větvemi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The way that GitHub maps your Git commits to your user is by email address.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T100304Z" creationid="Prikryl" creationdate="20160518T100304Z">
+        <seg>GitHub přiřazuje vaše gitové objekty k vašemu uživatelskému jménu přes e-mailovou adresu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20702,6 +20800,22 @@ To https://github.com/schacon/simplegit</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Turning it on will make GitHub ask you for two different methods of authentication, so that if one of them is compromised, an attacker will not be able to access your account.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T103713Z" creationid="Prikryl" creationdate="20160518T103713Z">
+        <seg>Při jeho zapnutí se vás GitHub zeptá na dvě různé metody autentizace, takže v případě prozrazení jedné z nich se útočník nebude moci k vašemu účtu přihlásit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Two-factor Authentication is an authentication mechanism that is becoming more and more popular recently to mitigate the risk of your account being compromised if your password is stolen somehow.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T103341Z" creationid="Prikryl" creationdate="20160518T103341Z">
+        <seg>Dvoufázové ověření totožnosti je autentizační mechanismus, který se v poslední době stává stále oblíbenějším, protože v případě odcizení hesla snižuje riziko zneužití vašeho účtu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Type</seg>
       </tuv>
       <tuv lang="CS" changeid="progitSync" changedate="20151012T102818Z" creationid="progitSync" creationdate="20151012T102818Z">
@@ -20984,8 +21098,8 @@ To https://github.com/schacon/simplegit</seg>
       <tuv lang="EN">
         <seg>We'll cover signing up for and managing an account, creating and using Git repositories, common workflows to contribute to projects and to accept contributions to yours, GitHub's programmatic interface and lots of little tips to make your life easier in general.</seg>
       </tuv>
-      <tuv lang="CS" changeid="Prikryl" changedate="20160510T122007Z" creationid="Prikryl" creationdate="20160510T115903Z">
-        <seg>Popíšeme si zřízení a správu účtu, vytvoření a používání gitových repozitářů, běžné pracovní postupy při přispívání do (jiných) projektů a přijímání příspěvku do vlastních projektů, programátorské rozhraní GitHubu a řadu drobných tipů, které vám mohou usnadnit život.</seg>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T105418Z" creationid="Prikryl" creationdate="20160510T115903Z">
+        <seg>Popíšeme si zřízení a správu účtu, vytvoření a používání gitových repozitářů, běžné pracovní postupy při přispívání do (jiných) projektů a přijímání příspěvků do vlastních projektů, programátorské rozhraní GitHubu a řadu drobných tipů, které vám mohou usnadnit život.</seg>
       </tuv>
     </tu>
     <tu>
@@ -22361,6 +22475,14 @@ You can use this format to push a local branch into a remote branch that is name
       </tuv>
       <tuv lang="CS" changeid="Prikryl" changedate="20160202T150739Z" creationid="progitSync" creationdate="20151012T102818Z">
         <seg>Revize ve větvi `master` lze vyloučit přidáním volby `--not` před název větve.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>You can find the Two-factor Authentication setup under the Security tab of your Account settings.</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T103805Z" creationid="Prikryl" creationdate="20160518T103805Z">
+        <seg>Nastavení dvoufázového ověření totožnosti naleznete v nastavení účtu na záložce „Security“.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24261,6 +24383,18 @@ You may find, if you don't setup an editor like this, you will likely get into a
         <seg>[WARNING]
 ====
 Pokud tak neučiníte, pak vás pravděpodobně velmi zmate, až se některý z nich spustí.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[[_add_email_addresses]]
+.Add email addresses
+image::images/email-settings.png[Add all your email addresses.]</seg>
+      </tuv>
+      <tuv lang="CS" changeid="Prikryl" changedate="20160518T101131Z" creationid="Prikryl" creationdate="20160518T101131Z">
+        <seg>[[_add_email_addresses]]
+.Přidání e-mailových adres
+image::images/email-settings.png[Přidání e-mailových adres.]</seg>
       </tuv>
     </tu>
     <tu>

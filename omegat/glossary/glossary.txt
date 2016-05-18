@@ -49,3 +49,4 @@ code review	recenze kódu
 dashboard page	informační panel
 avatar	osobní obrázek
 avatar	zástupná osobní ikona
+two-factor authentication	dvoufázové ověření totožnosti
